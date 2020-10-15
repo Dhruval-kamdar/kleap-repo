@@ -1,0 +1,497 @@
+/* rinkal deshboard css*/
+.error_msg{
+	padding: 10px 20px 10px 20px;
+}
+.event_error{
+}
+.report_panel .panel-body {
+    padding: 0px !important;
+}
+.panel .panel-heading+.panel-body {
+    padding: 10px 20px 10px 20px !important;
+}
+.info-box {
+    display: block;
+    min-height: 90px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+img.dashboard_background {
+    margin-top: 16px;
+}
+.info-box .info-box-stats {
+    width: 100%;
+}
+.info-box .info-box-stats p {
+    font-size: 24px !important;
+    margin-bottom: 14px  !important;
+    color: white  !important;
+	/* font-family: Roboto !important; */
+	font-weight: 500 !important;
+}
+.info-box-stats p {
+    margin-top: 17px  !important;
+}
+.info-box .info-box-stats span.info-box-title {
+    display: inline !important;
+    font-size: 17px !important; 
+    margin-bottom: 10px !important;
+    color: white !important;
+    font-weight: 500;
+}
+.info-box-stats .info-box-title {
+    float: none;
+    padding-left: 8px !important;
+}
+.grp p{
+	max-width: 91%;
+}
+.notice_des{
+	max-width: 65%;
+}
+.left_side_dashboard .table tr th{
+	font-size: 14px;
+}
+
+/*accountant css*/
+.panel-body.accountant{
+	background-color:#FE821C;
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+/*membership css*/
+.panel-body.membership{
+	background-color:#12AFCB;
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.membership_btn .btn{
+	cursor: text !important;
+}
+
+/* setting css*/
+.panel-body.setting{
+	background-color:#008378;
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+/* notice/event css */
+.panel-body.notice_event{
+	background-color:#8F83FF;
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.info-box-stats p {
+    float: none !important;
+}
+
+/* member css*/
+.panel-body.member{
+	background-color: #337AB7;
+}
+.panel-body.member {
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+img.dashboard_background{
+	position: relative;
+}
+img.dashboard_background_second{
+	position: absolute;
+    bottom: -27px;
+    width: 100px;
+	opacity: 0.3;
+	transform: none !important;
+}
+
+/* staff member css*/
+
+.panel-body.staff-member{
+	background-color:#17B6A4;
+}
+.panel-body.staff-member {
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+img.dashboard_background_second.staff_black_img{
+	bottom: -38px;
+	right: -32px;
+}
+
+/* group css*/
+.panel-body.group {
+    background-color: #F25656;
+}
+.panel-body.group {
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.grp .btn-success{
+	float: right;
+}
+
+/* class list css*/
+.panel-heading.class_list{
+	border-top: 3px solid #8F83FF;
+}
+.class_btn .btn{
+	padding: 2px 7px !important;
+	background-color: #8F83FF !important;
+}
+.class_btn .btn{
+	cursor: text !important;
+}
+
+/*schedule list css*/
+.panel-body.class {
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.panel-body.class {
+    background-color: #4F658C;
+}
+.schedule_btn .btn{
+	padding: 2px 7px !important;
+	background-color: #12AFCB !important;
+}
+.schedule_btn .m-b-sm {
+    margin-bottom: 3px;
+	margin-top: 3px;
+}
+.schedule_btn .btn-group {
+    margin-bottom: 3px;
+	margin-top: 3px;
+} 
+.schedule_btn .btn{
+	cursor: text !important;
+}
+
+/* Booking list css*/
+.panel-heading.booking{
+	border-top: 3px solid #337AB7;
+}
+.booking_list p.remainder_date_pr{
+	float: left;
+	background-color: #337AB7;
+}
+
+/* message css*/
+.panel-body.message{
+	background-color: #8BA400;
+}
+.panel-body.message {
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.message img.dashboard_background_second{
+	    bottom: -10px;
+}
+
+/*nutrition schedule css*/
+.panel-body.nutrition{
+	background-color: #008BA3;
+}
+.panel-body.nutrition {
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+/*product css*/
+.panel-body.product{
+	background-color:#bd5ca8;
+}
+.panel-body.product {
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+/*Attendance css*/
+.panel-body.attendance{
+	background-color: #de9c09;
+}
+.panel-body.attendance {
+    height: 132px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.attendance img.dashboard_background {
+    margin-top: 11px;
+}
+.attendance img.dashboard_background_second {
+	    bottom: -38px;
+}
+.page-inner .info-box:hover .panel-body img {
+    transform: scale(1.2);
+}
+.page-inner .info-box .panel-body img{
+	/* width:100%; */
+}
+/* activities css*/
+.panel-heading.activities{
+	border-top: 3px solid #12AFCB !important;
+}
+.unit{
+	border-bottom: 1px solid #f4f4f4;
+}
+.activity_btn .btn.btn-success.btn-xs{
+	       background-color: red !important;
+}
+.activet .table>tbody>tr>td, .activet .table>thead>tr>th{
+	padding: 7px!important;
+}
+.membership_btn .table>tbody>tr>td, .membership_btn .table>thead>tr>th{
+	padding: 8px!important;
+}
+
+/* invoice list css*/
+.panel-heading.invoice{
+	border-top: 3px solid #5C8D21 !important;
+}
+.invoice_btn .btn.btn-success.btn-xs{
+	       background-color: #5C8D21 !important;
+}
+.invoice_btn .btn {
+	   cursor: text !important;
+}
+
+/*membership css*/
+.panel-heading.membership{
+	border-top: 3px solid #A387C5 !important;
+}
+.membership_btn .btn.btn-success.btn-xs{
+	       background-color: #A387C5 !important;
+}
+.group_btn .btn.btn-success.btn-xs{
+	       background-color: #F25656  !important;
+}
+
+/*group list css*/
+.panel-heading.grp_list{
+	border-top: 3px solid #F25656 !important;
+}
+.grp .btn {
+	cursor: text !important;
+}
+/* .grp{
+	height: 307px;
+} */
+
+/* reservation list css*/
+.panel-heading.res_list{
+	border-top: 3px solid #34C0A8 !important;
+}
+.nutrition img.dashboard_background_second {
+	bottom: -33px;
+}
+
+/* notice/ event css*/
+.panel-heading.nt_ev{
+	border-top: 3px solid #B3608E !important;
+}
+img.dashboard_background_second.notice_black_img {
+    right: -20px;
+}
+
+/* calender css*/
+.panel-body.cal{
+	border-top: 3px solid #663308;
+}
+
+/* frontend side css*/
+
+/* read more button css*/
+.read_more{
+	float: right;
+}
+.grp_front{
+	height: 267px;
+}
+.table  th{
+	 font-weight: 600 !important;
+}
+.panel-heading{
+	border-bottom: 1px solid #ddd !important;
+}
+/* font awesome icon css*/
+.fa-external-link{
+	font-size: 15px !important;
+}
+
+/* calender css*/
+.cad{
+	min-height: 559px;
+}
+
+/*Group css*/
+.calendar-event {
+    padding: 10px 0px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #f4f4f4;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.calendar-event {
+    background: none!important;
+}
+.calendar-event p.Bold {
+    font-weight: 600!important;
+	font-size: 14px;
+}
+.calendar-event .remainder_title_pr {
+    float: left!important;
+    width: calc(100% - 88px)!important;
+    cursor: pointer!important;
+}
+.remainder_title_pr_cursor {
+    
+    cursor: pointer!important;
+}
+.calendar-event .remainder_date_pr {
+    float: right;
+    width: 88px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    padding: 0 10px;
+    color: #FFF;
+    border-radius: 2px;
+}
+.calendar-event .remainder_date_pr {
+    background-color: #34C0A8;
+}
+.col-md-6.report_all{
+	padding-left: 0px;
+}
+
+/* notice css*/
+.calendar-event .remainder_title {
+    float: left;
+    width: calc(100% - 180px);
+    cursor: pointer;
+}
+.nt .calendar-event .remainder_date{
+    background-color: #B3608E;
+}
+.calendar-event .remainder_date {
+    float: right;
+    width: 160px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    padding: 0 5px;
+    color: #FFF;
+    border-radius: 2px;
+    background-color: #B3608E;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.panel .panel-heading .panel-title {
+    font-size: 16px !important;
+}
+
+/*report css*/
+.staff_report{
+	border-top: 3px solid #3B5998;
+}
+.member_report{
+	border-top: 3px solid #9C95C8;
+}
+.fee_report{
+	border-top: 3px solid #B3608E;
+}
+.income_report{
+	border-top: 3px solid  #9C95C8;
+}
+.sells_report{
+	border-top: 3px solid #FFA75F;
+}
+.expense_report{
+	border-top: 3px solid #845EB3;
+}
+.margin_dasboard{
+	float: right; 
+}
+.table {
+    margin-bottom: 0px !important;
+}
+.panel-title  i.fa {
+    margin-right: 7px;
+    font-size: 14px;
+}
+/*frontend side report css*/
+.workout_report{
+	border-top: 3px solid #D96A10;
+}
+.Weight_report{
+	border-top: 3px solid #0062B2;
+}
+.waist_report{
+	border-top: 3px solid #00B250;
+}
+.height_report{
+	border-top: 3px solid #D9308C;
+}
+.chest_report{
+	border-top: 3px solid #B25000;
+}
+.thigh_report{
+	border-top: 3px solid #FFA75E;
+}
+.arm_report{
+	border-top: 3px solid #3E008B;
+}
+.fat_report{
+	border-top: 3px solid #34C0A8;
+}
+/*today workout frontside*/
+.workout_today td{
+	padding: 7px !important;
+	border-bottom: 1px solid #F4F4F4;
+}
+
+/*nutrition css*/
+.panel-heading.nutrition{
+	border-top: 3px solid #BD5CA8;
+}
+
+/*dashboard design end*/
+
+
+/* extra css */
+.calendar-event{
+	color: #4e5e6a !important;
+}
+
+/*start under pages css*/
+.overlay-content{
+	 border-top: 5px solid #22baa0;
+}
+
+.col-md-6.staff_report_all{
+	 padding-left: 0px;
+}

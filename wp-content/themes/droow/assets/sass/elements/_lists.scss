@@ -1,0 +1,51 @@
+.post-full-content, .widget_text {
+  ul, ol {
+    position: relative;
+
+
+    li {
+      line-height: 1.7;
+      margin-bottom: 15px;
+      vertical-align: baseline;
+      list-style: inherit;
+      > div {
+        display: inline-block;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      ul, ol {
+        padding-left: 2rem;
+        margin-top: 15px;
+      }
+
+    }
+
+  }
+
+  ol {
+    list-style: decimal inside;
+  }
+
+  ul {
+    list-style: disc inside;
+    ul{
+      list-style: circle inside;
+    }
+  }
+
+  dt {
+    line-height: 1.8;
+    font-weight: bold;
+    color: #fff;
+    opacity: .8;
+  }
+
+  dd {
+    margin: 0 1rem 1rem;
+  }
+
+}
+

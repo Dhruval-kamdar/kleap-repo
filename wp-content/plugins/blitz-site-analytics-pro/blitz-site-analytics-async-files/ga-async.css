@@ -1,0 +1,128 @@
+/* General CSS */
+#bl-site-analytics-chart-visitors {
+    width: 100%;
+    height: 300px;
+}
+.bl-site-analytics-basic-stats {
+    text-align: center;
+}
+.bl-site-analytics-basic-stats ul {
+    margin: 0;
+    text-align: center;
+}
+.bl-site-analytics-basic-stats ul li {
+    display: inline-block;
+    margin: 0px 15px 5px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 2px solid #E5E5E5;
+    max-width: 100px;
+    min-width: 80px;
+    text-align: left;
+}
+.bl-site-analytics-basic-stats ul li:last-child {
+    margin: 5px 0 5px 0;
+}
+.bl-site-analytics-basic-stats ul li label {
+    display: block;
+}
+.bl-site-analytics-basic-stats ul li span {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0 0 0;
+}
+.bl-site-analytics-table {
+    background-color:#f9f9f9;
+    margin-top: 13px !important;
+}
+.bl-site-analytics-table th.right {
+    text-align: right;
+}
+/* Statistics page CSS */
+#bl-site-analytics-statistics-page .loading {
+    text-align: center;
+    margin: 50px;
+}
+#bl-site-analytics-statistics-page .hndle {
+    cursor: default !important;
+}
+#bl-site-analytics-statistics-page .bl-site-analytics-basic-stats ul li {
+    width: 100px
+}
+#bl-site-analytics-statistics-page .bl-site-analytics-basic-stats ul li:last-child {
+    margin: 0px 15px 5px 0;
+}
+#bl-site-analytics-statistics-page .bl-site-analytics-countries .inside {
+    overflow-x: auto;
+}
+#bl-site-analytics-chart-countries {
+    width: 650px;
+    height: 400px;
+}
+
+/* Widget CSS */
+#bl-site-analytics-widget .bl-site-analytics-extended-stats {
+    overflow: hidden;
+}
+#bl-site-analytics-widget .loading {
+    display: none;
+}
+#bl-site-analytics-widget .post-loader {
+    text-align: center;
+}
+#bl-site-analytics-widget .google_analytics_top_posts_pages, #bl-site-analytics-widget .bl-site-analytics-searches, #bl-site-analytics-widget .bl-site-analytics-top-referrals {
+    float: left;
+    margin: 10px 2% 0 0;
+}
+#bl-site-analytics-widget .bl-site-analytics-extended-stats .last {
+    margin-right: 0;
+}
+#bl-site-analytics-widget .bl-site-analytics-extended-stats table {
+    width: 100%;
+}
+#bl-site-analytics-widget .bl-site-analytics-top-referrals, #bl-site-analytics-widget .bl-site-analytics-searches {
+    width: 49%;
+}
+@media screen and (max-width: 850px) {
+    #bl-site-analytics-widget .google_analytics_top_posts_pages, #bl-site-analytics-widget .bl-site-analytics-searches, #bl-site-analytics-widget .bl-site-analytics-top-referrals {	   						 	  	 				
+        float: none;
+        width: 100%;
+    }
+}
+/* Network admin CSS */
+.control-modules .button-holder {
+    line-height: 35px;
+    margin-bottom: 0;
+}
+.control-modules .sub-options {
+    display: none;
+}
+.control-modules {
+    margin: 5px 0;
+}
+.control-modules .sub-options .postbox {
+    cursor: default;
+    padding: 12px;
+    margin: 0 0 5px 0;
+    display: inline-block;
+    min-width: 370px;
+}
+.control-modules .button {
+    outline: none;
+    margin-bottom: 0 !important;
+    vertical-align: baseline !important;
+}
+.control-modules .button.active {
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    border-color: #e5e5e5 !important;
+    box-shadow: none !important;
+    border-bottom: none;
+    background: #fff !important;
+    height: 35px;
+    color: #333 !important;
+}
+.control-modules ol li span {
+    display: inline-block;
+    min-width: 140px;
+}

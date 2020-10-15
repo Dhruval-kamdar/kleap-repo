@@ -1,0 +1,38 @@
+/* perfect-scrollbar v0.7.0 */
+.ps {
+  -ms-touch-action: auto;
+  touch-action: auto;
+  overflow: hidden !important;
+  -ms-overflow-style: none; }
+  @supports (-ms-overflow-style: none) {
+    .ps {
+      overflow: auto !important; } }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .ps {
+      overflow: auto !important; } }
+  .ps.ps--active-x > .ps__scrollbar-x-rail,
+  .ps.ps--active-y > .ps__scrollbar-y-rail {
+    display: block;
+    background-color: transparent; }
+
+  .ps > .ps__scrollbar-y-rail {
+    display: none;
+    position: absolute;
+  }
+    .ps > .ps__scrollbar-y-rail > .ps__scrollbar-y {
+      position: absolute;
+  }
+.ps__scrollbar-y-rail {
+	width: 4px;
+	.ps__scrollbar-y {
+		@include transition(background .25s $transition);
+		border: 0;
+		width: 4px;
+		border-radius: 2px;
+		background: rgba(#fff, 0.2);
+		
+		&:hover {
+			background: rgba(#fff, 0.6);	
+		}
+	}
+}

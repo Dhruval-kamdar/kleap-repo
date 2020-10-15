@@ -1,0 +1,807 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-30 15:44+0600\n"
+"PO-Revision-Date: 2020-01-30 15:45+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: comments.php:62 comments.php:92
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:66 comments.php:96
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: header.php:76
+msgid "type keywords here"
+msgstr ""
+
+#: header.php:77
+msgid "Search"
+msgstr ""
+
+#: inc/custom-comments.php:24
+msgid "Name"
+msgstr ""
+
+#: inc/custom-comments.php:27 inc/theme-options.php:392
+#: inc/theme-options.php:399
+msgid "Email"
+msgstr ""
+
+#: inc/custom-comments.php:30
+msgid "Website"
+msgstr ""
+
+#: inc/extras.php:69
+msgid "Post navigation"
+msgstr ""
+
+#: inc/extras.php:364
+msgid "Default"
+msgstr ""
+
+#: inc/extras.php:368
+msgid "No Menu Found"
+msgstr ""
+
+#: inc/meta-boxes.php:25
+msgid "Page Options"
+msgstr ""
+
+#: inc/meta-boxes.php:34 inc/theme-options.php:1683
+msgid "Page Settings"
+msgstr ""
+
+#: inc/meta-boxes.php:96
+msgid "Header Settings"
+msgstr ""
+
+#: inc/meta-boxes.php:183 inc/widgets.php:77
+msgid "Footer"
+msgstr ""
+
+#: inc/setup.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/setup.php:139
+msgid "Small"
+msgstr ""
+
+#: inc/setup.php:140
+msgid "S"
+msgstr ""
+
+#: inc/setup.php:145
+msgid "Normal"
+msgstr ""
+
+#: inc/setup.php:146
+msgid "M"
+msgstr ""
+
+#: inc/setup.php:151
+msgid "Large"
+msgstr ""
+
+#: inc/setup.php:152
+msgid "L"
+msgstr ""
+
+#: inc/setup.php:157
+msgid "Huge"
+msgstr ""
+
+#: inc/setup.php:158
+msgid "XL"
+msgstr ""
+
+#: inc/setup.php:170
+msgid "Primary"
+msgstr ""
+
+#: inc/setup.php:175
+msgid "Dark Gray"
+msgstr ""
+
+#: inc/setup.php:180
+msgid "Light Gray"
+msgstr ""
+
+#: inc/setup.php:185
+msgid "White"
+msgstr ""
+
+#: inc/template-tags.php:29 inc/template-tags.php:34
+#, php-format
+msgid "<i class=\"ti-calendar\"></i> %s"
+msgstr ""
+
+#: inc/template-tags.php:39 inc/template-tags.php:44
+#, php-format
+msgid "<i class=\"ti-user\"></i> %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:386
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:387
+#: inc/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554 inc/update/verify.php:53
+#: inc/update/verify.php:106
+msgid "Status"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/theme-options.php:49
+msgid "Blog"
+msgstr ""
+
+#: inc/theme-options.php:75
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/theme-options.php:101
+msgid "Scroll Top"
+msgstr ""
+
+#: inc/theme-options.php:162
+msgid "Preloader"
+msgstr ""
+
+#: inc/theme-options.php:278
+msgid "General"
+msgstr ""
+
+#: inc/theme-options.php:349
+msgid "Top Header"
+msgstr ""
+
+#: inc/theme-options.php:363
+msgid "Header One"
+msgstr ""
+
+#: inc/theme-options.php:364
+msgid "This top header info only showing if you select header one."
+msgstr ""
+
+#: inc/theme-options.php:373 inc/theme-options.php:386
+#: inc/theme-options.php:560
+msgid "Phone Number"
+msgstr ""
+
+#: inc/theme-options.php:379 inc/theme-options.php:398
+#: inc/theme-options.php:430 inc/theme-options.php:449
+#: inc/theme-options.php:468
+msgid "Label"
+msgstr ""
+
+#: inc/theme-options.php:380
+msgid "Phone"
+msgstr ""
+
+#: inc/theme-options.php:387
+msgid "+123 456 7890"
+msgstr ""
+
+#: inc/theme-options.php:405
+msgid "Email Address"
+msgstr ""
+
+#: inc/theme-options.php:415
+msgid "Header Two"
+msgstr ""
+
+#: inc/theme-options.php:416
+msgid "This top header info only showing if you select header two."
+msgstr ""
+
+#: inc/theme-options.php:424
+msgid "Content 1"
+msgstr ""
+
+#: inc/theme-options.php:431
+msgid "Mon – Sat"
+msgstr ""
+
+#: inc/theme-options.php:437 inc/theme-options.php:456
+#: inc/theme-options.php:475
+msgid "Value"
+msgstr ""
+
+#: inc/theme-options.php:438
+msgid "7.00 – 18.00"
+msgstr ""
+
+#: inc/theme-options.php:443
+msgid "Content 2"
+msgstr ""
+
+#: inc/theme-options.php:450
+msgid "Sunday"
+msgstr ""
+
+#: inc/theme-options.php:457
+msgid "Closed"
+msgstr ""
+
+#: inc/theme-options.php:462
+msgid "Content 3"
+msgstr ""
+
+#: inc/theme-options.php:469
+msgid "Emergency"
+msgstr ""
+
+#: inc/theme-options.php:476
+msgid "24h / 7days"
+msgstr ""
+
+#: inc/theme-options.php:497
+msgid "Middle Header"
+msgstr ""
+
+#: inc/theme-options.php:503
+msgid "Middle Header Content"
+msgstr ""
+
+#: inc/theme-options.php:504
+msgid "This middle header content only showing if you select header two."
+msgstr ""
+
+#: inc/theme-options.php:509
+msgid "Quote Info"
+msgstr ""
+
+#: inc/theme-options.php:515 inc/theme-options.php:547
+msgid "Choose a Icon"
+msgstr ""
+
+#: inc/theme-options.php:521
+msgid "Sub Heading"
+msgstr ""
+
+#: inc/theme-options.php:522
+msgid "Want an approximate price?"
+msgstr ""
+
+#: inc/theme-options.php:528 inc/theme-options.php:553
+#: inc/theme-options.php:833
+msgid "Heading"
+msgstr ""
+
+#: inc/theme-options.php:529
+msgid "GE A FREE QUOTE"
+msgstr ""
+
+#: inc/theme-options.php:535
+msgid "Link"
+msgstr ""
+
+#: inc/theme-options.php:541
+msgid "Call Us"
+msgstr ""
+
+#: inc/theme-options.php:554
+msgid "Call us now"
+msgstr ""
+
+#: inc/theme-options.php:561
+msgid "+01 234 56789"
+msgstr ""
+
+#: inc/theme-options.php:581
+msgid "Search Icon"
+msgstr ""
+
+#: inc/theme-options.php:606
+msgid "Logo Settings"
+msgstr ""
+
+#: inc/theme-options.php:650
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/theme-options.php:701
+msgid "Color"
+msgstr ""
+
+#: inc/theme-options.php:739
+msgid "Body"
+msgstr ""
+
+#: inc/theme-options.php:1327
+msgid "Archives"
+msgstr ""
+
+#: inc/theme-options.php:1387
+msgid "Single Post"
+msgstr ""
+
+#: inc/theme-options.php:1542
+msgid "Page Header"
+msgstr ""
+
+#: inc/theme-options.php:1881
+msgid "Search Page"
+msgstr ""
+
+#: inc/theme-options.php:1924
+msgid "Author Page"
+msgstr ""
+
+#: inc/theme-options.php:1967
+msgid "404 Page"
+msgstr ""
+
+#: inc/theme-options.php:2031
+msgid "Social Profiles"
+msgstr ""
+
+#: inc/theme-options.php:2074
+msgid "Custom ScrollBar"
+msgstr ""
+
+#: inc/theme-options.php:2201
+msgid "Admin Login Options"
+msgstr ""
+
+#: inc/theme-options.php:2277
+msgid "Footer Top"
+msgstr ""
+
+#: inc/theme-options.php:2354
+msgid "Footer Bottom"
+msgstr ""
+
+#: inc/theme-options.php:2466
+msgid "Backup"
+msgstr ""
+
+#: inc/update/verify.php:16 inc/update/verify.php:17
+msgid "Buildico Activation"
+msgstr ""
+
+#: inc/update/verify.php:27
+msgid "Construction WP Theme"
+msgstr ""
+
+#: inc/update/verify.php:48
+msgid "License Info"
+msgstr ""
+
+#: inc/update/verify.php:54
+msgid "Verified"
+msgstr ""
+
+#: inc/update/verify.php:57 inc/update/verify.php:110
+msgid "Automatic Update"
+msgstr ""
+
+#: inc/update/verify.php:58
+msgid "Enable"
+msgstr ""
+
+#: inc/update/verify.php:61
+msgid "Product ID"
+msgstr ""
+
+#: inc/update/verify.php:65
+msgid "Product Name"
+msgstr ""
+
+#: inc/update/verify.php:69
+msgid "Buyer"
+msgstr ""
+
+#: inc/update/verify.php:73
+msgid "License"
+msgstr ""
+
+#: inc/update/verify.php:77
+msgid "Purchase Date"
+msgstr ""
+
+#: inc/update/verify.php:85
+msgid "Support"
+msgstr ""
+
+#: inc/update/verify.php:96
+msgid "Days Remaining"
+msgstr ""
+
+#: inc/update/verify.php:98
+msgid ""
+"<b style=\"color: red;\">Expired</b> <a href=\"https://themeforest.net/item/"
+"buildico-construction-and-building-wordpress-theme/21812344\" target=\"_blank"
+"\">Renew Support</a>"
+msgstr ""
+
+#: inc/update/verify.php:107
+msgid "Not Verified"
+msgstr ""
+
+#: inc/update/verify.php:111
+msgid "Disable"
+msgstr ""
+
+#: inc/update/verify.php:129
+msgid "Activate with purchase code"
+msgstr ""
+
+#: inc/update/verify.php:159
+msgid "Theme is activated!"
+msgstr ""
+
+#: inc/update/verify.php:161
+msgid "Invalid purchase code!"
+msgstr ""
+
+#: inc/update/verify.php:164
+msgid "Please enter your purchase code to enable automatic theme update."
+msgstr ""
+
+#: inc/update/verify.php:172
+msgid "Purchase code goes here..."
+msgstr ""
+
+#: inc/update/verify.php:218
+msgid ""
+"To unlock buildico updates, please activate the theme using purchase code "
+"from"
+msgstr ""
+
+#: inc/update/verify.php:218
+msgid "here"
+msgstr ""
+
+#: inc/widgets.php:53
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/widgets.php:55
+msgid "Right sidebar widget area"
+msgstr ""
+
+#: inc/widgets.php:63
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/widgets.php:65
+msgid "Left sidebar widget area"
+msgstr ""
+
+#: inc/widgets.php:79
+msgid "Widget area below main content and above footer"
+msgstr ""
+
+#: inc/woocommerce-config.php:106 inc/woocommerce-config.php:157
+msgid "View your shopping cart"
+msgstr ""
+
+#: index.php:36
+msgid "Latest Posts"
+msgstr ""
+
+#: loop-templates/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: loop-templates/content-page.php:17 loop-templates/content-single.php:73
+#: loop-templates/content.php:60
+msgid "Pages:"
+msgstr ""
+
+#: loop-templates/content-page.php:26 woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/cart/cart.php:117
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:28
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/order/order-details.php:41
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:47
+msgid "Product"
+msgstr ""
+
+#: woocommerce/order/order-details.php:48
+msgid "Total"
+msgstr ""
+
+#: woocommerce/order/order-details.php:86
+msgid "Note:"
+msgstr ""

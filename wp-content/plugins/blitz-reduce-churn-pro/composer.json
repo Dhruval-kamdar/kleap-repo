@@ -1,0 +1,13 @@
+{
+    "name": "root/blitz-reduce-churn-pro",
+    "type": "project",
+    "license": "GPL2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload" : {
+			"psr-4" : {
+				
+				"BZ_RCP\\": "./"
+				}
+	}
+}

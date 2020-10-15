@@ -1,0 +1,68 @@
+.main-container {
+    margin-top: 100px;
+}
+
+.payment-gateways {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100px;
+    width: 100%;
+    background-color: #d1d1d1;
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+    /*border-bottom: 3px solid #336699;*/
+}
+
+.gateway-container {
+    width: 818px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.payment-options-button, .payment-submit-button {
+    float: right;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: #336699;
+    border: 3px solid #336699;
+}
+
+.payment-options-button:hover {
+    background-color: #808080;
+    border-color: #808080;
+}
+
+#erp-pg-payment-gateway ul.erp-pg-payment-gateways {
+    list-style: none;
+    margin: 10px 0;
+}
+
+#erp-pg-payment-gateway ul.erp-pg-payment-gateways li .erp-pg-payment-instruction {
+    margin: 0 10px;
+}
+
+#erp-pg-payment-gateway ul.erp-pg-payment-gateways li .erp-pg-instruction {
+    background: white;
+    font-size: 16px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#erp-pg-payment-gateway input[type="radio"] {
+    margin: 10px 0;
+}
+
+.erp-pg-instruction {
+    margin: 5px;
+    padding: 10px;
+}
+
+.payment-gateway-main-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

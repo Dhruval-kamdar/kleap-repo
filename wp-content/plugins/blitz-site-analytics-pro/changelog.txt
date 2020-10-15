@@ -1,0 +1,9 @@
+=== Blitz Site Analytics PRO ===
+Author: WaaS-Pro.com
+
+
+== Changelog ==
+
+= 1.0 =
+* Initial Release
+

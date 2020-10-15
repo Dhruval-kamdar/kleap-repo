@@ -1,0 +1,1893 @@
+# Copyright (C) 2020 CartFlows Inc
+# This file is distributed under the same license as the CartFlows Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CartFlows Pro 1.5.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cartflows-pro\n"
+"POT-Creation-Date: 2020-08-12 07:53:37+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin/views/html-license-debug-log.php:46
+msgid "License debug log"
+msgstr ""
+
+#: admin/views/html-license-debug-log.php:52
+msgid "License Arguments:"
+msgstr ""
+
+#: admin/views/html-license-debug-log.php:63
+msgid "License Call:"
+msgstr ""
+
+#: admin/views/html-license-debug-log.php:70
+msgid "License API Response:"
+msgstr ""
+
+#: admin/views/html-refund-offer.php:80
+#: includes/meta-fields/generate-your-product-option-html.php:28
+msgid "Product Name"
+msgstr ""
+
+#: admin/views/html-refund-offer.php:81
+msgid "Offer Type"
+msgstr ""
+
+#: admin/views/html-refund-offer.php:82
+#: modules/checkout/templates/your-product/product-table-titles.php:19
+msgid "Quantity"
+msgstr ""
+
+#: admin/views/html-refund-offer.php:83
+#: modules/thankyou/template/child-order-details.php:53
+msgid "Total"
+msgstr ""
+
+#: admin/views/html-refund-offer.php:84
+msgid "Action"
+msgstr ""
+
+#: admin/views/html-refund-offer.php:129
+#. translators: %1$s: item total, %2$s: tax, %3$s: product total
+msgid ""
+"<div class=\"amount_distribution\"><span class=\"\">Item Prices: "
+"%1$s</span><br/><span class=\"\">Tax & Other: %2$s</span><br><span "
+"class=\"\">Total: %3$s</span></div>"
+msgstr ""
+
+#: admin/views/html-refund-offer.php:147
+msgid "Refund"
+msgstr ""
+
+#: admin/views/html-refund-offer.php:150
+msgid "Refunded"
+msgstr ""
+
+#: admin/views/html-refund-offer.php:168
+msgid ""
+"Use WooCommerce's refund feature to refund the main order. You can refund "
+"upsell/downsell offers from this section. Always refund upsell/downsell "
+"offers first & then refund the main order."
+msgstr ""
+
+#: admin/views/html-refund-offer.php:173
+msgid "Refunds are not available for any offer(s) against this order."
+msgstr ""
+
+#: classes/class-cartflows-pro-admin.php:186
+msgid "Enable PayPal Reference Transactions"
+msgstr ""
+
+#: classes/class-cartflows-pro-admin.php:228
+msgid "Upsell Offer"
+msgstr ""
+
+#: classes/class-cartflows-pro-admin.php:230
+msgid "Downsell Offer"
+msgstr ""
+
+#: classes/class-cartflows-pro-admin.php:293
+#: classes/class-cartflows-pro-admin.php:322
+msgid "YES : "
+msgstr ""
+
+#: classes/class-cartflows-pro-admin.php:295
+msgid "YES : Step not Found"
+msgstr ""
+
+#: classes/class-cartflows-pro-admin.php:302
+#: classes/class-cartflows-pro-admin.php:323
+msgid "No : "
+msgstr ""
+
+#: classes/class-cartflows-pro-admin.php:304
+msgid "No : Step not Found"
+msgstr ""
+
+#: classes/class-cartflows-pro-admin.php:324
+msgid "Step not Found"
+msgstr ""
+
+#: classes/class-cartflows-pro-flow-frontend.php:59
+msgid "Loading..."
+msgstr ""
+
+#: classes/class-cartflows-pro-flow-frontend.php:61
+msgid "Processing Order..."
+msgstr ""
+
+#: classes/class-cartflows-pro-flow-frontend.php:62
+msgid "Please wait while we process your payment..."
+msgstr ""
+
+#: classes/class-cartflows-pro-flow-frontend.php:63
+msgid "Please wait while we redirect you..."
+msgstr ""
+
+#: classes/class-cartflows-pro-flow-frontend.php:433
+#: modules/offer/classes/class-cartflows-pro-base-offer-markup.php:241
+msgid "Product Added Successfully."
+msgstr ""
+
+#: classes/class-cartflows-pro-flow-frontend.php:450
+#: modules/offer/classes/class-cartflows-pro-base-offer-markup.php:261
+msgid "Oooops! Your Payment Failed."
+msgstr ""
+
+#: classes/class-cartflows-pro-frontend.php:341
+msgid "Your session is expired"
+msgstr ""
+
+#: classes/class-cartflows-pro-helper.php:33
+msgid "First name"
+msgstr ""
+
+#: classes/class-cartflows-pro-helper.php:42
+msgid "Last name"
+msgstr ""
+
+#: classes/class-cartflows-pro-helper.php:51
+msgid "Email address"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:139
+#. translators: %1$s Software Title, %2$s Plugin, %3$s Anchor opening tag, %4$s
+#. Anchor closing tag, %5$s Software Title.
+msgid ""
+"The <strong>%1$s</strong> License Key has not been activated, so the %2$s "
+"is inactive! %3$sClick here%4$s to activate <strong>%5$s</strong>."
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:185
+#: classes/class-cartflows-pro-licence.php:238
+msgid "Activate License"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:195
+#: classes/class-cartflows-pro-licence.php:213
+msgid "License Key"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:197
+msgid "Enter your License Key"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:200
+#. translators: Cartflows site URL.
+msgid ""
+"If you don't have License key, you can get it from <a target=\"_blank\" "
+"href=\"%1$s\">here</a>."
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:205
+msgid "Activate"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:215
+msgid "******************"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:221
+msgid "Deactivate"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:238
+#: classes/class-cartflows-pro-licence.php:240
+msgid "Settings"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:240
+msgid "Deactivate License"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:295
+#: classes/class-cartflows-pro-licence.php:364
+msgid "Oops! Security nonce is invalid."
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:458
+msgid "Provide a license key to process license request!"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:462
+msgid "Provide a license request!"
+msgstr ""
+
+#: classes/class-cartflows-pro-licence.php:468
+msgid "Invalid license request!"
+msgstr ""
+
+#: classes/class-cartflows-pro-loader.php:409
+#. translators: %s: html tags
+msgid ""
+"The %1$s CartFlows Pro %2$s plugin requires %1$s CartFlows %2$s plugin to "
+"be activated."
+msgstr ""
+
+#: classes/class-cartflows-pro-loader.php:410
+msgid "Activate CartFlows Now"
+msgstr ""
+
+#: classes/class-cartflows-pro-loader.php:417
+#. translators: %s: html tags
+msgid ""
+"The %1$s CartFlows Pro %2$s plugin requires %1$s CartFlows %2$s plugin to "
+"be installed."
+msgstr ""
+
+#: classes/class-cartflows-pro-loader.php:418
+msgid "Install CartFlows Now"
+msgstr ""
+
+#: classes/class-cartflows-pro-loader.php:441
+#. translators: %s: required cartflows version
+msgid ""
+"You are using an older version of CartFlows. This version of CartFlows Pro "
+"needs a CartFlows version %s or greater."
+msgstr ""
+
+#: classes/class-cartflows-pro-loader.php:442
+msgid "Update CartFlows Now"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:203
+msgid "Add New Field"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:285
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1252
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:241
+msgid "Remove"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:412
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1543
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:338
+msgid "Field Width"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:416
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1547
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:342
+msgid "33%"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:417
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1548
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:343
+msgid "50%"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:418
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1549
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:344
+msgid "100%"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:429
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1559
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:354
+msgid "Field Label"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:447
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1578
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:373
+msgid "Options"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:461
+#: classes/class-cartflows-pro-meta-fields.php:474
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:892
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1591
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1603
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:386
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:398
+msgid "Default"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:465
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1595
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:390
+msgid "Checked"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:466
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1596
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:391
+msgid "Un-Checked"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:491
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1619
+#: modules/checkout/templates/quick-view/quick-view-product-image.php:54
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:414
+msgid "Placeholder"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:503
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1630
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:425
+msgid "Required"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:515
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1641
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:436
+msgid "Collapsible"
+msgstr ""
+
+#: classes/class-cartflows-pro-meta-fields.php:527
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1532
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:327
+msgid "Enable this field"
+msgstr ""
+
+#: classes/class-cartflows-pro-refund.php:52
+msgid "Unexpected error occoured"
+msgstr ""
+
+#: classes/class-cartflows-pro-refund.php:77
+msgid "Refund unsuccessful"
+msgstr ""
+
+#: classes/class-cartflows-pro-refund.php:132
+msgid "Refund Unsuccessful"
+msgstr ""
+
+#: classes/class-cartflows-pro-refund.php:140
+msgid "Refund Successful"
+msgstr ""
+
+#: classes/class-cartflows-pro-refund.php:181
+msgid "CartFlows Refund Offers"
+msgstr ""
+
+#: classes/class-wc-am-client.php:129
+msgid " Activation"
+msgstr ""
+
+#: classes/class-wc-am-client.php:130
+msgid " API Key Activation"
+msgstr ""
+
+#: classes/class-wc-am-client.php:131 classes/class-wc-am-client.php:401
+msgid "API Key Activation"
+msgstr ""
+
+#: classes/class-wc-am-client.php:132
+msgid "API Key Deactivation"
+msgstr ""
+
+#: classes/class-wc-am-client.php:227
+msgid ""
+"Attempt to migrate data failed. Deactivate then reactive this plugin or "
+"theme, then enter your API Key on the settings screen to receive software "
+"updates. Contact support if assistance is required."
+msgstr ""
+
+#: classes/class-wc-am-client.php:335
+msgid ""
+"The <strong>%s</strong> API Key has not been activated, so the %s is "
+"inactive! %sClick here%s to activate <strong>%s</strong>."
+msgstr ""
+
+#: classes/class-wc-am-client.php:352
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+
+#: classes/class-wc-am-client.php:384 classes/class-wc-am-client.php:388
+#: includes/admin/offer-settings.php:41
+msgid "Save Changes"
+msgstr ""
+
+#: classes/class-wc-am-client.php:405
+msgid "API Key"
+msgstr ""
+
+#: classes/class-wc-am-client.php:414
+msgid "Product ID"
+msgstr ""
+
+#: classes/class-wc-am-client.php:420
+msgid "API Key Status"
+msgstr ""
+
+#: classes/class-wc-am-client.php:429
+msgid "API Deactivation"
+msgstr ""
+
+#: classes/class-wc-am-client.php:433
+msgid "Deactivate API Key"
+msgstr ""
+
+#: classes/class-wc-am-client.php:445
+msgid "Activated"
+msgstr ""
+
+#: classes/class-wc-am-client.php:445
+msgid "Deactivated"
+msgstr ""
+
+#: classes/class-wc-am-client.php:557
+msgid "%s activated. "
+msgstr ""
+
+#: classes/class-wc-am-client.php:563
+msgid ""
+"Connection failed to the License Key API server. Try again later. There may "
+"be a problem on your server preventing outgoing requests, or the store is "
+"blocking your request to activate the plugin/theme."
+msgstr ""
+
+#: classes/class-wc-am-client.php:600
+msgid "API Key deactivated. "
+msgstr ""
+
+#: classes/class-wc-am-client.php:653
+msgid ""
+"The API Key could not be deactivated. Use the API Key Deactivation tab to "
+"manually deactivate the API Key before activating a new API Key. If all "
+"else fails, go to Plugins, then deactivate and reactivate this plugin, or "
+"if a theme change themes, then change back to this theme, then go to the "
+"Settings for this plugin/theme and enter the API Key information again to "
+"activate it. Also check the My Account dashboard to see if the API Key for "
+"this site was still active before the error message was displayed."
+msgstr ""
+
+#: classes/class-wc-am-client.php:664
+msgid "Deactivates an API Key so it can be used on another blog."
+msgstr ""
+
+#: includes/admin/offer-settings.php:14
+msgid "Offers Global Settings"
+msgstr ""
+
+#: includes/admin/offer-settings.php:23
+msgid "Upsell/Downsell Orders"
+msgstr ""
+
+#: includes/admin/offer-settings.php:29
+msgid "Create a new child order (Recommended)"
+msgstr ""
+
+#: includes/admin/offer-settings.php:30
+msgid ""
+"This option create a new order for all accepted upsell/downsell offers. "
+"Main order will be parent order for them."
+msgstr ""
+
+#: includes/admin/offer-settings.php:33
+msgid "Add to main order"
+msgstr ""
+
+#: includes/admin/offer-settings.php:34
+msgid "This option will merge all accepted upsell/downsell offers into main order."
+msgstr ""
+
+#: includes/meta-fields/generate-your-product-option-html.php:31
+msgid "It will change the product name on the checkout page."
+msgstr ""
+
+#: includes/meta-fields/generate-your-product-option-html.php:38
+#. translators: %s: link
+msgid ""
+"Use {{product_name}} and {{quantity}} to dynamically fetch respective "
+"product details."
+msgstr ""
+
+#: includes/meta-fields/generate-your-product-option-html.php:48
+msgid "Subtext"
+msgstr ""
+
+#: includes/meta-fields/generate-your-product-option-html.php:51
+msgid "It will add the text below the product name on checkout."
+msgstr ""
+
+#: includes/meta-fields/generate-your-product-option-html.php:58
+#. translators: %s: link
+msgid ""
+"Use {{quantity}}, {{discount_value}}, {{discount_percent}} to dynamically "
+"fetch respective product details."
+msgstr ""
+
+#: includes/meta-fields/generate-your-product-option-html.php:68
+msgid "Enable Highlight"
+msgstr ""
+
+#: includes/meta-fields/generate-your-product-option-html.php:71
+msgid "It will Highlight the product on checkout page with Highlight string."
+msgstr ""
+
+#: includes/meta-fields/generate-your-product-option-html.php:81
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:793
+msgid "Highlight Text"
+msgstr ""
+
+#: includes/meta-fields/get-your-product-option-field.php:36
+msgid "No products are selected"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-flow-meta.php:57
+msgid "Stop Spilt Test"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-flow-meta.php:57
+msgid "Start Spilt Test"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-flow-meta.php:91
+msgid "Archived Steps"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-flow-meta.php:123
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-flow-meta.php:128
+msgid "Restore"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-flow-meta.php:137
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-flow-meta.php:139
+msgid "Delete"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:87
+msgid "Step Note"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:138
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:140
+msgid "A/B Test"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:150
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:152
+msgid "Archive"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:163
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:165
+msgid "Declare as Winner"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:352
+#. translators: %s flow id
+msgid "Step not deleted for flow - %s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:365
+#. translators: %s flow id
+msgid "Step deleted for flow - %s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:393
+#. translators: %s flow id
+msgid "Can't archive this step - %1$s. Flow - %2$s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:406
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:736
+#. translators: %s flow id
+msgid "Step - %1$s archived. Flow - %2$s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:434
+#. translators: %s step id
+msgid "Can't create a variation for this step - %s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:489
+#. translators: %s flow id
+msgid "Variation created for step - %s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:517
+msgid "Can't start a split test"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:524
+msgid "Stop Split Test"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:537
+msgid "Start Split Test"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:583
+#. translators: %s step id
+msgid "Can't update the winner for this step - %s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:662
+#. translators: %s step id
+msgid "Winner updated for this step - %s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:693
+#. translators: %s flow id
+msgid "Can't clone this step - %1$s. Flow - %2$s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:766
+#. translators: %s step id
+msgid "Can't update A/B test settings for this step - %s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:817
+#. translators: %s step id
+msgid "A/B test settings updated for this step - %s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:846
+#. translators: %s flow id
+msgid "Can't restore this variation - %1$s. Flow - %2$s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:898
+#. translators: %s flow id
+msgid "Variation - %1$s restored. Flow  - %2$s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:926
+#. translators: %s flow id
+msgid "Can't delete this variation - %1$s. Flow - %2$s"
+msgstr ""
+
+#: modules/ab-test/classes/class-cartflows-pro-ab-test-meta.php:973
+#. translators: %s flow id
+msgid "Variation - %1$s deleted. Flow  - %2$s"
+msgstr ""
+
+#: modules/ab-test/view/view-ab-test-archieved-step.php:30
+msgid "Archived on: "
+msgstr ""
+
+#: modules/ab-test/view/view-ab-test-archieved-step.php:33
+msgid "Deleted on: "
+msgstr ""
+
+#: modules/ab-test/view/view-ab-test-archieved-step.php:67
+msgid "Deleted variation can't be restored."
+msgstr ""
+
+#: modules/ab-test/view/view-ab-test-step-head.php:18
+msgid "Split Test"
+msgstr ""
+
+#: modules/ab-test/view/view-ab-test-step-head.php:22
+msgid "Split Test Settings"
+msgstr ""
+
+#: modules/ab-test/view/view-ab-test-step-settings-content.php:12
+msgid "Traffic"
+msgstr ""
+
+#: modules/ab-test/view/view-ab-test-step-settings-popup.php:19
+msgid "A/B Test Settings"
+msgstr ""
+
+#: modules/ab-test/view/view-ab-test-step-settings-popup.php:31
+msgid "Cancel"
+msgstr ""
+
+#: modules/ab-test/view/view-ab-test-step-settings-popup.php:32
+msgid "Save"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:117
+msgid "Please read and accept the terms and conditions to proceed with your order."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:124
+msgid "Please enter an address to continue."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:127
+#. translators: %s: shipping location
+msgid ""
+"Unfortunately <strong>we do not ship %s</strong>. Please enter an "
+"alternative shipping address."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:133
+msgid ""
+"No shipping method has been selected. Please double check your address, or "
+"contact us if you need any help."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:189
+#. translators: %s: field name
+msgid "Shipping %s"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:193
+#. translators: %s: field name
+msgid "Billing %s"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:205
+#. translators: %1$s: field name, %2$s finder.eircode.ie URL
+msgid ""
+"%1$s is not valid. You can look up the correct Eircode <a target=\"_blank\" "
+"href=\"%2$s\">here</a>."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:209
+#. translators: %s: field name
+msgid "%s is not a valid postcode / ZIP."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:218
+#. translators: %s: phone number
+msgid "%s is not a valid phone number."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:228
+#. translators: %s: email address
+msgid "%s is not a valid email address."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:248
+#. translators: 1: state field 2: valid states
+msgid "%1$s is not valid. Please enter one of the following: %2$s"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:255
+#. translators: %s: field name
+msgid "%s is a required field."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:295
+msgid "Product not added in the cart."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:315
+msgid "Oops, can't add the product to the cart"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:362
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:408
+msgid "Product is Out of Stock"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:402
+msgid "Product Added Successfully"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:575
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:181
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:538
+msgid "{first_name}, Wait! Your Order Is Almost Complete..."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:580
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:193
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:586
+msgid "Yes, Add to My Order!"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:585
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:198
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:599
+msgid "No, thanks!"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pre-checkout-offer-product.php:613
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:177
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:573
+msgid ""
+"Write a few words about this awesome product and tell shoppers why they "
+"must get it. You may highlight this as \"one time offer\" and make it "
+"irresistible."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-field-optimization.php:173
+#. Translators: %s: Field Name
+msgid "<div class=\"dashicons dashicons-arrow-right\"></div> Add %s"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-field-optimization.php:180
+msgid "<div class=\"dashicons dashicons-arrow-right\"></div>Add Order Notes"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-field-optimization.php:185
+msgid "<div class=\"dashicons dashicons-arrow-right\"></div> Have a coupon?"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-markup.php:1250
+#: modules/optin/classes/class-cartflows-pro-optin-markup.php:141
+msgid "Billing Custom Fields"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-markup.php:1287
+msgid "Shipping Custom Fields"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-markup.php:1332
+msgid "Processing..."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:80
+msgid "Enable Browser Tab Animation"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:86
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:533
+msgid "Title Text"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:89
+msgid ""
+"This title text will appear on the browser tab instead of the default title "
+"while animating."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:118
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2132
+msgid "Your Products"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:168
+msgid "___Don't miss out the offer___"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:185
+msgid "We have a special one time offer just for you."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:241
+msgid "Yes, I will take it!"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:245
+msgid "ONE TIME OFFER"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:249
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, quod hic "
+"expedita consectetur vitae nulla sint adipisci cupiditate at. Commodi, "
+"dolore hic eaque tempora a repudiandae obcaecati deleniti mollitia possimus."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:389
+msgid "Get Your FREE copy of CartFlows in just few steps."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:404
+msgid "Shipping"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:408
+msgid "Where to ship it?"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:413
+msgid "Payment"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:417
+msgid "Of your order"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:421
+msgid "For Special Offer Click Here"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:425
+msgid "Yes! I want this offer!"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:480
+msgid "Apply Coupon"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:502
+#. translators: %s: link
+msgid "Activate %1$sCartFlows Pro%2$s license to access Checkout Offer feature."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:513
+msgid "Enable Checkout Offer"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:522
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:733
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:149
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:305
+msgid "Select Product"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:523
+msgid "Select Pre-Checkout Product."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:547
+msgid "Sub-title Text"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:558
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:263
+msgid "Product Title"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:560
+msgid "Enter to override default product title."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:569
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:802
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:270
+msgid "Product Description"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:581
+msgid "Order Button Text"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:594
+msgid "Skip Button Text"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:608
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:811
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:326
+msgid "Discount Type"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:612
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:815
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:328
+msgid "Original"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:613
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:816
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:329
+msgid "Discount Percentage"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:614
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:817
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:330
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:376
+msgid "Discount Price"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:624
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:827
+msgid "Discount Value"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:633
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:846
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:362
+msgid "Select product and save once to see prices"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:639
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:852
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:368
+msgid "Original Price"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:647
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:860
+msgid "Sell Price"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:669
+msgid "Checkout Offer Style"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:675
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:910
+msgid "Background Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:700
+#. translators: %s: link
+msgid "Activate %1$sCartFlows Pro%2$s license to access Order Bump feature."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:712
+msgid "Enable Order Bump"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:718
+msgid "Order Bump Skin"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:722
+msgid "Style 1"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:723
+msgid "Style 2"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:734
+msgid "Select Order Bump Product."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:744
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:255
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:314
+msgid "Product Quantity"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:753
+msgid "Order Bump Position"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:757
+msgid "Before Checkout"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:758
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2144
+msgid "After Customer Details"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:759
+msgid "After Order"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:760
+msgid "After Payment"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:770
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:292
+msgid "Product Image"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:776
+msgid "Hide Image on Tab and Mobile"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:784
+msgid "Checkbox Label"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:818
+msgid "Coupon"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:836
+msgid "Select Coupon"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:882
+msgid "Order Bump Style"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:888
+msgid "Border Style"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:893
+msgid "Dashed"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:894
+msgid "Dotted"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:895
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1371
+msgid "Solid"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:896
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1370
+msgid "None"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:903
+msgid "Border Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:918
+msgid "Label Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:926
+msgid "Label Background Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:933
+msgid "Description Text Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:940
+msgid "Highlight Text Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:948
+msgid "Order Bump Pointing Arrow"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:954
+msgid "Enable Arrow "
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:962
+msgid "Enable Animation "
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:985
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:94
+#. translators: %s: link
+msgid "Activate %1$sCartFlows Pro%2$s license to access Custom Fields feature."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:999
+msgid "Enable Coupon Field "
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1008
+msgid "Collapsible Coupon Field "
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1017
+msgid "Enable Additional Field"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1026
+msgid "Collapsible Additional Field "
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1035
+msgid "Enable Ship To Different Address"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1043
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:105
+msgid "Enable Custom Field Editor"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1104
+msgid "Billing Checkout Fields"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1143
+msgid "Shipping Checkout Fields"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1276
+#. translators: %s: link
+msgid "Activate %1$sCartFlows Pro%2$s license to access Two Step feature."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1291
+msgid "Enable Checkout Note"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1297
+msgid "Note Text"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1305
+msgid "Text Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1313
+msgid "Note Box Background Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1321
+msgid "Steps"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1327
+msgid "Step One Title"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1335
+msgid "Step One Sub Title"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1343
+msgid "Step Two Title"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1350
+msgid "Step Two Sub Title"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1358
+msgid "Section Width"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1366
+msgid "Border"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1406
+msgid "Offer Button"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1412
+msgid "Offer Button Title"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1420
+msgid "Offer Button Sub Title"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1441
+msgid "Two Step"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1676
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1745
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1843
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1909
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:460
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:495
+msgid "Product not selected"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1679
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1748
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1846
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1912
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:464
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:499
+msgid "Product not exists"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:1989
+msgid "Coupon will be applied on checkout"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2014
+#. translators: %s: link
+msgid "Activate %1$sCartFlows Pro%2$s license to access Product Options feature."
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2030
+msgid "Enable Product Options"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2041
+msgid "Selected Products"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2056
+msgid "Product Options Conditions"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2067
+msgid "Restrict user to purchase all products"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2068
+msgid "Let user select one product from all options"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2069
+msgid "Let user select multiple products from all options"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2078
+msgid "Enable Variations"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2088
+msgid "Show variations inline"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2089
+msgid "Show variations in popup"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2098
+msgid "Enable Quantity"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2121
+msgid "Layout options"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2128
+msgid "Section Title"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2139
+msgid "Section Position"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2143
+msgid "Before Checkout Section"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2145
+msgid "Before Order Review"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2152
+msgid "Skins"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2156
+msgid "Classic"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2157
+msgid "Cards"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2164
+msgid "Show Product Images"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2172
+msgid "Design"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2178
+msgid "Product Text Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2186
+msgid "Product Background Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2194
+msgid "Highlight Product Text Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2202
+msgid "Highlight Product Background Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2210
+msgid "Highlight Box Border Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2218
+msgid "Highlight Flag Text Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-checkout-meta.php:2226
+msgid "Highlight Flag Background Color"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-variation-product.php:1097
+msgid "Choose a Variation"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-variation-product.php:1258
+#. translators: %s: Attribute name.
+msgid "Invalid value posted for %s"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-pro-variation-product.php:1267
+#. translators: %s: Attribute name.
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/checkout/templates/pre-checkout-offer/pre-checkout-offer.php:14
+msgid "Order Submitted"
+msgstr ""
+
+#: modules/checkout/templates/pre-checkout-offer/pre-checkout-offer.php:22
+msgid "Special Offer"
+msgstr ""
+
+#: modules/checkout/templates/pre-checkout-offer/pre-checkout-offer.php:30
+msgid "Order Receipt"
+msgstr ""
+
+#: modules/checkout/templates/your-product/item-title.php:34
+msgid "Select"
+msgstr ""
+
+#: modules/checkout/templates/your-product/item-title.php:50
+msgid " every "
+msgstr ""
+
+#: modules/checkout/templates/your-product/item-title.php:53
+msgid " and a "
+msgstr ""
+
+#: modules/checkout/templates/your-product/item-title.php:55
+msgid " sign-up fee "
+msgstr ""
+
+#: modules/checkout/templates/your-product/product-table-titles.php:16
+#: modules/thankyou/template/child-order-details.php:52
+msgid "Product"
+msgstr ""
+
+#: modules/checkout/templates/your-product/product-table-titles.php:22
+msgid "Price"
+msgstr ""
+
+#: modules/downsell/classes/class-cartflows-downsell-markup.php:78
+#: modules/downsell/classes/class-cartflows-downsell-markup.php:132
+#: modules/upsell/classes/class-cartflows-pro-upsell-markup.php:81
+#: modules/upsell/classes/class-cartflows-pro-upsell-markup.php:136
+msgid "Order does not exist"
+msgstr ""
+
+#: modules/downsell/classes/class-cartflows-downsell-markup.php:86
+msgid "Downsell Payment Failed"
+msgstr ""
+
+#: modules/downsell/classes/class-cartflows-downsell-markup.php:124
+#: modules/upsell/classes/class-cartflows-pro-upsell-markup.php:128
+msgid "Current Step Not Found"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-authorize-net.php:377
+#. translators: %1s Release payment
+msgid "%1$s - Release Payment for Order %2$s"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-authorize-net.php:381
+msgid "Payment token missing/invalid."
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-authorize-net.php:404
+#. translators: %1s payment released
+msgid "%1$s %2$s Release Payment Approved: %3$s ending in %4$s (expires %5$s)"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-authorize-net.php:411
+#. translators: %1s transaction id
+msgid "(Transaction ID %s)"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-authorize-net.php:428
+msgid "Authorization only transaction"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-authorize-net.php:445
+#. translators: %1s payment failed message
+msgid "Pre-Order Release Payment Failed: %s"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-authorize-net.php:700
+#. translators: %1s error message
+msgid "Authorize.net CIM Transaction Failed (%s)"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-authorize-net.php:710
+#. translators: %1s site name
+msgid "Authorize.Net CIM Transaction Failed (%s)"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-mollie-credit-card.php:175
+#: modules/gateways/class-cartflows-pro-gateway-mollie-ideal.php:174
+msgid "0 value product"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-mollie-credit-card.php:219
+#: modules/gateways/class-cartflows-pro-gateway-mollie-ideal.php:218
+msgid "Customer id not found. Payment failed"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-mollie-credit-card.php:301
+msgid "Mollie credit card payment processed."
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-mollie-ideal.php:300
+msgid "Mollie ideal payment processed."
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-paypal-express.php:663
+#: modules/gateways/class-cartflows-pro-gateway-paypal-standard.php:1176
+msgid "Unable to find order for PayPal billing agreement."
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-paypal-express.php:717
+#: modules/gateways/class-cartflows-pro-gateway-paypal-standard.php:1230
+msgid "An error occurred, please try again or try an alternate form of payment."
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-paypal-express.php:1036
+#. translators: exception message.
+msgid "PayPal Exp Transaction Failed (%s)"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-stripe.php:390
+#. translators: %1s site name
+msgid "%1$s - Order %2$s - One Time offer"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-stripe.php:393
+#. translators: %1s order number
+msgid "Order %1$s-OTO"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-stripe.php:405
+msgid "customer_name"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-stripe.php:406
+msgid "customer_email"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-paypal-gateway-helper.php:148
+msgid "Total Discount"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-paypal-gateway-helper.php:240
+#. translators: placeholder is blogname.
+msgid "%s - Order"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-markup.php:292
+msgid "Redirecting..."
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:77
+msgid "Offer Page Settings"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:143
+msgid "Shortcodes"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:155
+msgid "Conditional Redirect "
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:161
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:431
+msgid "Custom Script"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:196
+#. translators: %s: link
+msgid "Activate %1$sCartFlows Pro%2$s license to access Upsell/Downsell options."
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:232
+msgid "Accept Offer Link"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:240
+msgid "Decline Offer Link"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:247
+msgid "Product Variation"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:250
+msgid ""
+"Add this shortcode to your offer page for variation selection. If product "
+"is variable, it will show variations."
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:258
+msgid "Add this shortcode to your offer page for quantity selection."
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:277
+msgid "Product Short Description"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:284
+msgid "Product Price"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:287
+msgid "This shortcode will show the product's single quantity price."
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:339
+msgid "Discount value"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:350
+msgid "Flat Shipping Rate"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:385
+msgid ""
+"Note: If you have selected variable product, lowest price variation will be "
+"shown here."
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:398
+msgid "Offer - Yes Next Step"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:400
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:415
+msgid "Upsell &lpar;Woo&rpar;"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:401
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:416
+msgid "Downsell &lpar;Woo&rpar;"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:402
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:417
+msgid "Thankyou &lpar;Woo&rpar;"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:413
+msgid "Offer - No Next Step"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-meta.php:434
+msgid ""
+"Custom script lets you add your own custom script on front end of this flow "
+"page."
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-shortcodes.php:160
+msgid "Shipping: "
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-shortcodes.php:162
+msgid " via Flat rate"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-shortcodes.php:227
+msgid "Awaiting product image"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-shortcodes.php:451
+msgid "Buy Now"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-base-offer-shortcodes.php:453
+msgid "No, Thanks"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-offer-order-meta.php:67
+msgid "CartFlows Upsell"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-offer-order-meta.php:69
+msgid "CartFlows Downsell"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-offer-order-meta.php:97
+msgid "CartFlows Parent Order"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-offer-order-meta.php:108
+msgid "CartFlows Upsell&sol;Downsell Orders"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-offer-order-meta.php:117
+msgid "Upsell"
+msgstr ""
+
+#: modules/offer/classes/class-cartflows-pro-offer-order-meta.php:119
+msgid "Downsell"
+msgstr ""
+
+#: modules/optin/classes/class-cartflows-pro-optin-meta.php:147
+msgid "Form Fields"
+msgstr ""
+
+#: modules/orders/class-cartflows-pro-orders.php:96
+#. translators: %s: Single count value
+msgid "Main Order Accepted <span class=\"count\">(%s)</span>"
+msgid_plural "Main Order Accepted <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/thankyou/template/child-order-details.php:36
+msgid "Order number:"
+msgstr ""
+
+#: modules/thankyou/template/child-order-details.php:41
+msgid "Total:"
+msgstr ""
+
+#: modules/thankyou/template/child-order-details.php:94
+msgid "Note:"
+msgstr ""
+
+#: modules/tracking/class-cartflows-pro-analytics-reports.php:113
+msgid "Are you sure you want to reset the analytics for this flow?"
+msgstr ""
+
+#: modules/tracking/class-cartflows-pro-analytics-reports.php:114
+msgid "Flow analytics data has been reset successfully."
+msgstr ""
+
+#: modules/tracking/class-cartflows-pro-analytics-reports.php:160
+msgid "Analytics"
+msgstr ""
+
+#: modules/tracking/class-cartflows-pro-analytics-reports.php:190
+msgid "Enable Flow Analytics"
+msgstr ""
+
+#: modules/tracking/class-cartflows-pro-analytics-reports.php:201
+msgid ""
+"Analytics offers data that helps you understand how your flows are "
+"performing."
+msgstr ""
+
+#: modules/tracking/class-cartflows-pro-analytics-reports.php:228
+msgid "View Analytics"
+msgstr ""
+
+#: modules/tracking/class-cartflows-pro-analytics-reports.php:251
+msgid "Reset Analytics"
+msgstr ""
+
+#: modules/tracking/view/analytics-popup.php:20
+msgid "Analytics Report"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:14
+#: modules/tracking/view/analytics-template.php:14
+msgid "Gross Sale"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:20
+#: modules/tracking/view/analytics-template.php:20
+msgid "Average Order Value"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:26
+#: modules/tracking/view/analytics-template.php:26
+msgid "Bump Offer Revenue"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:36
+#: modules/tracking/view/analytics-template.php:36
+msgid "Last Month"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:37
+#: modules/tracking/view/analytics-template.php:37
+msgid "Last Week"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:38
+#: modules/tracking/view/analytics-template.php:38
+msgid "Today"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:53
+#: modules/tracking/view/analytics-template.php:52
+msgid "Step"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:54
+#: modules/tracking/view/analytics-template.php:53
+msgid "Total visits"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:55
+#: modules/tracking/view/analytics-template.php:54
+msgid "Unique Visits"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:56
+#: modules/tracking/view/analytics-template.php:57
+msgid "Revenue"
+msgstr ""
+
+#: modules/tracking/view/analytics-template-bck.php:70
+#: modules/tracking/view/analytics-template.php:117
+msgid "No Data Found"
+msgstr ""
+
+#: modules/tracking/view/analytics-template.php:55
+msgid "Conversions"
+msgstr ""
+
+#: modules/tracking/view/analytics-template.php:56
+msgid "Conversion Rate"
+msgstr ""
+
+#: modules/upsell/classes/class-cartflows-pro-upsell-markup.php:89
+msgid "Upsell Payment Failed"
+msgstr ""
+
+#: modules/widgets/class-cartflows-next-step.php:24
+msgid "CartFlows Next Step"
+msgstr ""
+
+#: modules/widgets/class-cartflows-next-step.php:26
+msgid "Next Step Widgets"
+msgstr ""
+
+#: modules/widgets/class-cartflows-next-step.php:78
+msgid "Next Step"
+msgstr ""
+
+#: modules/widgets/class-cartflows-next-step.php:106
+msgid "New title"
+msgstr ""
+
+#: modules/widgets/class-cartflows-next-step.php:123
+msgid "Title:"
+msgstr ""
+
+#: modules/widgets/class-cartflows-next-step.php:127
+msgid "Flow ID:"
+msgstr ""
+
+#: modules/widgets/class-cartflows-next-step.php:131
+msgid "Step ID:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "CartFlows Pro"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://cartflows.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "eCommerce on steroid with Order Bump, One Click Upsells and much more!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CartFlows Inc"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-paypal-express.php:411
+#: modules/gateways/class-cartflows-pro-gateway-paypal-standard.php:614
+#. translators: placeholder is blogname.
+msgctxt "data sent to paypal"
+msgid "Orders with %s"
+msgstr ""
+
+#: modules/gateways/class-cartflows-pro-gateway-paypal-express.php:536
+#. translators: blog name.
+msgctxt "data sent to PayPal"
+msgid "Orders with %s"
+msgstr ""
+
+#: modules/orders/class-cartflows-pro-orders.php:74
+msgctxt "Order status"
+msgid "Main Order Accepted (CF)"
+msgstr ""

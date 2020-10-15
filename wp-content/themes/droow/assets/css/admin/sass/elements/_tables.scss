@@ -1,0 +1,26 @@
+/* -------------------------------
+         Table
+------------------------------- */
+table {
+  margin: 0 0 1rem;
+  border-collapse: collapse;
+  width: 100%;
+	border: 1px solid #767676 !important;
+}
+
+table td,
+table th {
+  padding: 0.5em;
+  border: 1px solid #767676 !important;
+  word-break: break-all;
+  text-align: center;
+}
+
+/* -------------------------------
+             HR
+  ------------------------------- */
+hr {
+	margin-top: 30px;
+	border: 0;
+	border-top: 1px solid $theme-color !important ;
+}

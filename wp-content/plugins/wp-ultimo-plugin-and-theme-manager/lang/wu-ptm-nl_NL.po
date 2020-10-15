@@ -1,0 +1,416 @@
+# Translation of WP Ultimo: Plugin and Theme Manager in Dutch
+# This file is distributed under the same license as the WP Ultimo: Plugin and Theme Manager package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-16 19:54:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: nl\n"
+"Project-Id-Version: WP Ultimo: Plugin and Theme Manager\n"
+
+#: ../views/templates/theme-template.php:144
+msgid "Unlock Extension (%s)"
+msgstr "Ontgrendel extensie (%s)"
+
+#: ../views/templates/theme-template.php:143
+msgid "This will be a one-time payment"
+msgstr "Dit zal een eenmalige betaling zijn"
+
+#: ../views/templates/theme-template.php:77
+msgid "No Plugins found."
+msgstr "Geen plugins gevonden."
+
+#: ../views/templates/theme-template.php:38
+#: ../views/templates/theme-template.php:111
+msgid "<span>Active:</span> %s"
+msgstr "<span>Actief:</span> %s"
+
+#: ../views/templates/theme-template.php:29
+#: ../views/templates/theme-template.php:98
+msgid "Plugin Details"
+msgstr "Plugin omschrijving"
+
+#: ../views/templates/plugin-template.php:113
+#: ../views/templates/theme-template.php:126
+msgid "Network Active"
+msgstr "Netwerk activeren"
+
+#: ../views/templates/plugin-template.php:64
+#: ../views/templates/plugin-template.php:142
+msgid "5 start extension"
+msgstr "5 start extensie"
+
+#: ../views/templates/plugin-template.php:57
+#: ../views/templates/plugin-template.php:135
+#: ../views/templates/theme-template.php:32
+#: ../views/templates/theme-template.php:103
+msgid "By %s"
+msgstr "Door %s"
+
+#: ../views/templates/details-template.php:62
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../views/templates/details-template.php:56
+#: ../views/templates/plugin-template.php:44
+#: ../views/templates/plugin-template.php:123
+#: ../views/templates/theme-template.php:62
+#: ../views/templates/theme-template.php:138
+msgid "Activate"
+msgstr "Activeren"
+
+#: ../views/templates/details-template.php:52
+#: ../views/templates/plugin-template.php:40
+#: ../views/templates/plugin-template.php:119
+#: ../views/templates/theme-template.php:58
+#: ../views/templates/theme-template.php:132
+msgctxt "theme"
+msgid "Activate %s"
+msgstr "Activeer %s"
+
+#: ../views/templates/details-template.php:44
+#: ../views/templates/plugin-template.php:33
+#: ../views/templates/plugin-template.php:109
+#: ../views/templates/theme-template.php:51
+#: ../views/templates/theme-template.php:122
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: ../views/templates/details-template.php:36
+msgid "Categories:"
+msgstr "Categorieën:"
+
+#: ../views/templates/details-template.php:33
+msgid "This is a child theme of %s."
+msgstr "Deze thema is gebaseerd op %s."
+
+#: ../views/templates/details-template.php:27
+msgid "Update Available"
+msgstr "Update beschikbaar"
+
+#: ../views/templates/details-template.php:21
+#: ../views/templates/details-template.php:23
+msgid "%s"
+msgstr "%s"
+
+#: ../views/templates/details-template.php:7
+msgid "Close details dialog"
+msgstr "Details dialog sluiten"
+
+#: ../views/templates/details-template.php:6
+msgid "Show next theme"
+msgstr "Toon volgende thema"
+
+#: ../views/templates/details-template.php:5
+msgid "Show previous theme"
+msgstr "Toon vorige thema"
+
+#: ../views/purchase-form.php:6
+msgid "Pay %s to Unlock %s"
+msgstr "Betaal %s om %s te ontgrendelen"
+
+#: ../views/purchase-form.php:3
+msgid "This is a one-time payment to unlock the <strong>%s</strong> extension. After the payment is confirmed, you'll be capable of activating the extension on your site."
+msgstr "Dit is een eenmalige betaling om de <strong>%s</strong> extensie te ontgrendelen. Nadat de betaling is bevestigd, kunt u de extensie op uw site activeren."
+
+#: ../views/page-plugins.php:84
+msgid "Plugin deactivated successfully!"
+msgstr "Plugin succesvol gedeactiveerd!"
+
+#: ../views/page-plugins.php:76
+msgid "Plugin activated successfully!"
+msgstr "Plugin succesvol geactiveerd!"
+
+#: ../views/page-plugins.php:58
+msgid "Inactive"
+msgstr "Inactief"
+
+#: ../views/page-plugins.php:54 ../views/templates/details-template.php:19
+msgid "Active"
+msgstr "Actief"
+
+#: ../views/page-plugins.php:50
+msgid "All Plugins"
+msgstr "Alle plugins"
+
+#: ../views/page-plugins.php:42
+msgid "Plugins"
+msgstr "Plugins"
+
+#: ../views/page-plugins.php:22
+msgid "No plugins found. Try a different search."
+msgstr "Geen plugins gevonden. Probeer een andere zoekopdracht."
+
+#: ../views/page-plugins.php:21
+msgid "Number of Plugins found: %d"
+msgstr "Aantal gevonden plugins: %d"
+
+#: ../views/page-plugins.php:20
+msgid "Search available plugins..."
+msgstr "Zoek beschikbare plugins..."
+
+#: ../views/page-plugins.php:19
+msgid "Search available plugins"
+msgstr "Zoek beschikbare plugins"
+
+#: ../views/page-plugins.php:18
+msgid "Add New Plugin"
+msgstr "Plugin toevoegen"
+
+#: ../views/page-plugins.php:14
+msgid ""
+"Are you sure you want to delete this theme?\n"
+"\n"
+"Click 'Cancel' to go back, 'OK' to confirm the delete."
+msgstr "Weet u zeker dat u dit thema wilt verwijderen?"
+
+#: ../views/page-payment.php:52
+msgid "Message deleted successfully!"
+msgstr "Bericht succesvol verwijderd!"
+
+#: ../views/inline-edit.php:135
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: ../views/inline-edit.php:131
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: ../views/inline-edit.php:118
+msgid "Remove Image"
+msgstr "Afbeelding verwijderen"
+
+#: ../views/inline-edit.php:114
+msgid "Upload Image"
+msgstr "Afbeelding uploaden"
+
+#: ../views/inline-edit.php:84 ../views/inline-edit.php:105
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: ../views/inline-edit.php:52
+msgid "Display Other %s Links?"
+msgstr "Toon andere %s links?"
+
+#: ../views/inline-edit.php:47
+msgid "Display %s Details?"
+msgstr "Toon %s gegevens?"
+
+#: ../views/inline-edit.php:42
+msgid "Display %s Version?"
+msgstr "Toon %s versie?"
+
+#: ../views/inline-edit.php:37
+msgid "Display %s Author?"
+msgstr "Toon %s auteur?"
+
+#: ../views/inline-edit.php:31
+msgid "Display Options"
+msgstr "Toon opties"
+
+#: ../views/inline-edit.php:22
+msgid "Description"
+msgstr "Omschrijving"
+
+#: ../views/inline-edit.php:17
+msgid "Author"
+msgstr "Auteur"
+
+#: ../views/inline-edit.php:12
+msgid "Name"
+msgstr "Naam"
+
+#: ../views/inline-edit.php:8
+msgid "Edit %s Information"
+msgstr "Bewerk %s informatie"
+
+#: ../inc/class-wu-addon-updater.php:190
+msgid "Put the code you received alongside the add-on when you finalized your purchase."
+msgstr "Vul de licentiecode in die u hebt ontvangen naast de add-on toen u uw aankoop afrondde."
+
+#: ../inc/class-wu-addon-updater.php:179
+msgid "You have a golden ticket license. There's no need to activate each add-on individually."
+msgstr "Je hebt een gouden ticket. Het is niet nodig om iedere add-on apart te activeren."
+
+#: ../inc/class-wu-addon-updater.php:178 ../inc/class-wu-addon-updater.php:189
+msgid "License Key - %s"
+msgstr "Licentiecode - %s"
+
+#: ../inc/class-wu-addon-updater.php:163
+msgid "Use the license key you received with the add-on files to activate your copy and be notified of new versions automatically."
+msgstr "Gebruik de licentiecode die u bij de add-on bestanden hebt ontvangen om uw kopie te activeren en automatisch op de hoogte te worden gesteld van nieuwe versies."
+
+#: ../inc/class-wu-addon-updater.php:162
+msgid "Activate your Add-ons"
+msgstr "Activeer uw add-ons"
+
+#: ../inc/class-wu-addon-updater.php:123
+msgid "Status: Not Activated - Invalid License Key"
+msgstr "Status: Niet geactiveerd - Ongeldige licentiecode"
+
+#: ../inc/class-wu-addon-updater.php:117
+msgid "Status: License no longer valid - Refund issued"
+msgstr "Status: Licentie niet langer geldig - Restitutie is verleend"
+
+#: ../inc/class-wu-addon-updater.php:113
+msgid "Status: Activated"
+msgstr "Status: Geactiveerd "
+
+#: ../inc/class-wu-addon-updater.php:103
+msgid "Status: Activated - Golden Ticket"
+msgstr "Satus: Geactiveerd - Gouden ticket"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1267
+msgid "Theme"
+msgstr "Thema"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1267
+msgid "Plugin"
+msgstr "Plugin"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1210
+msgid "Edit Information"
+msgstr "Bewerk informatie"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1209
+msgid "Quick edit inline"
+msgstr "Snel inline bewerken"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1157
+msgctxt "tag delimiter"
+msgid ","
+msgstr ","
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1156
+msgid "Changes saved."
+msgstr "Bewerkingen opgeslagen."
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1155
+msgid "(no title)"
+msgstr "(geen titel)"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1154
+msgid "Remove From Bulk Edit"
+msgstr "Verwijder van bulkbewerking"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1153
+msgid "Error while saving the changes."
+msgstr "Error tijdens het opslaan van veranderingen."
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1128
+msgid "Theme Category"
+msgstr "Thema categorie"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:1118
+msgid "Plugin Category"
+msgstr "Plugin categorie"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:665
+#: ../wp-ultimo-plugin-and-theme-manager.php:675
+msgid "No categories"
+msgstr "Geen categorieën"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:611
+#: ../views/templates/plugin-template.php:73
+#: ../views/templates/plugin-template.php:151
+msgid "Categories"
+msgstr "Categorieën"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:491
+#: ../inc/class-wu-model-extension.php:235
+msgid "None"
+msgstr "Geen"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:357
+msgid "Check this box if you want to display the plugin\\’s extra links to your users. This option is only used if you do not use the custom plugin page."
+msgstr "Vink dit vakje aan als u de extra links van de plugin aan uw gebruikers wilt tonen. Deze optie wordt alleen gebruikt als u de aangepaste plugin pagina niet gebruikt."
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:356
+msgid "Display Plugin's Extra Links"
+msgstr "Extra links van de plugin weergeven"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:349
+msgid "Check this box if you want to display the plugin\\’s details modal to your users. This option is only used if you do not use the custom plugin page."
+msgstr "Vink dit vakje aan als u de gegevens van de plugin aan uw gebruikers wilt tonen. Deze optie wordt alleen gebruikt als u de aangepaste plugin pagina niet gebruikt."
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:348
+msgid "Display Plugin's Details"
+msgstr "Gegevens van de plugin weergeven"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:341
+msgid "Check this box if you want to display the plugin\\’s version to your users."
+msgstr "Vink dit vakje aan als u de versie van de plugin wilt weergeven aan uw gebruikers."
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:340
+msgid "Display Plugin's Version"
+msgstr "Versie van de plugin weergeven"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:333
+msgid "Check this box if you want to display the plugin\\’s author info to your users."
+msgstr "Vink dit vakje aan als u de informatie over de auteur van de plugin wilt weergeven aan uw gebruikers."
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:332
+msgid "Display Plugin's Author"
+msgstr "Auteur van de plugin weergeven"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:325
+msgid "By default, we only display the changes made to the plugin and theme's metadata for Ultimo sites (sites onwed by users with an WP Ultimo subscription). Use this option to apply the changes to all sites in the network."
+msgstr "Standaard tonen we alleen de wijzigingen in de plugin en thema's van de metadata voor Ultimo sites (sites die worden beheerd door gebruikers met een WP Ultimo abonnement). Gebruik deze optie om de wijzigingen toe te passen op alle sites in het netwerk."
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:324
+msgid "Apply Changes to All Sites"
+msgstr "Wijzigingen toepassen op alle sites"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:319
+msgid "Theme Style"
+msgstr "Thema style"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:318
+msgid "Plugin Style"
+msgstr "Plugin style"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:312
+msgid "Display Type"
+msgstr "Weergavetype"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:305
+msgid "Here's how the page will look"
+msgstr "Zo ziet de pagina er uit"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:305
+msgid "Check this option if you want to replace the default WordPress Plugin Page of your clients\\’ site with a custom theme-like page, including advanced filtering and display."
+msgstr "Vink deze optie aan als u de standaard WordPress Plugin pagina van de site van uw klanten wilt vervangen door een aangepaste thema-achtige pagina, inclusief geavanceerde filtering en weergave."
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:304
+msgid "Replace the Plugin Page"
+msgstr "Vervang de plugin pagina"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:298
+msgid "WP Ultimo: Plugin and Theme Manager Options"
+msgstr "WP Ultimo: Plugin and Theme Manager instellingen"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:286
+msgid "Settings added by add-ons installed."
+msgstr "Instellingen toegevoegd door geïnstalleerde add-ons.  "
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:281
+#: ../wp-ultimo-plugin-and-theme-manager.php:282
+#: ../wp-ultimo-plugin-and-theme-manager.php:285
+msgid "Add-on Settings"
+msgstr "Add-on instellingen"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:239
+msgid "All Themes"
+msgstr "Alle thema's"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:206 ../views/page-payment.php:28
+#: ../views/page-payment.php:48
+msgid "Unlock Extension"
+msgstr "Ontgrendel extensie"
+
+#: ../wp-ultimo-plugin-and-theme-manager.php:85
+msgid "WP Ultimo: Plugin and Theme Manager"
+msgstr "WP Ultimo: Plugin and Theme Manager"

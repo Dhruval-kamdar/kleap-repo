@@ -1,0 +1,11 @@
+v1.1.0 - 02 September, 2019
+--------------------------
+- [new] Compatible with new accounting module
+
+v1.0.1 - 07 March, 2019
+--------------------
+- [new] Set up app information for Stripe
+
+v1.0.0 - 08 March, 2017
+--------------------
+- Initial Release

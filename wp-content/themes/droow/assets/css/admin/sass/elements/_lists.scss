@@ -1,0 +1,45 @@
+
+ul, ol {
+  position: relative;
+
+
+  li {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    vertical-align: baseline;
+    list-style: inherit;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    ul, ol {
+      padding-left: 2rem;
+      margin-top: 15px;
+    }
+
+  }
+
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+dt {
+  line-height: 1.8;
+  font-weight: bold;
+  color: #fff;
+  opacity: .8;
+}
+
+dd {
+  margin: 0 1rem 1rem;
+}
+
+
+

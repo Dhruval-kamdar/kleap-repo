@@ -1,0 +1,292 @@
+/* -------------------------------------------------------
+                   Footer
+-------------------------------------------------------- */
+footer.wrapper-footer {
+  position: relative;
+  z-index: 3;
+  padding: 0 50px 30px;
+
+
+  &.dsn-error-404 {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+
+
+    a,
+    p {
+      color: #fff;
+    }
+  }
+
+
+  @include media_768 {
+    margin-left: 0;
+    padding: 0 30px 30px 30px;
+  }
+
+  @include media_575 {
+    padding-left: 15px;
+  }
+
+
+  a.email, .copyright-social a,
+  p.phone, a.phone, .copyright-social p {
+    color: rgba(194, 194, 194, 0.6);
+    margin-bottom: 0;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 1.6;
+    font-variant-numeric: proportional-nums;
+    font-family: $body-font;
+
+    @include v-light {
+      color: $body-color-light;
+    }
+
+    @include media_768 {
+      letter-spacing: 0;
+    }
+  }
+
+
+  .contact-footer {
+    //display: flex;
+    //-webkit-box-align: center;
+    //align-items: center;
+    //-webkit-box-pack: start;
+    //justify-content: flex-start;
+    margin-bottom: 10px;
+
+
+    .phone {
+      margin-right: 30px;
+    }
+  }
+
+
+  .copyright-social {
+    //display: flex;
+    //-webkit-box-orient: horizontal;
+    //-webkit-box-direction: normal;
+    //flex-direction: row;
+    //-webkit-box-align: center;
+    //align-items: center;
+    //-webkit-box-pack: justify;
+    //justify-content: space-between;
+
+    //@include media_768 {
+    //  align-items: start;
+    //  flex-direction: inherit;
+    //}
+    //
+    //@include media_575 {
+    //  flex-direction: column;
+    //}
+
+    //p {
+    //  @include media_768 {
+    //    order: 2;
+    //  }
+    //}
+
+    ul {
+      &.d-flex {
+        flex-wrap: wrap;
+      }
+
+
+      @include media_768 {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+
+      li {
+        display: list-item;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        list-style: none;
+
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+
+    &.type-socila-icon li {
+      width: 35px;
+      height: 35px;
+      line-height: 32px;
+      margin-right: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 50%;
+      text-align: center;
+
+      @include v-light() {
+        border: 1px solid rgba(0, 0, 0, 0.07);
+      }
+
+
+      a {
+        letter-spacing: 0;
+
+
+        > i {
+          font-size: 12px;
+          color: #fff;
+          cursor: pointer;
+          @include v-light() {
+            color: #000;
+          }
+        }
+      }
+    }
+
+
+    &.type-flex-column li {
+      margin-right: 0;
+      margin-bottom: 18px;
+
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+
+  .footer-logo a {
+    width: 90px;
+    margin-bottom: 20px;
+  }
+
+
+  .footer-logo {
+
+    img.logo-light {
+      display: inherit;
+      @include v-light() {
+        display: none;
+      }
+    }
+
+
+    img.logo-dark {
+      display: none;
+      @include v-light() {
+        display: inherit;
+      }
+    }
+  }
+
+
+  .widget_nav_menu li {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+
+  .col-contact {
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+
+
+      strong {
+        color: #fff;
+        @include v-light() {
+          color: #000;
+        }
+      }
+
+
+      span {
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+
+
+      a {
+        text-transform: none;
+      }
+    }
+  }
+
+
+  .sidebar-single-content {
+    padding: 0;
+  }
+
+
+  &.wrapper-footer-padding {
+    padding: 0;
+    background-color: $dark-color;
+
+    @include v-light() {
+      background-color: $bg-light-2;
+    }
+
+
+    .info {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+  }
+
+
+  .copyright {
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+    font-size: 14px;
+    letter-spacing: 2.67px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    @include v-light() {
+      border-top: 1px solid #bebebe;
+    }
+
+
+    p {
+      text-transform: uppercase;
+    }
+
+
+    .copright-text {
+      color: #a7a7a7;
+      margin-top: 5px;
+      font-weight: 500;
+      overflow: hidden;
+      @include v-light() {
+        color: #0009;
+      }
+    }
+
+
+    a {
+      color: #a56433;
+    }
+
+  }
+
+
+  .container-fluid {
+    padding: 0 15px;
+  }
+
+
+  @include media_768{
+    .dsn-col-footer:nth-of-type(n+2){
+      margin-top: 30px;
+    }
+  }
+
+}

@@ -1,0 +1,81 @@
+# Translation of Plugins - Dashboard Welcome for Elementor - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Dashboard Welcome for Elementor - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-28 08:07:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Dashboard Welcome for Elementor - Development (trunk)\n"
+
+#: includes/admin-settings.php:7
+msgid "Please note, changing the template in subsite will override the main settings."
+msgstr "Veuillez noter que la modification du modèle dans le sous-site écrasera les réglages principaux."
+
+#: includes/admin-settings.php:52
+msgid "Hide settings from network subsites"
+msgstr "Masquer les réglages à partir des sous-sites du réseau"
+
+#. Author URI of the plugin
+msgid "https://ideaboxcreations.com"
+msgstr "https://ideaboxcreations.com"
+
+#. Author of the plugin
+msgid "IdeaBox Creations"
+msgstr "IdeaBox Creations"
+
+#. Description of the plugin
+msgid "Replaces the default WordPress dashboard welcome panel with a Elementor template."
+msgstr "Remplace le panneau de bienvenue par défaut du tableau de bord WordPress avec un modèle Elementor."
+
+#. Plugin URI of the plugin
+msgid "https://powerpackelements.com/dashboard-welcome-elementor/"
+msgstr "https://powerpackelements.com/dashboard-welcome-elementor/"
+
+#: includes/welcome-panel.php:3
+msgid "Dismiss"
+msgstr "Ignorer"
+
+#: includes/admin-settings.php:28
+msgid "-- Select --"
+msgstr "-- Sélectionner --"
+
+#: includes/admin-settings.php:20
+msgid "Is Dismissible?"
+msgstr "Est ignorable ?"
+
+#: includes/admin-settings.php:17
+msgid "Select Template"
+msgstr "Sélectionnez un modèle"
+
+#: includes/admin-settings.php:14
+msgid "User Role"
+msgstr "Rôle utilisateur"
+
+#: dashboard-welcome-elementor.php:95
+msgid "Install Elementor Now"
+msgstr "Installer Elementor maintenant"
+
+#: dashboard-welcome-elementor.php:94
+msgid "Dashboard Welcome is not working because you need to install the Elementor plugin"
+msgstr "Dashboard Welcome ne fonctionne pas parce que devez installer l’extension Elementor"
+
+#: dashboard-welcome-elementor.php:86
+msgid "Activate Elementor Now"
+msgstr "Activer Elementor maintenant"
+
+#: dashboard-welcome-elementor.php:85
+msgid "Dashboard Welcome is not working because you need to activate the Elementor plugin."
+msgstr "Dashboard Welcome ne fonctionne pas parce que devez activer l’extension Elementor."
+
+#. Plugin Name of the plugin
+#: classes/class-dwe-admin.php:77
+msgid "Dashboard Welcome for Elementor"
+msgstr "Dashboard Welcome pour Elementor"
+
+#: classes/class-dwe-admin.php:151
+msgid "Dashboard Welcome Elementor"
+msgstr "Panneau de bienvenue de tableau de bord Elementor"

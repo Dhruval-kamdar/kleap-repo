@@ -1,0 +1,932 @@
+/*
+* Default Styles
+*/
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/* ==========================================================================
+   Alignments
+   ========================================================================== */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 25px;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 25px;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ==========================================================================
+   Clearings
+   ========================================================================== */
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.entry-footer:before,
+.entry-footer:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after,
+.nav-links:before,
+.nav-links:after,
+.pagination:before,
+.pagination:after,
+.comment-author:before,
+.comment-author:after,
+.widget-area:before,
+.widget-area:after,
+.widget:before,
+.widget:after,
+.comment-meta:before,
+.comment-meta:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+.clear:after,
+.entry-content:after,
+.entry-footer:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after,
+.nav-links:after,
+.pagination:after,
+.comment-author:after,
+.widget-area:after,
+.widget:after,
+.comment-meta:after {
+	clear: both;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+body,
+button,
+input,
+select,
+textarea {
+	color: #555;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+body{
+	overflow-x: hidden;
+}
+.nicescroll-rails.nicescroll-rails-hr{
+	display: none!important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	line-height: 1.4;
+	margin: 0 0 12px;
+    letter-spacing: -0.04em;
+    color: #555;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	padding-top: 0;
+}
+h1 {
+	font-size: 28px;
+	font-weight: 800;
+}
+
+h2{
+	color: #555;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0 0 15px;
+}
+
+.entry-title{
+	color: #313131;
+	font-size: 20px;
+    line-height: 26px;
+	font-weight: 700;
+	margin: 0 0 5px;
+	font-family: "Montserrat", sans-serif;
+}
+.entry-title a{
+    color: #333333;
+    letter-spacing: -1px;
+    font-family: "Poppins",sans-serif;
+  	font-weight: 600;
+}
+.entry-title a:focus,
+.entry-title a:hover{
+    opacity: 0.8;
+}
+h3 {
+	color: #555;
+	font-size: 18px;
+	font-weight: 600;
+}
+h4 {
+	color: #555;
+	font-size: 16px;
+	font-weight: 600;
+}
+h5 {
+	color: #555;
+	font-size: 15px;
+	font-weight: 500;
+}
+h6 {
+	color: #555;
+	font-size: 13px;
+	font-weight: 500;
+}
+p {
+	margin: 0 0 15px;
+	padding: 0;
+}
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+blockquote{
+	background-color:  #fff;
+	color: #313131;
+	border-left: 5px solid #fab702;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 30px;
+	margin: 0 0 15px;
+	overflow: hidden;
+	padding: 30px 30px;
+	display:  block;
+}
+blockquote p{
+    margin: 0;
+}
+blockquote cite {
+	display: block;
+	font-style: normal;
+	font-weight: 600;
+	margin-top: 0.5em;
+}
+address {
+	margin: 0 0 1.5em;
+}
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+code,
+kbd,
+tt,
+var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+mark,
+ins {
+	background: #eee;
+	text-decoration: none;
+}
+big {
+	font-size: 125%;
+}
+blockquote {
+	quotes: "" "";
+}
+q {
+	quotes: "“" "”" "‘" "’";
+}
+blockquote:before,
+blockquote:after {
+	content: "";
+}
+:focus {
+	outline: none;
+}
+
+/* Typography for Arabic Font */
+html[lang="ar"] body,
+html[lang="ar"] button,
+html[lang="ar"] input,
+html[lang="ar"] select,
+html[lang="ar"] textarea,
+html[lang="ary"] body,
+html[lang="ary"] button,
+html[lang="ary"] input,
+html[lang="ary"] select,
+html[lang="ary"] textarea,
+html[lang="azb"] body,
+html[lang="azb"] button,
+html[lang="azb"] input,
+html[lang="azb"] select,
+html[lang="azb"] textarea,
+html[lang="fa-IR"] body,
+html[lang="fa-IR"] button,
+html[lang="fa-IR"] input,
+html[lang="fa-IR"] select,
+html[lang="fa-IR"] textarea,
+html[lang="haz"] body,
+html[lang="haz"] button,
+html[lang="haz"] input,
+html[lang="haz"] select,
+html[lang="haz"] textarea,
+html[lang="ps"] body,
+html[lang="ps"] button,
+html[lang="ps"] input,
+html[lang="ps"] select,
+html[lang="ps"] textarea,
+html[lang="ur"] body,
+html[lang="ur"] button,
+html[lang="ur"] input,
+html[lang="ur"] select,
+html[lang="ur"] textarea {
+	font-family: Tahoma, Arial, sans-serif;
+}
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] h4,
+html[lang="ar"] h5,
+html[lang="ar"] h6,
+html[lang="ary"] h1,
+html[lang="ary"] h2,
+html[lang="ary"] h3,
+html[lang="ary"] h4,
+html[lang="ary"] h5,
+html[lang="ary"] h6,
+html[lang="azb"] h1,
+html[lang="azb"] h2,
+html[lang="azb"] h3,
+html[lang="azb"] h4,
+html[lang="azb"] h5,
+html[lang="azb"] h6,
+html[lang="fa-IR"] h1,
+html[lang="fa-IR"] h2,
+html[lang="fa-IR"] h3,
+html[lang="fa-IR"] h4,
+html[lang="fa-IR"] h5,
+html[lang="fa-IR"] h6,
+html[lang="haz"] h1,
+html[lang="haz"] h2,
+html[lang="haz"] h3,
+html[lang="haz"] h4,
+html[lang="haz"] h5,
+html[lang="haz"] h6,
+html[lang="ps"] h1,
+html[lang="ps"] h2,
+html[lang="ps"] h3,
+html[lang="ps"] h4,
+html[lang="ps"] h5,
+html[lang="ps"] h6,
+html[lang="ur"] h1,
+html[lang="ur"] h2,
+html[lang="ur"] h3,
+html[lang="ur"] h4,
+html[lang="ur"] h5,
+html[lang="ur"] h6 {
+	font-weight: 700;
+}
+
+/* Typography for Chinese Font */
+html[lang^="zh-"] body,
+html[lang^="zh-"] button,
+html[lang^="zh-"] input,
+html[lang^="zh-"] select,
+html[lang^="zh-"] textarea {
+	font-family: "PingFang TC", "Helvetica Neue", Helvetica, STHeitiTC-Light, Arial, sans-serif;
+}
+html[lang="zh-CN"] body,
+html[lang="zh-CN"] button,
+html[lang="zh-CN"] input,
+html[lang="zh-CN"] select,
+html[lang="zh-CN"] textarea {
+	font-family: "PingFang SC", "Helvetica Neue", Helvetica, STHeitiSC-Light, Arial, sans-serif;
+}
+html[lang^="zh-"] h1,
+html[lang^="zh-"] h2,
+html[lang^="zh-"] h3,
+html[lang^="zh-"] h4,
+html[lang^="zh-"] h5,
+html[lang^="zh-"] h6 {
+	font-weight: 700;
+}
+
+/* Typography for Cyrillic Font */
+html[lang="bg-BG"] body,
+html[lang="bg-BG"] button,
+html[lang="bg-BG"] input,
+html[lang="bg-BG"] select,
+html[lang="bg-BG"] textarea,
+html[lang="ru-RU"] body,
+html[lang="ru-RU"] button,
+html[lang="ru-RU"] input,
+html[lang="ru-RU"] select,
+html[lang="ru-RU"] textarea,
+html[lang="uk"] body,
+html[lang="uk"] button,
+html[lang="uk"] input,
+html[lang="uk"] select,
+html[lang="uk"] textarea {
+	font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+}
+html[lang="bg-BG"] h1,
+html[lang="bg-BG"] h2,
+html[lang="bg-BG"] h3,
+html[lang="bg-BG"] h4,
+html[lang="bg-BG"] h5,
+html[lang="bg-BG"] h6,
+html[lang="ru-RU"] h1,
+html[lang="ru-RU"] h2,
+html[lang="ru-RU"] h3,
+html[lang="ru-RU"] h4,
+html[lang="ru-RU"] h5,
+html[lang="ru-RU"] h6,
+html[lang="uk"] h1,
+html[lang="uk"] h2,
+html[lang="uk"] h3,
+html[lang="uk"] h4,
+html[lang="uk"] h5,
+html[lang="uk"] h6 {
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+/* Typography for Devanagari Font */
+html[lang="bn-BD"] body,
+html[lang="bn-BD"] button,
+html[lang="bn-BD"] input,
+html[lang="bn-BD"] select,
+html[lang="bn-BD"] textarea,
+html[lang="hi-IN"] body,
+html[lang="hi-IN"] button,
+html[lang="hi-IN"] input,
+html[lang="hi-IN"] select,
+html[lang="hi-IN"] textarea,
+html[lang="mr-IN"] body,
+html[lang="mr-IN"] button,
+html[lang="mr-IN"] input,
+html[lang="mr-IN"] select,
+html[lang="mr-IN"] textarea {
+	font-family: Arial, sans-serif;
+}
+html[lang="bn-BD"] h1,
+html[lang="bn-BD"] h2,
+html[lang="bn-BD"] h3,
+html[lang="bn-BD"] h4,
+html[lang="bn-BD"] h5,
+html[lang="bn-BD"] h6,
+html[lang="hi-IN"] h1,
+html[lang="hi-IN"] h2,
+html[lang="hi-IN"] h3,
+html[lang="hi-IN"] h4,
+html[lang="hi-IN"] h5,
+html[lang="hi-IN"] h6,
+html[lang="mr-IN"] h1,
+html[lang="mr-IN"] h2,
+html[lang="mr-IN"] h3,
+html[lang="mr-IN"] h4,
+html[lang="mr-IN"] h5,
+html[lang="mr-IN"] h6 {
+	font-weight: 700;
+}
+
+/* Typography for Greek Font */
+html[lang="el"] body,
+html[lang="el"] button,
+html[lang="el"] input,
+html[lang="el"] select,
+html[lang="el"] textarea {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+html[lang="el"] h1,
+html[lang="el"] h2,
+html[lang="el"] h3,
+html[lang="el"] h4,
+html[lang="el"] h5,
+html[lang="el"] h6 {
+	font-weight: 700;
+	line-height: 1.3;
+}
+
+/* Typography for Gujarati Font */
+html[lang="gu-IN"] body,
+html[lang="gu-IN"] button,
+html[lang="gu-IN"] input,
+html[lang="gu-IN"] select,
+html[lang="gu-IN"] textarea {
+	font-family: Arial, sans-serif;
+}
+html[lang="gu-IN"] h1,
+html[lang="gu-IN"] h2,
+html[lang="gu-IN"] h3,
+html[lang="gu-IN"] h4,
+html[lang="gu-IN"] h5,
+html[lang="gu-IN"] h6 {
+	font-weight: 700;
+}
+
+/* Typography for Hebrew Font */
+html[lang="he-IL"] body,
+html[lang="he-IL"] button,
+html[lang="he-IL"] input,
+html[lang="he-IL"] select,
+html[lang="he-IL"] textarea {
+	font-family: "Arial Hebrew", Arial, sans-serif;
+}
+html[lang="he-IL"] h1,
+html[lang="he-IL"] h2,
+html[lang="he-IL"] h3,
+html[lang="he-IL"] h4,
+html[lang="he-IL"] h5,
+html[lang="he-IL"] h6 {
+	font-weight: 700;
+}
+
+/* Typography for Japanese Font */
+html[lang="ja"] body,
+html[lang="ja"] button,
+html[lang="ja"] input,
+html[lang="ja"] select,
+html[lang="ja"] textarea {
+	font-family: "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+}
+html[lang="ja"] h1,
+html[lang="ja"] h2,
+html[lang="ja"] h3,
+html[lang="ja"] h4,
+html[lang="ja"] h5,
+html[lang="ja"] h6 {
+	font-weight: 700;
+}
+
+/* Typography for Korean font */
+html[lang="ko-KR"] body,
+html[lang="ko-KR"] button,
+html[lang="ko-KR"] input,
+html[lang="ko-KR"] select,
+html[lang="ko-KR"] textarea {
+	font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
+}
+html[lang="ko-KR"] h1,
+html[lang="ko-KR"] h2,
+html[lang="ko-KR"] h3,
+html[lang="ko-KR"] h4,
+html[lang="ko-KR"] h5,
+html[lang="ko-KR"] h6 {
+	font-weight: 600;
+}
+
+/* Typography for Thai Font */
+html[lang="th"] h1,
+html[lang="th"] h2,
+html[lang="th"] h3,
+html[lang="th"] h4,
+html[lang="th"] h5,
+html[lang="th"] h6 {
+	line-height: 1.65;
+	font-family: "Sukhumvit Set", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+html[lang="th"] body,
+html[lang="th"] button,
+html[lang="th"] input,
+html[lang="th"] select,
+html[lang="th"] textarea {
+	line-height: 1.8;
+	font-family: "Sukhumvit Set", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Remove letter-spacing for all non-latin alphabets */
+html[lang="ar"] *,
+html[lang="ary"] *,
+html[lang="azb"] *,
+html[lang="haz"] *,
+html[lang="ps"] *,
+html[lang^="zh-"] *,
+html[lang="bg-BG"] *,
+html[lang="ru-RU"] *,
+html[lang="uk"] *,
+html[lang="bn-BD"] *,
+html[lang="hi-IN"] *,
+html[lang="mr-IN"] *,
+html[lang="el"] *,
+html[lang="gu-IN"] *,
+html[lang="he-IL"] *,
+html[lang="ja"] *,
+html[lang="ko-KR"] *,
+html[lang="th"] * {
+	letter-spacing: 0 !important;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+label {
+	color: #313131;
+	display: block;
+	font-weight: 600;
+	margin-bottom: 10px;
+    text-transform: uppercase;
+}
+fieldset {
+	margin-bottom: 15px;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: #666;
+	background: #fff;
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #fff;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+	padding: 10px;
+	width: 100%;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #222;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #fab702;
+}
+select {
+	border: 1px solid #bbb;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	height: 48px;
+	max-width: 100%;
+}
+input[type="radio"],
+input[type="checkbox"] {
+	margin-right: 10px;
+}
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+	font-weight: 400;
+}
+button,
+input[type="button"],
+input[type="submit"] {
+	background-color: #fab702;
+    border: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 18px 20px;
+    text-shadow: none;
+    font-family: Work Sans;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+ 	text-transform: uppercase;
+}
+input + button,
+input + input[type="button"],
+input + input[type="submit"] {
+	padding: 10px 30px;
+}
+input[type="submit"]{
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+button.secondary,
+input[type="reset"],
+input[type="button"].secondary,
+input[type="reset"].secondary,
+input[type="submit"].secondary {
+	background-color: #ddd;
+	color: #313131;
+}
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	opacity: 0.8;
+}
+button.secondary:hover,
+button.secondary:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="button"].secondary:hover,
+input[type="button"].secondary:focus,
+input[type="reset"].secondary:hover,
+input[type="reset"].secondary:focus,
+input[type="submit"].secondary:hover,
+input[type="submit"].secondary:focus {
+	background: #bbb;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+	color: #313131;
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+:-moz-placeholder {
+	color: #313131;
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+::-moz-placeholder {
+	color: #313131;
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	opacity: 1;
+	/* Since FF19 lowers the opacity of the placeholder by default */
+}
+:-ms-input-placeholder {
+	color: #313131;
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+/* ==========================================================================
+   Formatting
+   ========================================================================== */
+hr {
+	background-color: #bbb;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+ul,
+ol {
+	margin: 0 0 25px;
+	padding: 0;
+}
+ul {
+	list-style: disc;
+}
+ol {
+	list-style: decimal;
+}
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 25px;
+}
+dt {
+	font-weight: 700;
+}
+dd {
+	margin: 0 25px 25px;
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+table {
+	border-collapse: collapse;
+	margin: 0 0 25px;
+	width: 100%;
+    border: 1px solid #eee;
+}
+.comment-content table{
+    border-left: 1px solid #eee;
+}
+.comment-content tr:first-child th,
+thead th {
+	border: 1px solid #eee;
+	padding: 10px 10px;
+}
+table th a{
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+	padding: 10px 15px;
+}
+table th a:hover{
+    color: #fab702!important;
+}
+th {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+	text-align: left;
+    font-weight: 700;
+    border: 1px solid #eee;
+    padding: 10px 15px;
+}
+tr {
+	border-bottom: 1px solid #eee;
+}
+td {
+	padding: 10px;
+}
+th:first-child,
+td:first-child {}
+th:last-child,
+td:last-child {}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+a {
+	color: #555;
+	text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	color: #313131;
+	outline: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover effects */
+.entry-content a,
+.entry-summary a,
+.widget a,
+.site-footer .widget-area a,
+.posts-navigation a,
+.widget_authors a strong {}
+.entry-title a,
+.entry-meta a,
+.page-links a,
+.page-links a .page-number,
+.entry-footer a,
+.entry-footer .cat-links a,
+.entry-footer .tags-links a,
+.edit-link a,
+.post-navigation a,
+.logged-in-as a,
+.comment-navigation a,
+.comment-metadata a,
+.comment-metadata a.comment-edit-link,
+.comment-reply-link,
+a .nav-title,
+.pagination a,
+.comments-pagination a,
+.site-info a,
+.widget .widget-title a,
+.widget ul li a,
+.site-footer .widget-area ul li a,
+.site-footer .widget-area ul li a {
+	text-decoration: none;
+}
+.entry-content a:focus,
+.entry-content a:hover,
+.entry-summary a:focus,
+.entry-summary a:hover,
+.widget a:focus,
+.widget a:hover,
+.site-footer .widget-area a:focus,
+.site-footer .widget-area a:hover,
+.posts-navigation a:focus,
+.posts-navigation a:hover,
+.comment-metadata a:focus,
+.comment-metadata a:hover,
+.comment-metadata a.comment-edit-link:focus,
+.comment-metadata a.comment-edit-link:hover,
+.comment-reply-link:focus,
+.comment-reply-link:hover,
+.widget_authors a:focus strong,
+.widget_authors a:hover strong,
+.entry-title a:focus,
+.entry-title a:hover,
+.entry-meta a:focus,
+.entry-meta a:hover,
+.page-links a:focus .page-number,
+.page-links a:hover .page-number,
+.entry-footer a:focus,
+.entry-footer a:hover,
+.entry-footer .cat-links a:focus,
+.entry-footer .cat-links a:hover,
+.entry-footer .tags-links a:focus,
+.entry-footer .tags-links a:hover,
+.post-navigation a:focus,
+.post-navigation a:hover,
+.pagination a:not(.prev):not(.next):focus,
+.pagination a:not(.prev):not(.next):hover,
+.comments-pagination a:not(.prev):not(.next):focus,
+.comments-pagination a:not(.prev):not(.next):hover,
+.logged-in-as a:focus,
+.logged-in-as a:hover,
+a:focus .nav-title,
+a:hover .nav-title,
+.edit-link a:focus,
+.edit-link a:hover,
+.site-info a:focus,
+.site-info a:hover,
+.widget .widget-title a:focus,
+.widget .widget-title a:hover,
+.widget ul li a:focus,
+.widget ul li a:hover {
+	color: #313131;
+}
+
+/* Fixes linked images */
+.entry-content a img,
+.widget a img {
+	-webkit-box-shadow: 0 0 0 8px #fff;
+	box-shadow: 0 0 0 8px #fff;
+}
+.post-navigation a:focus .icon,
+.post-navigation a:hover .icon {
+	color: #222;
+}

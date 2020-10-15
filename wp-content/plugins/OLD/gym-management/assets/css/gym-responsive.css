@@ -1,0 +1,454 @@
+/* start member workout design*/
+@media only screen and (max-width : 991px) 
+{
+	.workout_box
+	{
+		margin-bottom: 10px;
+		width: 48%;		
+		margin-right: 10px;
+	}
+	.activity_width,.activity_width_fronted
+	{
+		float: left;
+		width: 80%;
+		padding-left: 10px!important;
+	}
+}
+@media only screen and (max-width : 729px) 
+{
+	.activity_width_fronted
+	{
+		width: 77%;
+	}
+}
+@media only screen and (max-width : 679px) 
+{
+	.activity_width
+	{
+		width: 78%;		
+	}
+	.activity_width_fronted 
+	{
+		width: 73%;
+	}
+}
+@media only screen and (max-width : 637px) 
+{
+	.activity_width
+	{
+		width: 75%;		
+	}
+	.workout_box
+	{	
+		width: 47%;	
+	}
+	.activity_width_fronted 
+	{
+		width: 70%;
+	}
+}
+@media only screen and (max-width : 587px) 
+{
+	.activity_width
+	{
+		width: 72%;		
+	}
+	.activity_width_fronted 
+	{
+		width: 68%;
+	}
+	.workout_box
+	{	
+		width: 46%;	
+	}
+	.workout_of
+	{
+		font-size: 13px!important;
+	}
+	img.dashboard_background_second {
+		right: -22px;
+	}
+}
+@media only screen and (max-width : 587px) 
+{
+	.workout_box
+	{	
+		width: 100%;	
+	}	
+	.workout_of
+	{
+		font-size: 16px!important;
+	}
+	.activity_width 
+	{
+		width: 85%;
+	}
+	.activity_width_fronted 
+	{
+		width: 80%;
+	}
+}
+@media only screen and (max-width : 470px) 
+{
+	.activity_width 
+	{
+		width: 82%;
+	}
+	.activity_width_fronted 
+	{
+		width: 77%;
+	}
+}
+@media only screen and (max-width : 420px) 
+{
+	.activity_width 
+	{
+		width: 79%;
+	}
+	.activity_width_fronted 
+	{
+		width: 73%;
+	}
+	.workout_of 
+	{
+		font-size: 13px!important;
+	}
+}
+@media only screen and (max-width : 375px) 
+{
+	.activity_width 
+	{
+		width: 77%;
+	}
+	.activity_width_fronted 
+	{
+		width: 72%;
+	}
+}
+@media only screen and (max-width : 345px) 
+{
+	.activity_width 
+	{
+		width: 73%;
+	}
+	.activity_width_fronted 
+	{
+		width: 68%;
+	}
+	.workout_of 
+	{
+		font-size: 10px!important;
+	}
+	.activity_width_fronted
+	{
+	    padding-left: 8px!important;
+	}
+}
+@media only screen and (max-width : 1400px) 
+{
+	.workout_of
+	{
+		font-size: 15px;
+	}
+}
+@media (min-width: 1168px) and (max-width: 1260px)
+{
+	.workout_of
+	{
+		font-size: 14px!important;
+	}
+	.padding_10
+	{
+		padding-left:10px!important;
+	}
+}
+@media (min-width: 1075px) and (max-width: 1167px)
+{
+	.workout_of
+	{		
+		font-size: 12px!important;
+	}	
+	.padding_10
+	{
+		padding-left:12px!important;
+	}
+}
+@media (min-width: 1042px) and (max-width: 1076px)
+{
+	.workout_of
+	{		
+		font-size: 11px!important;
+	}	
+	.padding_10
+	{
+		padding-left:15px!important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1043px)
+{
+	.workout_of
+	{		
+		font-size: 10px!important;
+	}	
+	.padding_10
+	{
+		padding-left:15px!important;
+	}
+}
+/* end member workout design*/
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 990px) {
+.col-md-4.member_right {
+  margin-left: 0;
+   margin-top: 40px;
+  width: 100%;
+}
+.col-md-3 .checkbox {
+  float: left;
+  margin: 0 5px;
+}
+.col-md-8.activity_list {
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
+.col-md-6.staff_report_all{
+	padding:0px;
+}
+}
+@media only screen and (max-width : 920px) {
+	.fc-toolbar .fc-state-active, .fc-toolbar .ui-state-active {
+  z-index: 3;
+}
+.gym-management-content .page-inner {
+  margin-left: 0;
+  margin-top: 115px;
+}
+.nav-side-menu .toggle-btn, .nav-side-menu .brand {
+  background: #2e353d none repeat scroll 0 0;
+  color: #ffffff;
+  display: block;
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+.nav.nav-pills.nav-stacked.collapse.in {
+  background: #2e353d none repeat scroll 0 0;
+  margin-top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 4;
+}
+	
+	.gym-management-content .col-sm-2.nopadding.gym_left{width:100%; position: absolute;}
+	.gym_left ul li a {float: left;width:100%;}
+
+	 .nav-side-menu {
+  
+    width: 100%;
+     margin-top: 65px;
+    margin-bottom: 10px;
+  }
+ .nav-side-menu .toggle-btn {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-size: 27px;
+  height: 32px;
+  padding: 3px;
+  position: absolute;
+  right: 12px;
+  text-align: center;
+  top: 10px;
+  width: 48px;
+}
+   .brand {
+    text-align: left !important;
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 50px !important;
+  }
+}
+@media only screen and (max-width : 991px) {
+.mailbox-header h2{
+	margin: 0 !important; 
+    text-align: left !important;
+}
+.work_out_datalist{
+	padding:0;
+}
+}
+@media only screen and (max-width : 768px) {
+.membr_left .col-md-6.right_side,.membr_left .col-md-6.left_side{width:100%;margin-top:10px;}
+.right_side .table_row, .member_right .table_row{margin-top:10px;}
+.table_row .table_td{float:left;}
+	.right_side .panel.info-box .panel-body {
+  background-position: right 0;
+}
+.overlay-content {
+  left: 15%;
+  width: 96%;
+}
+#btn-add-cat {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#addremove {
+    margin-top: 10px;
+}
+.col-md-6.borderleft {
+  margin-left: 0;
+  width: 100%;
+}
+.mailbox-header h2{
+	margin-top:10px !important;
+	margin-top:10px !important;
+}
+.col-md-8.membr_left, .col-md-4.member_right{float:left; margin-top: 40px;}
+.form-group .col-sm-10 .col-md-3 .checkbox
+{
+	float: left;	
+ }
+input[type=radio], input[type=checkbox] 
+{
+	height: 20px;
+    width: 20px;
+}	
+.form-group input[type="checkbox"],.form-group  input[type="radio"]
+{
+	 margin-left: -24px;
+}
+	.work_out_datalist .col-md-3.col-sm-3.col-xs-12 {
+  font-weight: bold;
+}
+.col-sm-3 .btn-success{margin-top:10px;}
+#income_form #income_entry input {
+    margin-bottom: 6px;
+}
+
+}
+@media only screen and (max-width : 600px) {
+	.mainpage .navbar h3 span {
+	  display: none;
+	}
+	.right_side .panel.info-box .panel-body {
+  background-position: right 0;
+}
+
+}
+@media only screen and (max-width : 480px) 
+{
+	.col-md-4.membership-list{
+	  width: 100% !important;
+	  float:left !important;
+	}
+	.col-md-8.col-sm-8.col-xs-6 {
+	  width: 20%;
+	}
+	.nav.navbar-right.col-md-4.col-sm-4.col-xs-6 {
+	  width: 79%;
+	}
+	.right_side .col-xs-6 {
+	  width: 100%;
+	}
+	#main-wrapper .col-xs-6 {
+	  width: 100%;
+	}
+	.info-box .panel-body {
+	  background-position: right center !important;
+	}
+	#calendar .fc-toolbar .fc-left,
+	#calendar .fc-toolbar .fc-right,
+	#calendar .fc-toolbar .fc-center
+	{float:left;width: 100%;padding-bottom:10px;}
+	.table .btn-primary{width: 100%;margin-bottom:5px;}
+	.period_box {
+	  position: relative;
+	  white-space: normal;
+	}
+	
+	.team .team-member{width:100%;}
+	.achilactiveadd{width:100%;padding-left: 0px;}
+	.col-md-6.sets-row {
+
+  width: 100%;
+}
+	
+}
+
+@media only screen and (max-width : 767px) 
+{
+	.view_details_popup_body
+	{
+		overflow: scroll;
+		height: 250px;
+	}	
+}
+@media (min-width: 1000px) and (max-width: 1200px)
+{
+	.view_details_popup_body label
+	{
+		font-size: 11px!important;
+	}
+}
+@media (min-width: 768px) and (max-width: 1450px)
+{
+	#addremove
+	{		
+		font-size: 12px;
+		padding: 2px;
+		margin-right: 0px!important;
+	}
+} 
+
+/* rinkal new add responsive css*/
+@media only screen and (max-width : 470px) 
+{
+	.membership_btn .panel-body{
+		overflow: scroll;
+	}
+	.invoice_btn .panel-body{
+		overflow: scroll;
+	}
+	.page-title h3 {
+    font-size: 19px;}
+	.tooltiptopicevent {
+    width: auto !important;
+    height: auto !important;
+    left: 75px !important;
+    right: 25px !important;
+	}
+}
+@media only screen and (max-width : 900px) {
+	#main-wrapper{
+		margin: 20px 20px 20px 28px !important;
+	}
+}
+@media only screen and (max-width : 380px) 
+{
+	.panel .panel-heading .panel-title {
+		font-size: 18px !important;
+	}
+	.calendar-event .remainder_title {
+		float: left;
+	}
+	.calendar-event .remainder_date {
+		float: left;
+	}
+	.calendar-event .remainder_title {
+		float: left;
+		width: calc(100% - 0%);
+	}
+	.calendar-event .remainder_title_pr {
+		float: left!important;
+		width: calc(100% - 49px)!important;
+	}
+	.calendar-event .remainder_date_pr {
+		float: left;
+	}
+	.col-md-6.report_all{
+		padding: 0px;
+	}
+	
+}

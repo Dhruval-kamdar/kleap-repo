@@ -1,0 +1,78 @@
+/**
+  ===================
+      ShortCode
+  ===================
+
+ */
+#dsn-grid-shortcode {
+
+  .btn-dsn-shortcode {
+    padding: 10px;
+    margin: 10px;
+
+    i {
+      display: block;
+      padding: 5px;
+    }
+
+  }
+
+  .modal {
+    .form-control , .form-group{
+
+    }
+  }
+
+
+}
+
+
+/**
+  ===================
+      Button Remove
+  ===================
+
+ */
+
+.hdev-media-remove {
+  display: inline-block;
+  padding: 5px;
+
+  button {
+    background-color: #212121;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    position: absolute;
+    margin: 5px;
+    display: none;
+  }
+
+  &:hover {
+    button {
+      display: block;
+    }
+
+  }
+
+}
+
+
+
+.button {
+  &.btn-info{
+    background-color: #212121;
+    color: #fff;
+    border: 1px solid #212121;
+    border-radius: 3px;
+  }
+}
+
+
+.modal{
+  &.hdev-custom-model{
+    z-index: 99999999;
+  }
+
+
+}

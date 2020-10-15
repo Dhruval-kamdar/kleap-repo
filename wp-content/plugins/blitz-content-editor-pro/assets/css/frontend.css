@@ -1,0 +1,74 @@
+.elementor-widget-cep-progress .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: #6ec1e4;
+}
+.elementor-widget-cep-progress .elementor-progress-wrapper.progress-danger .elementor-progress-bar {
+    background-color: #d9534f;
+}
+
+.elementor-widget-cep-progress .elementor-progress-wrapper.progress-info .elementor-progress-bar {
+    background-color: #5bc0de;
+}
+.elementor-widget-cep-progress .elementor-progress-wrapper.progress-success .elementor-progress-bar {
+    background-color: #5cb85c;
+}
+.elementor-widget-cep-progress .elementor-progress-wrapper.progress-warning .elementor-progress-bar {
+    background-color: #f0ad4e;
+}
+.elementor-page .elementor-flip-box__image img {
+    width: auto;
+}
+.elementor-widget-cep-icon-box .elementor-icon-box-wrapper {
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+.elementor-widget-cep-icon-box.elementor-position-left .elementor-icon-box-icon, .elementor-widget-cep-icon-box.elementor-position-right .elementor-icon-box-icon{
+-webkit-box-flex: 0;
+-webkit-flex: 0 0 auto;
+-ms-flex: 0 0 auto;
+flex: 0 0 auto;
+}
+
+.elementor-widget-cep-icon-box.elementor-vertical-align-top .elementor-icon-box-wrapper {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.elementor-widget-cep-icon-box.elementor-position-left .elementor-icon-box-wrapper {
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.elementor-widget-cep-icon-box.elementor-position-left .elementor-icon-box-wrapper, .elementor-widget-cep-icon-box.elementor-position-right .elementor-icon-box-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.elementor-widget-cep-icon-box.elementor-vertical-align-top .elementor-icon-box-wrapper {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.elementor-widget-cep-icon-box.elementor-position-right .elementor-icon-box-wrapper {
+    text-align: right;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+.elementor-widget-cep-icon-box.elementor-position-left .elementor-icon-box-wrapper, .elementor-widget-cep-icon-box.elementor-position-right .elementor-icon-box-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+}

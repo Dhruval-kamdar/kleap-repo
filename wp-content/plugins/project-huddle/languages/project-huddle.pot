@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: assets/js/src/app/components/dialog/DialogApproval.vue:107
+msgid "project"
+msgstr ""
+
+#: assets/js/src/app/components/dialog/DialogApproval.vue:108
+msgid "item"
+msgstr ""
+
+#: assets/js/src/app/components/dialog/DialogApproval.vue:112
+msgid "unapprove"
+msgstr ""
+
+#: assets/js/src/app/components/dialog/DialogApproval.vue:113
+msgid "approve"
+msgstr ""
+
+#: assets/js/src/app/components/dialog/DialogApproval.vue:117
+msgid "Are you sure you want to %1s this %2s?"
+msgstr ""
+
+#: assets/js/src/app/components/dialog/DialogApproval.vue:142
+msgid "this page"
+msgstr ""
+
+#: assets/js/src/app/components/dialog/DialogApproval.vue:143
+msgid "this website"
+msgstr ""
+
+#: assets/js/src/app/components/dialog/DialogApproval.vue:147
+msgid "terms"
+msgstr ""

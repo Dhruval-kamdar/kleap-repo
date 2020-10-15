@@ -1,0 +1,26 @@
+= v1.3.1 ( 04 Feb, 2020 ) =
+--------------------------
+- [fix] Fix script loading issue and conflict with CRM
+
+= v1.3.0 ( 02 Sep, 2019 ) =
+--------------------------
+- [new] Compatible with new accounting module
+
+= v1.1.0 ( 25 Oct, 2018 ) =
+--------------------------
+- [new] Update Inventory menu
+- [improved] Make compatible with old erp versions
+
+= v1.0.1 ( 27 Apr, 2016 ) =
+--------------------------
+- [fix] Load scripts only in specific pages
+- [fix] Place holder text corrected
+- [fix] Menu capability changed
+- [fix] Turn off pre loading reports in sales and purchase report
+- [fix] Prefix added in functions
+- [fix] sku text changed to item code
+- [fix] Fix some text those are came from recruitment code
+
+= v1.0.0 (26 July, 2016) =
+--------------------------
+- Initial release

@@ -1,0 +1,29 @@
+.post-full-content , .widget_text {
+
+	/* -------------------------------
+             Table
+  ------------------------------- */
+	table {
+		margin: 0 0 1rem;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	table td,
+	table th {
+		padding: 0.5em;
+		border: 1px solid #767676;
+		word-break: break-all;
+		text-align: center;
+		color: #fff;
+	}
+
+	table th{
+		background: #212121;
+	}
+}
+
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+	background-color: #212121;
+}
+

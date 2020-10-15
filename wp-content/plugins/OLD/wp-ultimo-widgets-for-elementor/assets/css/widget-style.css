@@ -1,0 +1,942 @@
+ul.wu_status_list, .ultimo-account-actions-ul, .wu-button-upgrade-account {
+    list-style: none !important;
+    padding-left: 0;
+    margin: 0;
+ }
+
+ .wh-ultimo-notification-wrapper{
+    position: fixed !important;
+    top:      30px !important;
+    right:    10px !important;
+    box-shadow: none !important;
+ }
+ .swal2-popup.swal2-toast {
+   box-shadow: none !important;
+}
+ 
+ /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+   display: block;
+ }
+
+.ultimo-account-actions-ul {
+    margin: 20px 0 0 0;
+ }
+
+.waashero-module {
+   border-radius: 5px;
+   overflow: hidden;
+   padding: 20px;
+   background: #efefef;
+}
+.waashero-module-title {
+   padding: 10px 20px;
+   margin: -20px -20px 0 -20px;
+   font-size: 15px;
+   background: #e0dede;
+}
+.waashero-account-stats-action, .waashero-change-plan-action, .waashero-custom-domain-action-style {
+   background:  #5598cc;
+   color:white;
+   display: inline-block;
+   max-width: 100%;
+   text-align: center;
+   line-height: 40px;
+   padding: 0 20px;
+   margin: 15px 0 0 0;
+ }
+
+.ultimo-account-actions-ul a {
+   background-color: #5598cc;
+   color: #ffffff;
+   margin: 0;
+   display: inline-block;
+   text-align: center;
+   line-height: 40px;
+   padding: 0 20px;
+
+}
+
+.wu-button-upgrade-account a{
+   background-color: #677ADA;
+   display: inline-block;
+   line-height: 40px;
+   padding: 0 20px;
+
+}
+
+.waashero-ultimo-action-btn {
+   max-width: 100%;
+   text-align: center;
+}
+.waashero-custom-domain-action {
+
+   display: inline-block ;
+   border: none !important;
+   cursor: pointer !important;
+   box-shadow: none;
+   text-align: center;
+}
+.waashero-custom-domain-action:hover {
+   display: inline-block ;
+   border: none;
+   cursor: pointer !important;
+   box-shadow: none;
+   text-align: center;
+}
+.wp-core-ui .button, .wp-core-ui .button-primary, .wp-core-ui .button-secondary {
+   display: inline-block;
+   text-decoration: none;
+   font-size: 13px;
+   line-height: inherit;
+   text-align: center;
+}
+.waashero-account-stats-action:hover{
+   color:white;
+}
+
+ 
+
+ .account-stats-field-desc{
+    margin:0;
+    padding:0;
+ }
+
+
+ .waashero-module a { text-decoration: none !important; } 
+ .waashero-module a:hover {text-decoration: none !important; color:white;}
+ 
+ .wu-button-upgrade-account .upgrade-account p{
+    margin:0;
+ }
+ .wu-plan-selector {
+    overflow: hidden;
+ }
+ .wu-plan-selector .wu-plan-selector-plan.wu-plan {
+    overflow: hidden;
+    padding: 12px;
+    border-bottom: 1px solid #ececec;
+ }
+ .wu-plan-selector .plan-price {
+    float: right;
+    background: inherit;
+    padding: 7px;
+    border-radius: 5px;
+    text-align: right;
+ }
+ .wu-plan-selector .wu-plan-selector-plan.wu-plan strong {
+    font-size: 11px;
+ }
+ .wu-plan-selector .wu-plan-selector-plan.wu-plan.plan-active {
+    background: #f0f0f080;
+ }
+ .wu-plan-selector .wu-plan-selector-plan.wu-plan.plan-active .plan-price{
+    background: #f0f0f000;
+ }
+ 
+ 
+    #wp-ultimo-account .inside,
+    #wp-ultimo-account-status-waashero .inside,
+    #wp-ultimo-custom-domain-waashero .inside,
+    #wp-ultimo-quotas-waashero .inside,
+    #wp-ultimo-mrr .inside,
+    #wp-ultimo-users .inside,
+    #wp-ultimo-general .inside {
+     padding:0;
+     margin:0
+    }
+    #wp-ultimo-account .wu-inside-graphs,
+    #wp-ultimo-account-status-waashero .wu-inside-graphs,
+    #wp-ultimo-custom-domain-waashero .wu-inside-graphs,
+    #wp-ultimo-quotas-waashero .wu-inside-graphs,
+    #wp-ultimo-mrr .wu-inside-graphs,
+    #wp-ultimo-users .wu-inside-graphs,
+    #wp-ultimo-general .wu-inside-graphs {
+     padding:24px 12px 12px;
+     border-top:solid 1px #eee
+    }
+
+    #wp-ultimo-account-stats .wu_status_list,
+    #wp-ultimo-account-status-waashero .wu_status_list,
+    #wp-ultimo-custom-domain-waashero .wu_status_list,
+    #wp-ultimo-quotas-waashero .wu_status_list,
+    #wp-ultimo-mrr .wu_status_list,
+    #wp-ultimo-users .wu_status_list,
+    #wp-ultimo-general .wu_status_list {
+     overflow:hidden;
+     margin: 7px 0 0 0;
+    }
+    #wp-ultimo-account-stats .wu_status_list li,
+    #wp-ultimo-account-status-waashero .wu_status_list li,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li,
+    #wp-ultimo-quotas-waashero .wu_status_list li,
+    #wp-ultimo-mrr .wu_status_list li,
+    #wp-ultimo-users .wu_status_list li,
+    #wp-ultimo-general .wu_status_list li {
+     width:50%;
+     float:left;
+     padding:0;
+     box-sizing:border-box;
+     margin:0;
+     border-top:1px solid #ececec;
+    }
+    #wp-ultimo-account-stats .wu_status_list li.full,
+    #wp-ultimo-account-status-waashero .wu_status_list li.full,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.full,
+    #wp-ultimo-quotas-waashero .wu_status_list li.full,
+    #wp-ultimo-mrr .wu_status_list li.full,
+    #wp-ultimo-users .wu_status_list li.full,
+    #wp-ultimo-general .wu_status_list li.full {
+     width:100%
+    }
+    #wp-ultimo-account-stats .wu_status_list li input.regular-text,
+    #wp-ultimo-account-status-waashero .wu_status_list li input.regular-text,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li input.regular-text,
+    #wp-ultimo-quotas-waashero .wu_status_list li input.regular-text,
+    #wp-ultimo-mrr .wu_status_list li input.regular-text,
+    #wp-ultimo-users .wu_status_list li input.regular-text,
+    #wp-ultimo-general .wu_status_list li input.regular-text {
+     width:100%
+    }
+    #wp-ultimo-account-stats .wu_status_list li p,
+    #wp-ultimo-account-status-waashero .wu_status_list li p,
+    #wp-ultimo-quotas-waashero .wu_status_list li p,
+    #wp-ultimo-mrr .wu_status_list li p,
+    #wp-ultimo-users .wu_status_list li p,
+    #wp-ultimo-general .wu_status_list li p {
+     margin:0;
+     display:block;
+     padding:10px 0;
+     -webkit-transition:all ease .5s;
+     position:relative;
+     font-size:15px;
+     border-top:1px solid #ececec
+    }
+    #wp-ultimo-custom-domain-waashero .wu_status_list li p{
+      margin:0;
+      display:block;
+      padding:10px 0 0 0;
+      -webkit-transition:all ease .5s;
+      position:relative;
+      font-size:15px;
+      border-top:1px solid #ececec
+     }
+    #wp-ultimo-account-stats .wu_status_list li p:first-child,
+    #wp-ultimo-account-status-waashero .wu_status_list li p:first-child,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li p:first-child,
+    #wp-ultimo-quotas-waashero .wu_status_list li p:first-child,
+    #wp-ultimo-mrr .wu_status_list li p:first-child,
+    #wp-ultimo-users .wu_status_list li p:first-child,
+    #wp-ultimo-general .wu_status_list li p:first-child {
+     border-top:0
+    }
+    #wp-ultimo-account-stats .wu_status_list li>a,
+    #wp-ultimo-account-stats .wu_status_list li>div,
+    #wp-ultimo-account-status-waashero .wu_status_list li>a,
+    #wp-ultimo-account-status-waashero .wu_status_list li>div,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li>a,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li>div,
+    #wp-ultimo-quotas-waashero .wu_status_list li>a,
+    #wp-ultimo-quotas-waashero .wu_status_list li>div,
+    #wp-ultimo-mrr .wu_status_list li>a,
+    #wp-ultimo-mrr .wu_status_list li>div,
+    #wp-ultimo-users .wu_status_list li>a,
+    #wp-ultimo-users .wu_status_list li>div,
+    #wp-ultimo-general .wu_status_list li>a,
+    #wp-ultimo-general .wu_status_list li>div {
+     display:block;
+     padding:9px 12px;
+     -webkit-transition:all ease .5s;
+     position:relative;
+     font-size:12px
+    }
+    #wp-ultimo-account-stats .wu_status_list li>a .wu_sparkline,
+    #wp-ultimo-account-stats .wu_status_list li>div .wu_sparkline,
+    #wp-ultimo-account-status-waashero .wu_status_list li>a .wu_sparkline,
+    #wp-ultimo-account-status-waashero .wu_status_list li>div .wu_sparkline,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li>a .wu_sparkline,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li>div .wu_sparkline,
+    #wp-ultimo-quotas-waashero .wu_status_list li>a .wu_sparkline,
+    #wp-ultimo-quotas-waashero .wu_status_list li>div .wu_sparkline,
+    #wp-ultimo-mrr .wu_status_list li>a .wu_sparkline,
+    #wp-ultimo-mrr .wu_status_list li>div .wu_sparkline,
+    #wp-ultimo-users .wu_status_list li>a .wu_sparkline,
+    #wp-ultimo-users .wu_status_list li>div .wu_sparkline,
+    #wp-ultimo-general .wu_status_list li>a .wu_sparkline,
+    #wp-ultimo-general .wu_status_list li>div .wu_sparkline {
+     width:200px;
+     height:40px;
+     display:block;
+     float:right;
+     position:absolute;
+     right:0;
+     top:50%;
+     margin-right:12px;
+     margin-top:-20px
+    }
+    #wp-ultimo-account-stats .wu_status_list li>a strong,
+    #wp-ultimo-account-stats .wu_status_list li>div strong,
+    #wp-ultimo-account-status-waashero .wu_status_list li>a strong,
+    #wp-ultimo-account-status-waashero .wu_status_list li>div strong,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li>a strong,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li>div strong,
+    #wp-ultimo-quotas-waashero .wu_status_list li>a strong,
+    #wp-ultimo-quotas-waashero .wu_status_list li>div strong,
+    #wp-ultimo-mrr .wu_status_list li>a strong,
+    #wp-ultimo-mrr .wu_status_list li>div strong,
+    #wp-ultimo-users .wu_status_list li>a strong,
+    #wp-ultimo-users .wu_status_list li>div strong,
+    #wp-ultimo-general .wu_status_list li>a strong,
+    #wp-ultimo-general .wu_status_list li>div strong {
+     font-size:18px;
+     line-height:1.2em;
+     font-weight:400;
+     display:block;
+     color:#21759b
+    }
+    #wp-ultimo-account-stats .wu_status_list li>a:before,
+    #wp-ultimo-account-stats .wu_status_list li>div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li>a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li>div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li>a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li>div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li>a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li>div:before,
+    #wp-ultimo-mrr .wu_status_list li>a:before,
+    #wp-ultimo-mrr .wu_status_list li>div:before,
+    #wp-ultimo-users .wu_status_list li>a:before,
+    #wp-ultimo-users .wu_status_list li>div:before,
+    #wp-ultimo-general .wu_status_list li>a:before,
+    #wp-ultimo-general .wu_status_list li>div:before {
+     font-family:WooCommerce;
+     speak:none;
+     font-weight:400;
+     font-variant:normal;
+     text-transform:none;
+     line-height:1;
+     -webkit-font-smoothing:antialiased;
+     margin:0;
+     text-indent:0;
+     position:absolute;
+     top:0;
+     left:0;
+     width:100%;
+     height:100%;
+     text-align:center;
+     content:"";
+     font-family:dashicons;
+     font-size:2em;
+     position:relative;
+     width:auto;
+     line-height:1.2em;
+     color:#464646;
+     float:left;
+     margin-right:12px;
+     margin-bottom:12px
+    }
+    #wp-ultimo-account-stats .wu_status_list li:first-child,
+    #wp-ultimo-account-status-waashero .wu_status_list li:first-child,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li:first-child,
+    #wp-ultimo-quotas-waashero .wu_status_list li:first-child,
+    #wp-ultimo-mrr .wu_status_list li:first-child,
+    #wp-ultimo-users .wu_status_list li:first-child,
+    #wp-ultimo-general .wu_status_list li:first-child {
+     border-top:0
+    }
+    #wp-ultimo-account-stats .wu_status_list li.account-status,
+    #wp-ultimo-account-status-waashero .wu_status_list li.account-status,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.account-status,
+    #wp-ultimo-quotas-waashero .wu_status_list li.account-status,
+    #wp-ultimo-mrr .wu_status_list li.account-status,
+    #wp-ultimo-users .wu_status_list li.account-status,
+    #wp-ultimo-general .wu_status_list li.account-status {
+     width:100%
+    }
+    #wp-ultimo-account-stats .wu_status_list li.streched,
+    #wp-ultimo-account-status-waashero .wu_status_list li.streched,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.streched,
+    #wp-ultimo-quotas-waashero .wu_status_list li.streched,
+    #wp-ultimo-mrr .wu_status_list li.streched,
+    #wp-ultimo-users .wu_status_list li.streched,
+    #wp-ultimo-general .wu_status_list li.streched {
+     width:100%
+    }
+    #wp-ultimo-account-stats .wu_status_list li.streched a,
+    #wp-ultimo-account-stats .wu_status_list li.streched div,
+    #wp-ultimo-account-status-waashero .wu_status_list li.streched a,
+    #wp-ultimo-account-status-waashero .wu_status_list li.streched div,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.streched a,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.streched div,
+    #wp-ultimo-quotas-waashero .wu_status_list li.streched a,
+    #wp-ultimo-quotas-waashero .wu_status_list li.streched div,
+    #wp-ultimo-mrr .wu_status_list li.streched a,
+    #wp-ultimo-mrr .wu_status_list li.streched div,
+    #wp-ultimo-users .wu_status_list li.streched a,
+    #wp-ultimo-users .wu_status_list li.streched div,
+    #wp-ultimo-general .wu_status_list li.streched a,
+    #wp-ultimo-general .wu_status_list li.streched div {
+     padding-top:20px;
+     padding-bottom:20px
+    }
+    #wp-ultimo-account-stats .wu_status_list li.streched a strong,
+    #wp-ultimo-account-stats .wu_status_list li.streched div strong,
+    #wp-ultimo-account-status-waashero .wu_status_list li.streched a strong,
+    #wp-ultimo-account-status-waashero .wu_status_list li.streched div strong,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.streched a strong,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.streched div strong,
+    #wp-ultimo-quotas-waashero .wu_status_list li.streched a strong,
+    #wp-ultimo-quotas-waashero .wu_status_list li.streched div strong,
+    #wp-ultimo-mrr .wu_status_list li.streched a strong,
+    #wp-ultimo-mrr .wu_status_list li.streched div strong,
+    #wp-ultimo-users .wu_status_list li.streched a strong,
+    #wp-ultimo-users .wu_status_list li.streched div strong,
+    #wp-ultimo-general .wu_status_list li.streched a strong,
+    #wp-ultimo-general .wu_status_list li.streched div strong {
+     font-size:2em
+    }
+    #wp-ultimo-account-stats .wu_status_list .growth,
+    #wp-ultimo-account-status-waashero .wu_status_list .growth,
+    #wp-ultimo-custom-domain-waashero .wu_status_list .growth,
+    #wp-ultimo-quotas-waashero .wu_status_list .growth,
+    #wp-ultimo-mrr .wu_status_list .growth,
+    #wp-ultimo-users .wu_status_list .growth,
+    #wp-ultimo-general .wu_status_list .growth {
+     float:right;
+     padding:6px;
+     border-radius:5px;
+     background:#fafafa;
+     font-size:18px
+    }
+    #wp-ultimo-account-stats .wu_status_list .growth.growth-positive,
+    #wp-ultimo-account-status-waashero .wu_status_list .growth.growth-positive,
+    #wp-ultimo-custom-domain-waashero .wu_status_list .growth.growth-positive,
+    #wp-ultimo-quotas-waashero .wu_status_list .growth.growth-positive,
+    #wp-ultimo-mrr .wu_status_list .growth.growth-positive,
+    #wp-ultimo-users .wu_status_list .growth.growth-positive,
+    #wp-ultimo-general .wu_status_list .growth.growth-positive {
+     color:green
+    }
+    #wp-ultimo-account-stats .wu_status_list .growth.growth-positive::before,
+    #wp-ultimo-account-status-waashero .wu_status_list .growth.growth-positive::before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list .growth.growth-positive::before,
+    #wp-ultimo-quotas-waashero .wu_status_list .growth.growth-positive::before,
+    #wp-ultimo-mrr .wu_status_list .growth.growth-positive::before,
+    #wp-ultimo-users .wu_status_list .growth.growth-positive::before,
+    #wp-ultimo-general .wu_status_list .growth.growth-positive::before {
+     content:"+ "
+    }
+    #wp-ultimo-account-stats .wu_status_list .growth.growth-negative,
+    #wp-ultimo-account-status-waashero .wu_status_list .growth.growth-negative,
+    #wp-ultimo-custom-domain-waashero .wu_status_list .growth.growth-negative,
+    #wp-ultimo-quotas-waashero .wu_status_list .growth.growth-negative,
+    #wp-ultimo-mrr .wu_status_list .growth.growth-negative,
+    #wp-ultimo-users .wu_status_list .growth.growth-negative,
+    #wp-ultimo-general .wu_status_list .growth.growth-negative {
+     color:#8b0000
+    }
+    #wp-ultimo-account-stats .wu_status_list .growth.growth-negative::before,
+    #wp-ultimo-account-status-waashero .wu_status_list .growth.growth-negative::before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list .growth.growth-negative::before,
+    #wp-ultimo-quotas-waashero .wu_status_list .growth.growth-negative::before,
+    #wp-ultimo-mrr .wu_status_list .growth.growth-negative::before,
+    #wp-ultimo-users .wu_status_list .growth.growth-negative::before,
+    #wp-ultimo-general .wu_status_list .growth.growth-negative::before {
+     content:"- "
+    }
+    #wp-ultimo-account-stats .wu_status_list li.mrr a:before,
+    #wp-ultimo-account-stats .wu_status_list li.mrr div:before,
+    #wp-ultimo-account-stats .wu_status_list li.mrr div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.mrr a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.mrr div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.mrr div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.mrr a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.mrr div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.mrr div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.mrr a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.mrr div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.mrr div:before,
+    #wp-ultimo-mrr .wu_status_list li.mrr a:before,
+    #wp-ultimo-mrr .wu_status_list li.mrr div:before,
+    #wp-ultimo-mrr .wu_status_list li.mrr div:before,
+    #wp-ultimo-users .wu_status_list li.mrr a:before,
+    #wp-ultimo-users .wu_status_list li.mrr div:before,
+    #wp-ultimo-users .wu_status_list li.mrr div:before,
+    #wp-ultimo-general .wu_status_list li.mrr a:before,
+    #wp-ultimo-general .wu_status_list li.mrr div:before,
+    #wp-ultimo-general .wu_status_list li.mrr div:before {
+     content:"\f238"
+    }
+    #wp-ultimo-account-stats .wu_status_list li.current-plan,
+    #wp-ultimo-account-stats .wu_status_list li.current-plan-status,
+    #wp-ultimo-account-stats .wu_status_list li.trial,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan-status,
+    #wp-ultimo-account-status-waashero .wu_status_list li.trial,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan-status,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.trial,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan-status,
+    #wp-ultimo-quotas-waashero .wu_status_list li.trial,
+    #wp-ultimo-mrr .wu_status_list li.current-plan,
+    #wp-ultimo-mrr .wu_status_list li.current-plan-status,
+    #wp-ultimo-mrr .wu_status_list li.trial,
+    #wp-ultimo-users .wu_status_list li.current-plan,
+    #wp-ultimo-users .wu_status_list li.current-plan-status,
+    #wp-ultimo-users .wu_status_list li.trial,
+    #wp-ultimo-general .wu_status_list li.current-plan,
+    #wp-ultimo-general .wu_status_list li.current-plan-status,
+    #wp-ultimo-general .wu_status_list li.trial {
+     width:100%;
+     border-right:1px solid #ececec
+    }
+    #wp-ultimo-account-stats .wu_status_list li.current-plan a strong,
+    #wp-ultimo-account-stats .wu_status_list li.current-plan div strong,
+    #wp-ultimo-account-stats .wu_status_list li.current-plan-status a strong,
+    #wp-ultimo-account-stats .wu_status_list li.current-plan-status div strong,
+    #wp-ultimo-account-stats .wu_status_list li.trial a strong,
+    #wp-ultimo-account-stats .wu_status_list li.trial div strong,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan a strong,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan div strong,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan-status a strong,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan-status div strong,
+    #wp-ultimo-account-status-waashero .wu_status_list li.trial a strong,
+    #wp-ultimo-account-status-waashero .wu_status_list li.trial div strong,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan a strong,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan div strong,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan-status a strong,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan-status div strong,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.trial a strong,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.trial div strong,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan a strong,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan div strong,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan-status a strong,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan-status div strong,
+    #wp-ultimo-quotas-waashero .wu_status_list li.trial a strong,
+    #wp-ultimo-quotas-waashero .wu_status_list li.trial div strong,
+    #wp-ultimo-mrr .wu_status_list li.current-plan a strong,
+    #wp-ultimo-mrr .wu_status_list li.current-plan div strong,
+    #wp-ultimo-mrr .wu_status_list li.current-plan-status a strong,
+    #wp-ultimo-mrr .wu_status_list li.current-plan-status div strong,
+    #wp-ultimo-mrr .wu_status_list li.trial a strong,
+    #wp-ultimo-mrr .wu_status_list li.trial div strong,
+    #wp-ultimo-users .wu_status_list li.current-plan a strong,
+    #wp-ultimo-users .wu_status_list li.current-plan div strong,
+    #wp-ultimo-users .wu_status_list li.current-plan-status a strong,
+    #wp-ultimo-users .wu_status_list li.current-plan-status div strong,
+    #wp-ultimo-users .wu_status_list li.trial a strong,
+    #wp-ultimo-users .wu_status_list li.trial div strong,
+    #wp-ultimo-general .wu_status_list li.current-plan a strong,
+    #wp-ultimo-general .wu_status_list li.current-plan div strong,
+    #wp-ultimo-general .wu_status_list li.current-plan-status a strong,
+    #wp-ultimo-general .wu_status_list li.current-plan-status div strong,
+    #wp-ultimo-general .wu_status_list li.trial a strong,
+    #wp-ultimo-general .wu_status_list li.trial div strong {
+     font-size:1.7em
+    }
+    #wp-ultimo-account-stats .wu_status_list li.current-plan a:before,
+    #wp-ultimo-account-stats .wu_status_list li.current-plan div:before,
+    #wp-ultimo-account-stats .wu_status_list li.current-plan-status a:before,
+    #wp-ultimo-account-stats .wu_status_list li.current-plan-status div:before,
+    #wp-ultimo-account-stats .wu_status_list li.trial a:before,
+    #wp-ultimo-account-stats .wu_status_list li.trial div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan-status a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan-status div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.trial a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.trial div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan-status a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan-status div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.trial a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.trial div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan-status a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan-status div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.trial a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.trial div:before,
+    #wp-ultimo-mrr .wu_status_list li.current-plan a:before,
+    #wp-ultimo-mrr .wu_status_list li.current-plan div:before,
+    #wp-ultimo-mrr .wu_status_list li.current-plan-status a:before,
+    #wp-ultimo-mrr .wu_status_list li.current-plan-status div:before,
+    #wp-ultimo-mrr .wu_status_list li.trial a:before,
+    #wp-ultimo-mrr .wu_status_list li.trial div:before,
+    #wp-ultimo-users .wu_status_list li.current-plan a:before,
+    #wp-ultimo-users .wu_status_list li.current-plan div:before,
+    #wp-ultimo-users .wu_status_list li.current-plan-status a:before,
+    #wp-ultimo-users .wu_status_list li.current-plan-status div:before,
+    #wp-ultimo-users .wu_status_list li.trial a:before,
+    #wp-ultimo-users .wu_status_list li.trial div:before,
+    #wp-ultimo-general .wu_status_list li.current-plan a:before,
+    #wp-ultimo-general .wu_status_list li.current-plan div:before,
+    #wp-ultimo-general .wu_status_list li.current-plan-status a:before,
+    #wp-ultimo-general .wu_status_list li.current-plan-status div:before,
+    #wp-ultimo-general .wu_status_list li.trial a:before,
+    #wp-ultimo-general .wu_status_list li.trial div:before {
+     content:"\f526"
+    }
+    #wp-ultimo-account-stats .wu_status_list li.current-plan.current-plan-status a:before,
+    #wp-ultimo-account-stats .wu_status_list li.current-plan.current-plan-status div:before,
+    #wp-ultimo-account-stats .wu_status_list li.current-plan-status.current-plan-status a:before,
+    #wp-ultimo-account-stats .wu_status_list li.current-plan-status.current-plan-status div:before,
+    #wp-ultimo-account-stats .wu_status_list li.trial.current-plan-status a:before,
+    #wp-ultimo-account-stats .wu_status_list li.trial.current-plan-status div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan.current-plan-status a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan.current-plan-status div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan-status.current-plan-status a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.current-plan-status.current-plan-status div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.trial.current-plan-status a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.trial.current-plan-status div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan.current-plan-status a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan.current-plan-status div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan-status.current-plan-status a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.current-plan-status.current-plan-status div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.trial.current-plan-status a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.trial.current-plan-status div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan.current-plan-status a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan.current-plan-status div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan-status.current-plan-status a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.current-plan-status.current-plan-status div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.trial.current-plan-status a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.trial.current-plan-status div:before,
+    #wp-ultimo-mrr .wu_status_list li.current-plan.current-plan-status a:before,
+    #wp-ultimo-mrr .wu_status_list li.current-plan.current-plan-status div:before,
+    #wp-ultimo-mrr .wu_status_list li.current-plan-status.current-plan-status a:before,
+    #wp-ultimo-mrr .wu_status_list li.current-plan-status.current-plan-status div:before,
+    #wp-ultimo-mrr .wu_status_list li.trial.current-plan-status a:before,
+    #wp-ultimo-mrr .wu_status_list li.trial.current-plan-status div:before,
+    #wp-ultimo-users .wu_status_list li.current-plan.current-plan-status a:before,
+    #wp-ultimo-users .wu_status_list li.current-plan.current-plan-status div:before,
+    #wp-ultimo-users .wu_status_list li.current-plan-status.current-plan-status a:before,
+    #wp-ultimo-users .wu_status_list li.current-plan-status.current-plan-status div:before,
+    #wp-ultimo-users .wu_status_list li.trial.current-plan-status a:before,
+    #wp-ultimo-users .wu_status_list li.trial.current-plan-status div:before,
+    #wp-ultimo-general .wu_status_list li.current-plan.current-plan-status a:before,
+    #wp-ultimo-general .wu_status_list li.current-plan.current-plan-status div:before,
+    #wp-ultimo-general .wu_status_list li.current-plan-status.current-plan-status a:before,
+    #wp-ultimo-general .wu_status_list li.current-plan-status.current-plan-status div:before,
+    #wp-ultimo-general .wu_status_list li.trial.current-plan-status a:before,
+    #wp-ultimo-general .wu_status_list li.trial.current-plan-status div:before {
+     display:none
+    }
+    #wp-ultimo-account-stats .wu_status_list li.trial,
+    #wp-ultimo-account-status-waashero .wu_status_list li.trial,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.trial,
+    #wp-ultimo-quotas-waashero .wu_status_list li.trial,
+    #wp-ultimo-mrr .wu_status_list li.trial,
+    #wp-ultimo-users .wu_status_list li.trial,
+    #wp-ultimo-general .wu_status_list li.trial {
+     border-top:0
+    }
+    #wp-ultimo-account-stats .wu_status_list li.trial a:before,
+    #wp-ultimo-account-stats .wu_status_list li.trial div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.trial a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.trial div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.trial a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.trial div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.trial a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.trial div:before,
+    #wp-ultimo-mrr .wu_status_list li.trial a:before,
+    #wp-ultimo-mrr .wu_status_list li.trial div:before,
+    #wp-ultimo-users .wu_status_list li.trial a:before,
+    #wp-ultimo-users .wu_status_list li.trial div:before,
+    #wp-ultimo-general .wu_status_list li.trial a:before,
+    #wp-ultimo-general .wu_status_list li.trial div:before {
+     content:"\f321"
+    }
+    #wp-ultimo-account-stats .wu_status_list li.users-today,
+    #wp-ultimo-account-status-waashero .wu_status_list li.users-today,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.users-today,
+    #wp-ultimo-quotas-waashero .wu_status_list li.users-today,
+    #wp-ultimo-mrr .wu_status_list li.users-today,
+    #wp-ultimo-users .wu_status_list li.users-today,
+    #wp-ultimo-general .wu_status_list li.users-today {
+     border-right:1px solid #ececec
+    }
+    #wp-ultimo-account-stats .wu_status_list li.users-today a:before,
+    #wp-ultimo-account-stats .wu_status_list li.users-today div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.users-today a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.users-today div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.users-today a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.users-today div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.users-today a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.users-today div:before,
+    #wp-ultimo-mrr .wu_status_list li.users-today a:before,
+    #wp-ultimo-mrr .wu_status_list li.users-today div:before,
+    #wp-ultimo-users .wu_status_list li.users-today a:before,
+    #wp-ultimo-users .wu_status_list li.users-today div:before,
+    #wp-ultimo-general .wu_status_list li.users-today a:before,
+    #wp-ultimo-general .wu_status_list li.users-today div:before {
+     content:"\f307";
+     color:#e67e22
+    }
+    #wp-ultimo-account-stats .wu_status_list li.space-used,
+    #wp-ultimo-account-status-waashero .wu_status_list li.space-used,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.space-used,
+    #wp-ultimo-quotas-waashero .wu_status_list li.space-used,
+    #wp-ultimo-mrr .wu_status_list li.space-used,
+    #wp-ultimo-users .wu_status_list li.space-used,
+    #wp-ultimo-general .wu_status_list li.space-used {
+     border-right:1px solid #ececec
+    }
+    #wp-ultimo-account-stats .wu_status_list li.space-used a:before,
+    #wp-ultimo-account-stats .wu_status_list li.space-used div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.space-used a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.space-used div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.space-used a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.space-used div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.space-used a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.space-used div:before,
+    #wp-ultimo-mrr .wu_status_list li.space-used a:before,
+    #wp-ultimo-mrr .wu_status_list li.space-used div:before,
+    #wp-ultimo-users .wu_status_list li.space-used a:before,
+    #wp-ultimo-users .wu_status_list li.space-used div:before,
+    #wp-ultimo-general .wu_status_list li.space-used a:before,
+    #wp-ultimo-general .wu_status_list li.space-used div:before {
+     content:"\f184";
+     color:#2ecc71
+    }
+    #wp-ultimo-account-stats .wu_status_list li.users-on-trial a:before,
+    #wp-ultimo-account-stats .wu_status_list li.users-on-trial div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.users-on-trial a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.users-on-trial div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.users-on-trial a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.users-on-trial div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.users-on-trial a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.users-on-trial div:before,
+    #wp-ultimo-mrr .wu_status_list li.users-on-trial a:before,
+    #wp-ultimo-mrr .wu_status_list li.users-on-trial div:before,
+    #wp-ultimo-users .wu_status_list li.users-on-trial a:before,
+    #wp-ultimo-users .wu_status_list li.users-on-trial div:before,
+    #wp-ultimo-general .wu_status_list li.users-on-trial a:before,
+    #wp-ultimo-general .wu_status_list li.users-on-trial div:before {
+     content:"\f321";
+     color:#999
+    }
+    #wp-ultimo-account-stats .wu_status_list li.most-popular-plan,
+    #wp-ultimo-account-status-waashero .wu_status_list li.most-popular-plan,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.most-popular-plan,
+    #wp-ultimo-quotas-waashero .wu_status_list li.most-popular-plan,
+    #wp-ultimo-mrr .wu_status_list li.most-popular-plan,
+    #wp-ultimo-users .wu_status_list li.most-popular-plan,
+    #wp-ultimo-general .wu_status_list li.most-popular-plan {
+     border-right:1px solid #ececec
+    }
+    #wp-ultimo-account-stats .wu_status_list li.most-popular-plan a:before,
+    #wp-ultimo-account-stats .wu_status_list li.most-popular-plan div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.most-popular-plan a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.most-popular-plan div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.most-popular-plan a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.most-popular-plan div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.most-popular-plan a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.most-popular-plan div:before,
+    #wp-ultimo-mrr .wu_status_list li.most-popular-plan a:before,
+    #wp-ultimo-mrr .wu_status_list li.most-popular-plan div:before,
+    #wp-ultimo-users .wu_status_list li.most-popular-plan a:before,
+    #wp-ultimo-users .wu_status_list li.most-popular-plan div:before,
+    #wp-ultimo-general .wu_status_list li.most-popular-plan a:before,
+    #wp-ultimo-general .wu_status_list li.most-popular-plan div:before {
+     content:"\f487";
+     color:#e74c3c
+    }
+    #wp-ultimo-account-stats .wu_status_list li.total-users,
+    #wp-ultimo-account-status-waashero .wu_status_list li.total-users,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.total-users,
+    #wp-ultimo-quotas-waashero .wu_status_list li.total-users,
+    #wp-ultimo-mrr .wu_status_list li.total-users,
+    #wp-ultimo-users .wu_status_list li.total-users,
+    #wp-ultimo-general .wu_status_list li.total-users {
+     border-right:1px solid #ececec
+    }
+    #wp-ultimo-account-stats .wu_status_list li.total-users a:before,
+    #wp-ultimo-account-stats .wu_status_list li.total-users div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.total-users a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.total-users div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.total-users a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.total-users div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.total-users a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.total-users div:before,
+    #wp-ultimo-mrr .wu_status_list li.total-users a:before,
+    #wp-ultimo-mrr .wu_status_list li.total-users div:before,
+    #wp-ultimo-users .wu_status_list li.total-users a:before,
+    #wp-ultimo-users .wu_status_list li.total-users div:before,
+    #wp-ultimo-general .wu_status_list li.total-users a:before,
+    #wp-ultimo-general .wu_status_list li.total-users div:before {
+     content:"\f110";
+     color:#e74c3c
+    }
+    #wp-ultimo-account-stats .wu_status_list li.total-revenue,
+    #wp-ultimo-account-status-waashero .wu_status_list li.total-revenue,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.total-revenue,
+    #wp-ultimo-quotas-waashero .wu_status_list li.total-revenue,
+    #wp-ultimo-mrr .wu_status_list li.total-revenue,
+    #wp-ultimo-users .wu_status_list li.total-revenue,
+    #wp-ultimo-general .wu_status_list li.total-revenue {
+     border-right:1px solid #ececec
+    }
+    #wp-ultimo-account-stats .wu_status_list li.total-revenue a:before,
+    #wp-ultimo-account-stats .wu_status_list li.total-revenue div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.total-revenue a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.total-revenue div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.total-revenue a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.total-revenue div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.total-revenue a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.total-revenue div:before,
+    #wp-ultimo-mrr .wu_status_list li.total-revenue a:before,
+    #wp-ultimo-mrr .wu_status_list li.total-revenue div:before,
+    #wp-ultimo-users .wu_status_list li.total-revenue a:before,
+    #wp-ultimo-users .wu_status_list li.total-revenue div:before,
+    #wp-ultimo-general .wu_status_list li.total-revenue a:before,
+    #wp-ultimo-general .wu_status_list li.total-revenue div:before {
+     font-family:Genericons;
+     content:"\f508";
+     color:#2ecc71
+    }
+    #wp-ultimo-account-stats .wu_status_list li.quotas,
+    #wp-ultimo-account-status-waashero .wu_status_list li.quotas,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.quotas,
+    #wp-ultimo-quotas-waashero .wu_status_list li.quotas,
+    #wp-ultimo-mrr .wu_status_list li.quotas,
+    #wp-ultimo-users .wu_status_list li.quotas,
+    #wp-ultimo-general .wu_status_list li.quotas {
+     width:100%
+    }
+    #wp-ultimo-account-stats .wu_status_list li.quotas div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.quotas div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.quotas div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.quotas div:before,
+    #wp-ultimo-mrr .wu_status_list li.quotas div:before,
+    #wp-ultimo-users .wu_status_list li.quotas div:before,
+    #wp-ultimo-general .wu_status_list li.quotas div:before {
+     content:"\f342";
+     color:#e67e22
+    }
+    #wp-ultimo-account-stats .wu_status_list li.out-of-stock a:before,
+    #wp-ultimo-account-stats .wu_status_list li.out-of-stock div:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.out-of-stock a:before,
+    #wp-ultimo-account-status-waashero .wu_status_list li.out-of-stock div:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.out-of-stock a:before,
+    #wp-ultimo-custom-domain-waashero .wu_status_list li.out-of-stock div:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.out-of-stock a:before,
+    #wp-ultimo-quotas-waashero .wu_status_list li.out-of-stock div:before,
+    #wp-ultimo-mrr .wu_status_list li.out-of-stock a:before,
+    #wp-ultimo-mrr .wu_status_list li.out-of-stock div:before,
+    #wp-ultimo-users .wu_status_list li.out-of-stock a:before,
+    #wp-ultimo-users .wu_status_list li.out-of-stock div:before,
+    #wp-ultimo-general .wu_status_list li.out-of-stock a:before,
+    #wp-ultimo-general .wu_status_list li.out-of-stock div:before {
+     content:"\e02c";
+     color:#e67e22
+    }
+    #wp-ultimo-account-stats .wu_status_list .bar-trail,
+    #wp-ultimo-account-stats .wu_status_list .bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list .bar-trail,
+    #wp-ultimo-account-status-waashero .wu_status_list .bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list .bar-trail,
+    #wp-ultimo-custom-domain-waashero .wu_status_list .bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list .bar-trail,
+    #wp-ultimo-quotas-waashero .wu_status_list .bar-line,
+    #wp-ultimo-mrr .wu_status_list .bar-trail,
+    #wp-ultimo-mrr .wu_status_list .bar-line,
+    #wp-ultimo-users .wu_status_list .bar-trail,
+    #wp-ultimo-users .wu_status_list .bar-line,
+    #wp-ultimo-general .wu_status_list .bar-trail,
+    #wp-ultimo-general .wu_status_list .bar-line {
+     margin:3px 0;
+     height:6px;
+     display:block;
+     background:#f1f1f1;
+     border-radius:3px
+    }
+    #wp-ultimo-account-stats .wu_status_list .bar-trail.bar-line,
+    #wp-ultimo-account-stats .wu_status_list .bar-line.bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list .bar-trail.bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list .bar-line.bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list .bar-trail.bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list .bar-line.bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list .bar-trail.bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list .bar-line.bar-line,
+    #wp-ultimo-mrr .wu_status_list .bar-trail.bar-line,
+    #wp-ultimo-mrr .wu_status_list .bar-line.bar-line,
+    #wp-ultimo-users .wu_status_list .bar-trail.bar-line,
+    #wp-ultimo-users .wu_status_list .bar-line.bar-line,
+    #wp-ultimo-general .wu_status_list .bar-trail.bar-line,
+    #wp-ultimo-general .wu_status_list .bar-line.bar-line {
+     background-color:#e67e22;
+     max-width:100%
+    }
+    #wp-ultimo-account-stats .wu_status_list p.quota:nth-child(2n) .bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list p.quota:nth-child(2n) .bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list p.quota:nth-child(2n) .bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list p.quota:nth-child(2n) .bar-line,
+    #wp-ultimo-mrr .wu_status_list p.quota:nth-child(2n) .bar-line,
+    #wp-ultimo-users .wu_status_list p.quota:nth-child(2n) .bar-line,
+    #wp-ultimo-general .wu_status_list p.quota:nth-child(2n) .bar-line {
+     background-color:#e74c3c
+    }
+    #wp-ultimo-account-stats .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-mrr .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-users .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-general .wu_status_list p.quota:nth-child(3n) .bar-line {
+     background-color:#2ecc71
+    }
+    #wp-ultimo-account-stats .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-mrr .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-users .wu_status_list p.quota:nth-child(3n) .bar-line,
+    #wp-ultimo-general .wu_status_list p.quota:nth-child(3n) .bar-line {
+     background-color:#3498db
+    }
+    #wp-ultimo-account-stats .wu_status_list p.quota:nth-child(4n) .bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list p.quota:nth-child(4n) .bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list p.quota:nth-child(4n) .bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list p.quota:nth-child(4n) .bar-line,
+    #wp-ultimo-mrr .wu_status_list p.quota:nth-child(4n) .bar-line,
+    #wp-ultimo-users .wu_status_list p.quota:nth-child(4n) .bar-line,
+    #wp-ultimo-general .wu_status_list p.quota:nth-child(4n) .bar-line {
+     background-color:#9b59b6
+    }
+    #wp-ultimo-account-stats .wu_status_list p.quota:nth-child(5n) .bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list p.quota:nth-child(5n) .bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list p.quota:nth-child(5n) .bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list p.quota:nth-child(5n) .bar-line,
+    #wp-ultimo-mrr .wu_status_list p.quota:nth-child(5n) .bar-line,
+    #wp-ultimo-users .wu_status_list p.quota:nth-child(5n) .bar-line,
+    #wp-ultimo-general .wu_status_list p.quota:nth-child(5n) .bar-line {
+     background-color:#1dd1a1
+    }
+    #wp-ultimo-account-stats .wu_status_list p.quota:nth-child(6n) .bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list p.quota:nth-child(6n) .bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list p.quota:nth-child(6n) .bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list p.quota:nth-child(6n) .bar-line,
+    #wp-ultimo-mrr .wu_status_list p.quota:nth-child(6n) .bar-line,
+    #wp-ultimo-users .wu_status_list p.quota:nth-child(6n) .bar-line,
+    #wp-ultimo-general .wu_status_list p.quota:nth-child(6n) .bar-line {
+     background-color:#8395a7
+    }
+    #wp-ultimo-account-stats .wu_status_list p.quota:nth-child(7n) .bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list p.quota:nth-child(7n) .bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list p.quota:nth-child(7n) .bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list p.quota:nth-child(7n) .bar-line,
+    #wp-ultimo-mrr .wu_status_list p.quota:nth-child(7n) .bar-line,
+    #wp-ultimo-users .wu_status_list p.quota:nth-child(7n) .bar-line,
+    #wp-ultimo-general .wu_status_list p.quota:nth-child(7n) .bar-line {
+     background-color:#222f3e
+    }
+    #wp-ultimo-account-stats .wu_status_list p.quota:nth-child(8n) .bar-line,
+    #wp-ultimo-account-status-waashero .wu_status_list p.quota:nth-child(8n) .bar-line,
+    #wp-ultimo-custom-domain-waashero .wu_status_list p.quota:nth-child(8n) .bar-line,
+    #wp-ultimo-quotas-waashero .wu_status_list p.quota:nth-child(8n) .bar-line,
+    #wp-ultimo-mrr .wu_status_list p.quota:nth-child(8n) .bar-line,
+    #wp-ultimo-users .wu_status_list p.quota:nth-child(8n) .bar-line,
+    #wp-ultimo-general .wu_status_list p.quota:nth-child(8n) .bar-line {
+     background-color:#0abde3
+    }

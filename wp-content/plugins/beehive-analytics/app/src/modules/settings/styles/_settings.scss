@@ -1,0 +1,177 @@
+@include body-class {
+	.sui-wrap {
+		.beehive-google-setup-connect {
+			.sui-button {
+				&.beehive-connect-google-btn {
+					background-color: $white;
+					box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+					color: palette(gray, dark);
+					font-size: 12px;
+					text-transform: none;
+
+					&:hover,
+					&:focus,
+					&:active {
+						background-color: $blue;
+						color: $white;
+
+						.sui-icon-google-connect {
+							background-image: -webkit-image-set(
+								url('../../images/icons/icon-google-connect-white.png')
+									1x,
+								url('../../images/icons/icon-google-connect-white@2x.png')
+									2x
+							);
+						}
+					}
+				}
+			}
+
+			.sui-form-field {
+				&.google-setup-connect {
+					.sui-description {
+						font-size: 11px;
+
+						i {
+							cursor: pointer;
+						}
+					}
+				}
+			}
+		}
+
+		// Google account section.
+		.sui-builder-field {
+			padding: 30px;
+
+			.beehive-google-user-photo {
+				flex: 0 0 30px;
+				margin-right: 10px;
+
+				img {
+					width: 27px;
+					height: 27px;
+					border-radius: 50%;
+				}
+			}
+
+			.beehive-google-user-name,
+			.beehive-google-user-email {
+				display: block;
+				color: palette(gray, light);
+			}
+
+			.beehive-google-user-email {
+				font-weight: normal;
+			}
+		}
+
+		.sui-checkbox {
+			&.sui-checkbox-sm {
+				span {
+					font-size: 13px;
+				}
+			}
+		}
+
+		.beehive-notice-toggle {
+			background-color: palette(silver, light);
+			height: 50px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: $radio-checkbox--font-size-sm;
+		}
+
+		label {
+			span {
+				&.beehive-icon-tooltip {
+					vertical-align: middle;
+					margin-left: 5px;
+				}
+			}
+		}
+
+		.sui-border-frame {
+			margin-bottom: 0 !important;
+
+			&.beehive-reports-children {
+				.beehive-reports-child {
+					.sui-label {
+						font-size: 13px;
+						height: 22px;
+						margin: 15px 0 10px 0;
+						color: #333333;
+					}
+
+					&.all-stats {
+						.sui-label {
+							margin-top: 30px;
+						}
+					}
+				}
+
+				.beehive-label-text {
+					font-size: 13px;
+				}
+			}
+
+			&.google-account-selector {
+				.sui-form-field {
+					margin-top: 10px;
+					margin-bottom: 20px;
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+
+		.sui-toggle-content {
+			margin-left: 44px !important;
+		}
+
+		.beehive-settings-tab-tracking {
+			.sui-label-link {
+				color: #17a8e3;
+			}
+		}
+
+		.beehive-notice {
+			p {
+				overflow-wrap: break-word;
+			}
+		}
+
+		.beehive-content-center {
+			text-align: center;
+		}
+
+		.beehive-margin-bottom--10 {
+			margin-bottom: 10px;
+		}
+
+		#beehive-settings-permissions {
+			#beehive-settings-permissions-roles {
+				margin-bottom: 10px;
+			}
+
+			#beehive-settings-permissions-roles-override {
+				padding: 19px;
+			}
+
+			#beehive-settings-permissions-statistics {
+				.sui-side-tabs.sui-tabs {
+					margin-bottom: 10px !important;
+				}
+			}
+		}
+
+		.beehive-disable {
+			opacity: 0.5;
+			pointer-events: none;
+			background-color: rgba(242, 242, 242, 0.5);
+		}
+	}
+}

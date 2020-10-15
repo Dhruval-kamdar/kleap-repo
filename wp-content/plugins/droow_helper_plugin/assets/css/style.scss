@@ -1,0 +1,38 @@
+.dsn-block-video {
+  position: absolute;
+  background-color: #0a0809;
+  color: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+
+.dsn-title {
+  background: #212121;
+
+  color: #fff;
+
+  width: max-content;
+
+  padding: 10px;
+
+  font-size: 16px;
+
+  border-radius: 3px;
+}
+
+.dsn-not-support {
+  span {
+    font-size: 14px;
+    top: -7px;
+    position: relative;
+    background: #0085ba;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+}

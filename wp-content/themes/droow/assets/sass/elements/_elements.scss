@@ -1,0 +1,126 @@
+
+a:hover {
+  color: inherit;
+}
+
+.post-full-content , .widget_text {
+
+  a {
+    //@include transition(color 250ms);
+
+    //&:hover {
+    //  color: $theme-color;
+    //}
+  }
+
+  /****** -- Pre -- ******/
+  pre {
+    border: 1px solid #111;
+    color: #b7b7b7;
+    font-size: 12px;
+    line-height: 1.714285714;
+    overflow: auto;
+    padding: 24px;
+    background-color: #1d1e22;
+
+    p {
+      margin: 0 !important;
+
+    }
+
+  }
+
+
+  /**
+   * Correct the padding in Firefox.
+   */
+  fieldset {
+
+    border: 1px solid #212121;
+    padding: 0 15px;
+
+    legend {
+
+      width: auto;
+      box-sizing: border-box;
+      color: inherit;
+      display: table;
+      max-width: 100%;
+      padding: 0 15px;
+      white-space: normal;
+      font-size: 18px;
+      margin: 0;
+
+    }
+
+  }
+
+  /****** -- IFrame -- ******/
+
+  iframe {
+    width: 100%;
+    height: 70vh;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+  }
+
+  /* -------------------------------
+              blockquote
+   ------------------------------- */
+
+  blockquote {
+    border-left: 2px solid #fff;
+
+    background-color: #171718;
+    color: #fff;
+    font-size: 16px;
+    padding: 30px 50px;
+    font-family: $heading-font;
+    text-align: center;
+
+    &.is-style-large, &.is-large {
+      border: 0;
+      padding: 30px 50px;
+
+    }
+
+    p {
+      margin-bottom: 0;
+      line-height: 30px;
+      font-family: $heading-font;
+      font-weight: 500;
+    }
+
+    cite {
+      font-size: 13px;
+    }
+  }
+
+
+  /* -------------------------------
+               HR
+    ------------------------------- */
+  hr {
+    border: 0;
+    //border-top: 1px solid $theme-color;
+    background-color: #fff;
+    color: #fff;
+    height: 1px;
+    margin: 0;
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+  }
+
+
+}
+
+
+@import "lists";
+
+
+@import "tables";
