@@ -178,36 +178,6 @@ $app->group(function ($app) {
 })->prefix('setting')->withPolicy('SettingsPolicy');
 
 
-
-/*
- * We are keeping the /settings route as dupliate. We will delete that next month (November)
- */
-
-$app->group(function ($app) {
-    return; // for testing
-    $app->get('/', 'SettingsController@get');
-    $app->put('/', 'SettingsController@save');
-    $app->post('complete-installation', 'SetupController@CompleteWizard');
-    $app->get('double-optin', 'SettingsController@getDoubleOptinSettings');
-    $app->put('double-optin', 'SettingsController@saveDoubleOptinSettings');
-
-    $app->post('install-fluentform', 'SetupController@handleFluentFormInstall');
-
-    $app->get('bounce_configs', 'SettingsController@getBounceConfigs');
-
-    $app->get('auto_subscribe_settings', 'SettingsController@getAutoSubscribeSettings');
-    $app->post('auto_subscribe_settings', 'SettingsController@saveAutoSubscribeSettings');
-
-    $app->get('test', 'SettingsController@TestRequestResolver');
-    $app->put('test', 'SettingsController@TestRequestResolver');
-    $app->post('test', 'SettingsController@TestRequestResolver');
-    $app->delete('test', 'SettingsController@TestRequestResolver');
-
-    $app->post('reset_db', 'SettingsController@resetDB');
-
-})->prefix('settings')->withPolicy('SettingsPolicy');
-
-
 $app->group(function ($app) {
 
     $app->get('contacts', 'CustomContactFieldsController@getGlobalFields');

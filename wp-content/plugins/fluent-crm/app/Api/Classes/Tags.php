@@ -16,6 +16,39 @@ class Tags
         'paginate'
     ];
 
+
+    public function importBulk($tags)
+    {
+        $newTags = [];
+        foreach ($tags as $tag) {
+            if (!$tag['title']) {
+                continue;
+            }
+
+            if(empty($tag['slug'])) {
+                $tag['slug'] = sanitize_title($tag['title'], 'display');
+            } else {
+                $tag['slug'] = sanitize_title($tag['slug'], 'display');
+            }
+
+            $tag['slug']  = sanitize_text_field($tag['slug']);
+
+            $tag = \FluentCrm\App\Models\Tag::updateOrCreate(
+                [
+                    'slug' => $tag['slug'],
+                    'title' => sanitize_text_field($tag['title'])
+                ],
+                ['slug' => $tag['slug']]
+            );
+            do_action('fluentcrm_list_created', $tag->id);
+
+            $newTags[] = $tag;
+        }
+
+        return $newTags;
+    }
+
+
     public function __construct(Tag $instance)
     {
         $this->instance = $instance;

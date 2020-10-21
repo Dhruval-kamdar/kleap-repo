@@ -364,7 +364,6 @@ class ExternalPages
 
         $subscriberModel = new Subscriber;
 
-
         $mainFields = Arr::only($postData, $subscriberModel->getFillable());
         foreach ($mainFields as $fieldKey => $value) {
             $mainFields[$fieldKey] = sanitize_text_field($value);
@@ -419,6 +418,10 @@ class ExternalPages
         $data = apply_filters('fluentcrm_webhook_contact_data', $data, $postData, $webhook);
 
         $subscriber = FluentCrmApi('contacts')->createOrUpdate($data);
+
+        if($subscriber->status == 'pending') {
+            $subscriber->sendDoubleOptinEmail();
+        }
 
         $message = $subscriber->wasRecentlyCreated ? 'created' : 'updated';
 
@@ -609,13 +612,13 @@ class ExternalPages
             $prefListItems = Arr::get($emailSettings, 'pref_list_items', []);
             if ($prefListItems) {
                 $lists = Lists::whereIn('id', $prefListItems)->get();
-                if ($lists->empty()) {
+                if ($lists->isEmpty()) {
                     return [];
                 }
             }
         } else if ($preListType == 'all') {
             $lists = Lists::get();
-            if ($lists->empty()) {
+            if ($lists->isEmpty()) {
                 return [];
             }
         }

@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-ultimo-multiple-accounts 1.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-20 22:02-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../wp-ultimo-multiple-accounts.php:58
+msgid "WP Ultimo: Miltiple Accounts"
+msgstr ""
+
+#: ../wp-ultimo-multiple-accounts.php:70
+msgid "Multiple Accounts"
+msgstr ""
+
+#: ../wp-ultimo-multiple-accounts.php:88
+#, php-format
+msgid "<strong>%s</strong> accounts using this email."
+msgstr ""
+
+#: ../wp-ultimo-multiple-accounts.php:89
+msgid "See all"
+msgstr ""
+
+#: ../wp-ultimo-multiple-accounts.php:233
+msgid "Sorry, that email address is already used!"
+msgstr ""
+
+#: ../inc/class-wu-addon-updater-free.php:103
+msgid "Status: Activated - Golden Ticket"
+msgstr ""
+
+#: ../inc/class-wu-addon-updater-free.php:113
+msgid "Status: Activated"
+msgstr ""
+
+#: ../inc/class-wu-addon-updater-free.php:117
+msgid "Status: License no longer valid - Refund issued"
+msgstr ""
+
+#: ../inc/class-wu-addon-updater-free.php:123
+msgid "Status: Not Activated - Invalid License Key"
+msgstr ""
+
+#: ../inc/class-wu-addon-updater-free.php:162
+msgid "Activate your Add-ons"
+msgstr ""
+
+#: ../inc/class-wu-addon-updater-free.php:163
+msgid ""
+"Use the license key you received with the add-on files to activate your copy "
+"and be notified of new versions automatically."
+msgstr ""
+
+#: ../inc/class-wu-addon-updater-free.php:178
+#: ../inc/class-wu-addon-updater-free.php:189
+#, php-format
+msgid "License Key - %s"
+msgstr ""
+
+#: ../inc/class-wu-addon-updater-free.php:179
+msgid ""
+"You have a golden ticket license. There's no need to activate each add-on "
+"individually."
+msgstr ""
+
+#: ../inc/class-wu-addon-updater-free.php:190
+msgid ""
+"Put the code you received alongside the add-on when you finalized your "
+"purchase."
+msgstr ""

@@ -23,8 +23,8 @@ class Subscriber extends Model
         'last_name',
         'user_id',
         'email',
-        'status',
-        'contact_type',
+        'status', // pending / subscribed / bounced / unsubscribed; Default: subscriber
+        'contact_type', // lead / customer
         'address_line_1',
         'address_line_2',
         'postal_code',
@@ -36,10 +36,10 @@ class Subscriber extends Model
         'date_of_birth',
         'source',
         'life_time_value',
+        'last_activity',
         'total_points',
         'latitude',
         'longitude',
-        'last_activity',
         'ip',
         'created_at'
     ];
@@ -85,6 +85,7 @@ class Subscriber extends Model
                 foreach ($fields as $field) {
                     $query->orWhere($field, 'LIKE', "$search%");
                 }
+
             });
         }
 
@@ -673,6 +674,13 @@ class Subscriber extends Model
 
     public function sendDoubleOptinEmail()
     {
+        $lastDoubleOptin = fluentcrm_get_subscriber_meta($this->id, '_last_double_optin_timestamp');
+        if($lastDoubleOptin && ( time() - $lastDoubleOptin < 150 )) {
+            return false;
+        } else {
+            fluentcrm_update_subscriber_meta($this->id, '_last_double_optin_timestamp', time());
+        }
+
         return (new Handler())->sendDoubleOptInEmail($this);
     }
 

@@ -24,6 +24,10 @@ class ComposerStaticInit159bc47014825bf5bad1563813c4fb56
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Translation\\' => 30,
         ),
+        'R' => 
+        array (
+            'Recurr\\' => 7,
+        ),
         'L' => 
         array (
             'League\\Fractal\\' => 15,
@@ -62,6 +66,10 @@ class ComposerStaticInit159bc47014825bf5bad1563813c4fb56
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Recurr\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr',
         ),
         'League\\Fractal\\' => 
         array (
@@ -111,6 +119,10 @@ class ComposerStaticInit159bc47014825bf5bad1563813c4fb56
             array (
                 0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
             ),
+            'Doctrine\\Common\\Collections\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/collections/lib',
+            ),
         ),
     );
 
@@ -126,6 +138,18 @@ class ComposerStaticInit159bc47014825bf5bad1563813c4fb56
         'Carbon\\Laravel\\ServiceProvider' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
         'Carbon\\Upgrade' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Upgrade.php',
+        'Doctrine\\Common\\Collections\\AbstractLazyCollection' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/AbstractLazyCollection.php',
+        'Doctrine\\Common\\Collections\\ArrayCollection' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/ArrayCollection.php',
+        'Doctrine\\Common\\Collections\\Collection' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Collection.php',
+        'Doctrine\\Common\\Collections\\Criteria' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Criteria.php',
+        'Doctrine\\Common\\Collections\\Expr\\ClosureExpressionVisitor' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php',
+        'Doctrine\\Common\\Collections\\Expr\\Comparison' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Comparison.php',
+        'Doctrine\\Common\\Collections\\Expr\\CompositeExpression' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/CompositeExpression.php',
+        'Doctrine\\Common\\Collections\\Expr\\Expression' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Expression.php',
+        'Doctrine\\Common\\Collections\\Expr\\ExpressionVisitor' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ExpressionVisitor.php',
+        'Doctrine\\Common\\Collections\\Expr\\Value' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Value.php',
+        'Doctrine\\Common\\Collections\\ExpressionBuilder' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/ExpressionBuilder.php',
+        'Doctrine\\Common\\Collections\\Selectable' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Selectable.php',
         'Doctrine\\Common\\Inflector\\Inflector' => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php',
         'Illuminate\\Container\\BoundMethod' => __DIR__ . '/..' . '/illuminate/container/BoundMethod.php',
         'Illuminate\\Container\\Container' => __DIR__ . '/..' . '/illuminate/container/Container.php',
@@ -409,6 +433,31 @@ class ComposerStaticInit159bc47014825bf5bad1563813c4fb56
         'League\\Fractal\\Serializer\\SerializerAbstract' => __DIR__ . '/..' . '/league/fractal/src/Serializer/SerializerAbstract.php',
         'League\\Fractal\\TransformerAbstract' => __DIR__ . '/..' . '/league/fractal/src/TransformerAbstract.php',
         'PM_Create_Table' => __DIR__ . '/../..' . '/db/Create_Table.php',
+        'Recurr\\DateExclusion' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/DateExclusion.php',
+        'Recurr\\DateInclusion' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/DateInclusion.php',
+        'Recurr\\DateInfo' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/DateInfo.php',
+        'Recurr\\DateUtil' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/DateUtil.php',
+        'Recurr\\DaySet' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/DaySet.php',
+        'Recurr\\Exception' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Exception.php',
+        'Recurr\\Exception\\InvalidArgument' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Exception/InvalidArgument.php',
+        'Recurr\\Exception\\InvalidRRule' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Exception/InvalidRRule.php',
+        'Recurr\\Exception\\InvalidWeekday' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Exception/InvalidWeekday.php',
+        'Recurr\\Frequency' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Frequency.php',
+        'Recurr\\Recurrence' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Recurrence.php',
+        'Recurr\\RecurrenceCollection' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/RecurrenceCollection.php',
+        'Recurr\\Rule' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Rule.php',
+        'Recurr\\Time' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Time.php',
+        'Recurr\\Transformer\\ArrayTransformer' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/ArrayTransformer.php',
+        'Recurr\\Transformer\\ArrayTransformerConfig' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/ArrayTransformerConfig.php',
+        'Recurr\\Transformer\\Constraint' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/Constraint.php',
+        'Recurr\\Transformer\\ConstraintInterface' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/ConstraintInterface.php',
+        'Recurr\\Transformer\\Constraint\\AfterConstraint' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/Constraint/AfterConstraint.php',
+        'Recurr\\Transformer\\Constraint\\BeforeConstraint' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/Constraint/BeforeConstraint.php',
+        'Recurr\\Transformer\\Constraint\\BetweenConstraint' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/Constraint/BetweenConstraint.php',
+        'Recurr\\Transformer\\TextTransformer' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/TextTransformer.php',
+        'Recurr\\Transformer\\Translator' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/Translator.php',
+        'Recurr\\Transformer\\TranslatorInterface' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/TranslatorInterface.php',
+        'Recurr\\Weekday' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Weekday.php',
         'RoleTableSeeder' => __DIR__ . '/../..' . '/db/seeds/RoleTableSeeder.php',
         'Symfony\\Component\\Translation\\Catalogue\\AbstractOperation' => __DIR__ . '/..' . '/symfony/translation/Catalogue/AbstractOperation.php',
         'Symfony\\Component\\Translation\\Catalogue\\MergeOperation' => __DIR__ . '/..' . '/symfony/translation/Catalogue/MergeOperation.php',
@@ -555,8 +604,10 @@ class ComposerStaticInit159bc47014825bf5bad1563813c4fb56
         'WeDevs\\PM\\Core\\Notifications\\Notification' => __DIR__ . '/../..' . '/core/Notifications/Notification.php',
         'WeDevs\\PM\\Core\\Permissions\\Abstract_Permission' => __DIR__ . '/../..' . '/core/Permissions/Abstract_Permission.php',
         'WeDevs\\PM\\Core\\Permissions\\Access_Project' => __DIR__ . '/../..' . '/core/Permissions/Access_Project.php',
+        'WeDevs\\PM\\Core\\Permissions\\Admin' => __DIR__ . '/../..' . '/core/Permissions/Admin.php',
         'WeDevs\\PM\\Core\\Permissions\\Administrator' => __DIR__ . '/../..' . '/core/Permissions/Administrator.php',
         'WeDevs\\PM\\Core\\Permissions\\Authentic' => __DIR__ . '/../..' . '/core/Permissions/Authentic.php',
+        'WeDevs\\PM\\Core\\Permissions\\Categories_Page_Access' => __DIR__ . '/../..' . '/core/Permissions/categories_Page_Access.php',
         'WeDevs\\PM\\Core\\Permissions\\Complete_Task' => __DIR__ . '/../..' . '/core/Permissions/Complete_Task.php',
         'WeDevs\\PM\\Core\\Permissions\\Create_Discuss' => __DIR__ . '/../..' . '/core/Permissions/Create_Discuss.php',
         'WeDevs\\PM\\Core\\Permissions\\Create_File' => __DIR__ . '/../..' . '/core/Permissions/Create_File.php',
@@ -570,9 +621,12 @@ class ComposerStaticInit159bc47014825bf5bad1563813c4fb56
         'WeDevs\\PM\\Core\\Permissions\\Edit_Milestone' => __DIR__ . '/../..' . '/core/Permissions/Edit_Milestone.php',
         'WeDevs\\PM\\Core\\Permissions\\Edit_Task' => __DIR__ . '/../..' . '/core/Permissions/Edit_Task.php',
         'WeDevs\\PM\\Core\\Permissions\\Edit_Task_List' => __DIR__ . '/../..' . '/core/Permissions/Edit_Task_List.php',
+        'WeDevs\\PM\\Core\\Permissions\\Manager' => __DIR__ . '/../..' . '/core/Permissions/Manager.php',
         'WeDevs\\PM\\Core\\Permissions\\Permission' => __DIR__ . '/../..' . '/core/Permissions/Permission.php',
         'WeDevs\\PM\\Core\\Permissions\\Project_Create_Capability' => __DIR__ . '/../..' . '/core/Permissions/Project_Create_Capability.php',
         'WeDevs\\PM\\Core\\Permissions\\Project_Manage_Capability' => __DIR__ . '/../..' . '/core/Permissions/Project_Manage_Capability.php',
+        'WeDevs\\PM\\Core\\Permissions\\Project_Settings_Page_Access' => __DIR__ . '/../..' . '/core/Permissions/Project_Settings_Page_Access.php',
+        'WeDevs\\PM\\Core\\Permissions\\Settings_Page_Access' => __DIR__ . '/../..' . '/core/Permissions/Settings_Page_Access.php',
         'WeDevs\\PM\\Core\\Promotions\\Offers' => __DIR__ . '/../..' . '/core/Promotions/Offers.php',
         'WeDevs\\PM\\Core\\Promotions\\Promotions' => __DIR__ . '/../..' . '/core/Promotions/Promotions.php',
         'WeDevs\\PM\\Core\\Promotions\\WeDevs_Promotion' => __DIR__ . '/../..' . '/core/Promotions/Wedevs_Promotion.php',
@@ -591,6 +645,8 @@ class ComposerStaticInit159bc47014825bf5bad1563813c4fb56
         'WeDevs\\PM\\Core\\Upgrades\\Upgrade_2_2_2' => __DIR__ . '/../..' . '/core/Upgrades/Upgrade_2_2_2.php',
         'WeDevs\\PM\\Core\\Upgrades\\Upgrade_2_3' => __DIR__ . '/../..' . '/core/Upgrades/Upgrade_2_3.php',
         'WeDevs\\PM\\Core\\Upgrades\\Upgrade_2_4_1' => __DIR__ . '/../..' . '/core/Upgrades/Upgrade_2_4_1.php',
+        'WeDevs\\PM\\Core\\Upgrades\\Upgrade_2_4_4' => __DIR__ . '/../..' . '/core/Upgrades/Upgrade_2_4_4.php',
+        'WeDevs\\PM\\Core\\User_Profile\\Profile_Update' => __DIR__ . '/../..' . '/core/User_Profile/Profile_Update.php',
         'WeDevs\\PM\\Core\\Validator\\Abstract_Validator' => __DIR__ . '/../..' . '/core/Validator/Abstract_Validator.php',
         'WeDevs\\PM\\Core\\Validator\\Validator' => __DIR__ . '/../..' . '/core/Validator/Validator.php',
         'WeDevs\\PM\\Core\\WP\\Enqueue_Scripts' => __DIR__ . '/../..' . '/core/WP/Enqueue_Scripts.php',

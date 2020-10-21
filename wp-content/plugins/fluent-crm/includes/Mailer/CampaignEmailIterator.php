@@ -51,6 +51,6 @@ class CampaignEmailIterator implements \Iterator
             ->limit($this->limit)
             ->get();
 
-        return !$this->emails->empty();
+        return !$this->emails->isEmpty();
     }
 }

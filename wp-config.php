@@ -1,5 +1,10 @@
 <?php
-define( 'WP_CACHE', true ); // Added by WP Rocket
+# BEGIN WP Hide & Security Enhancer
+define('WPH_WPCONFIG_LOADER',          TRUE);
+include_once( ( defined('WP_PLUGIN_DIR')    ?     WP_PLUGIN_DIR   .   '/wp-hide-security-enhancer-pro/'    :      ( defined( 'WP_CONTENT_DIR') ? WP_CONTENT_DIR  :   dirname(__FILE__) . '/' . 'wp-content' )  . '/plugins/wp-hide-security-enhancer-pro' ) . '/include/wph.class.php');
+if (class_exists('WPH')) { global $wph; $wph    =   new WPH(); ob_start( array($wph, 'ob_start_callback')); }
+# END WP Hide & Security Enhancer
+define( 'WP_CACHE', false ); 
  define('WP_MEMORY_LIMIT', '1024M'); 
 /**
  * The base configurations of the WordPress.
@@ -95,4 +100,5 @@ define('WU_CLOUDWAYS_EXTRA_DOMAINS', '*.lionsbuild.com');
 if ( !defined('ABSPATH') )
         define('ABSPATH', dirname(__FILE__) . '/');
 /** Sets up WordPress vars and included files. */
+//define("ADMIN_COOKIE_PATH", "/admin");
 require_once(ABSPATH . 'wp-settings.php');

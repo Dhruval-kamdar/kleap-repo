@@ -19,7 +19,7 @@ function my_custom_fonts() {
       div#wu-unmap-page,
       div#rank_math_metabox_link_suggestions,
       div#astra_settings_meta_box,
-      body.elementor-editor-active #elementor-switch-mode-button,
+      body.elementororor-editor-active #elementororor-switch-mode-button,
       div#ure_content_view_restrictions_meta_box,
       #toplevel_page_wp_rankie ul li:last-child,
       .media-frame-tab-panel #menu-item-astraimages,
@@ -35,7 +35,7 @@ function my_custom_fonts() {
       .rank-math-header , 
       #wp-admin-bar-rank-math, 
       .cmb2-metabox-description > a,
-      li#menu-posts-elementor_library ul li:last-child,
+      li#menu-posts-elementororor_library ul li:last-child,
       ul.wu_status_list .space-used,
       #wp-admin-bar-wp-ultimo,
       ul.wu_status_list .total-users{ display: none; }
@@ -46,7 +46,7 @@ function my_custom_fonts() {
          $("#toplevel_page_wp_rankie span.ma-admin-shrink.wp-menu-name").html("Classement Google");
          $("#ure_select_other_roles").parent().parent().parent().parent().remove();
          $("#ure_select_other_roles_2").parent().parent().parent().parent().remove();
-         $("#menu-pages").find("ul").append("<li><a href='.site_url().'/wp-admin/edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup>Capture de prospect</a></li>");                  
+         $("#menu-pages").find("ul").append("<li><a href='.site_url().'/wp-admin/edit.php?post_type=elementororor_library&tabs_group=popup&elementororor_library_type=popup>Capture de prospect</a></li>");                  
       });
    </script>';
    if (wu_has_plan($user_id, $plan_id) || wu_has_plan($user_id, $plan_id1) || wu_has_plan($user_id, $plan_id2) && wu_is_active_subscriber($user_id)) {
@@ -122,17 +122,7 @@ function hook_css() {
 }
 add_action('wp_footer', 'hook_css');
 
-function intercomCaller(){ ?>
-   <script> window.intercomSettings = { app_id: "vvorqmiq" }; </script>
-   <script>
-   (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/vvorqmiq';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-   </script>
-<?php }
-add_action('admin_footer', 'intercomCaller');
-//add_action('wp_footer', 'intercomCaller');
-
-
-/*add_action( 'elementor/init', function() {
+/*add_action( 'elementororor/init', function() {
    if(is_admin()){
       global $pagenow;
       if($pagenow != 'admin-ajax.php' && $pagenow != 'async-upload.php'){
@@ -157,7 +147,7 @@ function nh_remove_menu_pages() {
 
    add_action('admin_head', 'my_custom_fonts');
    /*if(get_current_blog_id() != 8){
-      remove_menu_page( 'edit.php?post_type=elementor_library' );   
+      remove_menu_page( 'edit.php?post_type=elementororor_library' );   
    }*/    
    
    $plan_id = 5776;
@@ -231,4 +221,47 @@ add_filter('show_admin_bar', '__return_false');
 <style type="text/css">
    #wpadminbar{ display: none !important; }
 </style>
-<?php } ?>
+<?php } 
+
+function wu_add_intercom() { 
+$user_id = get_current_user_id();
+$plan_id_cb = 5776;
+$plan_id_cp = 5692;
+$plan_id_ca = 5695;
+$plan_name = "Constru Base";
+if (wu_has_plan($user_id, $plan_id_cb)) {
+  $plan_name = "Constru Base";
+}else if (wu_has_plan($user_id, $plan_id_cp)) {
+  $plan_name = "Constru Pro";
+}else if (wu_has_plan($user_id, $plan_id_ca)) {
+  $plan_name = "Constru Avancé";
+}else{
+  $plan_name = "No plan available";
+}
+?>
+<!-- INTERCOM CODE STARTS HERE -->
+<script>
+
+  var APP_ID = "eginghgr";
+
+ window.intercomSettings = {
+    app_id: "eginghgr",
+    name: "<?=wp_get_current_user()->user_login?>", // Full name
+    email: "<?=wp_get_current_user()->user_email?>", // Email address 
+    user_id: "<?=wp_get_current_user()->ID?>", // ID
+    Plan: "<?=$plan_name?>", // ID
+    FirstName: "<?=wp_get_current_user()->user_firstname?>", // ID
+    LastName: "<?=wp_get_current_user()->user_lastname?>", // ID
+    created_at: "<?=strtotime(wp_get_current_user()->created_at)?>" // Signup date as a Unix timestamp
+
+  };
+
+</script>
+
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/' + "eginghgr";var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+
+<!-- INTERCOM CODE ENDS HERE -->
+
+<?php } // end wu_add_intercom;
+
+add_action( 'admin_head', 'wu_add_intercom');

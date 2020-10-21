@@ -154,8 +154,6 @@ class Manager {
 			}
 
 			$css_file->enqueue();
-
-			Plugin::$instance->frontend->add_body_class( 'elementor-kit-' . $kit->get_main_id() );
 		}
 	}
 
@@ -175,6 +173,17 @@ class Manager {
 		}
 
 		return $kit;
+	}
+
+	public function update_kit_settings_based_on_option( $key, $value ) {
+		/** @var Kit $active_kit */
+		$active_kit = $this->get_active_kit();
+
+		if ( $active_kit->is_saving() ) {
+			return;
+		}
+
+		$active_kit->update_settings( [ $key => $value ] );
 	}
 
 	/**
@@ -239,6 +248,20 @@ class Manager {
 		return ! get_option( 'elementor_disable_typography_schemes' );
 	}
 
+	/**
+	 * Add kit wrapper body class.
+	 *
+	 * It should be added even for non Elementor pages,
+	 * in order to support embedded templates.
+	 */
+	private function add_body_class() {
+		$kit = $this->get_kit_for_frontend();
+
+		if ( $kit ) {
+			Plugin::$instance->frontend->add_body_class( 'elementor-kit-' . $kit->get_main_id() );
+		}
+	}
+
 	public function __construct() {
 		add_action( 'elementor/documents/register', [ $this, 'register_document' ] );
 		add_filter( 'elementor/editor/localize_settings', [ $this, 'localize_settings' ] );
@@ -246,5 +269,17 @@ class Manager {
 		add_action( 'elementor/frontend/after_enqueue_styles', [ $this, 'frontend_before_enqueue_styles' ], 0 );
 		add_action( 'elementor/preview/enqueue_styles', [ $this, 'preview_enqueue_styles' ], 0 );
 		add_action( 'elementor/controls/controls_registered', [ $this, 'register_controls' ] );
+
+		add_action( 'update_option_blogname', function ( $old_value, $value ) {
+			$this->update_kit_settings_based_on_option( 'site_name', $value );
+		}, 10, 2 );
+
+		add_action( 'update_option_blogdescription', function ( $old_value, $value ) {
+			$this->update_kit_settings_based_on_option( 'site_description', $value );
+		}, 10, 2 );
+
+		add_action( 'wp_head', function() {
+			$this->add_body_class();
+		} );
 	}
 }

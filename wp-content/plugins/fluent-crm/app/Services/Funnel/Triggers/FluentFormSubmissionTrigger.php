@@ -172,6 +172,11 @@ class FluentFormSubmissionTrigger extends BaseTrigger
         $form = $originalArgs[2];
 
         $processedValues = $funnel->settings;
+
+        if (Arr::get($processedValues, 'form_id') != $form->id) {
+            return; // not our form
+        }
+
         $processedValues['primary_fields']['ip'] = '{submission.ip}';
 
         $processedValues = ShortCodeParser::parse($processedValues, $insertId, $formData);

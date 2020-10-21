@@ -13,9 +13,13 @@ use FluentValidator\ValidationException;
 
 class FunnelController extends Controller
 {
-    public function funnels()
+    public function funnels(Request $request)
     {
-        $funnels = Funnel::orderBy('id', 'DESC')->paginate();
+        $funnelQuery = Funnel::orderBy('id', 'DESC');
+        if ($search = $request->get('search')) {
+            $funnelQuery->where('title', 'LIKE', '%%'.$search.'%%');
+        }
+        $funnels = $funnelQuery->paginate();
         $with = $this->request->get('with', []);
         $data = [
             'funnels' => $funnels
@@ -227,15 +231,24 @@ class FunnelController extends Controller
     public function getSubscribers(Request $request, $funnelId)
     {
 
-        $funnelSubscribers = FunnelSubscriber::with([
+        $search = $request->get('search');
+
+        $funnelSubscribersQuery = FunnelSubscriber::with([
             'subscriber',
             'metrics' => function ($query) use ($funnelId) {
                 $query->where('funnel_id', $funnelId);
             }
         ])
             ->orderBy('id', 'DESC')
-            ->where('funnel_id', $funnelId)
-            ->paginate();
+            ->where('funnel_id', $funnelId);
+
+        if($search) {
+            $funnelSubscribersQuery->whereHas('subscriber', function ($q) use ($search) {
+                $q->searchBy($search);
+            });
+        }
+
+        $funnelSubscribers = $funnelSubscribersQuery->paginate();
 
         $data = [
             'funnel_subscribers' => $funnelSubscribers,
@@ -243,10 +256,12 @@ class FunnelController extends Controller
         ];
 
         if (in_array('sequences', $request->get('with', []))) {
-            $sequences = FunnelSequence::where('funnel_id', $funnelId)->get();
+            $sequences = FunnelSequence::where('funnel_id', $funnelId)
+                ->orderBy('sequence', 'ASC')
+                ->get();
             $formattedSequences = [];
             foreach ($sequences as $sequence) {
-                $formattedSequences[$sequence->id] = $sequence;
+                $formattedSequences[] = $sequence;
             }
             $data['sequences'] = $formattedSequences;
         }

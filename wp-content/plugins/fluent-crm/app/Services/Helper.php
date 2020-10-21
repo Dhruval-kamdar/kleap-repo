@@ -365,17 +365,22 @@ class Helper
         }
 
         return apply_filters('fluentcrm_theme_pref', [
-            'colors'     => $color_palette,
-            'font_sizes' => $font_sizes
+            'colors'     => (array) $color_palette,
+            'font_sizes' => (array) $font_sizes
         ]);
     }
 
     public static function generateThemePrefCss()
     {
+        static $color_css;
+        if($color_css) {
+            return $color_css;
+        }
         $pref = self::getThemePrefScheme();
         $css = '';
-        if ($pref['colors']) {
+        if (isset($pref['colors'])) {
             foreach ($pref['colors'] as $color) {
+                if(isset($color['slug']))
                 $slug = self::kebabCase($color['slug']);
                 $css .= '.has-' . $slug . '-color  { color: ' . $color['color'] . ';} ';
                 $css .= '.has-' . $slug . '-background-color  { background-color: ' . $color['color'] . '; background: ' . $color['color'] . '; } ';
@@ -389,7 +394,8 @@ class Helper
             }
         }
 
-        return $css;
+        $color_css = $css;
+        return $color_css;
     }
 
     public static function kebabCase($string)

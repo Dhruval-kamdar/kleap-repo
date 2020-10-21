@@ -40,7 +40,7 @@ class Contacts
 
     public function createOrUpdate($data, $forceUpdate = false, $deleteOtherValues = false, $sync = false)
     {
-        if(!isset($data['custom_fields'])) {
+        if(!isset($data['custom_values'])) {
             $customFieldKeys = [];
             $customFields = (new CustomContactField)->getGlobalFields()['fields'];
             foreach ($customFields as $field) {
@@ -48,8 +48,9 @@ class Contacts
             }
             if ($customFieldKeys) {
                 $customFieldsData = Arr::only($data, $customFieldKeys);
+                $customFieldsData = array_filter($customFieldsData);
                 if ($customFields) {
-                    $data['custom_fields'] = (new CustomContactField)->formatCustomFieldValues($customFieldsData);
+                    $data['custom_values'] = (new CustomContactField)->formatCustomFieldValues($customFieldsData);
                 }
             }
         }

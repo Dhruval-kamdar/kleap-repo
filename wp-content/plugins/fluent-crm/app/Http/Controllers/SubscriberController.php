@@ -30,8 +30,9 @@ class SubscriberController extends Controller
                 $query->orderBy($this->request->get('sort_by'), $this->request->get('sort_type'));
             });
 
+        $subscribers = $subscribers->paginate();
         return $this->sendSuccess([
-            'subscribers' => $subscribers->paginate()
+            'subscribers' => $subscribers
         ]);
     }
 
@@ -56,6 +57,10 @@ class SubscriberController extends Controller
 
         if (in_array('subscriber.custom_values', $with)) {
             $subscriber->custom_values = (object)$subscriber->custom_fields();
+        }
+
+        if($subscriber->date_of_birth == '0000-00-00') {
+            $subscriber->date_of_birth = '';
         }
 
         $data = [
@@ -182,10 +187,14 @@ class SubscriberController extends Controller
         ]);
 
         if ($this->isNew()) {
-            Subscriber::store($data);
-            return $this->sendSuccess([
-                'message' => 'Successfully added the subscriber.'
-            ]);
+            $contact = Subscriber::store($data);
+
+            do_action('fluentcrm_contact_created', $contact, $data);
+
+            return [
+                'message' => 'Successfully added the subscriber.',
+                'contact' => $contact
+            ];
         }
     }
 
@@ -204,8 +213,19 @@ class SubscriberController extends Controller
             $data['user_id'] = $user->ID;
         }
 
-        $subscriber->fill($data);
-        $subscriber->save();
+        if(empty($data['date_of_birth'])) {
+            $data['date_of_birth'] = null;
+        }
+
+        unset($data['created_at']);
+        unset($data['last_activity']);
+
+        $data['updated_at'] = current_time('mysql');
+
+        $data = Arr::only($data, $subscriber->getFillable());
+        Subscriber::where('id', $subscriber->id)->update($data);
+
+        $subscriber = Subscriber::where('id', $subscriber->id)->first();
 
         do_action('fluentcrm_contact_updated', $subscriber, $data);
 
@@ -214,7 +234,9 @@ class SubscriberController extends Controller
         }
 
         return $this->sendSuccess([
-            'message' => __('Subscriber successfully updated')
+            'message' => __('Subscriber successfully updated'),
+            'contact' => $subscriber,
+            'is_dirty' => $subscriber->isDirty()
         ], 200);
     }
 

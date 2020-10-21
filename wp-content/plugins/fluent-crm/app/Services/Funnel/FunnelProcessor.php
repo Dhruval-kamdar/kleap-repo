@@ -52,7 +52,6 @@ class FunnelProcessor
         if (!$subscriber) {
             // it's new so let's create new subscriber
             $subscriber = FunnelHelper::createOrUpdateContact($subscriberData);
-
             if ($subscriber->status == 'pending') {
                 $subscriber->sendDoubleOptinEmail();
             }
@@ -98,7 +97,7 @@ class FunnelProcessor
 
     public function processSequences($sequences, $subscriber, $funnelSubscriber)
     {
-        if ($sequences->empty()) {
+        if ($sequences->isEmpty()) {
             $this->completeFunnelSequence($funnelSubscriber);
             return;
         }

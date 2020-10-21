@@ -3,7 +3,6 @@
 namespace FluentCrm\App\Http\Controllers;
 
 use FluentCrm\App\Models\Campaign;
-use FluentCrm\App\Models\Subject;
 use FluentCrm\App\Models\Subscriber;
 use FluentCrm\App\Models\Template;
 use FluentCrm\App\Services\BlockParser;
@@ -86,10 +85,17 @@ class CampaignController extends Controller
     public function campaignEmails(Request $request, $campaignId)
     {
         $filterType = $request->get('filter_type');
+        $search = $request->get('search');
 
-        $emailsQuery = CampaignEmail::with(['subscriber' => function ($query) {
+        $emailsQuery = CampaignEmail::with(['subscriber' => function ($query) use ($search) {
             $query->with('tags', 'lists');
         }])->where('campaign_id', $campaignId);
+
+        if($search) {
+            $emailsQuery->whereHas('subscriber', function ($q) use ($search) {
+                $q->searchBy($search);
+            });
+        }
 
         if ($filterType == 'click') {
             $emailsQuery = $emailsQuery->whereNotNull('click_counter')
@@ -193,6 +199,7 @@ class CampaignController extends Controller
 
     public function subscribe(Request $request, $campaignId)
     {
+        $startTime = microtime(true);
         $campaign = Campaign::find($campaignId);
 
         $this->app->doCustomAction('campaign_status_active', $campaign);
@@ -235,8 +242,16 @@ class CampaignController extends Controller
                 'count'       => $campaign->recipients_count,
                 'total_items' => $subscribeStatus['total_items'],
                 'page_total'  => ceil($subscribeStatus['total_items'] / $limit),
-                'next_page'   => $page + 1
+                'next_page'   => $page + 1,
+                'execution_time' => microtime(true) - $startTime
             ]);
+        }
+
+        if($campaign->recipients_count) {
+            return [
+                'has_more' => false,
+                'count' => $campaign->recipients_count
+            ];
         }
 
         return $this->sendError([
@@ -496,6 +511,7 @@ class CampaignController extends Controller
                 $campaign->save();
             }
         }
+
 
         if ($campaign->status == 'working') {
             $lastEmailTimestamp = get_option(FLUENTCRM . '_is_sending_emails');

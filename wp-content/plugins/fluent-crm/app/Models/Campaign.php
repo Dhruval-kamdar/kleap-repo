@@ -202,14 +202,25 @@ class Campaign extends Model
     {
         $filterType = Arr::get($settings, 'sending_filter', 'list_tag');
 
-        if ($filterType == 'list_tag') {
-            $subscriberIds = $this->getSubscribeIdsByList($settings['subscribers'], 'subscribed');
+        $alreadySliced = false;
 
+        if ($filterType == 'list_tag') {
+            $excludeSubscriberIds = [];
             if ($excludeItems = Arr::get($settings, 'excludedSubscribers')) {
-                if ($excludeSubscriberIds = $this->getSubscribeIdsByList($excludeItems, 'subscribed')) {
-                    $subscriberIds = array_diff($subscriberIds, $excludeSubscriberIds);
-                }
+                $excludeSubscriberIds = $this->getSubscribeIdsByList($excludeItems, 'subscribed');
             }
+
+            if (!$excludeSubscriberIds) {
+                $alreadySliced = true;
+                $subscriberIds = $this->getSubscribeIdsByList($settings['subscribers'], 'subscribed', $limit, $offset);
+            } else {
+                $subscriberIds = $this->getSubscribeIdsByList($settings['subscribers'], 'subscribed');
+            }
+
+            if ($excludeSubscriberIds) {
+                $subscriberIds = array_diff($subscriberIds, $excludeSubscriberIds);
+            }
+
             $totalItems = count($subscriberIds);
         } else {
             $segmentSettings = Arr::get($settings, 'dynamic_segment', []);
@@ -220,7 +231,7 @@ class Campaign extends Model
             $totalItems = $subscribersPaginate['total_count'];
         }
 
-        if ($limit) {
+        if ($limit && !$alreadySliced) {
             $subscriberIds = array_slice($subscriberIds, $offset, $limit);
         }
 
@@ -231,18 +242,42 @@ class Campaign extends Model
     }
 
     /**
+     * @param \WpFluent\QueryBuilder\QueryBuilderHandler $query
+     * @param array $ids
+     * @param string $type lists or tags
+     * @return \WpFluent\QueryBuilder\QueryBuilderHandler
+     */
+    private function getSubQueryForLisTorTagFilter($query, $ids, $table, $objectType)
+    {
+        $prefix = 'fc_';
+
+        $subQuery = $query->getQuery()
+            ->table($prefix . $table)
+            ->innerJoin(
+                $prefix . 'subscriber_pivot',
+                $prefix . 'subscriber_pivot.object_id',
+                '=',
+                $prefix . $table . '.id'
+            )
+            ->where($prefix . 'subscriber_pivot.object_type', $objectType)
+            ->whereIn($prefix . $table . '.id', $ids)
+            ->groupBy($prefix . 'subscriber_pivot.subscriber_id')
+            ->select($prefix . 'subscriber_pivot.subscriber_id');
+
+        return $subQuery;
+    }
+
+    /**
      * Get subscribers ids to by list with tag filtering
      * @param array $items
      * @param string $status contact status
+     * @param int|boolean $limit limit
+     * @param int $offset contact offset
      * @return array
      */
-    public function getSubscribeIdsByList($items, $status = 'subscribed')
+    public function getSubscribeIdsByList($items, $status = 'subscribed', $limit = false, $offset = 0)
     {
-        $query = wpFluent()->table('fc_subscribers')
-            ->select('fc_subscriber_pivot.subscriber_id')
-            ->groupBy('fc_subscriber_pivot.subscriber_id')
-            ->where('fc_subscribers.status', $status)
-            ->join('fc_subscriber_pivot', 'fc_subscriber_pivot.subscriber_id', '=', 'fc_subscribers.id');
+        $query = Subscriber::where('status', $status);
 
         $queryGroups = [];
 
@@ -251,50 +286,54 @@ class Campaign extends Model
         foreach ($items as $item) {
             $listId = $item['list'];
             $tagId = $item['tag'];
-            if(!$listId || !$tagId) {
+            if (!$listId || !$tagId) {
                 continue;
             }
 
-            if($listId == 'all' && $tagId == 'all') {
+            if ($listId == 'all' && $tagId == 'all') {
                 $willSkip = true;
-            } else if($listId == 'all') {
+            } else if ($listId == 'all') {
                 $queryGroups[] = ['tag_id' => $tagId];
-            } else if($tagId == 'all') {
+            } else if ($tagId == 'all') {
                 $queryGroups[] = ['list_id' => $listId];
             } else {
                 $queryGroups[] = [
                     'list_id' => $listId,
-                    'tag_id' => $tagId
+                    'tag_id'  => $tagId
                 ];
             }
         }
 
-        if(!$willSkip && $queryGroups) {
+        if (!$willSkip && $queryGroups) {
             $type = 'where';
-            foreach ($queryGroups as $index => $pivotIds) {
-                $query->{$type}(function ($q) use ($pivotIds) {
-                    foreach ($pivotIds as $type => $id) {
-                        if($type == 'tag_id') {
-                            $q->where(function($tagQ) use($id) {
-                                $tagQ->where('object_id', $id);
-                                $tagQ->where('object_type', 'FluentCrm\App\Models\Tag');
-                            });
-                        } else if($type == 'list_id') {
-                            $q->where(function($tagQ) use($id) {
-                                $tagQ->where('object_id', $id);
-                                $tagQ->where('object_type', 'FluentCrm\App\Models\Lists');
-                            });
+
+
+            foreach ($queryGroups as $queryGroup) {
+                $query->{$type}(function ($q) use ($queryGroup, $query) {
+                    foreach ($queryGroup as $type => $id) {
+                        if ($type == 'tag_id') {
+                            $subQuery = $this->getSubQueryForLisTorTagFilter($query, [$id], 'tags', 'FluentCrm\App\Models\Tag');
+                            $q->whereIn('id', $q->subQuery($subQuery));
+                        } else if ($type == 'list_id') {
+                            $subQuery = $this->getSubQueryForLisTorTagFilter($query, [$id], 'lists', 'FluentCrm\App\Models\Lists');
+                            $q->whereIn('id', $q->subQuery($subQuery));
                         }
                     }
                 });
+
                 $type = 'orWhere';
             }
         }
 
+        if ($limit) {
+            $query->limit($limit)->offset($offset);
+        }
+
         $results = $query->get();
         $ids = [];
+
         foreach ($results as $result) {
-            $ids[] = $result->subscriber_id;
+            $ids[] = $result->id;
         }
 
         return $ids;
@@ -356,14 +395,16 @@ class Campaign extends Model
                 ->update([
                     'email_hash' => $emailHash
                 ]);
-
             $updateIds[] = $inserted->id;
 
         }
 
         $result = $campaignEmails ? CampaignEmail::insert($campaignEmails) : [];
-        $this->recipients_count = $this->emails()->count();
-        $this->save();
+        $emailCount = $this->getEmailCount();
+        if ($emailCount != $this->recipients_count) {
+            $this->recipients_count = $this->getEmailCount();
+            $this->save();
+        }
 
         return array_merge($result, $updateIds);
     }
@@ -391,7 +432,7 @@ class Campaign extends Model
     public function guessEmailSubject()
     {
         $subjects = $this->subjects()->get();
-        if ($subjects->empty()) {
+        if ($subjects->isEmpty()) {
             return null;
         }
 
@@ -477,6 +518,13 @@ class Campaign extends Model
             'unsubscribers' => $unSubscribed
         ];
 
+    }
+
+    public function getEmailCount()
+    {
+        return wpFluent()->table('fc_campaign_emails')
+            ->where('campaign_id', $this->id)
+            ->count();
     }
 
 }

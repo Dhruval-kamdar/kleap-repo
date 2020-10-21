@@ -107,15 +107,24 @@ class TagsController extends Controller
     public function storeBulk()
     {
         $tags = $this->request->get('tags', []);
+        if(!$tags) {
+            $tags = $this->request->get('items', []);
+        }
 
         foreach ($tags as $tag) {
-            if (!$tag['title'] || !$tag['slug']) {
+            if (empty($tag['title'])) {
                 continue;
             }
+
+            if(empty($tag['slug'])) {
+                $tag['slug'] = sanitize_title($tag['title']);
+            }
+
             $tag = Tag::updateOrCreate(
                 ['slug' => sanitize_title($tag['slug'], 'display')],
                 ['title' => $tag['title']]
             );
+
             do_action('fluentcrm_tag_created', $tag->id);
         }
 

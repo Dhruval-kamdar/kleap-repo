@@ -79,7 +79,7 @@ class CampaignUrlMetric extends Model
     {
         $subjects = $campaign->subjects()->get();
 
-        if ($subjects->empty()) {
+        if ($subjects->isEmpty()) {
             return [];
         }
 

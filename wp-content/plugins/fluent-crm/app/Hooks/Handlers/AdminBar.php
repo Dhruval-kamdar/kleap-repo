@@ -39,7 +39,7 @@ class AdminBar
         $args = [
             'parent' => 'top-secondary',
             'id'     => 'fc_global_search',
-            'title'  => 'Search Contact',
+            'title'  => 'Search Contacts',
             'href'   => '#',
             'meta'   => false
         ];

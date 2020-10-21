@@ -166,7 +166,7 @@ class Handler
             $query->where('status', 'failed');
         })->whereIn('id', array_unique($this->processedCampaigns))->get();
 
-        if (!$campaigns->empty()) {
+        if (!$campaigns->isEmpty()) {
             Campaign::whereIn(
                 'id', array_unique($campaigns->pluck('id'))
             )->update(['status' => 'incomplete']);
@@ -179,7 +179,7 @@ class Handler
             $query->whereIn('status', ['pending', 'failed']);
         })->whereIn('id', array_unique($this->processedCampaigns))->get();
 
-        if (!$campaigns->empty()) {
+        if (!$campaigns->isEmpty()) {
             Campaign::whereIn(
                 'id', array_unique($campaigns->pluck('id'))
             )->update(['status' => 'archived']);

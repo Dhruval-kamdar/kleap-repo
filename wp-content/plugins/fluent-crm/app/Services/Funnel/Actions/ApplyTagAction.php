@@ -19,7 +19,7 @@ class ApplyTagAction extends BaseAction
         return [
             'title'       => 'Apply Tag',
             'description' => 'Add this contact to the selected Tags',
-            'icon' => fluentCrmMix('images/funnel_icons/apply_tag.svg'),
+            'icon'        => fluentCrmMix('images/funnel_icons/apply_tag.svg'),
             'settings'    => [
                 'tags' => []
             ]
@@ -34,8 +34,9 @@ class ApplyTagAction extends BaseAction
             'fields'    => [
                 'tags' => [
                     'type'        => 'option_selectors',
-                    'option_key' => 'tags',
+                    'option_key'  => 'tags',
                     'is_multiple' => true,
+                    'creatable'   => true,
                     'label'       => 'Select Tags',
                     'placeholder' => 'Select Tag'
                 ]

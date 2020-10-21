@@ -50,6 +50,7 @@ class TagAppliedBenchmark extends BaseBenchMark
                 'tags'        => [
                     'type'        => 'option_selectors',
                     'option_key'  => 'tags',
+                    'creatable'   => true,
                     'is_multiple' => true,
                     'label'       => 'Select Tags',
                     'placeholder' => 'Select Tags'

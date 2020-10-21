@@ -4,7 +4,7 @@ Tags: crm, newsletter, email, Email Marketing, Funnel
 Requires at least: 5.0
 Tested up to: 5.5.1
 Requires PHP: 5.6
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -189,6 +189,15 @@ The entire source code is <a href="https://github.com/fluentcrm/fluent-crm/">ava
 
 
 == Changelog ==
+
+== 1.1.2 (Date: October 16, 2020) ==
+* Funnel automation fix with Fluent Forms
+* Segmentation Selection fix
+* Fix custom fields mapping
+* Double Opt-in Fixed and controlled
+* Added search on Emails
+* Added More API endpoints
+* Overall performance improvement
 
 == 1.1.1 (Date: October 09, 2020) ==
 * Massive Optimization for large lists like 300K

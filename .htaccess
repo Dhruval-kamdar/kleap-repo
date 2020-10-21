@@ -1,4 +1,82 @@
 # BEGIN WP Hide & Security Enhancer
+ 
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase / 
+
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule ^ - [L]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?sejumoq/ciqiqob.css /wp-content/plugins/wp-hide-security-enhancer-pro/router/file-process.php?action=style-clean&file_path=/wp-content/themes/astra/style.css&blog_id=21 [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?baviver/gejopob.css /wp-content/plugins/wp-hide-security-enhancer-pro/router/file-process.php?action=style-clean&file_path=/wp-content/themes/buildico/style.css&blog_id=21 [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?vudedim/nisehic.css /wp-content/plugins/wp-hide-security-enhancer-pro/router/file-process.php?action=style-clean&file_path=/wp-content/themes/droow/style.css&blog_id=21 [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?peboqin/garuded.css /wp-content/plugins/wp-hide-security-enhancer-pro/router/file-process.php?action=style-clean&file_path=/wp-content/themes/twentytwenty/style.css&blog_id=21 [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?dimimul/qagoler.css /wp-content/plugins/wp-hide-security-enhancer-pro/router/file-process.php?action=style-clean&file_path=/wp-content/themes/revolution/style.css&blog_id=21 [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?peboqin/garuded.css /wp-content/themes/twentytwenty/style.css [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?sejumoq/ciqiqob.css /wp-content/themes/astra/style.css [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?baviver/gejopob.css /wp-content/themes/buildico/style.css [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?vudedim/nisehic.css /wp-content/themes/droow/style.css [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?dimimul/qagoler.css /wp-content/themes/revolution/style.css [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?sejumoq/(.+) /wp-content/themes/astra/$2 [QSA,END]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?peboqin/(.+) /wp-content/themes/twentytwenty/$2 [QSA,END]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?baviver/(.+) /wp-content/themes/buildico/$2 [QSA,END]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?vudedim/(.+) /wp-content/themes/droow/$2 [QSA,END]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?dimimul/(.+) /wp-content/themes/revolution/$2 [QSA,END]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?nufohup/(.+) /wp-content/plugins/beehive-analytics/$2 [END,QSA]
+RewriteRule ^([_0-9a-zA-Z-]+/)?baruhid/(.+) /wp-content/plugins/elementor-pro/$2 [END,QSA]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lapijen/(.+) /wp-content/plugins/wedevs-project-manager/$2 [END,QSA]
+RewriteRule ^([_0-9a-zA-Z-]+/)?apps/(.+) /wp-content/plugins/$2 [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?tivatih/(.+) /wp-includes/$2 [QSA,END]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?hubamoc/(.+) /wp-content/uploads/$2 [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?wp-content/uploads/(.+) /hubamoc/$2 [R=301,END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?signup /wp-signup.php [END,QSA]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?wp-signup.php /index.php?wph-throw-404 [END]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?fubedos/(.+) /wp-content/$2 [QSA,L]
+
+RewriteRule ^([_0-9a-zA-Z-]+/)?wp-content/(.+) /index.php?wph-throw-404 [END]
+ServerSignature Off
+
+                                                                        <FilesMatch "">
+                                                                            <IfModule mod_headers.c>
+                                                                                Header unset X-Pingback
+                                                                            </IfModule>
+                                                                        </FilesMatch>
+
+                                                                        <FilesMatch "">
+                                                                                <IfModule mod_headers.c>
+                                                                                    Header unset X-Powered-By
+                                                                                </IfModule>
+                                                                            </FilesMatch>
+
+RewriteCond %{REQUEST_URI} (/[_0-9a-zA-Z-]+/)?/app$
+RewriteRule ^(.*)$ /app/ [R=301,END]
+RewriteRule ^([_0-9a-zA-Z-]+/)?app(.*) /wp-admin$2 [END,QSA]
+
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^([_0-9a-zA-Z-]+/)?wp-admin(.+) /index.php?wph-throw-404 [L]
+</IfModule> 
+ 
 
 # END WP Hide & Security Enhancer
 # BEGIN WP Rocket v3.7.2
