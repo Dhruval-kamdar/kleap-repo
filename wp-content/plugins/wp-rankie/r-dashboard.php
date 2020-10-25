@@ -74,29 +74,36 @@ function wp_rankie_dashboard_fn() {
 
 		<div style="display: none; margin-left: -10px;" class="spinner spinner-bulk"></div>
 
-		<select name="site" id="wp-rankie-select-site">
+		<!-- <select name="site" id="wp-rankie-select-site">
+
 			<option value="all">All Sites</option>
 			
 				<?php 
 
 					//get disnct groups 
-					global $wpdb;
-					$query="SELECT distinct keyword_site  FROM wp_rankie_keywords ";
-					$sites=$wpdb->get_results($query);
+					//global $wpdb;
+					//$query="SELECT distinct keyword_site  FROM wp_rankie_keywords ";
+					//$sites=$wpdb->get_results($query);
 					
-					foreach ($sites as $row){
+					//$_SERVER['SERVER_NAME'];
+
+					//echo '<option  value="'. $_SERVER['SERVER_NAME'] .'"  >'. $_SERVER['SERVER_NAME'] .'</option>'; 
+
+					/*foreach ($sites as $row){
 						echo '<option  value="'. $row->keyword_site .'"  >'. $row->keyword_site .'</option>'; 
-					}
+					}*/
 					
 				?> 			
 			
 			 
-		</select> <select name="site" id="wp-rankie-group">
+		</select> --> 
+
+		<select name="site" id="wp-rankie-group">
 			<option value="all">All Groups</option>
 			<?php 
 				//get disnct groups
 				global $wpdb;
-				$query="SELECT distinct keyword_group  FROM wp_rankie_keywords ORDER BY  keyword_group";
+				$query='SELECT distinct keyword_group  FROM wp_rankie_keywords WHERE keyword_site= "'. $_SERVER['SERVER_NAME'] .'" ORDER BY  keyword_group';
 				$groups=$wpdb->get_results($query);
 					
 				foreach ($groups as $row){
@@ -153,8 +160,9 @@ function wp_rankie_dashboard_fn() {
 
 				// RENDERING ROWS
 				
-				$query="SELECT * FROM wp_rankie_keywords";
+				$query='SELECT * FROM wp_rankie_keywords WHERE keyword_site= "'. $_SERVER['SERVER_NAME'] .'"';
 				$rows=$wpdb->get_results($query);
+				
 				$wp_rankie_update_interval = get_option('wp_rankie_update_interval','1');
 				$wp_rankie_update_threshold = $wp_rankie_update_interval * 24 *60 *60;
 				

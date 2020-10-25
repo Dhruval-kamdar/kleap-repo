@@ -6,28 +6,28 @@
 
 <div class="report_head" >
 	  
-	<select id="site" name="site" >
+	<!-- <select id="site" name="site" >
 		<option  value="all">Show All Sites</option>
 		<?php 
 
 					//get disnct groups 
-					global $wpdb;
+					/*global $wpdb;
 					$query="SELECT distinct keyword_site  FROM wp_rankie_keywords ";
 					$sites=$wpdb->get_results($query);
 					
 					foreach ($sites as $row){
 						echo '<option  value="'. $row->keyword_site .'"  >'. $row->keyword_site .'</option>'; 
-					}
+					}*/
 					
 		?> 		
-	</select>
+	</select> -->
 	
  	<select id="group"  name="group" >
 		<option  value="all">Show All Groups</option>
 		<?php 
 				//get disnct groups
 				global $wpdb;
-				$query="SELECT distinct keyword_group  FROM wp_rankie_keywords ";
+				$query='SELECT distinct keyword_group  FROM wp_rankie_keywords WHERE keyword_site= "'. $_SERVER['SERVER_NAME'] .'" ';
 				$groups=$wpdb->get_results($query);
 					
 				foreach ($groups as $row){

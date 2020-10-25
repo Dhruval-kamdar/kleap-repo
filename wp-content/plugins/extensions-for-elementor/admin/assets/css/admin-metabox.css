@@ -1,0 +1,42 @@
+.es_custom_metabox tr > th{
+    font-size: 12px;
+    padding: 15px 10px;
+    vertical-align: top;
+    width: 130px;
+}
+
+.es_custom_metabox .es_section_header{
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.es_custom_metabox .es_section_header h4 {
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0px;
+}
+
+.es_custom_metabox input[type="color"], .es_custom_metabox input[type="date"], .es_custom_metabox input[type="datetime-local"], .es_custom_metabox input[type="datetime"], .es_custom_metabox input[type="email"], .es_custom_metabox input[type="month"], .es_custom_metabox input[type="number"], .es_custom_metabox input[type="password"], .es_custom_metabox input[type="search"], .es_custom_metabox input[type="tel"], .es_custom_metabox input[type="text"], .es_custom_metabox input[type="time"], .es_custom_metabox input[type="url"], .es_custom_metabox input[type="week"] {
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    line-height: 20px;
+    margin-left: 0;
+}
+
+.es_custom_metabox input[type="text"]{
+    min-width: 200px;
+}
+
+.es_custom_metabox .es_time_picker{
+    min-width: 90px;
+}
+
+.es_custom_metabox .es_date_picker{
+    min-width: 100px;
+}
+
+.es_custom_metabox .description{
+    font-size: 12px;
+}

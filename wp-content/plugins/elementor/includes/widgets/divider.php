@@ -473,7 +473,6 @@ class Widget_Divider extends Widget_Base {
 			[
 				'label' => __( 'Add Element', 'elementor' ),
 				'type' => Controls_Manager::CHOOSE,
-				'default' => 'line',
 				'options' => [
 					'line' => [
 						'title' => __( 'None', 'elementor' ),
@@ -490,7 +489,6 @@ class Widget_Divider extends Widget_Base {
 				],
 				'separator' => 'before',
 				'prefix_class' => 'elementor-widget-divider--view-',
-				'toggle' => false,
 				'render_type' => 'template',
 			]
 		);
@@ -558,7 +556,7 @@ class Widget_Divider extends Widget_Base {
 				'default' => '#000',
 				'render_type' => 'template',
 				'selectors' => [
-					'{{WRAPPER}}' => '--divider-color: {{VALUE}}',
+					'{{WRAPPER}}' => '--divider-border-color: {{VALUE}}',
 				],
 			]
 		);
@@ -973,12 +971,12 @@ class Widget_Divider extends Widget_Base {
 		];
 
 		if ( 'line' !== $selected_pattern['group'] ) {
-			$attr['fill'] = 'black';
+			$attr['fill'] = $settings['color'];
 			$attr['stroke'] = 'none';
 		} else {
-			$attr['fill'] = 'none';
-			$attr['stroke'] = 'black';
+			$attr['stroke'] = $settings['color'];
 			$attr['stroke-width'] = $settings['weight']['size'];
+			$attr['fill'] = 'none';
 			$attr['stroke-linecap'] = 'square';
 			$attr['stroke-miterlimit'] = '10';
 		}

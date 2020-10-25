@@ -1,11 +1,12 @@
 <?php
 # BEGIN WP Hide & Security Enhancer
-define('WPH_WPCONFIG_LOADER',          TRUE);
+define('WPH_WPCONFIG_LOADER', TRUE);
 include_once( ( defined('WP_PLUGIN_DIR')    ?     WP_PLUGIN_DIR   .   '/wp-hide-security-enhancer-pro/'    :      ( defined( 'WP_CONTENT_DIR') ? WP_CONTENT_DIR  :   dirname(__FILE__) . '/' . 'wp-content' )  . '/plugins/wp-hide-security-enhancer-pro' ) . '/include/wph.class.php');
 if (class_exists('WPH')) { global $wph; $wph    =   new WPH(); ob_start( array($wph, 'ob_start_callback')); }
 # END WP Hide & Security Enhancer
 define( 'WP_CACHE', false ); 
  define('WP_MEMORY_LIMIT', '1024M'); 
+
 /**
  * The base configurations of the WordPress.
  *
@@ -74,7 +75,9 @@ define('FS_CHMOD_FILE', (0664 & ~ umask()));
 define('FLUENTCRM_IS_DEV_FEATURES', false);
 ini_set('display_errors','false');
 ini_set('error_reporting', E_ALL );
-define('WP_DEBUG', false);
+
+define('WP_DEBUG', true);
+define('SCRIPT_DEBUG', true);
 define('WP_DEBUG_DISPLAY', false);
 /* Multisite */
 define( 'WP_ALLOW_MULTISITE', true );

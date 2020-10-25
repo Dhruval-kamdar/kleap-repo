@@ -1,0 +1,180 @@
+.elementor_extensions_loading_overlay{   
+    position: absolute;   
+    top: 0;                
+    right: 0;            
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 2;
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.elementor_extensions_loading_overlay .elementor_extensions_loader {
+    height: 100%;
+    z-index: 20;
+    background: url("../img/loader1.gif") center center no-repeat;
+    position: relative;
+    background-size: 100px 100px;
+    background-color: lightgray;
+}
+
+
+/*@ A - Z Listings start */
+.elementor-widget-atoz-listing .not_found {
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+  display: inline-block;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  font-size: 14px;
+}
+
+.elementor-widget-atoz-listing ul.alphabets{
+  display: flex;
+  padding: 20px 0px;
+  border-top:1px solid;
+  border-bottom:1px solid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.az-listing-container .categories_wrapper span{
+  display: inline-block;
+}
+
+.elementor-widget-atoz-listing ul.categories{
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.elementor-widget-atoz-listing ul.alphabets li, .elementor-widget-atoz-listing ul.categories li{
+  list-style: none;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  color:#686868;
+}
+
+.elementor-widget-atoz-listing ul.alphabets li a{
+  color:#000;
+}
+
+.elementor-widget-atoz-listing ul.categories li{
+  justify-content: flex-start;
+  width: auto;
+  margin-right: 20px;
+}
+
+.elementor-widget-atoz-listing ul.categories li a{
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  color:#000000;
+}
+
+.elementor-widget-atoz-listing ul.categories li.active:hover a, .elementor-widget-atoz-listing ul.categories li.active a{
+  color:maroon;
+}
+
+.elementor-widget-atoz-listing ul.alphabets li.active a, .elementor-widget-atoz-listing ul.categories li.active a{
+  color:#000000;
+  font-weight: 600;
+}
+
+.elementor-widget-atoz-listing .posts_listing {
+  display: flex;
+  flex: 20% 80%;
+  align-items: center;
+}
+
+.elementor-widget-atoz-listing .posts_listing:first-child {
+  margin-top: 40px;
+}
+
+.elementor-widget-atoz-listing .posts_listing:not(:last-child){
+  margin-bottom: 40px;
+}
+
+.elementor-widget-atoz-listing .letter {
+  flex: 0 0 10%;
+  text-align: center;
+}
+
+.elementor-widget-atoz-listing .letter span{
+  font-size: 77px;
+  display: inline-block;
+}
+.elementor-widget-atoz-listing .posts {
+  flex: 0 0 90%;
+}
+.elementor-widget-atoz-listing .posts ul{
+  overflow: hidden; 
+}
+.elementor-widget-atoz-listing .posts ul li {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 33%;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.elementor-widget-atoz-listing .posts ul li a{
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.elementor-widget-atoz-listing .posts ul li a:hover{
+  color:#686868;
+}
+
+
+@media (max-width: 767px){
+  .elementor-widget-atoz-listing .alphabets {
+    -ms-flex-wrap: wrap; flex-wrap: wrap;
+  }
+  .elementor-widget-atoz-listing ul.alphabets li {
+    width: 20%; padding: 10px 0;
+  }
+  .elementor-widget-atoz-listing .posts_listing { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+  .elementor-widget-atoz-listing .letter { width: 100%; -ms-flex: auto; flex: auto; }
+  .elementor-widget-atoz-listing .posts ul { padding: 0; }
+  .elementor-widget-atoz-listing .posts { -ms-flex: 0 0 100%; flex: 0 0 100%; }
+  .elementor-widget-atoz-listing .posts ul li { width: 50%; font-size: 14px; }
+}
+
+/*@ A - Z Listings ends */
+
+/*@ EE Button start */
+@-webkit-keyframes ee-btn-flash-as-bg-color {
+  0% {
+      box-shadow: 0 0 0 var(--box-shadow-color);
+  }
+  50% {
+      box-shadow: 0 0 20px var(--box-shadow-color);
+  }
+}
+
+@-moz-keyframes ee-btn-flash-as-bg-color {
+  0% {
+      box-shadow: 0 0 0 var(--box-shadow-color);
+  }
+  50% {
+      box-shadow: 0 0 20px var(--box-shadow-color);
+  }
+}
+
+@keyframes ee-btn-flash-as-bg-color {
+  0% {
+      box-shadow: 0 0 0 var(--box-shadow-color);
+  }
+  50% {
+      box-shadow: 0 0 20px var(--box-shadow-color);
+  }
+}
+/*@ EE Button ends */
