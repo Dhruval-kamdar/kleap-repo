@@ -1,0 +1,216 @@
+First Release : 1.01 - 2019-06-17
+Name:			Blitz Live Editor PRO for Elementor
+Description:	An Editor Your Customers Will Love. Give your clients a fast and easy way to edit content without needing to touch the Elementor page builder! Build Your Pages with Elementor, Edit Them with Live Editor Pro.
+Author:			WaaS-Pro.com
+Author URI:		http://www.WaaS-Pro.com
+License:		GPL2 etc
+Network:		True
+
+
+== Changelog ==
+
+= 1.0.2 - 2019-06-19 =
+* Fix: License Key issue plugin.
+
+
+= 1.0.3 - 2019-06-26 =
+* Fix: issue with LEP gives warnings and leaks all the usernames on your wordpress.
+
+
+= 1.0.4 - 2019-06-28 =
+* Updates : This version contain some major update in LEP functionality.
+1. Code is update to work with modules so that we can add some more widget in future. In this we added modules ( button, heading, icon, icon-box, image, image-box, section (Backgrounds only) and text-editor)
+2. Floating Bar color settings from Admin panel.
+3. Will Work with shortcode of Blitz content editor.
+4. Icon for live editor in wp admin bar.
+
+
+= 1.0.5 - 2019-07-03 =
+* Updates : This version contain some bug fixes and added some widgets.
+1. New modules ( counter, icon-list, testimonial)
+2. Overlapping issue. floating bar not visible.
+
+
+= 1.0.6 - 2019-07-04 =
+* Updates : This version contain some bug fixes and added some widgets.
+1. New modules ( column {Background image}, accordion, toggle)
+2. Column Background not updating Fixed.
+3. WP Admin bar icon position updated.
+
+
+= 1.0.7 - 2019-07-05 =
+* Updates : This version contain some bug fixes and added some widgets.
+1. New modules (Social icon)
+2. Ability to edit background and icon selector icon on floating bar from admin panel.
+
+
+= 1.0.8 - 2019-07-08 =
+* Updates : This version contain some bug fixes and added some widgets.
+1. New modules (Video)
+2. Default Full Access to Super Admins (In case of mutisite to super admin and In case of single site then single site admin).
+3. Not working in case of multiple updates.
+4. Floating bar open glitch on page load.
+
+= 1.0.9 - 2019-07-09 =
+* Updates : This version contain some bug fixes and added some widgets.
+1. Background image on bg Fix
+2. Duplicate button BG on Admin.
+3. After publish not allowing page to reload.
+
+= 1.10 - 2019-07-10 =
+* Updates : This version contain some bug fixes.
+1. Icon update fix for the subusers. 
+2. Cache version of style and js will update for each update.
+
+= 1.11 - 2019-07-11 =
+* Updates : This version contain some bug fixes.
+1. Icon padding issue done. 
+2. Auto update not working in plugin.
+
+= 1.12 - 2019-07-25 =
+1. Latest plugin after license updates.
+
+= 1.13 - 2019-07-26 =
+1. Latest plugin after adding frequency check for licenses.
+
+= 1.14 - 2019-07-29 =
+* Updates : This version contain some bug fixes.
+1. javascript issue on client server.
+2. Plugin data Warning issue on client server.
+
+= 1.15 - 2019-07-31 =
+* Updates : This version contain some bug fixes.
+1. Module js not included via php file. Fixed
+
+= 1.16 - 2019-08-01 =
+* Updates : This version contain some bug fixes.
+1. fixed the problem with user global roles for other pages.
+
+= 1.17 - 2019-08-02 =
+* Updates : This version contain some bug fixes.
+1. fixed the problem with client site in case of plugin disabling the admin notice.
+
+= 1.18 - 2019-08-05 =
+* Updates : This version contain some bug fixes.
+1. conflicts with plugin disabling the admin notice.
+2. Leave page warning without edit.
+
+= 1.19 - 2019-08-07 =
+* Updates : This version contain some bug fixes.
+1. Conflicts with plugin on client Site.
+2. Only current page elements were editable not from global.
+
+
+= 1.20 - 2019-08-14 =
+* Updates : This version contain some bug fixes.
+1. New Icon library with new design.
+
+= 1.21 - 2019-08-21 =
+* Updates : This version contain some bug fixes and enhancements.
+1. New Social Icon library with new design.
+2. Error in License manger get method.
+3. trim for License key,
+4. google map module,
+
+= 1.22 - 2019-08-23 =
+* Updates : This version contain some enhancements.
+1. Added the module for Image Gallery.
+
+
+= 1.23 - 2019-08-28 =
+* Updates : This version contain some enhancements.
+1. Added the module for Image Carousel.
+
+= 1.24 - 2019-08-29 =
+* Updates : This version contain some enhancements.
+1. Svg restriction according to Elementor setting
+
+= 1.25 - 2019-08-30 =
+* Updates : This version contain some enhancements.
+1. Added the module for Form to edit Email and Email to fields (To,From Email,From Name).
+
+= 1.26 - 2019-09-3 =
+* Updates : This version contain some enhancements.
+1. Added the module for Posts.
+2. Disable a click.
+3. Added the module for Portfolio.
+4. Added the module for Nav Menu.
+
+= 1.27 - 2019-09-6 =
+* Updates : This version contain some enhancements.
+1. tinymce update.
+2. Added the module for Animated headline.
+
+= 1.28 - 2019-09-6 =
+* Updates : This version contain some enhancements.
+1. Added the module for price list.
+
+= 1.29 - 2019-09-11 =
+* Updates : This version contain some enhancements.
+1. Added the module for Price Table.
+2. Added the module for Flip Box.
+3. Single click for icon change.
+
+= 1.30 - 2019-09-12 =
+* Updates : This version contain some enhancements.
+1. Added the module for Call to Action.
+
+= 1.31 - 2019-09-19 =
+* Updates : This version contain some enhancements.
+1. Added the module for Media Carousel.
+
+= 1.32 - 2019-09-20 =
+* Updates : This version contain some enhancements.
+1. Added the module for Testimonial Carousel.
+
+= 1.33 - 2019-09-23 =
+* Updates : This version contain some enhancements.
+1. Added the module for Reviews
+
+= 1.34 - 2019-09-24 =
+* Updates : This version contain some enhancements.
+1. Added the module for Share Button.
+2. Added the module for Blockqoute.
+
+= 1.35 - 2019-09-26 =
+* Updates : This version contain some enhancements.
+1. Added the module for Star Rating.
+2. Added the module for Progress.
+
+= 1.36 - 2019-09-27 =
+* Updates : This version contain some enhancements.
+1. Added the module for Tabs.
+2. Added the module for Alert.
+
+= 1.37 - 2019-10-03 =
+* Updates : This version contain some enhancements.
+1. Added the module for SoundCloud
+
+= 1.38 - 2019-10-04 =
+* Updates : This version contain some enhancements.
+1. Added the module for Html
+
+= 1.39 - 2019-10-18 =
+* Updates : This version contain some enhancements.
+1. List Icon for text Editor module.
+
+= 1.40 - 2019-10-25 =
+* Updates : This version contain some enhancements.
+1. Disable option in settings for Elementor default link in admin bar.
+
+= 1.41 - 2019-11-01 =
+* Updates : This version contain some enhancements.
+1. Js conflict with No.
+
+= 1.42 - 2019-12-17 =
+* Updates : This version contain some enhancements.
+1. Lock issue with Google map, Video and Forms.
+
+= 1.43 - 2020-01-7 =
+* Updates : This version contain some enhancements.
+1. Made license status request more secure to reduce load on server.
+
+= 1.45 - 2020-02-11 =
+* Updates : This version contain some enhancements.
+1. added module  : Slides
+2. Fixe issue with Image Carousel.

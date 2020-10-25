@@ -1,0 +1,1990 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Screets Live Chat\n"
+"POT-Creation-Date: 2018-07-18 16:36+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Screets <support@screets.io>\n"
+"Language-Team: Screets <support@screets.io>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: core/library\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+
+#: core/admin/auto-msgs.php:57
+msgid "Conditions"
+msgstr "條件"
+
+#: core/admin/auto-msgs.php:65 core/classes/ajax.class.php:211
+msgid "Message"
+msgstr "訊息"
+
+#: core/admin/auto-msgs.php:87
+msgid "Current page URL"
+msgstr "當前頁面網址"
+
+#: core/admin/auto-msgs.php:88
+msgid "Referral URL"
+msgstr "推薦網址"
+
+#: core/admin/auto-msgs.php:89
+msgid "Single page views"
+msgstr "單頁面視角"
+
+#: core/admin/auto-msgs.php:90
+msgid "Total visits"
+msgstr "總訪問人數"
+
+#: core/admin/auto-msgs.php:99
+msgid "is"
+msgstr "是"
+
+#: core/admin/auto-msgs.php:101
+msgid "is not"
+msgstr "不是"
+
+#: core/admin/auto-msgs.php:103
+msgid "starts with"
+msgstr "開始於"
+
+#: core/admin/auto-msgs.php:105
+msgid "ends with"
+msgstr "結束於"
+
+#: core/admin/auto-msgs.php:107
+msgid "contains"
+msgstr "包含"
+
+#: core/admin/auto-msgs.php:109
+msgid "does not contains"
+msgstr "不包含"
+
+#: core/admin/auto-msgs.php:111
+msgid "is unknown"
+msgstr "不明"
+
+#: core/admin/auto-msgs.php:115
+msgid "is more than"
+msgstr "大於"
+
+#: core/admin/auto-msgs.php:117
+msgid "is less than"
+msgstr "小於"
+
+#: core/admin/auto-msgs.php:122
+msgid "Enter URL"
+msgstr "輸入網址"
+
+#: core/admin/auto-msgs.php:129
+msgid "seconds"
+msgstr "秒"
+
+#: core/admin/auto-msgs.php:139
+msgid "New condition"
+msgstr "新的條件"
+
+#: core/classes/admin.class.php:112 core/classes/admin.class.php:113
+#: core/classes/ajax.class.php:212 core/classes/app.class.php:242
+msgid "Chat Console"
+msgstr "聊天控制台"
+
+#: core/classes/admin.class.php:245
+msgid "Sign-in"
+msgstr "登入"
+
+#: core/classes/admin.class.php:246
+msgid "Sign-out"
+msgstr "登出"
+
+#: core/classes/admin.class.php:247 core/options.php:176
+msgid "Online"
+msgstr "線上"
+
+#: core/classes/admin.class.php:248 core/options.php:195
+msgid "Offline"
+msgstr "離線"
+
+#: core/classes/admin.class.php:249
+#: core/templates/admin/console/modal.profile.php:64
+msgid "Close"
+msgstr "關閉"
+
+#: core/classes/admin.class.php:250
+msgid "Settings"
+msgstr "設定"
+
+#: core/classes/admin.class.php:251 core/options.php:299 core/options.php:312
+#: core/options.php:325 core/options.php:339
+msgid "Name"
+msgstr "名字"
+
+#: core/classes/admin.class.php:252 core/classes/form.class.php:132
+#: core/functions/forms.php:90 core/options.php:298 core/options.php:311
+#: core/options.php:324 core/options.php:338 core/options.php:516
+msgid "Email"
+msgstr "電子信箱"
+
+#: core/classes/admin.class.php:253 core/functions/forms.php:95
+#: core/options.php:301 core/options.php:314 core/options.php:327
+#: core/options.php:341
+msgid "Phone"
+msgstr "電話"
+
+#: core/classes/admin.class.php:254
+msgid "Country"
+msgstr "國家"
+
+#: core/classes/admin.class.php:255
+msgid "Notes"
+msgstr "備註"
+
+#: core/classes/admin.class.php:256
+msgid "Case no"
+msgstr "案件編號"
+
+#: core/classes/admin.class.php:257
+msgid "Looking at"
+msgstr "正在看"
+
+#: core/classes/admin.class.php:258
+msgid "Profile Image"
+msgstr "個人資料圖片"
+
+#: core/classes/ajax.class.php:103 core/classes/ajax.class.php:124
+msgid "New offline message"
+msgstr "新的離線訊息"
+
+#: core/classes/ajax.class.php:150
+msgid "You don't have permission to perform this action"
+msgstr "你沒有權限執行此操作"
+
+#: core/classes/ajax.class.php:208
+#, php-format
+msgid "[%s] New chat started by %s"
+msgstr "%s 開始新的聊天 [%s]"
+
+#: core/classes/ajax.class.php:209
+msgid "Case No"
+msgstr "案件編號"
+
+#: core/classes/ajax.class.php:210
+msgid "Visitor Name"
+msgstr "訪客姓名"
+
+#: core/classes/ajax.class.php:221
+#, php-format
+msgid "%s is started chat."
+msgstr "%s 正在開始聊天。"
+
+#: core/classes/ajax.class.php:278
+msgid "Something went wrong!  Please try again."
+msgstr "發生錯誤！請再試一次。"
+
+#: core/classes/app.class.php:101 core/classes/app.class.php:103
+msgid "Auto-messages"
+msgstr "自動化訊息"
+
+#: core/classes/app.class.php:102
+msgid "Auto-message"
+msgstr "自動化訊息"
+
+#: core/classes/app.class.php:104
+msgid "Parent item:"
+msgstr "上層選項："
+
+#: core/classes/app.class.php:105
+msgid "All"
+msgstr "所有"
+
+#: core/classes/app.class.php:106
+msgid "View"
+msgstr "查看"
+
+#: core/classes/app.class.php:107 core/classes/app.class.php:108
+msgid "Add new"
+msgstr "新增"
+
+#: core/classes/app.class.php:109
+msgid "Edit"
+msgstr "編輯"
+
+#: core/classes/app.class.php:110
+msgid "Update"
+msgstr "更新"
+
+#: core/classes/app.class.php:111
+msgid "Search"
+msgstr "搜索"
+
+#: core/classes/app.class.php:112 core/classes/app.class.php:113
+msgid "Not found"
+msgstr "沒有找到"
+
+#: core/classes/nav-menus.class.php:45
+msgid "Live Chat Links"
+msgstr "Live Chat 連結"
+
+#: core/classes/nav-menus.class.php:59
+msgid "Chat now!"
+msgstr "現在開始聊天！"
+
+#: core/classes/nav-menus.class.php:60
+msgid "Shows up chat popup."
+msgstr "顯示聊天彈出窗口。"
+
+#: core/classes/nav-menus.class.php:89
+msgid "Select All"
+msgstr "選擇全部"
+
+#: core/classes/options.class.php:33 core/classes/options.class.php:35
+msgid "Options"
+msgstr "選項"
+
+#: core/classes/options.class.php:46
+#, php-format
+msgid "%s Options"
+msgstr "%s 選項"
+
+#: core/functions/forms.php:89
+msgid "Text"
+msgstr "文字"
+
+#: core/functions/forms.php:91
+msgid "Textarea"
+msgstr "文字區塊"
+
+#: core/functions/forms.php:92 core/options.php:1099 core/options.php:1114
+msgid "Subject"
+msgstr "主旨"
+
+#: core/functions/forms.php:93
+msgid "Question / issue"
+msgstr "疑問 / 問題"
+
+#: core/functions/forms.php:94
+msgid "Name &amp; Email"
+msgstr "姓名 &amp; 電子信箱"
+
+#: core/functions/forms.php:96
+msgid "Support categories"
+msgstr "支援類別"
+
+#: core/functions/users.php:25
+msgid "Manage options"
+msgstr "管理選項"
+
+#: core/functions/users.php:26
+msgid "Chat with visitors"
+msgstr "和訪客聊天"
+
+#: core/options.php:54
+msgid "General"
+msgstr "一般"
+
+#: core/options.php:58
+msgid "Design"
+msgstr "設計"
+
+#: core/options.php:62 core/options.php:989
+#: core/templates/admin/console/body.php:127
+msgid "Chats"
+msgstr "聊天"
+
+#: core/options.php:66
+msgid "Site"
+msgstr "位址"
+
+#: core/options.php:70
+msgid "Users"
+msgstr "用戶"
+
+#: core/options.php:74 core/options.php:996
+msgid "Messages"
+msgstr "訊息"
+
+#: core/options.php:78
+msgid "Real-time"
+msgstr "即時的"
+
+#: core/options.php:82 core/options.php:705
+msgid "Advanced"
+msgstr "進階"
+
+#: core/options.php:91
+msgid "Display"
+msgstr "顯示"
+
+#: core/options.php:99
+msgid "Show up for logged in WordPress users only"
+msgstr "僅顯示已經登入的 WordPress 用戶"
+
+#: core/options.php:100
+msgid "Hide on mobile devices"
+msgstr "在行動裝置上隱藏"
+
+#: core/options.php:101
+msgid "Hide from pages that uses SSL"
+msgstr "在使用 SSL 加密的網頁上隱藏"
+
+#: core/options.php:102
+msgid "Hide when all operators are offline"
+msgstr "當所有人都離線時隱藏"
+
+#: core/options.php:109
+msgid "Where to show up?"
+msgstr "要在哪邊顯示？"
+
+#: core/options.php:111
+msgid "Show everywhere"
+msgstr "每個頁面都顯示"
+
+#: core/options.php:112
+msgid "Hide everywhere"
+msgstr "每個頁面都隱藏"
+
+#: core/options.php:120
+msgid "Except those pages"
+msgstr "除了這些頁面"
+
+#: core/options.php:126
+msgid "Display on specific pages"
+msgstr "在特定頁面上顯示"
+
+#: core/options.php:127
+msgid "Homepage"
+msgstr "首頁"
+
+#: core/options.php:129 core/options.php:140
+msgid "Always show"
+msgstr "總是顯示"
+
+#: core/options.php:130 core/options.php:141
+msgid "Always hide"
+msgstr "總是隱藏"
+
+#: core/options.php:138
+msgid "Blog-related pages"
+msgstr "與部落格相關的頁面"
+
+#: core/options.php:152
+msgid "Licensing"
+msgstr "序號"
+
+#: core/options.php:159
+msgid ""
+"It is required to activate the plugin and get <strong>free updates</strong>."
+msgstr "請註冊您的產品並獲得 <strong>免費更新</strong>。"
+
+#: core/options.php:159
+msgid ""
+"Note that you might need to re-login WordPress after updating your API key."
+msgstr "您可能需要在更新你的 API 金鑰之後重新登入。"
+
+#: core/options.php:169
+msgid "Response Info"
+msgstr "回覆資訊"
+
+#: core/options.php:170
+msgid ""
+"Set your live chat hours to an <strong>achievable level</strong>. Because "
+"for customers, “live chat” implies an almost instant response, so a delayed "
+"reply to a chat is a much poorer experience than a slow email reply."
+msgstr ""
+"將你的聊天回覆時間設定為 <strong>可以達到的目標</strong>。因為對顧客來說，“即"
+"時聊天”意味著馬上得到回應，跟電子郵件回覆比較起來較晚回覆顧客是一種更糟糕的體"
+"驗。"
+
+#: core/options.php:175 core/options.php:1388
+msgid "Typically replies within..."
+msgstr "通常在...內回覆"
+
+#: core/options.php:176
+msgid "At least one operator is online"
+msgstr "至少要有一名操作員在線上"
+
+#: core/options.php:178 core/options.php:197
+msgid "Not specified"
+msgstr "未指定"
+
+#: core/options.php:179 core/options.php:198
+msgid "a few minutes"
+msgstr "幾分鐘內"
+
+#: core/options.php:180 core/options.php:199
+msgid "15 minutes"
+msgstr "15 分鐘"
+
+#: core/options.php:181 core/options.php:200
+msgid "30 minutes"
+msgstr "30 分鐘"
+
+#: core/options.php:182 core/options.php:201
+msgid "an hour"
+msgstr "一小時"
+
+#: core/options.php:183 core/options.php:202
+msgid "a few hours"
+msgstr "幾小時"
+
+#: core/options.php:184 core/options.php:203
+msgid "a day"
+msgstr "一天"
+
+#: core/options.php:185 core/options.php:204
+msgid "1 business day"
+msgstr "1 個工作天"
+
+#: core/options.php:186 core/options.php:205
+msgid "2 business days"
+msgstr "2 個工作天"
+
+#: core/options.php:187 core/options.php:206
+msgid "3 business days"
+msgstr "3 個工作天"
+
+#: core/options.php:195
+msgid "No operators online"
+msgstr "沒有操作員在線上"
+
+#: core/options.php:272
+msgid "Offline capabilities"
+msgstr "離線功能"
+
+#: core/options.php:278
+msgid "Initial response"
+msgstr "最初回應"
+
+#: core/options.php:279
+msgid ""
+"How the application should response when visitors try to start a <strong>new "
+"conversation</strong>?"
+msgstr "當訪客嘗試啟動一個 <strong>新的對話</strong>，應用程式要如何回應？"
+
+#: core/options.php:281
+msgid "Allow visitors to start new conversation"
+msgstr "允許訪客開始新的對話"
+
+#: core/options.php:281
+msgid "Shows up collector card"
+msgstr "顯示收集卡"
+
+#: core/options.php:282
+msgid "Show offline form"
+msgstr "顯示離線表單"
+
+#: core/options.php:295 core/options.php:847
+msgid "Collector card"
+msgstr "收藏卡"
+
+#: core/options.php:296 core/options.php:322
+msgid "Select visible fields:"
+msgstr "選擇可見的欄位："
+
+#: core/options.php:300 core/options.php:313 core/options.php:326
+#: core/options.php:340
+msgid "Company name"
+msgstr "公司名稱"
+
+#: core/options.php:309 core/options.php:336
+msgid "Select required fields:"
+msgstr "選擇必要的欄位："
+
+#: core/options.php:321
+msgid "Offline form"
+msgstr "離線表單"
+
+#: core/options.php:328 core/options.php:342 core/options.php:1172
+msgid "Ask question"
+msgstr "詢問問題"
+
+#: core/options.php:350 core/options.php:821
+msgid "GDPR Compliance"
+msgstr "GDPR 規定"
+
+#: core/options.php:352
+msgid "Show \"I consent...\" checkbox"
+msgstr "顯示複選框“我同意...”"
+
+#: core/options.php:365
+msgid "Date/time format"
+msgstr "日期 / 時間 格式"
+
+#: core/options.php:370
+msgid "Date format"
+msgstr "日期格式"
+
+#: core/options.php:476
+msgid "Site info"
+msgstr "網站資訊"
+
+#: core/options.php:481 core/options.php:483
+msgid "Site name"
+msgstr "網站名稱"
+
+#: core/options.php:482
+msgid "We will show this name as your site/company name when needed"
+msgstr "我們會在需要時將此名稱顯示為您的網站 / 公司名稱"
+
+#: core/options.php:489 core/options.php:491
+msgid "Site url"
+msgstr "網站位址"
+
+#: core/options.php:496
+msgid "Site logo"
+msgstr "網站 Logo"
+
+#: core/options.php:501
+msgid "Site email"
+msgstr "網站電子信箱"
+
+#: core/options.php:504
+msgid "\"FROM\" part of all emails sending to your visitors"
+msgstr "發送電子郵件給所有的訪客“FROM”部分"
+
+#: core/options.php:510 core/options.php:511 core/options.php:1262
+#: core/options.php:1270
+msgid "Optional"
+msgstr "選項"
+
+#: core/options.php:511
+msgid "Your visitors will reply to this email."
+msgstr "您的訪客將會回覆這封電子信件。"
+
+#: core/options.php:516
+msgid "Logo width"
+msgstr "Logo 寬"
+
+#: core/options.php:517
+msgid ""
+"If original size 100px, we recommend you to set 50px for retina displays"
+msgstr "如果原始尺寸為 100px，我們建議您為視網膜顯示器設定為 50px"
+
+#: core/options.php:527
+msgid "Privacy policy URL"
+msgstr "隱私權政策網址"
+
+#: core/options.php:538
+msgid "Colors"
+msgstr "色彩"
+
+#: core/options.php:543
+msgid "Primary"
+msgstr "主要"
+
+#: core/options.php:550
+msgid "Secondary"
+msgstr "次要"
+
+#: core/options.php:557
+msgid "Highlight"
+msgstr "強調"
+
+#: core/options.php:568
+msgid "Appearance"
+msgstr "外觀"
+
+#: core/options.php:573
+msgid "Widget position"
+msgstr "小工具位置"
+
+#: core/options.php:576
+msgid "Bottom Left"
+msgstr "左下"
+
+#: core/options.php:577
+msgid "Bottom Right"
+msgstr "右下"
+
+#: core/options.php:583
+msgid "Starter"
+msgstr "入門者"
+
+#: core/options.php:584
+msgid "Starter size"
+msgstr "入門者尺寸"
+
+#: core/options.php:595
+msgid "Starter icon size"
+msgstr "入門者圖案尺寸"
+
+#: core/options.php:605
+msgid "Popup width"
+msgstr "彈出視窗寬度"
+
+#: core/options.php:637
+msgid "Radius"
+msgstr "半徑圓角"
+
+#: core/options.php:638
+msgid "Normal"
+msgstr "基本"
+
+#: core/options.php:649
+msgid "Big"
+msgstr "大"
+
+#: core/options.php:659
+msgid "Offset"
+msgstr "偏移"
+
+#: core/options.php:659
+msgid "Sets the distance between the page corner and the chat widget"
+msgstr "設定頁面角落和聊天視窗小工具之間的距離"
+
+#: core/options.php:660
+msgid "Horizontal offset"
+msgstr "水平偏移"
+
+#: core/options.php:671
+msgid "Vertical offset"
+msgstr "垂直偏移"
+
+#: core/options.php:682
+msgid "Paste your embed code(s) here."
+msgstr "將您的嵌入代碼貼上到此處。"
+
+#: core/options.php:682 core/options.php:688
+msgid "Example"
+msgstr "例如"
+
+#: core/options.php:688
+msgid "Font family name."
+msgstr "字型名稱。"
+
+#: core/options.php:696
+msgid "Alternative font family name."
+msgstr "替代字型名稱。"
+
+#: core/options.php:696
+msgid ""
+"It will be used mostly for small texts, buttons, message-balloons and form "
+"elements."
+msgstr "它主要用於小文字，按鈕，氣泡消息和表單元素。"
+
+#: core/options.php:696
+msgid "Leave empty to use default."
+msgstr "留空使用預設值。"
+
+#: core/options.php:710
+msgid "Custom CSS"
+msgstr "自訂 CSS"
+
+#: core/options.php:711
+msgid "Custom CSS for chat widget."
+msgstr "為聊天小工具自訂 CSS"
+
+#: core/options.php:722 core/options.php:761
+msgid "Operators"
+msgstr "操作員"
+
+#: core/options.php:727
+msgid "User capabilities"
+msgstr "用戶功能"
+
+#: core/options.php:745
+msgid "Chat button"
+msgstr "聊天按鈕"
+
+#: core/options.php:750
+msgid "Title"
+msgstr "標題"
+
+#: core/options.php:783
+msgid "Team intro"
+msgstr "團隊介紹"
+
+#: core/options.php:783
+msgid ""
+"Introduce your team to make the chat box feel more personal for your "
+"visitors."
+msgstr "介紹您的團隊，讓訪客感覺更加個性化。"
+
+#: core/options.php:784
+msgid "Online mode"
+msgstr "線上模式"
+
+#: core/options.php:792
+msgid "Away mode"
+msgstr "離開模式"
+
+#: core/options.php:799
+msgid "Statuses"
+msgstr "狀態"
+
+#: core/options.php:800
+msgid "When operator is online"
+msgstr "當操作員在線上時"
+
+#: core/options.php:808
+msgid "When operator is away"
+msgstr "當操作員離開時"
+
+#: core/options.php:852
+msgid "Pre-card message"
+msgstr "預先卡片訊息"
+
+#: core/options.php:859
+msgid "Post-card message"
+msgstr "張貼卡片訊息"
+
+#: core/options.php:872
+msgid "Chat popup"
+msgstr "聊天彈出視窗"
+
+#: core/options.php:901
+msgid "Welcome message"
+msgstr "歡迎訊息"
+
+#: core/options.php:901
+msgid ""
+"This message is sent for the first conversation of visitors automatically."
+msgstr "此消息將自動發送給訪客的第一個會話。"
+
+#: core/options.php:902 core/options.php:917 core/options.php:925
+#: core/options.php:1114
+msgid "Custom variables"
+msgstr "客製化變數"
+
+#: core/options.php:909 core/templates/admin/console/popup.endChat.php:12
+msgid "Closing message"
+msgstr "關閉訊息"
+
+#: core/options.php:909
+msgid "Operators might choose to send this message while ending a chat."
+msgstr "操作員可能會選擇在結束聊天時發送此訊息。"
+
+#: core/options.php:916
+msgid "Response time"
+msgstr "回覆時間"
+
+#: core/options.php:924
+msgid "Case No."
+msgstr "案件編號."
+
+#: core/options.php:932
+msgid "Chat buttons"
+msgstr "聊天按鈕"
+
+#: core/options.php:956
+msgid "Chat statuses"
+msgstr "聊天狀態"
+
+#: core/options.php:964
+msgid "Chat status messages"
+msgstr "聊天狀態訊息"
+
+#: core/options.php:965
+msgid "Closed chat"
+msgstr "關閉聊天"
+
+#: core/options.php:976
+msgid "Notifications"
+msgstr "通知"
+
+#: core/options.php:981
+msgid "Window title"
+msgstr "視窗標題"
+
+#: core/options.php:984
+msgid "It appears on visitor's window title when operator replies."
+msgstr "當操作員回覆時，它出現在訪客的視窗標題上。"
+
+#: core/options.php:1017
+msgid "Connection"
+msgstr "連接"
+
+#: core/options.php:1045 core/options.php:1125
+msgid "Forms"
+msgstr "表單"
+
+#: core/options.php:1080 core/options.php:1204
+msgid "Others"
+msgstr "其他"
+
+#: core/options.php:1093
+msgid "Emails"
+msgstr "電子郵件"
+
+#: core/options.php:1098
+msgid "Notify visitor email"
+msgstr "通知訪客電子郵件"
+
+#: core/options.php:1113
+msgid "Chat logs email"
+msgstr "聊天記錄電子郵件"
+
+#: core/options.php:1130
+msgid "Name field"
+msgstr "姓名欄位"
+
+#: core/options.php:1137
+msgid "Email field"
+msgstr "電子信箱欄位"
+
+#: core/options.php:1144
+msgid "Phone field"
+msgstr "電話欄位"
+
+#: core/options.php:1151
+msgid "Company name field"
+msgstr "公司名稱欄位"
+
+#: core/options.php:1158
+msgid "Reply box placeholder"
+msgstr "回覆盒子預留位置"
+
+#: core/options.php:1179
+msgid "Save button"
+msgstr "儲存按鈕"
+
+#: core/options.php:1186
+msgid "Send button"
+msgstr "送出按鈕"
+
+#: core/options.php:1193
+msgid "Start chat button"
+msgstr "開始聊天按鈕"
+
+#: core/options.php:1256
+msgid "Date &amp; Time"
+msgstr "日期 &amp; 時間"
+
+#: core/options.php:1261
+msgid "Time ago strings"
+msgstr "前一段時間"
+
+#: core/options.php:1365
+msgid "Date"
+msgstr "日期"
+
+#: core/options.php:1383
+msgid "Response Time"
+msgstr "回覆時間"
+
+#: core/options.php:1481
+msgid "Which email do you use to login your Firebase account?"
+msgstr "您使用哪個電子信箱登入 Firebase 帳戶？"
+
+#: core/templates/admin/console/body.php:101
+msgid "I have completed the steps above"
+msgstr "我已經完成上述步驟"
+
+#: core/templates/admin/console/body.php:130
+#: core/templates/admin/console/win.chat.php:74
+msgid "Archive"
+msgstr "存檔"
+
+#: core/templates/admin/console/body.php:144
+msgid "Get notified of chat notifications."
+msgstr "取得聊天通知的通知。"
+
+#: core/templates/admin/console/body.php:148
+msgid "Turn on"
+msgstr "開啟"
+
+#: core/templates/admin/console/body.php:172
+msgid "No chats found."
+msgstr "沒有找到聊天。"
+
+#: core/templates/admin/console/body.php:188
+msgid "No archived chats found."
+msgstr "找不到存檔的聊天記錄。"
+
+#: core/templates/admin/console/body.php:239
+msgid "Undo"
+msgstr "恢復上一部"
+
+#: core/templates/admin/console/modal.profile.php:11
+msgid "Profile"
+msgstr "個人資料"
+
+#: core/templates/admin/console/modal.profile.php:50
+msgid ""
+"Only works if any operator doesn't accept new chats automatically at that "
+"moment."
+msgstr "僅當任何操作員此時不自動接受新聊天時才有效。"
+
+#: core/templates/admin/console/modal.profile.php:65
+#: core/templates/admin/console/win.chat.php:122
+msgid "Save"
+msgstr "儲存"
+
+#: core/templates/admin/console/popup.endChat.php:18
+msgid "Send chat transcript to visitor's email"
+msgstr "將聊天記錄寄送到訪客的電子信箱"
+
+#: core/templates/admin/console/popup.endChat.php:24
+#: core/templates/admin/console/win.chat.php:89
+msgid "End chat"
+msgstr "結束聊天"
+
+#: core/templates/admin/console/popup.endChat.php:25
+msgid "End chat without message"
+msgstr "不發送訊息並結束聊天"
+
+#: core/templates/admin/console/win.chat.php:24
+msgid "{opName} is talking with this user."
+msgstr "{opName} 正在和這名使用者對話。"
+
+#: core/templates/admin/console/win.chat.php:27
+msgid "Chat has ended."
+msgstr "聊天已經結束。"
+
+#: core/templates/admin/console/win.chat.php:30
+msgid "Chat has been archived."
+msgstr "聊天已經存檔。"
+
+#: core/templates/admin/console/win.chat.php:44
+msgid "Write a message"
+msgstr "寫一條訊息"
+
+#: core/templates/admin/console/win.chat.php:79
+msgid "Delete"
+msgstr "删除"
+
+#: core/templates/admin/console/win.chat.php:86
+msgid "Join chat"
+msgstr "加入聊天"
+
+#: core/templates/admin/console/win.chat.php:107
+msgid "Feedback"
+msgstr "評價"
+
+#: core/templates/admin/console/win.chat.php:109
+msgid "No review yet."
+msgstr "暫時沒有評論。"
+
+#: core/templates/admin/console/win.chat.php:110
+msgid "Solved"
+msgstr "已解決"
+
+#: core/templates/admin/console/win.chat.php:111
+msgid "Not solved!"
+msgstr "尚未解決！"
+
+#: core/templates/admin/console/win.chat.php:158
+msgid "Details"
+msgstr "詳情"
+
+#: core/templates/admin/console/win.chat.php:171
+msgid "Hit enter to update"
+msgstr "點擊 Enter 來更新"
+
+#: core/templates/admin/extensions.php:31
+msgid "Extensions"
+msgstr "擴充程式"
+
+#: core/templates/admin/extensions.php:47
+msgid "Deactivate"
+msgstr "停用"
+
+#: core/templates/admin/extensions.php:49
+msgid "Active"
+msgstr "啟用"
+
+#: core/templates/admin/extensions.php:55
+msgid "No extensions found."
+msgstr "沒有找到擴充程式。"
+
+#: data/countries.php:19
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: data/countries.php:20
+msgid "&#197;land Islands"
+msgstr "&#197;land Islands"
+
+#: data/countries.php:21
+msgid "Albania"
+msgstr "Albania"
+
+#: data/countries.php:22
+msgid "Algeria"
+msgstr "Algeria"
+
+#: data/countries.php:23
+msgid "American Samoa"
+msgstr "American Samoa"
+
+#: data/countries.php:24
+msgid "Andorra"
+msgstr "Andorra"
+
+#: data/countries.php:25
+msgid "Angola"
+msgstr "Angola"
+
+#: data/countries.php:26
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: data/countries.php:27
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: data/countries.php:28
+msgid "Antigua and Barbuda"
+msgstr "Antigua and Barbuda"
+
+#: data/countries.php:29
+msgid "Argentina"
+msgstr "Argentina"
+
+#: data/countries.php:30
+msgid "Armenia"
+msgstr "Armenia"
+
+#: data/countries.php:31
+msgid "Aruba"
+msgstr "Aruba"
+
+#: data/countries.php:32
+msgid "Australia"
+msgstr "澳大利亞"
+
+#: data/countries.php:33
+msgid "Austria"
+msgstr "Austria"
+
+#: data/countries.php:34
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: data/countries.php:35
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: data/countries.php:36
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: data/countries.php:37
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: data/countries.php:38
+msgid "Barbados"
+msgstr "Barbados"
+
+#: data/countries.php:39
+msgid "Belarus"
+msgstr "Belarus"
+
+#: data/countries.php:40
+msgid "Belgium"
+msgstr "Belgium"
+
+#: data/countries.php:41
+msgid "Belau"
+msgstr "Belau"
+
+#: data/countries.php:42
+msgid "Belize"
+msgstr "Belize"
+
+#: data/countries.php:43
+msgid "Benin"
+msgstr "Benin"
+
+#: data/countries.php:44
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: data/countries.php:45
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: data/countries.php:46
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: data/countries.php:47
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius and Saba"
+
+#: data/countries.php:48
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina"
+
+#: data/countries.php:49
+msgid "Botswana"
+msgstr "Botswana"
+
+#: data/countries.php:50
+msgid "Bouvet Island"
+msgstr "Bouvet Island"
+
+#: data/countries.php:51
+msgid "Brazil"
+msgstr "Brazil"
+
+#: data/countries.php:52
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory"
+
+#: data/countries.php:53
+msgid "British Virgin Islands"
+msgstr ""
+
+#: data/countries.php:54
+msgid "Brunei"
+msgstr "Brunei"
+
+#: data/countries.php:55
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: data/countries.php:56
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: data/countries.php:57
+msgid "Burundi"
+msgstr "Burundi"
+
+#: data/countries.php:58
+msgid "Cambodia"
+msgstr "Cambodia"
+
+#: data/countries.php:59
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: data/countries.php:60
+msgid "Canada"
+msgstr "Canada"
+
+#: data/countries.php:61
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#: data/countries.php:62
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+#: data/countries.php:63
+msgid "Central African Republic"
+msgstr "Central African Republic"
+
+#: data/countries.php:64
+msgid "Chad"
+msgstr "Chad"
+
+#: data/countries.php:65
+msgid "Chile"
+msgstr "Chile"
+
+#: data/countries.php:66
+msgid "China"
+msgstr "中國"
+
+#: data/countries.php:67
+msgid "Christmas Island"
+msgstr "Christmas Island"
+
+#: data/countries.php:68
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocos (Keeling) Islands"
+
+#: data/countries.php:69
+msgid "Colombia"
+msgstr "Colombia"
+
+#: data/countries.php:70
+msgid "Comoros"
+msgstr "Comoros"
+
+#: data/countries.php:71
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+#: data/countries.php:72
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+#: data/countries.php:73
+msgid "Cook Islands"
+msgstr "Cook Islands"
+
+#: data/countries.php:74
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: data/countries.php:75
+msgid "Croatia"
+msgstr "Croatia"
+
+#: data/countries.php:76
+msgid "Cuba"
+msgstr "Cuba"
+
+#: data/countries.php:77
+msgid "Cura&ccedil;ao"
+msgstr "Cura&ccedil;ao"
+
+#: data/countries.php:78
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: data/countries.php:79
+msgid "Czech Republic"
+msgstr "Czech Republic"
+
+#: data/countries.php:80
+msgid "Denmark"
+msgstr "Denmark"
+
+#: data/countries.php:81
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: data/countries.php:82
+msgid "Dominica"
+msgstr "Dominica"
+
+#: data/countries.php:83
+msgid "Dominican Republic"
+msgstr "Dominican Republic"
+
+#: data/countries.php:84
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: data/countries.php:85
+msgid "Egypt"
+msgstr "Egypt"
+
+#: data/countries.php:86
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: data/countries.php:87
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: data/countries.php:88
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: data/countries.php:89
+msgid "Estonia"
+msgstr "Estonia"
+
+#: data/countries.php:90
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+#: data/countries.php:91
+msgid "Falkland Islands"
+msgstr "Falkland Islands"
+
+#: data/countries.php:92
+msgid "Faroe Islands"
+msgstr "Faroe Islands"
+
+#: data/countries.php:93
+msgid "Fiji"
+msgstr "Fiji"
+
+#: data/countries.php:94
+msgid "Finland"
+msgstr "Finland"
+
+#: data/countries.php:95
+msgid "France"
+msgstr "France"
+
+#: data/countries.php:96
+msgid "French Guiana"
+msgstr "French Guiana"
+
+#: data/countries.php:97
+msgid "French Polynesia"
+msgstr "French Polynesia"
+
+#: data/countries.php:98
+msgid "French Southern Territories"
+msgstr "French Southern Territories"
+
+#: data/countries.php:99
+msgid "Gabon"
+msgstr "Gabon"
+
+#: data/countries.php:100
+msgid "Gambia"
+msgstr "Gambia"
+
+#: data/countries.php:101
+msgid "Georgia"
+msgstr "Georgia"
+
+#: data/countries.php:102
+msgid "Germany"
+msgstr "Germany"
+
+#: data/countries.php:103
+msgid "Ghana"
+msgstr "Ghana"
+
+#: data/countries.php:104
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: data/countries.php:105
+msgid "Greece"
+msgstr "Greece"
+
+#: data/countries.php:106
+msgid "Greenland"
+msgstr "Greenland"
+
+#: data/countries.php:107
+msgid "Grenada"
+msgstr "Grenada"
+
+#: data/countries.php:108
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: data/countries.php:109
+msgid "Guam"
+msgstr "Guam"
+
+#: data/countries.php:110
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: data/countries.php:111
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: data/countries.php:112
+msgid "Guinea"
+msgstr "Guinea"
+
+#: data/countries.php:113
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: data/countries.php:114
+msgid "Guyana"
+msgstr "Guyana"
+
+#: data/countries.php:115
+msgid "Haiti"
+msgstr "Haiti"
+
+#: data/countries.php:116
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard Island and McDonald Islands"
+
+#: data/countries.php:117
+msgid "Honduras"
+msgstr "Honduras"
+
+#: data/countries.php:118
+msgid "Hong Kong"
+msgstr "香港"
+
+#: data/countries.php:119
+msgid "Hungary"
+msgstr "Hungary"
+
+#: data/countries.php:120
+msgid "Iceland"
+msgstr "Iceland"
+
+#: data/countries.php:121
+msgid "India"
+msgstr "India"
+
+#: data/countries.php:122
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: data/countries.php:123
+msgid "Iran"
+msgstr "Iran"
+
+#: data/countries.php:124
+msgid "Iraq"
+msgstr "Iraq"
+
+#: data/countries.php:125
+msgid "Republic of Ireland"
+msgstr ""
+
+#: data/countries.php:126
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+#: data/countries.php:127
+msgid "Israel"
+msgstr "Israel"
+
+#: data/countries.php:128
+msgid "Italy"
+msgstr "Italy"
+
+#: data/countries.php:129
+msgid "Ivory Coast"
+msgstr "Ivory Coast"
+
+#: data/countries.php:130
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: data/countries.php:131
+msgid "Japan"
+msgstr "Japan"
+
+#: data/countries.php:132
+msgid "Jersey"
+msgstr "Jersey"
+
+#: data/countries.php:133
+msgid "Jordan"
+msgstr "Jordan"
+
+#: data/countries.php:134
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: data/countries.php:135
+msgid "Kenya"
+msgstr "Kenya"
+
+#: data/countries.php:136
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: data/countries.php:137
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: data/countries.php:138
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: data/countries.php:139
+msgid "Laos"
+msgstr "Laos"
+
+#: data/countries.php:140
+msgid "Latvia"
+msgstr "Latvia"
+
+#: data/countries.php:141
+msgid "Lebanon"
+msgstr "Lebanon"
+
+#: data/countries.php:142
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: data/countries.php:143
+msgid "Liberia"
+msgstr "Liberia"
+
+#: data/countries.php:144
+msgid "Libya"
+msgstr "Libya"
+
+#: data/countries.php:145
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: data/countries.php:146
+msgid "Lithuania"
+msgstr "Lithuania"
+
+#: data/countries.php:147
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: data/countries.php:148
+msgid "Macao S.A.R., China"
+msgstr "Macao S.A.R., China"
+
+#: data/countries.php:149
+msgid "Macedonia"
+msgstr ""
+
+#: data/countries.php:150
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: data/countries.php:151
+msgid "Malawi"
+msgstr "Malawi"
+
+#: data/countries.php:152
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: data/countries.php:153
+msgid "Maldives"
+msgstr "Maldives"
+
+#: data/countries.php:154
+msgid "Mali"
+msgstr "Mali"
+
+#: data/countries.php:155
+msgid "Malta"
+msgstr "Malta"
+
+#: data/countries.php:156
+msgid "Marshall Islands"
+msgstr "Marshall Islands"
+
+#: data/countries.php:157
+msgid "Martinique"
+msgstr "Martinique"
+
+#: data/countries.php:158
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: data/countries.php:159
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: data/countries.php:160
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: data/countries.php:161
+msgid "Mexico"
+msgstr "Mexico"
+
+#: data/countries.php:162
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: data/countries.php:163
+msgid "Moldova"
+msgstr "Moldova"
+
+#: data/countries.php:164
+msgid "Monaco"
+msgstr "Monaco"
+
+#: data/countries.php:165
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: data/countries.php:166
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: data/countries.php:167
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: data/countries.php:168
+msgid "Morocco"
+msgstr "Morocco"
+
+#: data/countries.php:169
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: data/countries.php:170
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: data/countries.php:171
+msgid "Namibia"
+msgstr "Namibia"
+
+#: data/countries.php:172
+msgid "Nauru"
+msgstr "Nauru"
+
+#: data/countries.php:173
+msgid "Nepal"
+msgstr "Nepal"
+
+#: data/countries.php:174
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: data/countries.php:175
+msgid "New Caledonia"
+msgstr "New Caledonia"
+
+#: data/countries.php:176
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: data/countries.php:177
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: data/countries.php:178
+msgid "Niger"
+msgstr "Niger"
+
+#: data/countries.php:179
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: data/countries.php:180
+msgid "Niue"
+msgstr "Niue"
+
+#: data/countries.php:181
+msgid "Norfolk Island"
+msgstr "Norfolk Island"
+
+#: data/countries.php:182
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands"
+
+#: data/countries.php:183
+msgid "North Korea"
+msgstr "North Korea"
+
+#: data/countries.php:184
+msgid "Norway"
+msgstr "Norway"
+
+#: data/countries.php:185
+msgid "Oman"
+msgstr "Oman"
+
+#: data/countries.php:186
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: data/countries.php:187
+msgid "Palestinian Territory"
+msgstr "Palestinian Territory"
+
+#: data/countries.php:188
+msgid "Panama"
+msgstr "Panama"
+
+#: data/countries.php:189
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+#: data/countries.php:190
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: data/countries.php:191
+msgid "Peru"
+msgstr "Peru"
+
+#: data/countries.php:192
+msgid "Philippines"
+msgstr "Philippines"
+
+#: data/countries.php:193
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: data/countries.php:194
+msgid "Poland"
+msgstr "Poland"
+
+#: data/countries.php:195
+msgid "Portugal"
+msgstr "Portugal"
+
+#: data/countries.php:196
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: data/countries.php:197
+msgid "Qatar"
+msgstr "Qatar"
+
+#: data/countries.php:198
+msgid "Reunion"
+msgstr "Reunion"
+
+#: data/countries.php:199
+msgid "Romania"
+msgstr "Romania"
+
+#: data/countries.php:200
+msgid "Russia"
+msgstr "Russia"
+
+#: data/countries.php:201
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: data/countries.php:202
+msgid "Saint Barth&eacute;lemy"
+msgstr "Saint Barth&eacute;lemy"
+
+#: data/countries.php:203
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: data/countries.php:204
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis"
+
+#: data/countries.php:205
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: data/countries.php:206
+msgid "Saint Martin (French part)"
+msgstr "Saint Martin (French part)"
+
+#: data/countries.php:207
+msgid "Saint Martin (Dutch part)"
+msgstr "Saint Martin (Dutch part)"
+
+#: data/countries.php:208
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre and Miquelon"
+
+#: data/countries.php:209
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent and the Grenadines"
+
+#: data/countries.php:210
+msgid "San Marino"
+msgstr "San Marino"
+
+#: data/countries.php:211
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+
+#: data/countries.php:212
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+#: data/countries.php:213
+msgid "Senegal"
+msgstr "Senegal"
+
+#: data/countries.php:214
+msgid "Serbia"
+msgstr "Serbia"
+
+#: data/countries.php:215
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: data/countries.php:216
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: data/countries.php:217
+msgid "Singapore"
+msgstr "Singapore"
+
+#: data/countries.php:218
+msgid "Slovakia"
+msgstr "Slovakia"
+
+#: data/countries.php:219
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: data/countries.php:220
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+#: data/countries.php:221
+msgid "Somalia"
+msgstr "Somalia"
+
+#: data/countries.php:222
+msgid "South Africa"
+msgstr "South Africa"
+
+#: data/countries.php:223
+msgid "South Georgia/Sandwich Islands"
+msgstr "South Georgia/Sandwich Islands"
+
+#: data/countries.php:224
+msgid "South Korea"
+msgstr "South Korea"
+
+#: data/countries.php:225
+msgid "South Sudan"
+msgstr "South Sudan"
+
+#: data/countries.php:226
+msgid "Spain"
+msgstr "Spain"
+
+#: data/countries.php:227
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: data/countries.php:228
+msgid "Sudan"
+msgstr "Sudan"
+
+#: data/countries.php:229
+msgid "Suriname"
+msgstr "Suriname"
+
+#: data/countries.php:230
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard and Jan Mayen"
+
+#: data/countries.php:231
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: data/countries.php:232
+msgid "Sweden"
+msgstr "Sweden"
+
+#: data/countries.php:233
+msgid "Switzerland"
+msgstr "Switzerland"
+
+#: data/countries.php:234
+msgid "Syria"
+msgstr "Syria"
+
+#: data/countries.php:235
+msgid "Taiwan"
+msgstr "台灣"
+
+#: data/countries.php:236
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: data/countries.php:237
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: data/countries.php:238
+msgid "Thailand"
+msgstr "Thailand"
+
+#: data/countries.php:239
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: data/countries.php:240
+msgid "Togo"
+msgstr "Togo"
+
+#: data/countries.php:241
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: data/countries.php:242
+msgid "Tonga"
+msgstr "Tonga"
+
+#: data/countries.php:243
+msgid "Trinidad and Tobago"
+msgstr "Trinidad and Tobago"
+
+#: data/countries.php:244
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: data/countries.php:245
+msgid "Turkey"
+msgstr "Turkey"
+
+#: data/countries.php:246
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: data/countries.php:247
+msgid "Turks and Caicos Islands"
+msgstr "Turks and Caicos Islands"
+
+#: data/countries.php:248
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: data/countries.php:249
+msgid "Uganda"
+msgstr "Uganda"
+
+#: data/countries.php:250
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: data/countries.php:251
+msgid "United Arab Emirates"
+msgstr "United Arab Emirates"
+
+#: data/countries.php:252
+msgid "United Kingdom (UK)"
+msgstr "United Kingdom (UK)"
+
+#: data/countries.php:253
+msgid "United States (US)"
+msgstr "United States (US)"
+
+#: data/countries.php:254
+msgid "United States (US) Minor Outlying Islands"
+msgstr "United States (US) Minor Outlying Islands"
+
+#: data/countries.php:255
+msgid "United States (US) Virgin Islands"
+msgstr "United States (US) Virgin Islands"
+
+#: data/countries.php:256
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: data/countries.php:257
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: data/countries.php:258
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: data/countries.php:259
+msgid "Vatican"
+msgstr "Vatican"
+
+#: data/countries.php:260
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: data/countries.php:261
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: data/countries.php:262
+msgid "Wallis and Futuna"
+msgstr "Wallis and Futuna"
+
+#: data/countries.php:263
+msgid "Western Sahara"
+msgstr "Western Sahara"
+
+#: data/countries.php:264
+msgid "Samoa"
+msgstr "薩摩亞"
+
+#: data/countries.php:265
+msgid "Yemen"
+msgstr "Yemen"
+
+#: data/countries.php:266
+msgid "Zambia"
+msgstr "Zambia"
+
+#: data/countries.php:267
+msgid "Zimbabwe"
+msgstr "Zimbabwe"

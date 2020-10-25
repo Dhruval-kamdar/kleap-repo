@@ -1,0 +1,50 @@
+/* -------------------------------------------------------
+                   Variables
+-------------------------------------------------------- */
+
+//-------------------- Base Colors --------------------//
+
+$theme-color: #ff274e;
+$body-color: #0d0d0d;
+$heading-color: #000;
+$dark-color: #151515;
+$dark-bg: #111517;
+$bg-light: #f8f9fa;
+$nav-width: 65px;
+$calcWidth: calc(100% - 130px);
+$dark-section: #121212;
+$base-margin:                   30px;
+
+body {
+  --nav-width: 65px;
+}
+
+.dark-bg {
+  background: $dark-bg;
+}
+
+//-------------------- Line Height Variables --------------------//
+
+$line-height-base: 1.2;
+$line-height-content: 1.7;
+
+
+//-------------------- Font Families --------------------//
+
+$body-font: 'Roboto', sans-serif;
+$heading-font: 'Open Sans', sans-serif;
+$secondary-font: 'Rufina', serif;
+
+
+//-------------------- Font Sizes --------------------//
+
+$font-size-base: 15px;
+$font-size-h1: 55px;
+$font-size-h2: 40px;
+$font-size-h3: 35px;
+$font-size-h4: 30px;
+$font-size-h5: $font-size-base;
+$font-size-h6: 18px;
+$menu-size: 12px;
+
+

@@ -1,0 +1,91 @@
+.side-panel {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	height: 100%;
+	z-index: 600;
+	padding: 0;
+	width: 300px;
+	background: #fff;
+	right: 0;
+	will-change: transform;
+	@extend .quick-transition;
+	@extend .admin-style;
+
+	.rtl & {
+		right: auto;
+		left: 0;
+	}
+	.admin-bar & {
+		height: calc(100% - 46px);
+
+		@media screen and (min-width: 783px){
+		  height: calc(100% - 32px);
+		}
+	}
+	@include min-break($break-small) {
+		width: 320px;
+	}
+	@include min-break($break-medium) {
+		width: 400px;
+	}
+	@include min-break($break-large) {
+		width: 480px;
+	}
+
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		color: $black;
+		height: 45px;
+		padding: 0 15px;
+		flex-shrink: 0;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		@include min-break($break-small) {
+			height: 76px;
+			padding: 0 30px;
+		}
+
+		h6 {
+			font-size: 14px;
+			color: $color1;
+			text-transform: none;
+			margin: 0;
+		}
+		.thb-close {
+			display: block;
+			position: absolute;
+			top: 50%;
+			right: 15px;
+			width: 30px;
+			height: 30px;
+			margin-top: -15px;
+			@include min-break($break-small) {
+				right: 30px;
+			}
+			.rtl & {
+				right: auto;
+				left: 15px;
+				@include min-break($break-small) {
+					right: auto;
+					left: 30px;
+				}
+			}
+		}
+	}
+	.side-panel-content {
+		padding: 15px;
+		flex: 1;
+		@include user-select(none);
+		@include min-break($break-small) {
+			padding: 30px;
+		}
+		h6 {
+			font-size: 16px;
+			margin-bottom: 30px;
+		}
+	}
+}

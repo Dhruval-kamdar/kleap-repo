@@ -1,0 +1,83 @@
+body {
+		
+    background: #ededed; 
+    background: -webkit-linear-gradient( #ededed, #ededed); 
+    background: linear-gradient(#ededed, #ededed); 
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #656565;
+}
+
+.idb-license-active {
+    padding: 6px 10px;
+    margin: 0 20px;
+    background: #538253;
+    width: 115px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+    color: white;
+}
+.idb-license-active > p {
+    font-size: 18px !important;
+}
+
+.w3-container, .w3-panel {
+    padding: 0.01em 16px;
+}
+
+@media (max-width: 992px) {
+    .w3-main {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+}
+
+.hr-wh-hero{
+    max-width: 409px;
+    border: 2px solid #656565;
+    margin: 0 0 40px 0;
+    border-radius: 3px;
+}
+.button-activate {
+    color: rgb(235, 235, 235);
+    border: 0;
+    background: #007cba;
+    vertical-align: baseline;
+    padding: 6px 13px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-deactivate {
+    color: #555;
+    border: 0;
+    background: #f7f7f7;
+    vertical-align: baseline;
+    padding: 6px 13px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-box {
+    display: flex;
+}
+
+.form-box-activate {
+    margin-left:35px;
+}
+
+.wh-license-submit .button {
+    padding: 0px 30px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}

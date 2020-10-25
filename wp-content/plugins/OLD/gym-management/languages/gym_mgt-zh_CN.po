@@ -1,0 +1,4689 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GYM Management\n"
+"POT-Creation-Date: 2019-03-01 11:54+0530\n"
+"PO-Revision-Date: 2019-03-02 15:02+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: ;_e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/access_right/accountant.php:224
+msgid "Accountant Access Right Updated Successfully."
+msgstr "会计访问权限已成功更新。"
+
+#: admin/access_right/accountant.php:236
+msgid "Accountant Access Right"
+msgstr "会计访问权限"
+
+#: admin/access_right/accountant.php:241 admin/access_right/member.php:241
+#: admin/access_right/staff_member.php:241 fronted_template.php:526
+msgid "Menu"
+msgstr "菜单"
+
+#: admin/access_right/accountant.php:242 admin/access_right/member.php:242
+#: admin/access_right/staff_member.php:242
+msgid "Own Data"
+msgstr "自己的数据"
+
+#: admin/access_right/accountant.php:243 admin/access_right/member.php:243
+#: admin/access_right/staff_member.php:243 admin/accountant/index.php:295
+#: admin/class-schedule/index.php:322 admin/group/index.php:244
+#: admin/member/index.php:509 admin/membership/index.php:316
+#: admin/notice/index.php:237 admin/product/index.php:280
+#: admin/staff-members/index.php:327 admin/workout/index.php:285
+#: template/accountant.php:101 template/class-schedule.php:482
+#: template/group.php:273 template/member.php:637 template/member.php:677
+#: template/member.php:718 template/membership.php:316 template/notice.php:190
+#: template/notice.php:226 template/notice.php:265 template/product.php:299
+#: template/staff_member.php:160 template/workouts.php:323
+#: template/workouts.php:367
+msgid "View"
+msgstr "视图"
+
+#: admin/access_right/accountant.php:244 admin/access_right/member.php:244
+#: admin/access_right/staff_member.php:244 admin/member/add_member.php:404
+#: admin/member/add_member.php:640 admin/member/add_member.php:745
+#: admin/member/add_member.php:789 admin/member/add_member.php:817
+msgid "Add"
+msgstr "加"
+
+#: admin/access_right/accountant.php:245 admin/access_right/member.php:245
+#: admin/access_right/staff_member.php:245 admin/accountant/index.php:296
+#: admin/activity/index.php:210 admin/class-schedule/index.php:322
+#: admin/class-schedule/schedule_list.php:35 admin/group/index.php:245
+#: admin/member/index.php:510 admin/membership/index.php:312
+#: admin/membership_payment/index.php:287
+#: admin/membership_payment/index.php:310 admin/notice/index.php:238
+#: admin/payment/expense-list.php:87 admin/payment/income-list.php:193
+#: admin/payment/income-list.php:216 admin/payment/index.php:332
+#: admin/product/index.php:281 admin/reservation/index.php:301
+#: admin/staff-members/index.php:328 admin/store/index.php:361
+#: admin/store/index.php:379 admin/tax/index.php:185
+#: admin/workout/measurement_list.php:58 gmgt_function.php:4662
+#: gmgt_function.php:4671 template/activity.php:239
+#: template/class-schedule.php:487 template/class-schedule.php:897
+#: template/class-schedule.php:921 template/class-schedule.php:948
+#: template/class-schedule.php:975 template/class-schedule.php:997
+#: template/group.php:278 template/member.php:674 template/membership.php:304
+#: template/payment.php:587 template/payment.php:618 template/payment.php:654
+#: template/payment.php:685 template/payment.php:717 template/payment.php:1021
+#: template/product.php:304 template/reservation.php:341 template/store.php:468
+#: template/store.php:494 template/store.php:528 template/store.php:557
+#: template/store.php:586
+msgid "Edit"
+msgstr "编辑"
+
+#: admin/access_right/accountant.php:246 admin/access_right/member.php:246
+#: admin/access_right/staff_member.php:246
+msgid "Delete "
+msgstr "删除"
+
+#: admin/access_right/accountant.php:254 admin/access_right/member.php:253
+#: admin/access_right/staff_member.php:254 admin/admin.php:33
+#: admin/message/composemail.php:32 admin/notice/add_notice.php:72
+#: gmgt_function.php:275 gmgt_function.php:402 gmgt_function.php:5826
+#: template/message/composemail.php:224
+msgid "Staff Members"
+msgstr "职员"
+
+#: admin/access_right/accountant.php:303 admin/access_right/member.php:302
+#: admin/access_right/staff_member.php:303 admin/admin.php:29
+#: gmgt_function.php:275 gmgt_function.php:404
+msgid "Membership Type"
+msgstr "会员类型"
+
+#: admin/access_right/accountant.php:352 admin/access_right/member.php:351
+#: admin/access_right/staff_member.php:352 admin/dasboard.php:206
+#: admin/member/add_member.php:388 fronted_template.php:656
+#: gmgt_function.php:275 gmgt_function.php:406 settings.php:1826
+#: template/member.php:826
+msgid "Group"
+msgstr "组"
+
+#: admin/access_right/accountant.php:401 admin/access_right/index.php:20
+#: admin/access_right/member.php:400 admin/access_right/staff_member.php:400
+#: admin/admin.php:37 admin/dasboard.php:182
+#: admin/membership_payment/add_membership_payment.php:49
+#: admin/notice/add_notice.php:73 admin/nutrition/add_nutrition.php:67
+#: admin/payment/add_income.php:54 admin/payment/add_payment.php:34
+#: admin/store/sell_product.php:87 admin/workout-type/add_workout_type.php:76
+#: admin/workout/add_measurement.php:37 admin/workout/add_workout.php:187
+#: fronted_template.php:609 gmgt_function.php:275 gmgt_function.php:408
+#: gmgt_function.php:5830 settings.php:121 template/assign-workout.php:377
+#: template/nutrition.php:346 template/payment.php:788 template/store.php:635
+#: template/workouts.php:588 template/workouts.php:688
+msgid "Member"
+msgstr "会员"
+
+#: admin/access_right/accountant.php:450 admin/access_right/member.php:449
+#: admin/access_right/staff_member.php:449 admin/admin.php:39
+#: admin/staff-members/view_staffmember.php:120
+#: admin/workout-type/add_workout_type.php:246 gmgt_function.php:275
+#: gmgt_function.php:410 gmgt_function.php:1043 gmgt_function.php:6036
+#: template/assign-workout.php:190 template/assign-workout.php:545
+#: template/staff_member.php:294
+msgid "Activity"
+msgstr "活动"
+
+#: admin/access_right/accountant.php:498 admin/access_right/member.php:497
+#: admin/access_right/staff_member.php:497 gmgt_function.php:412
+msgid "Class schedule"
+msgstr "课程表"
+
+#: admin/access_right/accountant.php:547 admin/access_right/member.php:544
+#: gmgt_function.php:414
+msgid "Attendence"
+msgstr "考勤"
+
+#: admin/access_right/accountant.php:595 admin/access_right/member.php:592
+#: admin/access_right/staff_member.php:592 gmgt_function.php:275
+#: gmgt_function.php:416
+msgid "Assigned Workouts"
+msgstr "分配锻炼"
+
+#: admin/access_right/accountant.php:643 admin/access_right/member.php:640
+#: admin/access_right/staff_member.php:640 admin/admin.php:43
+#: gmgt_function.php:275 gmgt_function.php:436 gmgt_function.php:4116
+msgid "Nutrition Schedule"
+msgstr "营养计划"
+
+#: admin/access_right/accountant.php:691 admin/access_right/member.php:687
+#: admin/access_right/staff_member.php:688 gmgt_function.php:275
+#: gmgt_function.php:418
+msgid "Workouts"
+msgstr "锻炼"
+
+#: admin/access_right/accountant.php:740 admin/access_right/index.php:26
+#: admin/access_right/member.php:736 admin/access_right/staff_member.php:737
+#: admin/admin.php:55 admin/message/composemail.php:33
+#: admin/notice/add_notice.php:74 gmgt_function.php:275 gmgt_function.php:420
+#: gmgt_function.php:5828 settings.php:120 template/message/composemail.php:225
+msgid "Accountant"
+msgstr "会计"
+
+#: admin/access_right/accountant.php:789 admin/access_right/member.php:785
+#: admin/access_right/staff_member.php:786 admin/admin.php:57
+#: gmgt_function.php:275 gmgt_function.php:422 settings.php:1364
+msgid "Membership Payment"
+msgstr "会员付款"
+
+#: admin/access_right/accountant.php:839 admin/access_right/member.php:835
+#: admin/access_right/staff_member.php:836 admin/admin.php:58
+#: admin/dasboard.php:346 admin/dasboard.php:373 admin/dasboard.php:388
+#: gmgt_function.php:275 gmgt_function.php:424
+msgid "Payment"
+msgstr "付款"
+
+#: admin/access_right/accountant.php:889 admin/access_right/member.php:885
+#: admin/access_right/staff_member.php:886 admin/admin.php:47
+#: gmgt_function.php:275 gmgt_function.php:426
+msgid "Product"
+msgstr "产品"
+
+#: admin/access_right/accountant.php:939 admin/access_right/member.php:935
+#: admin/access_right/staff_member.php:936 admin/admin.php:49
+#: gmgt_function.php:275 gmgt_function.php:428
+msgid "Store"
+msgstr "商店"
+
+#: admin/access_right/accountant.php:988 admin/access_right/member.php:984
+#: admin/access_right/staff_member.php:985 admin/admin.php:62
+#: gmgt_function.php:275 gmgt_function.php:430
+msgid "Newsletter"
+msgstr "通讯"
+
+#: admin/access_right/accountant.php:1036 admin/access_right/member.php:1029
+#: admin/access_right/staff_member.php:1033 admin/admin.php:60
+#: admin/dasboard.php:219 fronted_template.php:678 gmgt_function.php:275
+#: gmgt_function.php:432
+msgid "Message"
+msgstr "信息"
+
+#: admin/access_right/accountant.php:1084 admin/access_right/member.php:1076
+#: admin/access_right/staff_member.php:1081 gmgt_function.php:434
+msgid "Notice"
+msgstr "注意"
+
+#: admin/access_right/accountant.php:1131 admin/access_right/member.php:1123
+#: admin/access_right/staff_member.php:1128 admin/admin.php:51
+#: gmgt_function.php:275 gmgt_function.php:438
+msgid "Reservation"
+msgstr "保留"
+
+#: admin/access_right/accountant.php:1177 admin/access_right/member.php:1169
+#: admin/access_right/staff_member.php:1174 gmgt_function.php:275
+#: gmgt_function.php:440
+msgid "Account"
+msgstr "帐户"
+
+#: admin/access_right/accountant.php:1225 admin/access_right/member.php:1217
+#: admin/access_right/staff_member.php:1222 admin/member/view_member.php:518
+#: gmgt_function.php:275 template/subscription_history.php:157
+#: template/view_member.php:532
+msgid "Subscription History"
+msgstr "订阅历史"
+
+#: admin/access_right/accountant.php:1269 admin/access_right/member.php:1262
+#: admin/access_right/staff_member.php:1267
+#: admin/accountant/add_accountant.php:186 admin/activity/add_activity.php:229
+#: admin/class-schedule/add_class.php:456
+#: admin/class-schedule/add_class.php:702 admin/email-template/index.php:122
+#: admin/email-template/index.php:161 admin/email-template/index.php:203
+#: admin/email-template/index.php:248 admin/email-template/index.php:288
+#: admin/email-template/index.php:329 admin/email-template/index.php:369
+#: admin/email-template/index.php:408 admin/email-template/index.php:447
+#: admin/email-template/index.php:492 admin/email-template/index.php:533
+#: admin/email-template/index.php:573 admin/email-template/index.php:611
+#: admin/email-template/index.php:651 admin/general-settings.php:504
+#: admin/group/add_group.php:52 admin/member/add_member.php:880
+#: admin/member/add_member.php:1163 admin/member/add_member.php:1625
+#: admin/membership_payment/add_membership_payment.php:110
+#: admin/news-letter/index.php:159 admin/payment/add_payment.php:102
+#: admin/product/add_product.php:145 admin/reservation/add_reservation.php:197
+#: admin/staff-members/add_staff.php:274 admin/store/sell_product.php:265
+#: admin/store/sell_product.php:305 admin/tax/add_tax.php:37
+#: admin/workout/add_workout.php:230 template/account.php:201
+#: template/account.php:261 template/activity.php:342
+#: template/class-schedule.php:832 template/group.php:364
+#: template/member.php:1303 template/news_letter.php:158
+#: template/product.php:460 template/reservation.php:522 template/store.php:811
+#: template/workouts.php:641
+msgid "Save"
+msgstr "保存"
+
+#: admin/access_right/index.php:23 admin/dasboard.php:194
+#: admin/dasboard.php:482 admin/dasboard.php:496
+#: admin/member/view_member.php:139 fronted_template.php:632
+#: template/view_member.php:144
+msgid "Staff Member"
+msgstr "工作人员"
+
+#: admin/access_right/member.php:224
+msgid "Member Access Right Updated Successfully."
+msgstr "会员访问权限已成功更新。"
+
+#: admin/access_right/member.php:236
+msgid "Member Access Right"
+msgstr "会员访问权限"
+
+#: admin/access_right/staff_member.php:224
+msgid "Staff Member Access Right Updated Successfully."
+msgstr "员工访问权限已成功更新。"
+
+#: admin/access_right/staff_member.php:236
+msgid "Staff Member Access Right"
+msgstr "员工访问权限"
+
+#: admin/access_right/staff_member.php:546 admin/attendence/index.php:131
+#: template/attendence.php:108
+msgid "Member Attendance"
+msgstr "会员出席"
+
+#: admin/accountant/add_accountant.php:34 admin/activity/add_activity.php:256
+#: admin/class-schedule/add_class.php:492 admin/member/add_member.php:338
+#: admin/member/add_member.php:907 admin/staff-members/add_staff.php:58
+#: settings.php:1778 template/member.php:776
+msgid "Personal Information"
+msgstr "个人信息"
+
+#: admin/accountant/add_accountant.php:38 admin/activity/add_activity.php:260
+#: admin/class-schedule/add_class.php:496 admin/member/add_member.php:349
+#: admin/member/add_member.php:911 admin/staff-members/add_staff.php:62
+#: settings.php:1788 template/member.php:787
+msgid "First Name"
+msgstr "名字"
+
+#: admin/accountant/add_accountant.php:44 admin/activity/add_activity.php:266
+#: admin/class-schedule/add_class.php:502 admin/member/add_member.php:355
+#: admin/member/add_member.php:917 admin/staff-members/add_staff.php:68
+#: settings.php:1794 template/member.php:793
+msgid "Middle Name"
+msgstr "中间名字"
+
+#: admin/accountant/add_accountant.php:50 admin/activity/add_activity.php:272
+#: admin/class-schedule/add_class.php:508 admin/member/add_member.php:361
+#: admin/member/add_member.php:923 admin/staff-members/add_staff.php:74
+#: settings.php:1800 template/member.php:799
+msgid "Last Name"
+msgstr "姓"
+
+#: admin/accountant/add_accountant.php:58 admin/activity/add_activity.php:292
+#: admin/class-schedule/add_class.php:528 admin/member/add_member.php:369
+#: admin/member/add_member.php:943 admin/staff-members/add_staff.php:94
+#: settings.php:1820 template/account.php:222 template/member.php:807
+msgid "Date of birth"
+msgstr "出生日期"
+
+#: admin/accountant/add_accountant.php:65
+#: admin/accountant/view_accountant.php:66 admin/activity/add_activity.php:278
+#: admin/class-schedule/add_class.php:514 admin/member/add_member.php:376
+#: admin/member/add_member.php:929 admin/member/view_member.php:84
+#: admin/staff-members/add_staff.php:80
+#: admin/staff-members/view_staffmember.php:68 settings.php:1807
+#: template/accountant.php:178 template/member.php:814
+#: template/staff_member.php:242 template/view_member.php:90
+msgid "Gender"
+msgstr "性别"
+
+#: admin/accountant/add_accountant.php:69 admin/activity/add_activity.php:282
+#: admin/class-schedule/add_class.php:518 admin/member/add_member.php:380
+#: admin/member/add_member.php:933 admin/staff-members/add_staff.php:84
+#: settings.php:1811 template/member.php:818
+msgid "Male"
+msgstr "男"
+
+#: admin/accountant/add_accountant.php:72 admin/activity/add_activity.php:285
+#: admin/class-schedule/add_class.php:521 admin/member/add_member.php:383
+#: admin/member/add_member.php:936 admin/staff-members/add_staff.php:87
+#: settings.php:1814 template/member.php:821
+msgid "Female"
+msgstr "女"
+
+#: admin/accountant/add_accountant.php:79 admin/activity/add_activity.php:353
+#: admin/class-schedule/add_class.php:595 admin/member/add_member.php:410
+#: admin/member/add_member.php:1010 admin/staff-members/add_staff.php:160
+#: settings.php:1844 template/member.php:847
+msgid "Contact Information"
+msgstr "联系信息"
+
+#: admin/accountant/add_accountant.php:83 admin/activity/add_activity.php:357
+#: admin/class-schedule/add_class.php:599 admin/member/add_member.php:1014
+#: admin/staff-members/add_staff.php:164 template/account.php:229
+msgid "Home Town Address"
+msgstr "家乡地址"
+
+#: admin/accountant/add_accountant.php:92 admin/activity/add_activity.php:365
+#: admin/class-schedule/add_class.php:606 admin/member/add_member.php:421
+#: admin/member/add_member.php:1023 admin/staff-members/add_staff.php:171
+#: settings.php:1853 template/account.php:238 template/member.php:858
+msgid "City"
+msgstr "市"
+
+#: admin/accountant/add_accountant.php:99
+#: admin/accountant/view_accountant.php:37 admin/activity/add_activity.php:372
+#: admin/class-schedule/add_class.php:613 admin/general-settings.php:192
+#: admin/member/add_member.php:461 admin/member/add_member.php:1065
+#: admin/member/view_member.php:55 admin/setupform/index.php:75
+#: admin/staff-members/add_staff.php:211
+#: admin/staff-members/view_staffmember.php:39 settings.php:1887
+#: template/account.php:252 template/accountant.php:149 template/member.php:899
+#: template/staff_member.php:213 template/view_member.php:61
+msgid "Email"
+msgstr "电子邮件"
+
+#: admin/accountant/add_accountant.php:108 admin/activity/add_activity.php:381
+#: admin/class-schedule/add_class.php:622 admin/member/add_member.php:444
+#: admin/member/add_member.php:1047 admin/staff-members/add_staff.php:194
+#: settings.php:1871 template/member.php:881
+msgid "Mobile Number"
+msgstr "手机号码"
+
+#: admin/accountant/add_accountant.php:119 admin/activity/add_activity.php:392
+#: admin/class-schedule/add_class.php:633 admin/member/add_member.php:454
+#: admin/member/add_member.php:1058 admin/staff-members/add_staff.php:204
+#: settings.php:1881 template/account.php:244 template/member.php:892
+msgid "Phone"
+msgstr "电话"
+
+#: admin/accountant/add_accountant.php:128 admin/activity/add_activity.php:400
+#: admin/class-schedule/add_class.php:641 admin/member/add_member.php:527
+#: admin/member/add_member.php:1074 admin/staff-members/add_staff.php:220
+#: settings.php:1947 template/member.php:972
+msgid "Login Information"
+msgstr "登录信息"
+
+#: admin/accountant/add_accountant.php:132
+#: admin/accountant/view_accountant.php:76 admin/activity/add_activity.php:404
+#: admin/class-schedule/add_class.php:645 admin/member/add_member.php:531
+#: admin/member/add_member.php:1078 admin/member/view_member.php:120
+#: admin/staff-members/add_staff.php:224
+#: admin/staff-members/view_staffmember.php:78 settings.php:1950
+#: template/accountant.php:188 template/member.php:976
+#: template/staff_member.php:252 template/view_member.php:126
+msgid "User Name"
+msgstr "用户名"
+
+#: admin/accountant/add_accountant.php:141 admin/activity/add_activity.php:413
+#: admin/class-schedule/add_class.php:654 admin/email-template/index.php:198
+#: admin/member/add_member.php:540 admin/member/add_member.php:1087
+#: admin/staff-members/add_staff.php:233 gmgt_function.php:786
+#: settings.php:1957 template/member.php:985
+msgid "Password"
+msgstr "密码"
+
+#: admin/accountant/add_accountant.php:149 admin/activity/add_activity.php:421
+#: admin/class-schedule/add_class.php:662 admin/member/add_member.php:548
+#: admin/member/add_member.php:1095 admin/staff-members/add_staff.php:241
+#: admin/workout/add_measurement.php:125 settings.php:1964
+#: template/member.php:993 template/workouts.php:785
+msgid "Image"
+msgstr "图片"
+
+#: admin/accountant/add_accountant.php:155 admin/activity/add_activity.php:427
+#: admin/class-schedule/add_class.php:668 admin/general-settings.php:223
+#: admin/member/add_member.php:554 admin/member/add_member.php:1101
+#: admin/product/add_product.php:112 admin/product/add_product.php:113
+#: admin/staff-members/add_staff.php:247 admin/workout/add_measurement.php:131
+#: admin/workout/add_measurement.php:132 template/group.php:338
+#: template/member.php:1000 template/membership.php:624
+#: template/product.php:429 template/workouts.php:792
+msgid "Upload image"
+msgstr "上传图片"
+
+#: admin/accountant/add_accountant.php:186 admin/accountant/index.php:198
+msgid "Add Accountant"
+msgstr "添加会计"
+
+#: admin/accountant/index.php:41 admin/accountant/index.php:65
+#: admin/accountant/index.php:99 admin/activity/add_activity.php:246
+#: admin/activity/add_activity.php:462 admin/general-settings.php:29
+#: admin/group/index.php:38 admin/group/index.php:59
+#: admin/member/add_member.php:897 admin/member/add_member.php:1183
+#: admin/member/index.php:172 admin/member/index.php:195
+#: admin/member/index.php:229 admin/membership/index.php:39
+#: admin/membership/index.php:60 admin/product/index.php:91
+#: admin/staff-members/index.php:42 admin/staff-members/index.php:66
+#: admin/staff-members/index.php:100 admin/workout/index.php:140
+#: admin/workout/index.php:164 template/group.php:96 template/membership.php:90
+#: template/product.php:133 template/workouts.php:165
+msgid "Sorry, only JPG, JPEG, PNG & GIF And BMP files are allowed."
+msgstr "对不起，只允许使用JPG，JPEG，PNG和GIF以及BMP文件。"
+
+#: admin/accountant/index.php:74 admin/member/index.php:204
+#: admin/staff-members/index.php:75
+msgid "Email id exists already."
+msgstr "电子邮件ID已存在。"
+
+#: admin/accountant/index.php:107 admin/member/index.php:237
+#: admin/staff-members/index.php:108 template/member.php:65
+msgid "Username Or Email id exists already."
+msgstr "用户名或电子邮件ID已存在。"
+
+#: admin/accountant/index.php:139 admin/activity/index.php:67
+#: admin/class-schedule/index.php:153 admin/group/index.php:92
+#: admin/member/index.php:270 admin/membership/index.php:83
+#: admin/membership_payment/index.php:91 admin/notice/index.php:67
+#: admin/payment/index.php:90 admin/payment/index.php:113
+#: admin/product/index.php:124 admin/reservation/index.php:145
+#: admin/staff-members/index.php:143 admin/store/index.php:98
+#: admin/tax/index.php:57
+msgid "Please select at least one record."
+msgstr "请至少选择一条记录。"
+
+#: admin/accountant/index.php:152
+msgid "Accountant added successfully."
+msgstr "会计成功添加。"
+
+#: admin/accountant/index.php:159
+msgid "Accountant updated successfully."
+msgstr "会计已成功更新。"
+
+#: admin/accountant/index.php:168
+msgid "Accountant deleted successfully."
+msgstr "会计已成功删除。"
+
+#: admin/accountant/index.php:180
+msgid "Accountant  List"
+msgstr "会计清单"
+
+#: admin/accountant/index.php:185
+msgid "Edit Accountant"
+msgstr "编辑会计"
+
+#: admin/accountant/index.php:192 template/accountant.php:43
+msgid "View Accountant"
+msgstr "查看会计"
+
+#: admin/accountant/index.php:254 admin/accountant/index.php:264
+#: admin/activity/view_membership.php:24 admin/activity/view_membership.php:35
+#: admin/group/index.php:200 admin/group/index.php:210
+#: admin/member/index.php:440 admin/member/index.php:454
+#: admin/membership/index.php:261 admin/membership/index.php:275
+#: admin/nutrition/index.php:130 admin/nutrition/index.php:138
+#: admin/staff-members/index.php:264 admin/staff-members/index.php:276
+#: admin/workout-type/index.php:133 admin/workout-type/index.php:141
+#: admin/workout/index.php:233 admin/workout/index.php:243
+#: gmgt_function.php:4634 template/accountant.php:60 template/accountant.php:69
+#: template/activity.php:374 template/activity.php:385
+#: template/assign-workout.php:234 template/assign-workout.php:242
+#: template/group.php:202 template/group.php:211 template/member.php:577
+#: template/member.php:589 template/membership.php:215
+#: template/membership.php:228 template/nutrition.php:268
+#: template/nutrition.php:276 template/staff_member.php:61
+#: template/staff_member.php:72 template/workouts.php:271
+#: template/workouts.php:282
+msgid "Photo"
+msgstr "照片"
+
+#: admin/accountant/index.php:255 admin/accountant/index.php:265
+#: template/accountant.php:61 template/accountant.php:70
+msgid "Accountant Name"
+msgstr "会计名称"
+
+#: admin/accountant/index.php:256 admin/accountant/index.php:266
+#: template/accountant.php:62 template/accountant.php:71
+msgid "Accountant Email"
+msgstr "会计电子邮件"
+
+#: admin/accountant/index.php:257 admin/accountant/index.php:267
+#: admin/accountant/view_accountant.php:46 admin/member/view_member.php:64
+#: admin/staff-members/index.php:268 admin/staff-members/index.php:280
+#: admin/staff-members/view_staffmember.php:48 template/accountant.php:63
+#: template/accountant.php:72 template/accountant.php:158
+#: template/staff_member.php:65 template/staff_member.php:76
+#: template/staff_member.php:222 template/view_member.php:70
+msgid "Mobile No"
+msgstr "手机号码"
+
+#: admin/accountant/index.php:258 admin/accountant/index.php:268
+#: admin/activity/index.php:184 admin/activity/index.php:193
+#: admin/class-schedule/booking_list.php:45
+#: admin/class-schedule/booking_list.php:57 admin/class-schedule/index.php:280
+#: admin/class-schedule/index.php:291 admin/group/index.php:204
+#: admin/group/index.php:214 admin/member/index.php:448
+#: admin/member/index.php:462 admin/membership/index.php:269
+#: admin/membership/index.php:283 admin/membership/view-activity.php:38
+#: admin/membership/view-activity.php:47 admin/membership_payment/index.php:218
+#: admin/membership_payment/index.php:233 admin/notice/index.php:181
+#: admin/notice/index.php:193 admin/nutrition/index.php:133
+#: admin/nutrition/index.php:141 admin/payment/expense-list.php:56
+#: admin/payment/expense-list.php:65 admin/payment/income-list.php:75
+#: admin/payment/income-list.php:89 admin/payment/index.php:297
+#: admin/payment/index.php:306 admin/product/index.php:241
+#: admin/product/index.php:253 admin/reservation/index.php:269
+#: admin/reservation/index.php:281 admin/staff-members/index.php:270
+#: admin/staff-members/index.php:282 admin/store/index.php:234
+#: admin/store/index.php:248 admin/tax/index.php:161 admin/tax/index.php:169
+#: admin/workout-type/index.php:136 admin/workout-type/index.php:144
+#: admin/workout/index.php:238 admin/workout/index.php:248
+#: admin/workout/measurement_list.php:25 admin/workout/measurement_list.php:34
+#: gmgt_function.php:1560 gmgt_function.php:4638 template/accountant.php:64
+#: template/accountant.php:73 template/activity.php:181
+#: template/activity.php:191 template/assign-workout.php:237
+#: template/assign-workout.php:245 template/class-schedule.php:404
+#: template/class-schedule.php:415 template/group.php:206
+#: template/group.php:215 template/member.php:584 template/member.php:596
+#: template/membership.php:222 template/membership.php:235
+#: template/membership_payment.php:185 template/membership_payment.php:199
+#: template/notice.php:123 template/notice.php:137 template/nutrition.php:271
+#: template/nutrition.php:279 template/payment.php:446 template/payment.php:459
+#: template/payment.php:979 template/payment.php:987 template/product.php:243
+#: template/product.php:254 template/reservation.php:277
+#: template/reservation.php:295 template/staff_member.php:67
+#: template/staff_member.php:78 template/store.php:326 template/store.php:340
+#: template/subscription_history.php:179 template/subscription_history.php:192
+#: template/workouts.php:276 template/workouts.php:287
+msgid "Action"
+msgstr "行动"
+
+#: admin/accountant/index.php:298 admin/activity/index.php:212
+#: admin/class-schedule/booking_list.php:79 admin/class-schedule/index.php:324
+#: admin/group/index.php:247 admin/membership/index.php:314
+#: admin/membership/view-activity.php:64 admin/membership_payment/index.php:292
+#: admin/membership_payment/index.php:315 admin/notice/index.php:240
+#: admin/payment/expense-list.php:89 admin/payment/income-list.php:199
+#: admin/payment/income-list.php:222 admin/payment/index.php:334
+#: admin/product/index.php:283 admin/reservation/index.php:303
+#: admin/staff-members/index.php:330 admin/store/index.php:366
+#: admin/store/index.php:384 admin/workout/measurement_list.php:60
+#: template/activity.php:246 template/class-schedule.php:494
+#: template/group.php:285 template/membership.php:311
+#: template/message/view_message.php:69 template/payment.php:596
+#: template/payment.php:627 template/payment.php:663 template/payment.php:694
+#: template/payment.php:726 template/payment.php:1028 template/product.php:311
+#: template/reservation.php:348 template/store.php:476 template/store.php:502
+#: template/store.php:536 template/store.php:565 template/store.php:594
+msgid "Do you really want to delete this record?"
+msgstr "你真的想删除这条记录吗？"
+
+#: admin/accountant/index.php:299 admin/activity/index.php:213
+#: admin/class-schedule/add_class.php:464
+#: admin/class-schedule/booking_list.php:80 admin/class-schedule/index.php:325
+#: admin/class-schedule/schedule_list.php:36 admin/group/index.php:248
+#: admin/member/add_member.php:1649 admin/member/index.php:513
+#: admin/membership/index.php:315 admin/membership/view-activity.php:65
+#: admin/membership_payment/index.php:293
+#: admin/membership_payment/index.php:316 admin/message/view_message.php:70
+#: admin/message/view_message.php:87 admin/notice/index.php:241
+#: admin/payment/add_expense.php:103 admin/payment/add_expense.php:127
+#: admin/payment/add_income.php:118 admin/payment/add_income.php:139
+#: admin/payment/expense-list.php:90 admin/payment/income-list.php:200
+#: admin/payment/income-list.php:223 admin/payment/index.php:335
+#: admin/product/index.php:284 admin/reservation/index.php:304
+#: admin/staff-members/index.php:331 admin/store/index.php:367
+#: admin/store/index.php:385 admin/store/sell_product.php:174
+#: admin/store/sell_product.php:209 admin/store/sell_product.php:321
+#: admin/tax/index.php:186 admin/workout/measurement_list.php:61
+#: gmgt_function.php:4677 template/activity.php:247
+#: template/class-schedule.php:495 template/class-schedule.php:849
+#: template/class-schedule.php:902 template/class-schedule.php:926
+#: template/class-schedule.php:953 template/class-schedule.php:980
+#: template/class-schedule.php:1002 template/group.php:286
+#: template/membership.php:312 template/message/view_message.php:70
+#: template/message/view_message.php:91 template/payment.php:597
+#: template/payment.php:628 template/payment.php:664 template/payment.php:695
+#: template/payment.php:727 template/payment.php:852 template/payment.php:874
+#: template/payment.php:1029 template/payment.php:1136
+#: template/payment.php:1158 template/product.php:312
+#: template/reservation.php:349 template/store.php:477 template/store.php:503
+#: template/store.php:537 template/store.php:566 template/store.php:595
+#: template/store.php:719 template/store.php:754 template/store.php:825
+msgid "Delete"
+msgstr "删除"
+
+#: admin/accountant/index.php:309 admin/activity/index.php:221
+#: admin/class-schedule/index.php:337 admin/group/index.php:258
+#: admin/member/index.php:532 admin/membership/index.php:329
+#: admin/membership_payment/index.php:327 admin/notice/index.php:251
+#: admin/payment/expense-list.php:99 admin/payment/income-list.php:233
+#: admin/product/index.php:292 admin/reservation/index.php:312
+#: admin/staff-members/index.php:341 admin/store/index.php:396
+#: admin/tax/index.php:194
+msgid "Delete Selected"
+msgstr "删除所选"
+
+#: admin/accountant/view_accountant.php:26 admin/member/view_member.php:44
+#: admin/staff-members/view_staffmember.php:28 template/account.php:170
+#: template/accountant.php:138 template/staff_member.php:202
+#: template/view_member.php:50
+msgid "Name"
+msgstr "名称"
+
+#: admin/accountant/view_accountant.php:57 admin/member/view_member.php:75
+#: admin/staff-members/view_staffmember.php:59 template/accountant.php:169
+#: template/staff_member.php:233 template/view_member.php:81
+msgid "Date Of Birth"
+msgstr "出生日期"
+
+#: admin/accountant/view_accountant.php:90 admin/member/view_member.php:134
+#: admin/staff-members/view_staffmember.php:92 template/accountant.php:202
+#: template/staff_member.php:266 template/view_member.php:139
+msgid "More Info"
+msgstr "更多信息"
+
+#: admin/accountant/view_accountant.php:95 admin/member/add_member.php:414
+#: admin/member/view_member.php:187 admin/staff-members/view_staffmember.php:99
+#: settings.php:1847 template/accountant.php:209 template/member.php:851
+#: template/staff_member.php:273 template/view_member.php:193
+msgid "Address"
+msgstr "地址"
+
+#: admin/activity/add_activity.php:7 admin/class-schedule/add_class.php:26
+#: admin/member/add_member.php:45 admin/member/add_member.php:775
+#: template/class-schedule.php:248 template/member.php:128
+#: template/member.php:1206
+msgid "Select Membership"
+msgstr "选择会员"
+
+#: admin/activity/add_activity.php:16 admin/class-schedule/add_class.php:17
+#: admin/member/add_member.php:19 template/member.php:119
+msgid "Select Specialization"
+msgstr "选择专业化"
+
+#: admin/activity/add_activity.php:20 admin/member/add_member.php:49
+#: admin/membership/add_membership.php:24 admin/payment/add_income.php:9
+#: admin/store/sell_product.php:7 template/membership.php:355
+#: template/payment.php:314 template/store.php:235
+msgid "Select Tax"
+msgstr "选择税"
+
+#: admin/activity/add_activity.php:22 admin/member/add_member.php:51
+#: admin/membership/add_membership.php:26 admin/payment/add_income.php:11
+#: admin/store/sell_product.php:9 template/membership.php:357
+#: template/payment.php:316 template/store.php:237
+msgid "Select all"
+msgstr "全选"
+
+#: admin/activity/add_activity.php:29
+msgid "Please select atleast one specialization name"
+msgstr "请选择至少一个专业化名称"
+
+#: admin/activity/add_activity.php:40
+msgid "Please select atleast one membership"
+msgstr "请选择至少一个会员资格"
+
+#: admin/activity/add_activity.php:143 admin/activity/index.php:182
+#: admin/activity/index.php:191 admin/membership/view-activity.php:35
+#: admin/membership/view-activity.php:44 template/activity.php:178
+#: template/activity.php:188 template/activity.php:282
+#: template/membership.php:695 template/membership.php:704
+msgid "Activity Category"
+msgstr "活动类别"
+
+#: admin/activity/add_activity.php:146 admin/member/add_member.php:36
+#: admin/member/add_member.php:1333 admin/membership/add_membership.php:16
+#: admin/membership/add_membership.php:229 template/activity.php:285
+#: template/membership.php:347 template/membership.php:553
+msgid "Select Activity Category"
+msgstr "选择活动类别"
+
+#: admin/activity/add_activity.php:166 admin/activity/add_activity.php:319
+#: admin/activity/add_activity.php:348 admin/activity/add_activity.php:493
+#: admin/activity/add_activity.php:563 admin/class-schedule/add_class.php:561
+#: admin/class-schedule/add_class.php:590 admin/member/add_member.php:670
+#: admin/member/add_member.php:715 admin/member/add_member.php:975
+#: admin/member/add_member.php:1004 admin/member/add_member.php:1218
+#: admin/member/add_member.php:1291 admin/membership/add_membership.php:78
+#: admin/membership/add_membership.php:186 admin/product/add_product.php:54
+#: admin/reservation/add_reservation.php:90
+#: admin/staff-members/add_staff.php:126 admin/staff-members/add_staff.php:155
+#: admin/workout-type/add_workout_type.php:127 template/activity.php:305
+#: template/assign-workout.php:424 template/member.php:1108
+#: template/member.php:1149 template/membership.php:408
+#: template/membership.php:511 template/product.php:370
+#: template/reservation.php:438
+msgid "Add Or Remove"
+msgstr "添加或删除"
+
+#: admin/activity/add_activity.php:169 template/activity.php:308
+msgid "Activity Title"
+msgstr "活动标题"
+
+#: admin/activity/add_activity.php:175 template/activity.php:315
+msgid "Assign to Staff Member"
+msgstr "分配给工作人员"
+
+#: admin/activity/add_activity.php:178 admin/class-schedule/add_class.php:136
+#: admin/member/add_member.php:1437 admin/reservation/add_reservation.php:175
+#: template/activity.php:318 template/class-schedule.php:543
+msgid "Select Staff Member "
+msgstr "选择员工"
+
+#: admin/activity/add_activity.php:201 admin/activity/add_activity.php:242
+#: admin/class-schedule/add_class.php:161
+#: admin/class-schedule/add_class.php:193
+#: admin/class-schedule/add_class.php:483 admin/member/add_member.php:893
+#: admin/staff-members/index.php:204
+msgid "Add Staff Member"
+msgstr "添加员工"
+
+#: admin/activity/add_activity.php:205 admin/class-schedule/add_class.php:237
+#: admin/dasboard.php:229 admin/member/add_member.php:770
+#: admin/member/add_member.php:1509
+#: admin/membership_payment/add_membership_payment.php:66
+#: admin/report/index.php:22 admin/report/membership_report.php:16
+#: admin/report/membership_status_report.php:19 admin/workout/index.php:235
+#: admin/workout/index.php:245 fronted_template.php:692 settings.php:2101
+#: template/class-schedule.php:617 template/member.php:1201
+#: template/membership.php:169 template/workouts.php:273
+#: template/workouts.php:284
+msgid "Membership"
+msgstr "籍"
+
+#: admin/activity/add_activity.php:225 admin/activity/add_activity.php:458
+#: admin/activity/add_activity.php:623 admin/member/add_member.php:1179
+#: admin/member/add_member.php:1403 admin/membership/add_membership.php:312
+#: admin/membership/index.php:175 template/membership.php:187
+#: template/membership.php:656
+msgid "Add Membership"
+msgstr "添加会员资格"
+
+#: admin/activity/add_activity.php:298 admin/class-schedule/add_class.php:535
+#: admin/member/add_member.php:949 admin/staff-members/add_staff.php:102
+#: admin/staff-members/view_staffmember.php:147 template/staff_member.php:322
+msgid "Assign Role"
+msgstr "分配角色"
+
+#: admin/activity/add_activity.php:302 admin/class-schedule/add_class.php:539
+#: admin/member/add_member.php:953 admin/staff-members/add_staff.php:105
+msgid "Select Role"
+msgstr "选择角色"
+
+#: admin/activity/add_activity.php:322 admin/class-schedule/add_class.php:564
+#: admin/member/add_member.php:978 admin/staff-members/add_staff.php:129
+#: admin/staff-members/index.php:269 admin/staff-members/index.php:281
+#: template/staff_member.php:66 template/staff_member.php:77
+msgid "Specialization"
+msgstr "专业化"
+
+#: admin/activity/add_activity.php:439 admin/class-schedule/add_class.php:702
+#: admin/member/add_member.php:1114 admin/staff-members/add_staff.php:274
+msgid "Add Staff"
+msgstr "添加员工"
+
+#: admin/activity/add_activity.php:446 admin/activity/add_activity.php:628
+#: admin/class-schedule/add_class.php:709 admin/member/add_member.php:1121
+#: admin/member/add_member.php:1168 admin/member/add_member.php:1408
+#: admin/member/add_member.php:1630 admin/store/sell_product.php:310
+msgid "Close"
+msgstr "关"
+
+#: admin/activity/add_activity.php:470 admin/activity/view_membership.php:25
+#: admin/activity/view_membership.php:36 admin/member/add_member.php:1191
+#: admin/membership/add_membership.php:49 admin/membership/index.php:262
+#: admin/membership/index.php:276 admin/membership/view-activity.php:37
+#: admin/membership/view-activity.php:46 admin/report/membership_report.php:28
+#: template/activity.php:375 template/activity.php:386
+#: template/membership.php:216 template/membership.php:229
+#: template/membership.php:379 template/membership.php:697
+#: template/membership.php:706
+msgid "Membership Name"
+msgstr "会员名称"
+
+#: admin/activity/add_activity.php:476 admin/member/add_member.php:1197
+#: admin/membership/add_membership.php:55 template/membership.php:385
+msgid "Membership Category"
+msgstr "会员类别"
+
+#: admin/activity/add_activity.php:479 admin/member/add_member.php:1200
+#: admin/membership/add_membership.php:58 template/membership.php:388
+msgid "Select Membership Category"
+msgstr "选择会员类别"
+
+#: admin/activity/add_activity.php:496 admin/member/add_member.php:1221
+#: admin/membership/add_membership.php:81 template/membership.php:411
+msgid "Membership Period(Days)"
+msgstr "会员期（天）"
+
+#: admin/activity/add_activity.php:498 admin/member/add_member.php:1223
+#: admin/membership/add_membership.php:83 template/membership.php:413
+msgid "Enter Total Number of Days"
+msgstr "输入总天数"
+
+#: admin/activity/add_activity.php:504 admin/member/add_member.php:1229
+#: admin/membership/add_membership.php:89 template/membership.php:416
+msgid "Members Limit"
+msgstr "会员限制"
+
+#: admin/activity/add_activity.php:508 admin/activity/add_activity.php:522
+#: admin/member/add_member.php:1233 admin/member/add_member.php:1247
+#: admin/membership/add_membership.php:93
+#: admin/membership/add_membership.php:122 template/membership.php:420
+#: template/membership.php:450
+msgid "limited"
+msgstr "有限"
+
+#: admin/activity/add_activity.php:511 admin/activity/add_activity.php:525
+#: admin/member/add_member.php:1236 admin/member/add_member.php:1250
+#: admin/membership/add_membership.php:96
+#: admin/membership/add_membership.php:125 template/membership.php:423
+#: template/membership.php:453
+msgid "unlimited"
+msgstr "无限"
+
+#: admin/activity/add_activity.php:518 admin/member/add_member.php:1243
+msgid "Classic Limit"
+msgstr "经典限制"
+
+#: admin/activity/add_activity.php:533 admin/activity/view_membership.php:26
+#: admin/activity/view_membership.php:37 admin/member/add_member.php:1258
+#: admin/membership/add_membership.php:150 admin/membership/index.php:265
+#: admin/membership/index.php:279 gmgt_function.php:4280
+#: template/activity.php:376 template/activity.php:387
+#: template/membership.php:218 template/membership.php:231
+#: template/membership.php:477
+msgid "Membership Amount"
+msgstr "会员金额"
+
+#: admin/activity/add_activity.php:539 admin/activity/view_membership.php:28
+#: admin/activity/view_membership.php:39 admin/member/add_member.php:1264
+#: admin/membership/add_membership.php:156 admin/membership/index.php:266
+#: admin/membership/index.php:280 gmgt_function.php:4286 settings.php:1198
+#: template/activity.php:378 template/activity.php:389
+#: template/membership.php:219 template/membership.php:232
+#: template/membership.php:483
+msgid "Installment Plan"
+msgstr "分期付款"
+
+#: admin/activity/add_activity.php:541 admin/member/add_member.php:1266
+#: admin/member/view_member.php:525 admin/member/view_member.php:536
+#: admin/membership/add_membership.php:152
+#: admin/membership/add_membership.php:158
+#: admin/membership/add_membership.php:192
+#: admin/membership_payment/index.php:212
+#: admin/membership_payment/index.php:227 admin/payment/expense-list.php:54
+#: admin/payment/expense-list.php:63 admin/payment/income-list.php:70
+#: admin/payment/income-list.php:84 gmgt_function.php:1928
+#: gmgt_function.php:1952 gmgt_function.php:2281 gmgt_function.php:2556
+#: gmgt_function.php:2580 gmgt_function.php:2912 gmgt_function.php:3189
+#: gmgt_function.php:3212 gmgt_function.php:3535 gmgt_function.php:3798
+#: gmgt_function.php:3821 gmgt_function.php:4066 gmgt_function.php:4991
+#: template/membership.php:485 template/membership_payment.php:179
+#: template/membership_payment.php:193 template/payment.php:441
+#: template/payment.php:454 template/payment.php:977 template/payment.php:985
+#: template/subscription_history.php:172 template/subscription_history.php:186
+#: template/view_member.php:539 template/view_member.php:550
+msgid "Amount"
+msgstr "量"
+
+#: admin/activity/add_activity.php:546 admin/member/add_member.php:1271
+#: admin/membership/add_membership.php:163 template/membership.php:490
+msgid "Select Installment Plan"
+msgstr "选择分期付款计划"
+
+#: admin/activity/add_activity.php:567 admin/activity/view_membership.php:29
+#: admin/activity/view_membership.php:40 admin/member/add_member.php:1295
+#: admin/membership/add_membership.php:190 admin/membership/index.php:267
+#: admin/membership/index.php:281 gmgt_function.php:4290
+#: template/activity.php:379 template/activity.php:390
+#: template/membership.php:220 template/membership.php:233
+#: template/membership.php:515
+msgid "Signup Fee"
+msgstr "注册费"
+
+#: admin/activity/add_activity.php:573 admin/admin.php:56
+#: admin/member/add_member.php:1301 admin/membership/add_membership.php:196
+#: admin/membership/index.php:268 admin/membership/index.php:282
+#: admin/payment/add_income.php:154 admin/store/sell_product.php:232
+#: gmgt_function.php:4296 template/membership.php:221
+#: template/membership.php:234 template/membership.php:521
+#: template/payment.php:889 template/store.php:778
+msgid "Tax"
+msgstr "税"
+
+#: admin/activity/add_activity.php:605 admin/member/add_member.php:1384
+#: admin/membership/add_membership.php:293
+msgid "Membership Description"
+msgstr "会员描述"
+
+#: admin/activity/add_activity.php:611 admin/member/add_member.php:1391
+#: admin/membership/add_membership.php:299 template/membership.php:617
+msgid "Membership Image"
+msgstr "会员形象"
+
+#: admin/activity/add_activity.php:615 admin/general-settings.php:234
+#: admin/general-settings.php:235 admin/group/add_group.php:43
+#: admin/member/add_member.php:1155 admin/member/add_member.php:1395
+#: admin/membership/add_membership.php:303
+msgid "Upload Cover Image"
+msgstr "上传封面图片"
+
+#: admin/activity/add_activity.php:616 admin/member/add_member.php:1396
+#: admin/membership/add_membership.php:304
+msgid "Upload Membership Image"
+msgstr "上传会员图片"
+
+#: admin/activity/index.php:80 template/activity.php:81
+msgid "Activity added successfully."
+msgstr "活动成功添加。"
+
+#: admin/activity/index.php:87 template/activity.php:88
+msgid "Activity updated successfully."
+msgstr "活动已成功更新。"
+
+#: admin/activity/index.php:97 template/activity.php:97
+msgid "Activity deleted successfully."
+msgstr "活动已成功删除。"
+
+#: admin/activity/index.php:110 template/activity.php:133
+msgid "Activity List"
+msgstr "活动清单"
+
+#: admin/activity/index.php:115
+msgid "Edit Activity"
+msgstr "编辑活动"
+
+#: admin/activity/index.php:121 template/activity.php:149
+msgid "Add Activity"
+msgstr "添加活动"
+
+#: admin/activity/index.php:126 admin/activity/index.php:209
+#: template/activity.php:160 template/activity.php:234
+msgid "View Membership"
+msgstr "查看会员资格"
+
+#: admin/activity/index.php:181 admin/activity/index.php:190
+#: admin/membership/view-activity.php:34 admin/membership/view-activity.php:43
+#: template/activity.php:177 template/activity.php:187
+#: template/membership.php:694 template/membership.php:703
+msgid "Activity Name"
+msgstr "活动名称"
+
+#: admin/activity/index.php:183 admin/activity/index.php:192
+#: admin/membership/view-activity.php:36 admin/membership/view-activity.php:45
+#: template/activity.php:179 template/activity.php:189
+#: template/membership.php:696 template/membership.php:705
+msgid "Activity Trainer"
+msgstr "活动训练师"
+
+#: admin/activity/view_membership.php:27 admin/activity/view_membership.php:38
+#: admin/membership/index.php:264 admin/membership/index.php:278
+#: template/activity.php:377 template/activity.php:388
+#: template/membership.php:217 template/membership.php:230
+#: template/membership_details.php:77
+msgid "Membership Period"
+msgstr "会员期"
+
+#: admin/admin.php:22
+msgid "WPGYM"
+msgstr "WPGYM"
+
+#: admin/admin.php:25
+msgid "License Settings"
+msgstr "许可证设置"
+
+#: admin/admin.php:27 fronted_template.php:540 gmgt_function.php:822
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: admin/admin.php:31
+msgid "Groups"
+msgstr "组"
+
+#: admin/admin.php:35 gmgt_function.php:275 template/class-schedule.php:292
+msgid "Class Schedule"
+msgstr "课程表"
+
+#: admin/admin.php:41 admin/workout-type/index.php:102 settings.php:978
+#: settings.php:1066 template/assign-workout.php:142
+msgid "Assign Workout"
+msgstr "分配锻炼"
+
+#: admin/admin.php:45
+msgid "Daily Workout"
+msgstr "每日锻炼"
+
+#: admin/admin.php:53 admin/member/index.php:101 admin/report/index.php:24
+#: gmgt_function.php:275 template/member.php:330 template/member.php:378
+msgid "Attendance"
+msgstr "勤"
+
+#: admin/admin.php:64 gmgt_function.php:275
+msgid "Notice"
+msgstr "通知"
+
+#: admin/admin.php:66
+msgid "Report"
+msgstr "报告"
+
+#: admin/admin.php:68
+msgid "Email Template"
+msgstr "电邮模板"
+
+#: admin/admin.php:70 admin/general-settings.php:136
+msgid "General Settings"
+msgstr "常规设置"
+
+#: admin/admin.php:72
+msgid "Access Right"
+msgstr "访问权"
+
+#: admin/attendence/index.php:43 template/attendence.php:30
+msgid "Attendance successfully saved!"
+msgstr "出勤成功保存！"
+
+#: admin/attendence/index.php:52 template/attendence.php:39
+msgid "Please select at least one member."
+msgstr "请至少选择一位会员。"
+
+#: admin/attendence/index.php:68 admin/attendence/index.php:99
+#: template/attendence.php:61
+msgid "Attendance added successfully."
+msgstr "出勤成功补充。"
+
+#: admin/attendence/index.php:77
+msgid "Please select at least one staff member."
+msgstr "请至少选择一名工作人员。"
+
+#: admin/attendence/index.php:106 template/attendence.php:67
+msgid "Attendance updated successfully."
+msgstr "出勤成功更新。"
+
+#: admin/attendence/index.php:116 template/attendence.php:77
+msgid "Attendance deleted successfully."
+msgstr "出勤已成功删除。"
+
+#: admin/attendence/index.php:133
+msgid "Staff  Attendance"
+msgstr "员工出席"
+
+#: admin/attendence/index.php:150 admin/attendence/index.php:228
+#: admin/attendence/staff-attendence.php:40
+#: admin/attendence/staff-attendence.php:63 admin/member/index.php:99
+#: admin/message/inbox.php:33 admin/payment/add_expense.php:63
+#: admin/payment/add_income.php:77 admin/payment/expense-list.php:55
+#: admin/payment/expense-list.php:64 admin/payment/income-list.php:73
+#: admin/payment/income-list.php:87 admin/store/sell_product.php:104
+#: admin/workout/add_workout.php:49 gmgt_function.php:1850
+#: gmgt_function.php:2280 gmgt_function.php:2479 gmgt_function.php:2911
+#: gmgt_function.php:3118 gmgt_function.php:3727 gmgt_function.php:4990
+#: template/attendence.php:129 template/attendence.php:197
+#: template/member.php:376 template/message/inbox.php:37
+#: template/payment.php:444 template/payment.php:457 template/payment.php:811
+#: template/payment.php:978 template/payment.php:986 template/payment.php:1095
+#: template/store.php:652 template/workouts.php:448
+msgid "Date"
+msgstr "日期"
+
+#: admin/attendence/index.php:163 admin/member/add_member.php:15
+#: admin/message/composemail.php:41 admin/notice/add_notice.php:95
+#: settings.php:1747 template/attendence.php:135 template/member.php:115
+#: template/message/composemail.php:234
+msgid "Select Class"
+msgstr "选择班级"
+
+#: admin/attendence/index.php:166
+msgid "Select class Name"
+msgstr "选择班级名称"
+
+#: admin/attendence/index.php:178 admin/attendence/staff-attendence.php:47
+#: template/attendence.php:152
+msgid "Take/View  Attendance"
+msgstr "参加/查看出勤"
+
+#: admin/attendence/index.php:199 template/attendence.php:168
+msgid "Please select any one class."
+msgstr "请选择任何一个班级。"
+
+#: admin/attendence/index.php:226 admin/dasboard.php:415 admin/dasboard.php:429
+#: admin/member/add_member.php:795 admin/member/view_member.php:92
+#: admin/message/sendbox.php:30 admin/notice/add_notice.php:81
+#: admin/notice/index.php:178 admin/notice/index.php:190
+#: admin/report/attendance_report.php:13 admin/report/attendance_report.php:27
+#: settings.php:1201 settings.php:2135 template/attendence.php:196
+#: template/member.php:1227 template/message/sendbox.php:33
+#: template/notice.php:118 template/notice.php:132 template/view_member.php:98
+msgid "Class"
+msgstr "类"
+
+#: admin/attendence/index.php:235 admin/attendence/index.php:251
+#: admin/attendence/index.php:334 admin/attendence/staff-attendence.php:85
+#: admin/attendence/staff-attendence.php:100
+#: admin/attendence/staff-attendence.php:114
+#: admin/attendence/staff-attendence.php:199 admin/dasboard.php:415
+#: admin/dasboard.php:482 admin/report/attendance_report.php:13
+#: template/attendence.php:204 template/attendence.php:219
+#: template/attendence.php:292
+msgid "Present"
+msgstr "当下"
+
+#: admin/attendence/index.php:238 admin/attendence/index.php:254
+#: admin/attendence/index.php:334 admin/attendence/staff-attendence.php:87
+#: admin/attendence/staff-attendence.php:103
+#: admin/attendence/staff-attendence.php:117
+#: admin/attendence/staff-attendence.php:199 admin/dasboard.php:415
+#: admin/dasboard.php:482 admin/member/index.php:123
+#: admin/report/attendance_report.php:13 template/attendence.php:207
+#: template/attendence.php:222 template/attendence.php:292
+#: template/member.php:402
+msgid "Absent"
+msgstr "缺席"
+
+#: admin/attendence/index.php:281 admin/attendence/index.php:290
+#: admin/attendence/index.php:296 admin/attendence/staff-attendence.php:141
+#: admin/attendence/staff-attendence.php:150
+#: admin/attendence/staff-attendence.php:157 admin/member/view_member.php:169
+#: admin/payment/add_expense.php:50 admin/payment/add_payment.php:83
+#: gmgt_function.php:1851 gmgt_function.php:2480 gmgt_function.php:3119
+#: gmgt_function.php:3728 gmgt_function.php:4902 template/attendence.php:247
+#: template/attendence.php:258 template/attendence.php:265
+#: template/payment.php:1082 template/view_member.php:174
+msgid "Status"
+msgstr "状态"
+
+#: admin/attendence/index.php:285 admin/class-schedule/booking_list.php:38
+#: admin/class-schedule/booking_list.php:50 admin/member/index.php:441
+#: admin/member/index.php:455 admin/membership_payment/index.php:211
+#: admin/membership_payment/index.php:226 admin/nutrition/index.php:131
+#: admin/nutrition/index.php:139 admin/payment/income-list.php:67
+#: admin/payment/income-list.php:81 admin/payment/index.php:294
+#: admin/payment/index.php:303 admin/store/index.php:228
+#: admin/store/index.php:242 admin/workout-type/index.php:134
+#: admin/workout-type/index.php:142 admin/workout/index.php:234
+#: admin/workout/index.php:244 admin/workout/measurement_list.php:21
+#: admin/workout/measurement_list.php:30 template/assign-workout.php:235
+#: template/assign-workout.php:243 template/attendence.php:253
+#: template/class-schedule.php:343 template/class-schedule.php:354
+#: template/member.php:578 template/member.php:590
+#: template/membership_payment.php:178 template/membership_payment.php:192
+#: template/nutrition.php:269 template/nutrition.php:277
+#: template/payment.php:438 template/payment.php:451 template/store.php:319
+#: template/store.php:333 template/subscription_history.php:171
+#: template/subscription_history.php:185 template/workouts.php:272
+#: template/workouts.php:283
+msgid "Member Name"
+msgstr "成员名字"
+
+#: admin/attendence/index.php:377 admin/attendence/index.php:383
+#: admin/attendence/staff-attendence.php:220
+#: admin/attendence/staff-attendence.php:225
+msgid "Save Attendance"
+msgstr "节省出勤率"
+
+#: admin/attendence/staff-attendence.php:62 admin/dasboard.php:516
+msgid "Staff Attendance"
+msgstr "员工出席"
+
+#: admin/attendence/staff-attendence.php:146 admin/staff-members/index.php:265
+#: admin/staff-members/index.php:277 template/staff_member.php:62
+#: template/staff_member.php:73
+msgid "Staff Member Name"
+msgstr "员工姓名"
+
+#: admin/class-schedule/add_class.php:8 admin/class-schedule/add_class.php:221
+#: admin/member/add_member.php:23 admin/member/add_member.php:1494
+#: template/class-schedule.php:253 template/class-schedule.php:600
+#: template/member.php:123
+msgid "Select Day"
+msgstr "选择日"
+
+#: admin/class-schedule/add_class.php:12
+msgid "Search for day..."
+msgstr "搜索一天......"
+
+#: admin/class-schedule/add_class.php:21 admin/staff-members/add_staff.php:13
+msgid "Search for specialization..."
+msgstr "搜索专业化......"
+
+#: admin/class-schedule/add_class.php:30
+msgid "Search for membership..."
+msgstr "搜索会员资格......"
+
+#: admin/class-schedule/add_class.php:38
+msgid "Please select Atleast One Day."
+msgstr "请选择Atleast One Day。"
+
+#: admin/class-schedule/add_class.php:48 admin/member/add_member.php:87
+#: template/class-schedule.php:272
+msgid "Please select Atleast One membership."
+msgstr "请选择Atleast One会员资格。"
+
+#: admin/class-schedule/add_class.php:58
+msgid "Please Select Atleast one specialization."
+msgstr "请选择Atleast一个专业化。"
+
+#: admin/class-schedule/add_class.php:124
+#: admin/class-schedule/booking_list.php:39
+#: admin/class-schedule/booking_list.php:51 admin/class-schedule/index.php:275
+#: admin/class-schedule/index.php:286 admin/member/add_member.php:1426
+#: template/class-schedule.php:344 template/class-schedule.php:355
+#: template/class-schedule.php:399 template/class-schedule.php:410
+#: template/class-schedule.php:530
+msgid "Class Name"
+msgstr "班级名称"
+
+#: admin/class-schedule/add_class.php:131 admin/member/add_member.php:615
+#: admin/member/add_member.php:621 admin/member/add_member.php:1432
+#: admin/reservation/add_reservation.php:170 gmgt_function.php:7065
+#: settings.php:1975 settings.php:1982 template/class-schedule.php:536
+#: template/member.php:1056 template/member.php:1062
+msgid "Select Staff Member"
+msgstr "选择员工"
+
+#: admin/class-schedule/add_class.php:165 admin/member/add_member.php:1454
+#: template/class-schedule.php:558
+msgid "Select Assistant Staff Member"
+msgstr "选择助理职员"
+
+#: admin/class-schedule/add_class.php:170 admin/member/add_member.php:1459
+#: template/class-schedule.php:563
+msgid "Select Assistant Staff Member "
+msgstr "选择助理职员"
+
+#: admin/class-schedule/add_class.php:198 admin/dasboard.php:146
+#: admin/member/add_member.php:1476 admin/member/index.php:71
+#: admin/notice/index.php:179 admin/notice/index.php:191
+#: admin/nutrition/add_nutrition.php:86 admin/report/attendance_report.php:59
+#: admin/workout-type/add_workout_type.php:137 fronted_template.php:415
+#: template/assign-workout.php:433 template/class-schedule.php:578
+#: template/member.php:340 template/notice.php:119 template/notice.php:133
+#: template/nutrition.php:366
+msgid "Start Date"
+msgstr "开始日期"
+
+#: admin/class-schedule/add_class.php:207 admin/dasboard.php:146
+#: admin/member/add_member.php:1483 admin/member/index.php:76
+#: admin/notice/index.php:180 admin/notice/index.php:192
+#: admin/nutrition/add_nutrition.php:93 admin/report/attendance_report.php:67
+#: admin/workout-type/add_workout_type.php:142 fronted_template.php:415
+#: template/assign-workout.php:438 template/class-schedule.php:587
+#: template/member.php:345 template/notice.php:120 template/notice.php:134
+#: template/nutrition.php:372
+msgid "End Date"
+msgstr "结束日期"
+
+#: admin/class-schedule/add_class.php:271 admin/member/add_member.php:1535
+#: template/class-schedule.php:650
+msgid "Member Limit"
+msgstr "会员限制"
+
+#: admin/class-schedule/add_class.php:282
+#: admin/class-schedule/add_class.php:369
+#: admin/class-schedule/add_class.php:464 admin/member/add_member.php:1543
+#: admin/member/add_member.php:1649 admin/reservation/add_reservation.php:93
+#: admin/reservation/add_reservation.php:102 template/class-schedule.php:660
+#: template/class-schedule.php:746 template/class-schedule.php:849
+#: template/reservation.php:444 template/reservation.php:454
+msgid "Start Time"
+msgstr "开始时间"
+
+#: admin/class-schedule/add_class.php:292
+#: admin/class-schedule/add_class.php:331
+#: admin/class-schedule/add_class.php:372
+#: admin/class-schedule/add_class.php:405
+#: admin/class-schedule/add_class.php:464 admin/member/add_member.php:1546
+#: admin/member/add_member.php:1579 admin/member/add_member.php:1649
+#: template/class-schedule.php:669 template/class-schedule.php:708
+#: template/class-schedule.php:749 template/class-schedule.php:782
+#: template/class-schedule.php:849
+msgid "Select Time"
+msgstr "选择时间"
+
+#: admin/class-schedule/add_class.php:316
+#: admin/class-schedule/add_class.php:356
+#: admin/class-schedule/add_class.php:396
+#: admin/class-schedule/add_class.php:430
+#: admin/class-schedule/add_class.php:464 admin/member/add_member.php:1570
+#: admin/member/add_member.php:1604 admin/member/add_member.php:1649
+#: admin/reservation/add_reservation.php:126
+#: admin/reservation/add_reservation.php:164 template/class-schedule.php:693
+#: template/class-schedule.php:733 template/class-schedule.php:773
+#: template/class-schedule.php:807 template/class-schedule.php:849
+#: template/reservation.php:478 template/reservation.php:516
+msgid "am"
+msgstr "上午"
+
+#: admin/class-schedule/add_class.php:317
+#: admin/class-schedule/add_class.php:357
+#: admin/class-schedule/add_class.php:397
+#: admin/class-schedule/add_class.php:431
+#: admin/class-schedule/add_class.php:464 admin/member/add_member.php:1571
+#: admin/member/add_member.php:1605 admin/member/add_member.php:1649
+#: admin/reservation/add_reservation.php:127
+#: admin/reservation/add_reservation.php:165 template/class-schedule.php:694
+#: template/class-schedule.php:734 template/class-schedule.php:774
+#: template/class-schedule.php:808 template/class-schedule.php:849
+#: template/reservation.php:479 template/reservation.php:517
+msgid "pm"
+msgstr "下午"
+
+#: admin/class-schedule/add_class.php:322
+#: admin/class-schedule/add_class.php:402
+#: admin/class-schedule/add_class.php:464 admin/member/add_member.php:1576
+#: admin/member/add_member.php:1649 admin/reservation/add_reservation.php:132
+#: admin/reservation/add_reservation.php:141 template/class-schedule.php:699
+#: template/class-schedule.php:779 template/class-schedule.php:849
+#: template/reservation.php:484 template/reservation.php:493
+msgid "End Time"
+msgstr "时间结束"
+
+#: admin/class-schedule/add_class.php:440 admin/member/add_member.php:1614
+#: template/class-schedule.php:817
+msgid "Add More Time Slots"
+msgstr "添加更多时间段"
+
+#: admin/class-schedule/add_class.php:449 admin/member/add_member.php:1619
+#: template/class-schedule.php:826
+msgid "Class Color"
+msgstr "类颜色"
+
+#: admin/class-schedule/add_class.php:470 admin/member/add_member.php:1655
+#: template/class-schedule.php:855
+msgid "Do you really want to delete this time Slots"
+msgstr "你真的想删除这个时间插槽吗？"
+
+#: admin/class-schedule/booking_list.php:40
+#: admin/class-schedule/booking_list.php:52 template/class-schedule.php:345
+#: template/class-schedule.php:356
+msgid "Class Date"
+msgstr "上课日期"
+
+#: admin/class-schedule/booking_list.php:41
+#: admin/class-schedule/booking_list.php:53 template/class-schedule.php:346
+#: template/class-schedule.php:357
+msgid "Booking Date"
+msgstr "预定日期"
+
+#: admin/class-schedule/booking_list.php:42
+#: admin/class-schedule/booking_list.php:54 admin/class-schedule/index.php:279
+#: admin/class-schedule/index.php:290 admin/member/index.php:100
+#: class/gym-management.php:120 class/gym-management.php:126
+#: class/gym-management.php:132 class/gym-management.php:138
+#: class/gym-management.php:144 class/gym-management.php:150
+#: class/gym-management.php:156 template/class-schedule.php:347
+#: template/class-schedule.php:358 template/class-schedule.php:403
+#: template/class-schedule.php:414 template/member.php:377
+msgid "Day"
+msgstr "天"
+
+#: admin/class-schedule/booking_list.php:43
+#: admin/class-schedule/booking_list.php:55 admin/class-schedule/index.php:277
+#: admin/class-schedule/index.php:288 admin/reservation/index.php:266
+#: admin/reservation/index.php:278 template/class-schedule.php:348
+#: template/class-schedule.php:359 template/class-schedule.php:401
+#: template/class-schedule.php:412 template/reservation.php:270
+#: template/reservation.php:288
+msgid "Starting Time"
+msgstr "起始时间"
+
+#: admin/class-schedule/booking_list.php:44
+#: admin/class-schedule/booking_list.php:56 admin/class-schedule/index.php:278
+#: admin/class-schedule/index.php:289 admin/reservation/index.php:267
+#: admin/reservation/index.php:279 template/class-schedule.php:349
+#: template/class-schedule.php:360 template/class-schedule.php:402
+#: template/class-schedule.php:413 template/reservation.php:271
+#: template/reservation.php:289
+msgid "Ending Time"
+msgstr "结束时间"
+
+#: admin/class-schedule/index.php:51 admin/class-schedule/index.php:100
+#: admin/member/add_member.php:280 admin/reservation/index.php:41
+#: admin/reservation/index.php:94 template/class-schedule.php:76
+#: template/class-schedule.php:125 template/reservation.php:126
+msgid "End Time should be greater than Start Time"
+msgstr "结束时间应大于开始时间"
+
+#: admin/class-schedule/index.php:165 template/class-schedule.php:184
+msgid "Class added successfully."
+msgstr "班级成功添加。"
+
+#: admin/class-schedule/index.php:172 template/class-schedule.php:191
+msgid "Class updated successfully."
+msgstr "类已成功更新。"
+
+#: admin/class-schedule/index.php:181 template/class-schedule.php:198
+msgid "Class deleted successfully."
+msgstr "类已成功删除。"
+
+#: admin/class-schedule/index.php:189
+msgid "Booked Class deleted successfully."
+msgstr "预订班级已成功删除。"
+
+#: admin/class-schedule/index.php:201 admin/news-letter/sync.php:14
+#: template/news_letter.php:171
+msgid "Class List"
+msgstr "班级名单"
+
+#: admin/class-schedule/index.php:206 template/class-schedule.php:299
+msgid "Edit Class"
+msgstr "编辑课程"
+
+#: admin/class-schedule/index.php:212 admin/member/add_member.php:1419
+#: template/class-schedule.php:307
+msgid "Add Class"
+msgstr "添加课程"
+
+#: admin/class-schedule/index.php:216 template/class-schedule.php:318
+msgid "Schedule List"
+msgstr "附表清单"
+
+#: admin/class-schedule/index.php:219 template/class-schedule.php:327
+msgid "Booking List"
+msgstr "预订清单"
+
+#: admin/class-schedule/index.php:276 admin/class-schedule/index.php:287
+#: template/class-schedule.php:400 template/class-schedule.php:411
+msgid "Staff Name"
+msgstr "员工姓名"
+
+#: admin/dasboard.php:146 fronted_template.php:415
+msgid "Title Name"
+msgstr "标题名称"
+
+#: admin/dasboard.php:257 admin/group/index.php:135 fronted_template.php:718
+#: template/group.php:171
+msgid "Group List"
+msgstr "组列表"
+
+#: admin/dasboard.php:294
+msgid "January"
+msgstr "一月"
+
+#: admin/dasboard.php:294
+msgid "February"
+msgstr "二月"
+
+#: admin/dasboard.php:294
+msgid "March"
+msgstr "游行"
+
+#: admin/dasboard.php:294
+msgid "April"
+msgstr "四月"
+
+#: admin/dasboard.php:294
+msgid "May"
+msgstr "可以"
+
+#: admin/dasboard.php:294
+msgid "June"
+msgstr "六月"
+
+#: admin/dasboard.php:294
+msgid "July"
+msgstr "七月"
+
+#: admin/dasboard.php:294
+msgid "August"
+msgstr "八月"
+
+#: admin/dasboard.php:295
+msgid "September"
+msgstr "九月"
+
+#: admin/dasboard.php:295
+msgid "November"
+msgstr "十一月"
+
+#: admin/dasboard.php:295
+msgid "December"
+msgstr "十二月"
+
+#: admin/dasboard.php:346 admin/dasboard.php:366
+#: admin/report/feepayment_report.php:12 admin/report/feepayment_report.php:24
+#: admin/report/income_report.php:34 admin/report/income_report.php:48
+#: admin/report/sell_product_report.php:50
+msgid "Month"
+msgstr "月"
+
+#: admin/dasboard.php:360
+msgid "Payment by month"
+msgstr "按月付款"
+
+#: admin/dasboard.php:394 admin/dasboard.php:455 admin/dasboard.php:522
+#: admin/member/view_member.php:228 admin/member/view_member.php:255
+#: admin/member/view_member.php:280 admin/member/view_member.php:307
+#: admin/member/view_member.php:334 admin/member/view_member.php:361
+#: admin/member/view_member.php:388 fronted_template.php:795
+#: fronted_template.php:823 fronted_template.php:853 fronted_template.php:881
+#: fronted_template.php:910 fronted_template.php:939 fronted_template.php:968
+#: template/view_member.php:234 template/view_member.php:264
+#: template/view_member.php:291 template/view_member.php:319
+#: template/view_member.php:346 template/view_member.php:373
+#: template/view_member.php:400
+msgid "There is not enough data to generate report"
+msgstr "没有足够的数据来生成报告"
+
+#: admin/dasboard.php:423 admin/dasboard.php:449
+#: admin/report/attendance_report.php:21
+msgid "Member Attendance Report"
+msgstr "会员出席报告"
+
+#: admin/dasboard.php:435 admin/report/attendance_report.php:36
+#: admin/report/membership_report.php:37
+msgid "No of Member"
+msgstr "没有会员"
+
+#: admin/dasboard.php:491
+msgid "Staff Attendance Report"
+msgstr "员工出勤报告"
+
+#: admin/dasboard.php:502
+msgid "Number of Staff Members"
+msgstr "工作人员人数"
+
+#: admin/email-template/index.php:90 admin/email-template/index.php:105
+msgid "Member Registration Template"
+msgstr "会员注册模板"
+
+#: admin/email-template/index.php:99 admin/email-template/index.php:141
+#: admin/email-template/index.php:180 admin/email-template/index.php:222
+#: admin/email-template/index.php:267 admin/email-template/index.php:307
+#: admin/email-template/index.php:348 admin/email-template/index.php:388
+#: admin/email-template/index.php:427 admin/email-template/index.php:466
+#: admin/email-template/index.php:511 admin/email-template/index.php:552
+#: admin/email-template/index.php:592 admin/email-template/index.php:630
+msgid "Email Subject"
+msgstr "电子邮件主题"
+
+#: admin/email-template/index.php:101 admin/email-template/index.php:143
+#: admin/email-template/index.php:182 admin/email-template/index.php:224
+#: admin/email-template/index.php:269 admin/email-template/index.php:309
+#: admin/email-template/index.php:350 admin/email-template/index.php:390
+#: admin/email-template/index.php:429 admin/email-template/index.php:468
+#: admin/email-template/index.php:513 admin/email-template/index.php:554
+#: admin/email-template/index.php:594 admin/email-template/index.php:632
+msgid "Enter email subject"
+msgstr "输入电子邮件主题"
+
+#: admin/email-template/index.php:112 admin/email-template/index.php:154
+#: admin/email-template/index.php:193 admin/email-template/index.php:235
+#: admin/email-template/index.php:280 admin/email-template/index.php:320
+#: admin/email-template/index.php:361 admin/email-template/index.php:401
+#: admin/email-template/index.php:440 admin/email-template/index.php:479
+#: admin/email-template/index.php:524 admin/email-template/index.php:565
+#: admin/email-template/index.php:605 admin/email-template/index.php:643
+msgid "You can use following variables in the email template:"
+msgstr "您可以在电子邮件模板中使用以下变量："
+
+#: admin/email-template/index.php:113 admin/email-template/index.php:155
+msgid "The member name"
+msgstr "会员名称"
+
+#: admin/email-template/index.php:114
+msgid "The member id"
+msgstr "会员ID"
+
+#: admin/email-template/index.php:115
+msgid "Membership name"
+msgstr "会员名称"
+
+#: admin/email-template/index.php:116
+msgid "Membership start date"
+msgstr "会员开始日期"
+
+#: admin/email-template/index.php:117
+msgid "Membership end date"
+msgstr "会员结束日期"
+
+#: admin/email-template/index.php:118 admin/email-template/index.php:156
+#: admin/email-template/index.php:195 admin/email-template/index.php:244
+#: admin/email-template/index.php:283 admin/email-template/index.php:324
+#: admin/email-template/index.php:364 admin/email-template/index.php:403
+#: admin/email-template/index.php:442 admin/email-template/index.php:486
+#: admin/email-template/index.php:528 admin/email-template/index.php:569
+#: admin/email-template/index.php:607 admin/email-template/index.php:645
+#: admin/general-settings.php:141
+msgid "Gym Name"
+msgstr "健身房名称"
+
+#: admin/email-template/index.php:133
+msgid "Member Approved Template "
+msgstr "会员批准的模板"
+
+#: admin/email-template/index.php:147
+msgid "Member Approved Template"
+msgstr "会员批准的模板"
+
+#: admin/email-template/index.php:157 admin/email-template/index.php:199
+msgid "Login Link"
+msgstr "登录链接"
+
+#: admin/email-template/index.php:172
+msgid "Add Other User in System Template "
+msgstr "在系统模板中添加其他用户"
+
+#: admin/email-template/index.php:186
+msgid "Add Other User in System Template"
+msgstr "在系统模板中添加其他用户"
+
+#: admin/email-template/index.php:194 admin/email-template/index.php:236
+#: admin/email-template/index.php:281 admin/email-template/index.php:362
+#: admin/email-template/index.php:402 admin/email-template/index.php:441
+#: admin/email-template/index.php:606
+msgid "The User name"
+msgstr "用户名"
+
+#: admin/email-template/index.php:196 admin/email-template/index.php:443
+#: gmgt_function.php:1417 gmgt_function.php:1421
+msgid "Role Name"
+msgstr "角色名称"
+
+#: admin/email-template/index.php:197
+msgid "Username Name"
+msgstr "用户名"
+
+#: admin/email-template/index.php:214 admin/email-template/index.php:228
+msgid "Add Notice Template"
+msgstr "添加通知模板"
+
+#: admin/email-template/index.php:237
+msgid "The Member name"
+msgstr "会员名称"
+
+#: admin/email-template/index.php:238 admin/notice/add_notice.php:61
+#: admin/notice/index.php:175 admin/notice/index.php:187
+#: template/notice.php:115 template/notice.php:129
+msgid "Notice Title"
+msgstr "通知标题"
+
+#: admin/email-template/index.php:239
+msgid "Notice FOR "
+msgstr "请注意"
+
+#: admin/email-template/index.php:240
+msgid "Notice Start Date "
+msgstr "通知开始日期"
+
+#: admin/email-template/index.php:241
+msgid "Notice End Date "
+msgstr "通知结束日期"
+
+#: admin/email-template/index.php:242
+msgid "Notice Description "
+msgstr "通知说明"
+
+#: admin/email-template/index.php:243
+msgid "Notice Link "
+msgstr "注意链接"
+
+#: admin/email-template/index.php:259 admin/email-template/index.php:273
+msgid "Member Added In Group Template"
+msgstr "成员在组模板中添加"
+
+#: admin/email-template/index.php:282
+msgid "The Group name"
+msgstr "集团名称"
+
+#: admin/email-template/index.php:299 admin/email-template/index.php:313
+msgid "Assign Workouts Template"
+msgstr "分配锻炼模板"
+
+#: admin/email-template/index.php:321 admin/email-template/index.php:525
+msgid "The Member Name"
+msgstr "会员名称"
+
+#: admin/email-template/index.php:322
+msgid "Workouts Start Date "
+msgstr "锻炼开始日期"
+
+#: admin/email-template/index.php:323
+msgid "Workouts End Date "
+msgstr "锻炼结束日期"
+
+#: admin/email-template/index.php:325 admin/email-template/index.php:487
+#: admin/email-template/index.php:529
+msgid "Page Link"
+msgstr "页面链接"
+
+#: admin/email-template/index.php:340 admin/store/sell_product.php:265
+#: class/store.php:263 template/store.php:811
+msgid "Sell Product"
+msgstr "销售产品"
+
+#: admin/email-template/index.php:354
+msgid "Sell Product Template"
+msgstr "销售产品模板"
+
+#: admin/email-template/index.php:363
+msgid "The Product name"
+msgstr "产品名称"
+
+#: admin/email-template/index.php:380
+msgid "Generate Invoice"
+msgstr "生成发票"
+
+#: admin/email-template/index.php:394 admin/email-template/index.php:517
+msgid "Generate Invoice Template"
+msgstr "生成发票模板"
+
+#: admin/email-template/index.php:404
+msgid "Payment Link"
+msgstr "付款链接"
+
+#: admin/email-template/index.php:419
+msgid "Add Income "
+msgstr "增加收入"
+
+#: admin/email-template/index.php:433 admin/email-template/index.php:598
+#: admin/email-template/index.php:636
+msgid "Add Income Template"
+msgstr "添加收入模板"
+
+#: admin/email-template/index.php:458 admin/email-template/index.php:472
+msgid "Add Reservation Template"
+msgstr "添加预约模板"
+
+#: admin/email-template/index.php:480
+msgid "Staff member name"
+msgstr "工作人员姓名"
+
+#: admin/email-template/index.php:481 admin/reservation/add_reservation.php:51
+#: admin/reservation/index.php:263 admin/reservation/index.php:275
+#: template/reservation.php:267 template/reservation.php:285
+#: template/reservation.php:398
+msgid "Event Name"
+msgstr "活动名称"
+
+#: admin/email-template/index.php:482 admin/reservation/add_reservation.php:57
+#: admin/reservation/index.php:264 admin/reservation/index.php:276
+#: template/reservation.php:268 template/reservation.php:286
+#: template/reservation.php:404
+msgid "Event Date"
+msgstr "活动日期"
+
+#: admin/email-template/index.php:483 admin/reservation/add_reservation.php:64
+#: template/reservation.php:412
+msgid "Event Place"
+msgstr "活动地点"
+
+#: admin/email-template/index.php:484
+msgid "Event Start Time"
+msgstr "活动开始时间"
+
+#: admin/email-template/index.php:485
+msgid "Event End  Time"
+msgstr "活动结束时间"
+
+#: admin/email-template/index.php:503
+msgid "Assign Nutrition Schedule Template"
+msgstr "分配营养计划模板"
+
+#: admin/email-template/index.php:526
+msgid "Nutrition Start Date "
+msgstr "营养开始日期"
+
+#: admin/email-template/index.php:527
+msgid "Nutrition End Date "
+msgstr "营养结束日期"
+
+#: admin/email-template/index.php:544 admin/email-template/index.php:558
+msgid "Submit Workouts Template"
+msgstr "提交锻炼模板"
+
+#: admin/email-template/index.php:566
+msgid " Staff Member Name"
+msgstr "员工姓名"
+
+#: admin/email-template/index.php:567
+msgid "Workout Day Name "
+msgstr "锻炼日名称"
+
+#: admin/email-template/index.php:568
+msgid "Workout Day"
+msgstr "锻炼日"
+
+#: admin/email-template/index.php:584
+msgid "Payment Received against Invoice"
+msgstr "收到的发票付款"
+
+#: admin/email-template/index.php:622
+msgid "Message Received"
+msgstr "收到消息"
+
+#: admin/email-template/index.php:644
+msgid "The Receiver name"
+msgstr "接收者姓名"
+
+#: admin/email-template/index.php:646
+msgid "Sender Name"
+msgstr "发件者姓名"
+
+#: admin/email-template/index.php:647
+msgid "Message Content"
+msgstr "消息内容"
+
+#: admin/general-settings.php:120
+msgid "General Settings updated successfully."
+msgstr "常规设置已成功更新。"
+
+#: admin/general-settings.php:147
+msgid "Starting Year"
+msgstr "开始的一年"
+
+#: admin/general-settings.php:153
+msgid "Gym Address"
+msgstr "健身房地址"
+
+#: admin/general-settings.php:159
+msgid "Official Phone Number"
+msgstr "官方电话号码"
+
+#: admin/general-settings.php:166
+msgid "Alternate Phone Number"
+msgstr "替代电话号码"
+
+#: admin/general-settings.php:174
+msgid "Country"
+msgstr "国家"
+
+#: admin/general-settings.php:181
+msgid "Select Country"
+msgstr "选择国家"
+
+#: admin/general-settings.php:198
+msgid "Date Format"
+msgstr "日期格式"
+
+#: admin/general-settings.php:220
+msgid "Gym Logo"
+msgstr "健身房标志"
+
+#: admin/general-settings.php:224
+msgid "Upload image."
+msgstr "上传图片。"
+
+#: admin/general-settings.php:231
+msgid "Profile Cover Image"
+msgstr "配置文件封面图片"
+
+#: admin/general-settings.php:243
+msgid "Enable Notifications"
+msgstr "启用通知"
+
+#: admin/general-settings.php:247 admin/general-settings.php:308
+#: admin/general-settings.php:387 admin/general-settings.php:427
+#: admin/general-settings.php:471 admin/general-settings.php:484
+#: admin/general-settings.php:498
+msgid "Enable"
+msgstr "启用"
+
+#: admin/general-settings.php:255
+msgid "Measurement Units"
+msgstr "测量单位"
+
+#: admin/general-settings.php:258 admin/member/add_member.php:474
+#: admin/member/view_member.php:214 gmgt_function.php:1655 settings.php:1897
+#: template/member.php:912 template/view_member.php:220
+msgid "Weight"
+msgstr "重量"
+
+#: admin/general-settings.php:264 admin/member/add_member.php:481
+#: gmgt_function.php:1654 settings.php:1904 template/member.php:921
+msgid "Height"
+msgstr "高度"
+
+#: admin/general-settings.php:270 admin/member/add_member.php:488
+#: gmgt_function.php:1656 settings.php:1911 template/member.php:928
+msgid "Chest"
+msgstr "胸部"
+
+#: admin/general-settings.php:276 admin/member/add_member.php:495
+#: gmgt_function.php:1657 settings.php:1919 template/member.php:936
+msgid "Waist"
+msgstr "腰部"
+
+#: admin/general-settings.php:282 admin/member/add_member.php:504
+#: gmgt_function.php:1658 settings.php:1927 template/member.php:946
+msgid "Thigh"
+msgstr "大腿"
+
+#: admin/general-settings.php:288 admin/member/add_member.php:511
+#: gmgt_function.php:1659 settings.php:1933 template/member.php:954
+msgid "Arms"
+msgstr "武器"
+
+#: admin/general-settings.php:294 admin/member/add_member.php:518
+#: gmgt_function.php:1660 settings.php:1939 template/member.php:962
+msgid "Fat"
+msgstr "脂肪"
+
+#: admin/general-settings.php:301
+msgid "Paypal Setting"
+msgstr "Paypal设置"
+
+#: admin/general-settings.php:304
+msgid "Enable Sandbox"
+msgstr "启用沙盒"
+
+#: admin/general-settings.php:314
+msgid "Paypal Email Id"
+msgstr "Paypal电子邮件ID"
+
+#: admin/general-settings.php:320 admin/general-settings.php:323
+msgid "Select Currency"
+msgstr "选择货币"
+
+#: admin/general-settings.php:325
+msgid "United Arab Emirates Dirham"
+msgstr "阿拉伯联合酋长国迪拉姆"
+
+#: admin/general-settings.php:327
+msgid "Australian Dollar"
+msgstr "澳元"
+
+#: admin/general-settings.php:329
+msgid "Brazilian Real"
+msgstr "巴西雷亚尔"
+
+#: admin/general-settings.php:331
+msgid "Canadian Dollar"
+msgstr "加元"
+
+#: admin/general-settings.php:333
+msgid "Czech Koruna"
+msgstr "捷克克朗"
+
+#: admin/general-settings.php:335
+msgid "Danish Krone"
+msgstr "丹麦克朗"
+
+#: admin/general-settings.php:337
+msgid "Euro"
+msgstr "欧元"
+
+#: admin/general-settings.php:339
+msgid "Hong Kong Dollar"
+msgstr "港币"
+
+#: admin/general-settings.php:341
+msgid "Hungarian Forint"
+msgstr "匈牙利福林"
+
+#: admin/general-settings.php:343
+msgid "Indian Rupee"
+msgstr "印度卢比"
+
+#: admin/general-settings.php:345
+msgid "Israeli New Sheqel"
+msgstr "以色列新谢克尔"
+
+#: admin/general-settings.php:347
+msgid "Japanese Yen"
+msgstr "日圆"
+
+#: admin/general-settings.php:349
+msgid "Malaysian Ringgit"
+msgstr "马来西亚林吉特"
+
+#: admin/general-settings.php:351
+msgid "Mexican Peso"
+msgstr "墨西哥比索"
+
+#: admin/general-settings.php:353
+msgid "Norwegian Krone"
+msgstr "挪威克朗"
+
+#: admin/general-settings.php:355
+msgid "New Zealand Dollar"
+msgstr "新西兰元"
+
+#: admin/general-settings.php:357
+msgid "Philippine Peso"
+msgstr "菲律宾比索"
+
+#: admin/general-settings.php:359
+msgid "Polish Zloty"
+msgstr "波兰兹罗提"
+
+#: admin/general-settings.php:361
+msgid "Pound Sterling"
+msgstr "英镑"
+
+#: admin/general-settings.php:363
+msgid "Singapore Dollar"
+msgstr "新加坡元"
+
+#: admin/general-settings.php:365
+msgid "Swedish Krona"
+msgstr "瑞典克朗"
+
+#: admin/general-settings.php:367
+msgid "Swiss Franc"
+msgstr "瑞士法郎"
+
+#: admin/general-settings.php:369
+msgid "Taiwan New Dollar"
+msgstr "台湾新元"
+
+#: admin/general-settings.php:371
+msgid "Thai Baht"
+msgstr "泰铢"
+
+#: admin/general-settings.php:373
+msgid "Turkish Lira"
+msgstr "土耳其里拉"
+
+#: admin/general-settings.php:375
+msgid "U.S. Dollar"
+msgstr "美元"
+
+#: admin/general-settings.php:384
+msgid "Use Paymaster Payment Gateways"
+msgstr "使用Paymaster付款网关"
+
+#: admin/general-settings.php:393
+msgid "Bank Details"
+msgstr "银行明细"
+
+#: admin/general-settings.php:396
+msgid "Name of the A/c holder"
+msgstr "A / C持有人的姓名"
+
+#: admin/general-settings.php:402
+msgid "Name of the A/c Bank"
+msgstr "A / c银行的名称"
+
+#: admin/general-settings.php:408
+msgid "Account Number"
+msgstr "帐号"
+
+#: admin/general-settings.php:414
+msgid "IFSC Code"
+msgstr "IFSC准则"
+
+#: admin/general-settings.php:420
+msgid "Membership Expiration Mail Notification Setting"
+msgstr "会员到期邮件通知设置"
+
+#: admin/general-settings.php:423
+msgid "Enable Alert Mail"
+msgstr "启用警报邮件"
+
+#: admin/general-settings.php:433
+msgid "Reminder Before Days"
+msgstr "提前几天提醒"
+
+#: admin/general-settings.php:440
+msgid "Reminder Subject"
+msgstr "提醒主题"
+
+#: admin/general-settings.php:446
+msgid "Reminder Message"
+msgstr "提醒信息"
+
+#: admin/general-settings.php:453
+msgid "ShortCodes For Notification Mail Message Content"
+msgstr "用于通知邮件消息内容的ShortCodes"
+
+#: admin/general-settings.php:464
+msgid "Attendance Setting"
+msgstr "出勤率设定"
+
+#: admin/general-settings.php:467
+msgid "Past Date Attendance"
+msgstr "过去的日期出席"
+
+#: admin/general-settings.php:477
+msgid "Datepicker Setting"
+msgstr "Datepicker设置"
+
+#: admin/general-settings.php:480
+msgid "Past Date"
+msgstr "过去的日期"
+
+#: admin/general-settings.php:491
+msgid "Class Booking Setting"
+msgstr "课程预订设置"
+
+#: admin/general-settings.php:494
+msgid "FrontEnd Class Booking"
+msgstr "FrontEnd课程预订"
+
+#: admin/group/add_group.php:27 admin/group/index.php:201
+#: admin/group/index.php:211 admin/member/add_member.php:1140
+#: template/group.php:203 template/group.php:212 template/group.php:319
+msgid "Group Name"
+msgstr "团队名字"
+
+#: admin/group/add_group.php:33 admin/group/index.php:202
+#: admin/group/index.php:212 admin/member/add_member.php:1146
+#: template/group.php:204 template/group.php:213 template/group.php:325
+msgid "Group Description"
+msgstr "小组介绍"
+
+#: admin/group/add_group.php:39 admin/member/add_member.php:1152
+#: template/group.php:331
+msgid "Group Image"
+msgstr "集体形象"
+
+#: admin/group/add_group.php:44 admin/member/add_member.php:1156
+msgid "Upload Group Image"
+msgstr "上传群组图片"
+
+#: admin/group/index.php:106
+msgid "Group added successfully."
+msgstr "集团成功添加。"
+
+#: admin/group/index.php:113 template/group.php:125
+msgid "Group updated successfully."
+msgstr "组已成功更新。"
+
+#: admin/group/index.php:122 template/group.php:135
+msgid "Group deleted successfully."
+msgstr "组已成功删除。"
+
+#: admin/group/index.php:140 template/group.php:178
+msgid "Edit Group"
+msgstr "编辑组"
+
+#: admin/group/index.php:146 admin/member/add_member.php:1133
+#: template/group.php:186
+msgid "Add Group"
+msgstr "添加组"
+
+#: admin/group/index.php:203 admin/group/index.php:213 template/group.php:205
+#: template/group.php:214
+msgid "Total Group Members"
+msgstr "小组成员总数"
+
+#: admin/member/add_member.php:11 settings.php:1743 template/member.php:111
+msgid "Select Group"
+msgstr "选择组"
+
+#: admin/member/add_member.php:28 admin/member/add_member.php:1364
+#: admin/membership/add_membership.php:8
+#: admin/membership/add_membership.php:273 gmgt_function.php:1691
+#: template/membership.php:339 template/membership.php:597
+msgid "Select Activity"
+msgstr "选择活动"
+
+#: admin/member/add_member.php:32 admin/membership/add_membership.php:12
+#: template/membership.php:343
+msgid "Search for activity..."
+msgstr "搜索活动......"
+
+#: admin/member/add_member.php:41 admin/membership/add_membership.php:21
+#: template/membership.php:352
+msgid "Search for activity category..."
+msgstr "搜索活动类别......"
+
+#: admin/member/add_member.php:58 admin/staff-members/add_staff.php:20
+#: template/member.php:138
+msgid "Please select atleast one specialization"
+msgstr "请选择至少一个专业化"
+
+#: admin/member/add_member.php:68 template/member.php:148
+msgid "Please select atleast one class"
+msgstr "请选择至少一堂课"
+
+#: admin/member/add_member.php:78 template/member.php:158
+msgid "Please select atleast One Day"
+msgstr "请选择至少一天"
+
+#: admin/member/add_member.php:342 admin/member/index.php:442
+#: admin/member/index.php:456 settings.php:1781 template/member.php:579
+#: template/member.php:591 template/member.php:780
+msgid "Member Id"
+msgstr "会员ID"
+
+#: admin/member/add_member.php:428 admin/member/add_member.php:1030
+#: admin/staff-members/add_staff.php:178 settings.php:1859
+#: template/member.php:865
+msgid "State"
+msgstr "州"
+
+#: admin/member/add_member.php:435 admin/member/add_member.php:1038
+#: admin/staff-members/add_staff.php:185 settings.php:1865
+#: template/member.php:872
+msgid "Zip Code"
+msgstr "邮政编码"
+
+#: admin/member/add_member.php:470 settings.php:1894 template/member.php:908
+msgid "Physical Information"
+msgstr "物理信息"
+
+#: admin/member/add_member.php:587 settings.php:1971 template/member.php:1028
+msgid "More Information"
+msgstr "更多信息"
+
+#: admin/member/add_member.php:591 admin/member/index.php:394
+#: template/member.php:473 template/member.php:1032
+msgid "Member type"
+msgstr "会员类型"
+
+#: admin/member/add_member.php:594 admin/member/index.php:396
+#: template/member.php:475 template/member.php:1035
+msgid "Select Member Type"
+msgstr "选择会员类型"
+
+#: admin/member/add_member.php:646 admin/member/view_member.php:149
+#: settings.php:1996 template/member.php:1084 template/view_member.php:154
+msgid "Interest Area"
+msgstr "兴趣区"
+
+#: admin/member/add_member.php:649 settings.php:2000 template/member.php:1087
+msgid "Select Interest"
+msgstr "选择兴趣"
+
+#: admin/member/add_member.php:680 settings.php:2025 template/member.php:1115
+msgid " Convert into Staff Member"
+msgstr "转换为职员"
+
+#: admin/member/add_member.php:692 settings.php:2033 template/member.php:1125
+msgid "Referral Source"
+msgstr "推荐来源"
+
+#: admin/member/add_member.php:695 settings.php:2036 template/member.php:1128
+msgid "Select Referral Source"
+msgstr "选择推荐来源"
+
+#: admin/member/add_member.php:720 settings.php:2058 template/member.php:1154
+msgid "Referred By"
+msgstr "由......推荐"
+
+#: admin/member/add_member.php:726 settings.php:2065 template/member.php:1160
+msgid "Select Referred Member"
+msgstr "选择推荐会员"
+
+#: admin/member/add_member.php:751 settings.php:2087 template/member.php:1182
+msgid "Inquiry Date"
+msgstr "查询日期"
+
+#: admin/member/add_member.php:760 settings.php:2094 template/member.php:1191
+msgid "Trial End Date"
+msgstr "试用结束日期"
+
+#: admin/member/add_member.php:827 admin/member/index.php:446
+#: admin/member/index.php:460 admin/report/index.php:26 template/member.php:583
+#: template/member.php:595 template/member.php:1253
+msgid "Membership Status"
+msgstr "会员身份"
+
+#: admin/member/add_member.php:831 admin/report/membership_status_report.php:9
+#: template/member.php:1257
+msgid "Continue"
+msgstr "继续"
+
+#: admin/member/add_member.php:834 admin/report/membership_status_report.php:9
+#: template/member.php:1260
+msgid "Expired"
+msgstr "过期"
+
+#: admin/member/add_member.php:837 admin/report/membership_status_report.php:9
+#: template/member.php:1263
+msgid "Dropped"
+msgstr "下降"
+
+#: admin/member/add_member.php:847
+#: admin/membership_payment/add_membership_payment.php:94 settings.php:2160
+#: template/member.php:1272
+msgid "Membership Valid From"
+msgstr "会员资格有效"
+
+#: admin/member/add_member.php:856 template/member.php:1280
+msgid "Membership Valid To"
+msgstr "会员资格有效"
+
+#: admin/member/add_member.php:871 settings.php:2178 template/member.php:1294
+msgid "First Payment Date"
+msgstr "第一个付款日期"
+
+#: admin/member/add_member.php:880 template/member.php:1303
+msgid "Save Member"
+msgstr "保存会员"
+
+#: admin/member/add_member.php:1403 admin/membership/add_membership.php:312
+#: template/membership.php:656
+msgid "Save Membership"
+msgstr "保存会员资格"
+
+#: admin/member/index.php:65 admin/member/index.php:515 template/member.php:638
+#: template/member.php:678 template/member.php:722
+msgid "View Attendance"
+msgstr "查看出勤率"
+
+#: admin/member/index.php:83 admin/member/index.php:416
+#: admin/report/attendance_report.php:74 template/member.php:353
+#: template/member.php:495
+msgid "Go"
+msgstr "走"
+
+#: admin/member/index.php:282 template/member.php:85
+msgid "Member added successfully."
+msgstr "会员成功添加。"
+
+#: admin/member/index.php:289 template/member.php:91
+msgid "Member updated successfully."
+msgstr "会员成功更新。"
+
+#: admin/member/index.php:299 template/member.php:96
+msgid "Member deleted successfully."
+msgstr "会员已成功删除。"
+
+#: admin/member/index.php:308
+msgid "Member successfully Approved"
+msgstr "会员成功通过批准"
+
+#: admin/member/index.php:321 template/member.php:427
+msgid "Member List"
+msgstr "会员名单"
+
+#: admin/member/index.php:326 template/member.php:446
+msgid "Edit Member"
+msgstr "编辑会员"
+
+#: admin/member/index.php:333 template/member.php:436
+msgid "View Member"
+msgstr "查看会员"
+
+#: admin/member/index.php:339 admin/workout-type/add_workout_type.php:98
+#: template/member.php:454
+msgid "Add Member"
+msgstr "添加会员"
+
+#: admin/member/index.php:443 admin/member/index.php:457
+#: template/member.php:580 template/member.php:592
+msgid "Member Type"
+msgstr "会员类型"
+
+#: admin/member/index.php:444 admin/member/index.php:458
+#: admin/workout/index.php:236 admin/workout/index.php:246
+#: template/member.php:581 template/member.php:593 template/workouts.php:274
+#: template/workouts.php:285
+msgid "Joining Date"
+msgstr "加盟日期"
+
+#: admin/member/index.php:445 admin/member/index.php:459
+#: admin/member/view_member.php:178 admin/workout/index.php:237
+#: admin/workout/index.php:247 template/member.php:582 template/member.php:594
+#: template/view_member.php:184 template/workouts.php:275
+#: template/workouts.php:286
+msgid "Expire Date"
+msgstr "到期日期"
+
+#: admin/member/index.php:447 admin/member/index.php:461
+msgid "Remaining Class"
+msgstr "剩下的课程"
+
+#: admin/member/index.php:502 template/member.php:628 template/member.php:711
+msgid "Not Selected"
+msgstr "未选中的"
+
+#: admin/member/index.php:506 gmgt_function.php:275 gmgt_function.php:1641
+#: template/member.php:631 template/member.php:667 template/member.php:715
+msgid "Prospect"
+msgstr "展望"
+
+#: admin/member/index.php:512
+msgid "Do you really want to delete all data in this member?"
+msgstr "您真的要删除此成员中的所有数据吗？"
+
+#: admin/member/index.php:520
+msgid "Approve"
+msgstr "批准"
+
+#: admin/member/view_member.php:159 template/view_member.php:164
+msgid "MemberShip"
+msgstr "会员卡"
+
+#: admin/member/view_member.php:216 template/view_member.php:222
+msgid "Add Weight"
+msgstr "增加重量"
+
+#: admin/member/view_member.php:242 class/gym-management.php:143
+#: template/view_member.php:248
+msgid "Waist Report"
+msgstr "腰部报告"
+
+#: admin/member/view_member.php:244 template/view_member.php:250
+msgid "Add Waist"
+msgstr "添加腰围"
+
+#: admin/member/view_member.php:268 class/gym-management.php:131
+#: template/view_member.php:278
+msgid "Height Report"
+msgstr "高度报告"
+
+#: admin/member/view_member.php:270 template/view_member.php:280
+msgid "Add Height"
+msgstr "添加高度"
+
+#: admin/member/view_member.php:294 class/gym-management.php:137
+#: template/view_member.php:306
+msgid "Chest Report"
+msgstr "胸部报告"
+
+#: admin/member/view_member.php:296 template/view_member.php:308
+msgid "Add Chest"
+msgstr "添加胸部"
+
+#: admin/member/view_member.php:321 class/gym-management.php:125
+#: template/view_member.php:333
+msgid "Thigh Report"
+msgstr "大腿报告"
+
+#: admin/member/view_member.php:323 template/view_member.php:335
+msgid "Add Thigh"
+msgstr "加大腿"
+
+#: admin/member/view_member.php:348 class/gym-management.php:149
+#: template/view_member.php:360
+msgid "Arms Report"
+msgstr "武器报告"
+
+#: admin/member/view_member.php:350 template/view_member.php:362
+msgid "Add Arms"
+msgstr "添加武器"
+
+#: admin/member/view_member.php:375 class/gym-management.php:155
+#: template/view_member.php:387
+msgid "Fat Report"
+msgstr "胖报告"
+
+#: admin/member/view_member.php:377 template/view_member.php:389
+msgid "Add Fat"
+msgstr "添加脂肪"
+
+#: admin/member/view_member.php:402 template/view_member.php:414
+msgid "My Photos"
+msgstr "我的照片"
+
+#: admin/member/view_member.php:404 template/view_member.php:416
+msgid "Add Photo"
+msgstr "添加照片"
+
+#: admin/member/view_member.php:524 admin/member/view_member.php:535
+#: admin/membership_payment/index.php:210
+#: admin/membership_payment/index.php:225 admin/payment/add_payment.php:51
+#: admin/payment/index.php:293 admin/payment/index.php:302
+#: template/membership_payment.php:177 template/membership_payment.php:191
+#: template/subscription_history.php:170 template/subscription_history.php:184
+#: template/view_member.php:538 template/view_member.php:549
+msgid "Title"
+msgstr "标题"
+
+#: admin/member/view_member.php:526 admin/member/view_member.php:537
+#: admin/membership_payment/index.php:213
+#: admin/membership_payment/index.php:228 admin/payment/income-list.php:71
+#: admin/payment/income-list.php:85 admin/store/index.php:231
+#: admin/store/index.php:245 gmgt_function.php:4825
+#: template/membership_payment.php:180 template/membership_payment.php:194
+#: template/payment.php:442 template/payment.php:455 template/store.php:322
+#: template/store.php:336 template/subscription_history.php:173
+#: template/subscription_history.php:187 template/view_member.php:540
+#: template/view_member.php:551
+msgid "Paid Amount"
+msgstr "支付的金额"
+
+#: admin/member/view_member.php:527 admin/member/view_member.php:538
+#: admin/membership_payment/index.php:214
+#: admin/membership_payment/index.php:229 admin/payment/income-list.php:72
+#: admin/payment/income-list.php:86 admin/store/index.php:232
+#: admin/store/index.php:246 template/membership_payment.php:181
+#: template/membership_payment.php:195 template/payment.php:443
+#: template/payment.php:456 template/store.php:323 template/store.php:337
+#: template/subscription_history.php:174 template/subscription_history.php:188
+#: template/view_member.php:541 template/view_member.php:552
+msgid "Due Amount"
+msgstr "到期金额"
+
+#: admin/member/view_member.php:528 admin/member/view_member.php:539
+#: admin/membership_payment/index.php:215
+#: admin/membership_payment/index.php:230 template/membership_payment.php:182
+#: template/membership_payment.php:196 template/subscription_history.php:175
+#: template/subscription_history.php:189 template/view_member.php:542
+#: template/view_member.php:553
+msgid "Membership <BR>Start Date"
+msgstr "会员资格<BR>开始日期"
+
+#: admin/member/view_member.php:529 admin/member/view_member.php:540
+#: admin/membership_payment/index.php:216
+#: admin/membership_payment/index.php:231 template/membership_payment.php:183
+#: template/membership_payment.php:197 template/subscription_history.php:176
+#: template/subscription_history.php:190 template/view_member.php:543
+#: template/view_member.php:554
+msgid "Membership <BR>End Date"
+msgstr "会员资格<BR>结束日期"
+
+#: admin/member/view_member.php:530 admin/member/view_member.php:541
+#: admin/membership_payment/index.php:217
+#: admin/membership_payment/index.php:232 admin/payment/income-list.php:74
+#: admin/payment/income-list.php:88 admin/store/index.php:233
+#: admin/store/index.php:247 template/membership_payment.php:184
+#: template/membership_payment.php:198 template/payment.php:445
+#: template/payment.php:458 template/store.php:324 template/store.php:338
+#: template/subscription_history.php:177 template/subscription_history.php:191
+#: template/view_member.php:544 template/view_member.php:555
+msgid "Payment Status"
+msgstr "支付状态"
+
+#: admin/membership/add_membership.php:105 gmgt_function.php:5709
+#: template/membership.php:434
+msgid "No Of Member"
+msgstr "没有会员"
+
+#: admin/membership/add_membership.php:118 template/membership.php:446
+msgid "Class Limit"
+msgstr "等级限制"
+
+#: admin/membership/add_membership.php:138 gmgt_function.php:5722
+#: template/membership.php:466
+msgid "No Of Class"
+msgstr "不属于阶级"
+
+#: admin/membership/index.php:134
+msgid "Membership inserted successfully."
+msgstr "成功插入成员资格"
+
+#: admin/membership/index.php:141 template/membership.php:120
+msgid "Membership updated successfully."
+msgstr "会员资格成功更新"
+
+#: admin/membership/index.php:151 template/membership.php:130
+msgid "Membership deleted successfully."
+msgstr "成功删除成功。"
+
+#: admin/membership/index.php:164
+msgid "Membership List"
+msgstr "会员名单"
+
+#: admin/membership/index.php:169 template/membership.php:178
+msgid "Edit Membership"
+msgstr "编辑会员资格"
+
+#: admin/membership/index.php:179 template/membership.php:199
+msgid "View Activity"
+msgstr "查看活动"
+
+#: admin/membership/index.php:263 admin/membership/index.php:277
+msgid "Membership Short Code"
+msgstr "会员资格短代码"
+
+#: admin/membership/index.php:318 template/membership.php:318
+msgid "View Activities"
+msgstr "查看活动"
+
+#: admin/membership_payment/add_membership_payment.php:53
+#: admin/nutrition/add_nutrition.php:71 admin/payment/add_income.php:58
+#: admin/payment/add_payment.php:38 admin/store/sell_product.php:91
+#: admin/workout-type/add_workout_type.php:80
+#: admin/workout/add_measurement.php:41 admin/workout/add_workout.php:191
+#: gmgt_function.php:1675 template/assign-workout.php:381
+#: template/nutrition.php:350 template/payment.php:792
+#: template/workouts.php:592
+msgid "Select Member"
+msgstr "选择会员"
+
+#: admin/membership_payment/add_membership_payment.php:72 settings.php:2120
+msgid "Select Membership "
+msgstr "选择会员"
+
+#: admin/membership_payment/add_membership_payment.php:88
+#: admin/payment/add_payment.php:74 admin/payment/index.php:295
+#: admin/payment/index.php:304 admin/store/index.php:230
+#: admin/store/index.php:244 template/store.php:321 template/store.php:335
+msgid "Total Amount"
+msgstr "总金额"
+
+#: admin/membership_payment/add_membership_payment.php:102 settings.php:2169
+msgid "To"
+msgstr "至"
+
+#: admin/membership_payment/index.php:103
+msgid "Membership Payment Invoice added successfully."
+msgstr "会员付款发票已成功添加。"
+
+#: admin/membership_payment/index.php:109 template/membership_payment.php:129
+msgid "Membership Payment Invoice updated successfully."
+msgstr "会员付款发票已成功更新。"
+
+#: admin/membership_payment/index.php:118
+msgid "Membership Payment Invoice deleted  successfully."
+msgstr "会员付款发票已成功删除。"
+
+#: admin/membership_payment/index.php:126
+msgid "Payment Successful"
+msgstr "支付成功"
+
+#: admin/membership_payment/index.php:138 template/membership_payment.php:167
+msgid "Membership Payment List"
+msgstr "会员付款清单"
+
+#: admin/membership_payment/index.php:143
+msgid "Edit Membership Payment Invoice"
+msgstr "编辑会员付款发票"
+
+#: admin/membership_payment/index.php:149
+msgid "Generate Membership Payment Invoice"
+msgstr "生成会员付款发票"
+
+#: admin/membership_payment/index.php:209
+#: admin/membership_payment/index.php:224 template/membership_payment.php:176
+#: template/membership_payment.php:190
+msgid "Invoice Number"
+msgstr "发票编号"
+
+#: admin/membership_payment/index.php:282
+#: admin/membership_payment/index.php:305 admin/payment/income-list.php:186
+#: admin/payment/income-list.php:209 admin/payment/index.php:331
+#: admin/store/index.php:356 admin/store/index.php:374
+#: template/membership_payment.php:267 template/membership_payment.php:285
+#: template/payment.php:578 template/payment.php:609 template/payment.php:645
+#: template/store.php:460 template/store.php:487 template/store.php:521
+#: template/store.php:550 template/store.php:579
+#: template/subscription_history.php:254
+msgid "View Invoice"
+msgstr "查看发票"
+
+#: admin/membership_payment/index.php:303 admin/payment/income-list.php:184
+#: admin/store/index.php:354 template/membership_payment.php:280
+#: template/payment.php:576 template/payment.php:643 template/store.php:458
+#: template/store.php:519 template/subscription_history.php:247
+msgid "Pay"
+msgstr "工资"
+
+#: admin/message/composemail.php:14 template/message/composemail.php:206
+msgid "Edit Message"
+msgstr "编辑消息"
+
+#: admin/message/composemail.php:28 template/message/composemail.php:220
+msgid "Message To"
+msgstr "消息到"
+
+#: admin/message/composemail.php:31 template/message/composemail.php:223
+msgid "Members"
+msgstr "会员"
+
+#: admin/message/composemail.php:45 admin/message/sendbox.php:66
+#: admin/notice/add_notice.php:71 admin/notice/index.php:222
+#: gmgt_function.php:5832 template/message/composemail.php:238
+#: template/notice.php:176 template/notice.php:211 template/notice.php:248
+msgid "All"
+msgstr "所有"
+
+#: admin/message/composemail.php:57 admin/message/inbox.php:31
+#: admin/message/sendbox.php:31 admin/message/view_message.php:56
+#: template/inbox.php:34 template/message/composemail.php:250
+#: template/message/inbox.php:32 template/message/sendbox.php:35
+#: template/message/view_message.php:56
+msgid "Subject"
+msgstr "学科"
+
+#: admin/message/composemail.php:63 template/message/composemail.php:256
+msgid "Message Comment"
+msgstr "留言评论"
+
+#: admin/message/composemail.php:71
+msgid "SMS Text"
+msgstr "短信文字"
+
+#: admin/message/composemail.php:74
+msgid "Max. 160 Character"
+msgstr "最大。 160性格"
+
+#: admin/message/composemail.php:81 template/message/composemail.php:264
+msgid "Save Message"
+msgstr "保存消息"
+
+#: admin/message/composemail.php:81 template/message/composemail.php:264
+msgid "Send Message"
+msgstr "发信息"
+
+#: admin/message/inbox.php:30 admin/message/sendbox.php:29
+#: template/inbox.php:32 template/message/inbox.php:30
+#: template/message/sendbox.php:30
+msgid "Message For"
+msgstr "留言"
+
+#: admin/message/inbox.php:32 admin/message/sendbox.php:32
+#: admin/nutrition/add_nutrition.php:183 admin/payment/add_payment.php:96
+#: admin/workout-type/add_workout_type.php:131 gmgt_function.php:6206
+#: template/assign-workout.php:427 template/inbox.php:36
+#: template/message/inbox.php:34 template/message/sendbox.php:37
+#: template/nutrition.php:237 template/nutrition.php:464
+msgid "Description"
+msgstr "描述"
+
+#: admin/message/index.php:178 template/message/composemail.php:189
+msgid "Message Sent Successfully!"
+msgstr "短信成功发送！"
+
+#: admin/message/index.php:186 admin/message/index.php:195
+#: template/message.php:51 template/message.php:64
+msgid "Compose"
+msgstr "撰写"
+
+#: admin/message/index.php:191 admin/message/index.php:202
+#: template/message.php:60 template/message.php:75
+msgid "Inbox"
+msgstr "收件箱"
+
+#: admin/message/index.php:193 template/message.php:62
+msgid "Sent Item"
+msgstr "已发送物品"
+
+#: admin/message/index.php:203 template/message.php:79
+msgid "Sent"
+msgstr "发送"
+
+#: admin/message/view_message.php:70 admin/tax/index.php:186
+msgid "Are you sure you want to delete this record?"
+msgstr "您确定要删除此记录吗？"
+
+#: admin/message/view_message.php:84
+msgid "Reply By:"
+msgstr "回复者："
+
+#: admin/message/view_message.php:106 template/message/view_message.php:109
+msgid "Reply"
+msgstr "答复"
+
+#: admin/news-letter/campaign.php:15 template/news_letter.php:216
+msgid "MailChimp list"
+msgstr "MailChimp列表"
+
+#: admin/news-letter/campaign.php:18 admin/news-letter/sync.php:38
+#: template/news_letter.php:192 template/news_letter.php:219
+msgid "Select list"
+msgstr "选择列表"
+
+#: admin/news-letter/campaign.php:29 template/news_letter.php:230
+msgid "Campaign list"
+msgstr "广告系列列表"
+
+#: admin/news-letter/campaign.php:32 template/news_letter.php:233
+msgid "Select Campaign"
+msgstr "选择广告系列"
+
+#: admin/news-letter/campaign.php:43 template/news_letter.php:244
+msgid "Send Campaign"
+msgstr "发送广告系列"
+
+#: admin/news-letter/index.php:19
+msgid "Setting added successfully."
+msgstr "设置已成功添加。"
+
+#: admin/news-letter/index.php:93
+msgid "Synchronize Mail Successfully."
+msgstr "成功同步邮件。"
+
+#: admin/news-letter/index.php:113
+msgid "Campaign Tests Not Sent!"
+msgstr "广告系列测试未发送！"
+
+#: admin/news-letter/index.php:117
+msgid "Campaign Tests Sent!"
+msgstr "发送广告系列测试！"
+
+#: admin/news-letter/index.php:137 template/news_letter.php:132
+msgid "Setting"
+msgstr "设置"
+
+#: admin/news-letter/index.php:141 admin/news-letter/sync.php:50
+#: template/news_letter.php:138 template/news_letter.php:203
+msgid "Sync Mail"
+msgstr "同步邮件"
+
+#: admin/news-letter/index.php:144 template/news_letter.php:142
+msgid "Campaign"
+msgstr "运动"
+
+#: admin/news-letter/index.php:152 template/news_letter.php:152
+msgid "MailChimp API key"
+msgstr "MailChimp API密钥"
+
+#: admin/news-letter/sync.php:35
+msgid "Mailing List"
+msgstr "邮件列表"
+
+#: admin/notice/add_notice.php:68 admin/notice/index.php:177
+#: admin/notice/index.php:189 template/notice.php:117 template/notice.php:131
+msgid "Notice For"
+msgstr "请注意"
+
+#: admin/notice/add_notice.php:107
+msgid "Notice Start Date"
+msgstr "通知开始日期"
+
+#: admin/notice/add_notice.php:115
+msgid "Notice End Date"
+msgstr "通知结束日期"
+
+#: admin/notice/add_notice.php:123 admin/notice/index.php:176
+#: admin/notice/index.php:188 template/notice.php:116 template/notice.php:130
+msgid "Notice Comment"
+msgstr "通知评论"
+
+#: admin/notice/add_notice.php:129
+msgid "Save Notice"
+msgstr "保存通知"
+
+#: admin/notice/index.php:79 template/notice.php:55
+msgid "Notice added successfully."
+msgstr "通知已成功添加。"
+
+#: admin/notice/index.php:85 template/notice.php:63
+msgid "Notice updated successfully."
+msgstr "通知已成功更新。"
+
+#: admin/notice/index.php:94 template/notice.php:72
+msgid "Notice deleted successfully."
+msgstr "通知删除成功。"
+
+#: admin/notice/index.php:106 template/notice.php:101
+msgid "Notice List"
+msgstr "通知清单"
+
+#: admin/notice/index.php:111
+msgid "Edit Notice"
+msgstr "编辑通知"
+
+#: admin/notice/index.php:117
+msgid "Add Notice"
+msgstr "添加通知"
+
+#: admin/nutrition/add_nutrition.php:100
+#: admin/workout-type/add_workout_type.php:149 template/assign-workout.php:445
+#: template/nutrition.php:379
+msgid "Select Days"
+msgstr "选择天数"
+
+#: admin/nutrition/add_nutrition.php:118 template/nutrition.php:397
+msgid "Nutrition Details"
+msgstr "营养细节"
+
+#: admin/nutrition/add_nutrition.php:123 template/nutrition.php:402
+msgid "Break Fast"
+msgstr "快速突破"
+
+#: admin/nutrition/add_nutrition.php:128 gmgt_function.php:4135
+#: template/nutrition.php:407
+msgid "Lunch"
+msgstr "午餐"
+
+#: admin/nutrition/add_nutrition.php:132 gmgt_function.php:4147
+#: template/nutrition.php:411
+msgid "Dinner"
+msgstr "晚餐"
+
+#: admin/nutrition/add_nutrition.php:141 template/nutrition.php:420
+msgid "Step-1 Add Nutrition"
+msgstr "步骤1添加营养"
+
+#: admin/nutrition/add_nutrition.php:149 template/nutrition.php:428
+msgid "Step 2 Save Nutrition Plan"
+msgstr "第2步保存营养计划"
+
+#: admin/nutrition/add_nutrition.php:165
+#: admin/workout-type/add_workout_type.php:229 gmgt_function.php:6025
+#: template/assign-workout.php:167 template/nutrition.php:221
+msgid "Start From "
+msgstr "从...开始"
+
+#: admin/nutrition/add_nutrition.php:167
+#: admin/workout-type/add_workout_type.php:231 gmgt_function.php:6028
+#: template/assign-workout.php:169 template/nutrition.php:223
+msgid " To "
+msgstr "至"
+
+#: admin/nutrition/add_nutrition.php:179
+#: admin/workout-type/add_workout_type.php:243 gmgt_function.php:6035
+#: gmgt_function.php:6204 template/assign-workout.php:187
+#: template/assign-workout.php:542 template/nutrition.php:233
+#: template/nutrition.php:460
+msgid "Day Name"
+msgstr "日名"
+
+#: admin/nutrition/add_nutrition.php:182 gmgt_function.php:6205
+#: template/nutrition.php:236 template/nutrition.php:463
+msgid "Time"
+msgstr "时间"
+
+#: admin/nutrition/index.php:59 template/nutrition.php:81
+msgid "Nutrition added successfully."
+msgstr "营养成功添加。"
+
+#: admin/nutrition/index.php:66 template/nutrition.php:88
+msgid "Nutrition updated successfully."
+msgstr "营养成功更新。"
+
+#: admin/nutrition/index.php:76 template/nutrition.php:98
+msgid "Nutrition deleted successfully."
+msgstr "营养成功删除。"
+
+#: admin/nutrition/index.php:89 template/nutrition.php:166
+msgid "Nutrition Schedule List"
+msgstr "营养计划清单"
+
+#: admin/nutrition/index.php:94
+msgid "View Nutrition Schedule"
+msgstr "查看营养计划"
+
+#: admin/nutrition/index.php:100 template/nutrition.php:186
+msgid "Add Nutrition Schedule"
+msgstr "添加营养计划"
+
+#: admin/nutrition/index.php:132 admin/nutrition/index.php:140
+#: admin/workout-type/index.php:135 admin/workout-type/index.php:143
+#: template/assign-workout.php:236 template/assign-workout.php:244
+#: template/nutrition.php:270 template/nutrition.php:278
+msgid "Member Goal"
+msgstr "会员目标"
+
+#: admin/nutrition/index.php:175 template/nutrition.php:310
+msgid "View Nutrition"
+msgstr "查看营养"
+
+#: admin/payment/add_expense.php:44 admin/payment/expense-list.php:53
+#: admin/payment/expense-list.php:62 template/payment.php:976
+#: template/payment.php:984 template/payment.php:1076
+msgid "Supplier Name"
+msgstr "供应商名称"
+
+#: admin/payment/add_expense.php:53 admin/payment/add_expense.php:54
+#: admin/payment/add_payment.php:86 admin/payment/add_payment.php:87
+#: template/payment.php:1085 template/payment.php:1086
+msgid "Paid"
+msgstr "付费"
+
+#: admin/payment/add_expense.php:55 admin/payment/add_expense.php:56
+#: admin/payment/add_payment.php:88 admin/payment/add_payment.php:89
+#: template/payment.php:1087 template/payment.php:1088
+msgid "Part Paid"
+msgstr "部分付费"
+
+#: admin/payment/add_expense.php:57 admin/payment/add_expense.php:58
+#: admin/payment/add_payment.php:90 admin/payment/add_payment.php:91
+#: template/payment.php:1089 template/payment.php:1090
+msgid "Unpaid"
+msgstr "未付"
+
+#: admin/payment/add_expense.php:93 admin/payment/add_expense.php:116
+#: template/payment.php:1126 template/payment.php:1148
+msgid "Expense Entry"
+msgstr "费用报名"
+
+#: admin/payment/add_expense.php:95 admin/payment/add_expense.php:118
+#: template/payment.php:1128 template/payment.php:1150
+msgid "Expense Amount"
+msgstr "费用金额"
+
+#: admin/payment/add_expense.php:122 template/payment.php:1153
+msgid "Expense Entry Label"
+msgstr "费用条目标签"
+
+#: admin/payment/add_expense.php:136 template/payment.php:1170
+msgid "Add Expense Entry"
+msgstr "添加费用条目"
+
+#: admin/payment/add_expense.php:142 template/payment.php:1176
+msgid "Save Expense"
+msgstr "节省费用"
+
+#: admin/payment/add_expense.php:142 admin/payment/index.php:263
+#: template/payment.php:397 template/payment.php:1176
+msgid "Add Expense"
+msgstr "添加费用"
+
+#: admin/payment/add_expense.php:161 admin/payment/add_income.php:211
+#: admin/store/sell_product.php:325 template/payment.php:946
+#: template/payment.php:1194 template/store.php:830
+msgid "Do you really want to delete this record"
+msgstr "你真的想删除这条记录吗？"
+
+#: admin/payment/add_income.php:71 template/payment.php:805
+msgid "Income label"
+msgstr "收入标签"
+
+#: admin/payment/add_income.php:108 admin/payment/add_income.php:130
+#: template/payment.php:842 template/payment.php:865
+msgid "Income Entry"
+msgstr "收入"
+
+#: admin/payment/add_income.php:110 admin/payment/add_income.php:132
+#: template/payment.php:844 template/payment.php:867
+msgid "Income Amount"
+msgstr "收入金额"
+
+#: admin/payment/add_income.php:135 template/payment.php:870
+msgid "Income Entry Label"
+msgstr "收入分录标签"
+
+#: admin/payment/add_income.php:149 template/payment.php:884
+msgid "Add Income Entry"
+msgstr "添加收入条目"
+
+#: admin/payment/add_income.php:186 admin/store/sell_product.php:226
+#: template/payment.php:921 template/store.php:771
+msgid "Discount Amount "
+msgstr "折扣金额"
+
+#: admin/payment/add_income.php:192 template/payment.php:928
+msgid "Save Income"
+msgstr "节省收入"
+
+#: admin/payment/add_income.php:192 template/payment.php:928
+msgid "Add Income"
+msgstr "增加收入"
+
+#: admin/payment/add_payment.php:57
+msgid "Due Date"
+msgstr "截止日期"
+
+#: admin/payment/add_payment.php:65
+msgid "Discount Amount"
+msgstr "折扣金额"
+
+#: admin/payment/expense-list.php:86 template/payment.php:1016
+msgid "View Expense"
+msgstr "查看费用"
+
+#: admin/payment/income-list.php:68 admin/payment/income-list.php:82
+#: template/payment.php:439 template/payment.php:452
+msgid "Income Name"
+msgstr "收入名称"
+
+#: admin/payment/income-list.php:69 admin/payment/income-list.php:83
+#: admin/store/index.php:227 admin/store/index.php:241 template/payment.php:440
+#: template/payment.php:453 template/store.php:318 template/store.php:332
+msgid "Invoice No"
+msgstr "发票号码"
+
+#: admin/payment/index.php:175 template/payment.php:251
+msgid "Invoice added successfully."
+msgstr "发票已成功添加。"
+
+#: admin/payment/index.php:182 template/payment.php:258
+msgid "Invoice updated successfully."
+msgstr "发票已成功更新。"
+
+#: admin/payment/index.php:192 template/payment.php:268
+msgid "Invoice deleted successfully."
+msgstr "发票已成功删除。"
+
+#: admin/payment/index.php:200 admin/store/index.php:144 template/store.php:225
+msgid "Payment successfully."
+msgstr "付款成功。"
+
+#: admin/payment/index.php:209 template/payment.php:278
+msgid "Expense added successfully."
+msgstr "费用成功添加。"
+
+#: admin/payment/index.php:216 template/payment.php:285
+msgid "Expense updated successfully."
+msgstr "费用已成功更新。"
+
+#: admin/payment/index.php:226 template/payment.php:295
+msgid "Expense deleted successfully."
+msgstr "费用已成功删除。"
+
+#: admin/payment/index.php:239 template/payment.php:352
+msgid "Invoice List"
+msgstr "发票清单"
+
+#: admin/payment/index.php:243 template/payment.php:361
+msgid "Edit Invoice"
+msgstr "编辑发票"
+
+#: admin/payment/index.php:249 template/payment.php:370
+msgid "Add Invoice"
+msgstr "添加发票"
+
+#: admin/payment/index.php:252 template/payment.php:382
+msgid "Expense List"
+msgstr "费用清单"
+
+#: admin/payment/index.php:257 template/payment.php:389
+msgid "Edit Expense"
+msgstr "编辑费用"
+
+#: admin/payment/index.php:296 admin/payment/index.php:305
+msgid "Payment Date"
+msgstr "付款日期"
+
+#: admin/product/add_product.php:31 admin/product/index.php:238
+#: admin/product/index.php:250 gmgt_function.php:1535 template/product.php:240
+#: template/product.php:251 template/product.php:347
+msgid "Product Category"
+msgstr "产品分类"
+
+#: admin/product/add_product.php:34 template/product.php:350
+msgid "Select Product Category"
+msgstr "选择产品类别"
+
+#: admin/product/add_product.php:57 admin/product/index.php:236
+#: admin/product/index.php:248 admin/store/sell_product.php:287
+#: template/product.php:238 template/product.php:249 template/product.php:373
+msgid "Product Name"
+msgstr "产品名称"
+
+#: admin/product/add_product.php:63 admin/product/index.php:239
+#: admin/product/index.php:251 admin/store/sell_product.php:293
+#: template/product.php:241 template/product.php:252 template/product.php:379
+msgid "Product Price"
+msgstr "产品价格"
+
+#: admin/product/add_product.php:69 admin/product/index.php:240
+#: admin/product/index.php:252 admin/store/sell_product.php:144
+#: admin/store/sell_product.php:169 admin/store/sell_product.php:204
+#: admin/store/sell_product.php:299 admin/store/sell_product.php:321
+#: template/product.php:242 template/product.php:253 template/product.php:385
+#: template/store.php:689 template/store.php:749 template/store.php:825
+msgid "Product Quantity"
+msgstr "产品数量"
+
+#: admin/product/add_product.php:75 admin/product/index.php:237
+#: admin/product/index.php:249 template/product.php:239
+#: template/product.php:250 template/product.php:391
+msgid "SKU Number"
+msgstr "SKU号码"
+
+#: admin/product/add_product.php:81 template/product.php:397
+msgid "Manufacturer Company Name"
+msgstr "制造商公司名称"
+
+#: admin/product/add_product.php:87 template/product.php:403
+msgid "Manufacturer Date"
+msgstr "制造商日期"
+
+#: admin/product/add_product.php:94 template/product.php:410
+msgid "Product Description"
+msgstr "产品描述"
+
+#: admin/product/add_product.php:100 template/product.php:416
+msgid "Product Specification"
+msgstr "产品规格"
+
+#: admin/product/add_product.php:106 admin/product/index.php:235
+#: admin/product/index.php:247 template/product.php:237
+#: template/product.php:248 template/product.php:422
+msgid "Product Image"
+msgstr "产品图片"
+
+#: admin/product/index.php:34 admin/product/index.php:64
+#: template/product.php:76 template/product.php:106
+msgid ""
+"This product name and SKU Number already Use so please enter another product "
+"name and SKU Number."
+msgstr "此产品名称和SKU编号已经使用，请输入其他产品名称和SKU编号。"
+
+#: admin/product/index.php:40 admin/product/index.php:70
+#: template/product.php:82 template/product.php:112
+msgid "This product name already store so please enter another product name."
+msgstr "此商品名称已存储，请输入其他商品名称。"
+
+#: admin/product/index.php:44 admin/product/index.php:74
+#: template/product.php:86 template/product.php:116
+msgid "This SKU Number already Use so please enter another SKU Number."
+msgstr "此SKU编号已使用，请输入另一个SKU编号。"
+
+#: admin/product/index.php:136 template/product.php:155
+msgid "Product added successfully."
+msgstr "产品添加成功。"
+
+#: admin/product/index.php:143 template/product.php:162
+msgid "Product updated successfully."
+msgstr "产品已成功更新。"
+
+#: admin/product/index.php:153 template/product.php:171
+msgid "Product deleted successfully."
+msgstr "产品已成功删除。"
+
+#: admin/product/index.php:167 template/product.php:205
+msgid "Product List"
+msgstr "产品列表"
+
+#: admin/product/index.php:172
+msgid "Edit Product"
+msgstr "编辑产品"
+
+#: admin/product/index.php:178 admin/store/sell_product.php:279
+#: template/product.php:220
+msgid "Add Product"
+msgstr "添加产品"
+
+#: admin/report/attendance_report.php:87 admin/report/attendance_report.php:100
+#: admin/report/feepayment_report.php:55 admin/report/income_report.php:80
+#: admin/report/membership_report.php:61
+#: admin/report/sell_product_report.php:81
+msgid "There is not enough data to generate report."
+msgstr "没有足够的数据来生成报告。"
+
+#: admin/report/feepayment_report.php:12 admin/report/feepayment_report.php:32
+#: admin/report/index.php:30
+msgid "Fee Payment"
+msgstr "费用支付"
+
+#: admin/report/feepayment_report.php:18
+msgid "Fee Payment Report By Month"
+msgstr "按月收费报告"
+
+#: admin/report/income_report.php:34 admin/report/income_report.php:56
+#: admin/report/index.php:28
+msgid "Income Payment"
+msgstr "收入支付"
+
+#: admin/report/income_report.php:42
+msgid "Income Payment Report By Month"
+msgstr "按月收入付款报告"
+
+#: admin/report/index.php:32 admin/report/sell_product_report.php:57
+#: gmgt_function.php:1894 gmgt_function.php:2523 gmgt_function.php:3160
+#: gmgt_function.php:3769
+msgid "Sells Product"
+msgstr "销售产品"
+
+#: admin/report/membership_report.php:16
+#: admin/report/membership_status_report.php:19
+msgid "Number Of Member"
+msgstr "会员人数"
+
+#: admin/report/membership_report.php:22
+msgid "Membership Report"
+msgstr "会员报告"
+
+#: admin/report/membership_status_report.php:25
+msgid "Membership by status"
+msgstr "会员身份"
+
+#: admin/report/sell_product_report.php:44
+msgid "Sells Product Report By Month"
+msgstr "按月销售产品报告"
+
+#: admin/reservation/add_reservation.php:68 template/reservation.php:416
+msgid "Select Event Place"
+msgstr "选择活动地点"
+
+#: admin/reservation/index.php:61 template/reservation.php:91
+#: template/reservation.php:142
+msgid "This Date is Already Reserved."
+msgstr "此日期已保留。"
+
+#: admin/reservation/index.php:157 template/reservation.php:167
+msgid "Reservation added successfully."
+msgstr "预订成功添加。"
+
+#: admin/reservation/index.php:164 template/reservation.php:174
+msgid "Reservation updated successfully."
+msgstr "预订已成功更新。"
+
+#: admin/reservation/index.php:174 template/reservation.php:184
+msgid "Reservation deleted successfully."
+msgstr "预订已成功删除。"
+
+#: admin/reservation/index.php:183
+msgid "This Date is Already Reserved Event."
+msgstr "此日期已经预留事件。"
+
+#: admin/reservation/index.php:196 template/reservation.php:235
+msgid "Reservation List"
+msgstr "预订清单"
+
+#: admin/reservation/index.php:200 template/reservation.php:242
+msgid "Edit Reservation"
+msgstr "编辑预订"
+
+#: admin/reservation/index.php:206 template/reservation.php:250
+msgid "Add Reservation"
+msgstr "添加预订"
+
+#: admin/reservation/index.php:265 admin/reservation/index.php:277
+#: template/reservation.php:269 template/reservation.php:287
+msgid "Place"
+msgstr "地点"
+
+#: admin/reservation/index.php:268 admin/reservation/index.php:280
+#: template/reservation.php:272 template/reservation.php:290
+msgid "Reserved By"
+msgstr "保留"
+
+#: admin/setupform/index.php:37
+msgid ""
+"There seems to be some problem please try after sometime or contact us on "
+"sales@dasinfomeida.com"
+msgstr "似乎有些问题请稍后再试，或者通过sales@dasinfomeida.com与我们联系"
+
+#: admin/setupform/index.php:45
+msgid "Please provide correct Envato purchase key."
+msgstr "请提供正确的Envato购买密钥。"
+
+#: admin/setupform/index.php:62
+msgid "Domain"
+msgstr "域"
+
+#: admin/setupform/index.php:69
+msgid "Envato License key"
+msgstr "Envato许可证密钥"
+
+#: admin/setupform/index.php:81
+msgid "Submit"
+msgstr "提交"
+
+#: admin/staff-members/add_staff.php:9
+msgid "Select specialization"
+msgstr "选择专业化"
+
+#: admin/staff-members/index.php:155
+msgid "Staff Member Added successfully."
+msgstr "职员成功添加。"
+
+#: admin/staff-members/index.php:162
+msgid "Staff Member updated successfully."
+msgstr "工作人员成功更新。"
+
+#: admin/staff-members/index.php:172
+msgid "Staff Member deleted successfully."
+msgstr "工作人员成功删除。"
+
+#: admin/staff-members/index.php:186 template/staff_member.php:35
+msgid "Staff Member List"
+msgstr "员工名单"
+
+#: admin/staff-members/index.php:191
+msgid "Edit Staff Member"
+msgstr "编辑工作人员"
+
+#: admin/staff-members/index.php:198 template/staff_member.php:44
+msgid "View Staff Member"
+msgstr "查看工作人员"
+
+#: admin/staff-members/index.php:266 admin/staff-members/index.php:278
+#: template/staff_member.php:63 template/staff_member.php:74
+msgid "Role"
+msgstr "角色"
+
+#: admin/staff-members/index.php:267 admin/staff-members/index.php:279
+#: template/staff_member.php:64 template/staff_member.php:75
+msgid "Staff Member Email"
+msgstr "员工电邮"
+
+#: admin/store/index.php:42 admin/store/index.php:60 template/store.php:145
+#: template/store.php:164
+msgid "Discount Amount Must Be Less Than Product Total Amount"
+msgstr "折扣金额必须小于产品总金额"
+
+#: admin/store/index.php:110 template/store.php:192
+msgid "Sales Record added successfully."
+msgstr "销售记录成功添加。"
+
+#: admin/store/index.php:117 template/store.php:199
+msgid "Sales Record updated successfully."
+msgstr "销售记录已成功更新。"
+
+#: admin/store/index.php:127 template/store.php:209
+msgid "Sales Record deleted successfully."
+msgstr "销售记录已成功删除。"
+
+#: admin/store/index.php:135 template/store.php:217
+msgid "Out of Stock product."
+msgstr "缺货产品。"
+
+#: admin/store/index.php:157 template/store.php:288
+msgid "Sales Record"
+msgstr "销售记录"
+
+#: admin/store/index.php:162 template/store.php:294
+msgid "Edit Sell Product"
+msgstr "编辑销售产品"
+
+#: admin/store/index.php:168
+msgid "Sell New Product "
+msgstr "销售新产品"
+
+#: admin/store/index.php:229 admin/store/index.php:243 template/store.php:320
+#: template/store.php:334
+msgid "Product Name=>Product Quantity"
+msgstr "产品名称=>产品数量"
+
+#: admin/store/index.php:340 template/store.php:447
+msgid "Fully Paid"
+msgstr "全额付款"
+
+#: admin/store/sell_product.php:28 admin/store/sell_product.php:128
+#: admin/store/sell_product.php:153 admin/store/sell_product.php:189
+#: admin/store/sell_product.php:321 template/store.php:673
+#: template/store.php:698 template/store.php:734 template/store.php:825
+msgid "Select Product"
+msgstr "选择产品"
+
+#: admin/store/sell_product.php:150 admin/store/sell_product.php:186
+#: admin/store/sell_product.php:321 template/store.php:695
+#: template/store.php:731 template/store.php:825
+msgid "Product Entry"
+msgstr "产品输入"
+
+#: admin/store/sell_product.php:220 template/store.php:765
+msgid "Add Product Entry"
+msgstr "添加产品条目"
+
+#: admin/store/sell_product.php:228 template/store.php:773
+msgid "Discount must be Amount Like 100"
+msgstr "折扣必须为金额100"
+
+#: admin/tax/add_tax.php:25 admin/tax/index.php:159 admin/tax/index.php:167
+msgid "Tax Name"
+msgstr "税名"
+
+#: admin/tax/add_tax.php:31 admin/tax/index.php:160 admin/tax/index.php:168
+msgid "Tax Value"
+msgstr "税收"
+
+#: admin/tax/index.php:69
+msgid "Tax added successfully."
+msgstr "增税成功。"
+
+#: admin/tax/index.php:75
+msgid "Tax updated successfully."
+msgstr "税务已成功更新。"
+
+#: admin/tax/index.php:84
+msgid "Tax deleted successfully."
+msgstr "税务已成功删除。"
+
+#: admin/tax/index.php:97
+msgid "Tax List"
+msgstr "税单"
+
+#: admin/tax/index.php:102
+msgid "Edit Tax"
+msgstr "编辑税"
+
+#: admin/tax/index.php:108
+msgid "Add Tax"
+msgstr "添加税"
+
+#: admin/workout-type/add_workout_type.php:102 template/assign-workout.php:398
+msgid "Level"
+msgstr "水平"
+
+#: admin/workout-type/add_workout_type.php:105 template/assign-workout.php:402
+msgid "Select Level"
+msgstr "选择级别"
+
+#: admin/workout-type/add_workout_type.php:167 template/assign-workout.php:463
+msgid "Workout Details"
+msgstr "锻炼细节"
+
+#: admin/workout-type/add_workout_type.php:205 template/assign-workout.php:501
+msgid "Step-1 Add Workout"
+msgstr "步骤1添加锻炼"
+
+#: admin/workout-type/add_workout_type.php:212 template/assign-workout.php:507
+msgid "Step-2 Save Workout"
+msgstr "第2步保存锻炼"
+
+#: admin/workout-type/add_workout_type.php:247
+#: admin/workout/add_workout.php:122 admin/workout/add_workout.php:124
+#: gmgt_function.php:1044 gmgt_function.php:1057 gmgt_function.php:5466
+#: gmgt_function.php:6037 gmgt_function.php:6405 settings.php:973
+#: settings.php:1061 template/assign-workout.php:191
+#: template/assign-workout.php:546 template/workouts.php:521
+#: template/workouts.php:523
+msgid "Sets"
+msgstr "集"
+
+#: admin/workout-type/add_workout_type.php:248
+#: admin/workout/add_workout.php:134 admin/workout/add_workout.php:136
+#: gmgt_function.php:1045 gmgt_function.php:1058 gmgt_function.php:5467
+#: gmgt_function.php:6038 gmgt_function.php:6408 settings.php:974
+#: settings.php:1062 template/assign-workout.php:192
+#: template/assign-workout.php:547 template/workouts.php:533
+#: template/workouts.php:535
+msgid "Reps"
+msgstr "销售代表"
+
+#: admin/workout-type/add_workout_type.php:249 gmgt_function.php:1046
+#: gmgt_function.php:5468 gmgt_function.php:6039 settings.php:975
+#: settings.php:1063 template/assign-workout.php:193
+#: template/assign-workout.php:548
+msgid "KG"
+msgstr "公斤"
+
+#: admin/workout-type/add_workout_type.php:250
+#: admin/workout/add_workout.php:158 admin/workout/add_workout.php:160
+#: gmgt_function.php:1047 gmgt_function.php:6040 gmgt_function.php:6414
+#: settings.php:976 settings.php:1064 template/assign-workout.php:194
+#: template/assign-workout.php:549 template/workouts.php:557
+#: template/workouts.php:559
+msgid "Rest Time"
+msgstr "休息时间"
+
+#: admin/workout-type/index.php:62 admin/workout/index.php:91
+#: template/assign-workout.php:94
+msgid "Workout added successfully."
+msgstr "锻炼成功添加。"
+
+#: admin/workout-type/index.php:69 admin/workout/index.php:98
+#: template/assign-workout.php:101 template/workouts.php:193
+msgid "Workout updated successfully."
+msgstr "锻炼成功更新。"
+
+#: admin/workout-type/index.php:79
+msgid "Workout deleted successfully"
+msgstr "锻炼已成功删除"
+
+#: admin/workout-type/index.php:92 template/assign-workout.php:129
+msgid "Assigned Workout"
+msgstr "分配锻炼"
+
+#: admin/workout-type/index.php:96 template/assign-workout.php:140
+msgid "View Assigned Workout"
+msgstr "查看已分配的锻炼"
+
+#: admin/workout-type/index.php:184 admin/workout/add_workout.php:57
+#: template/assign-workout.php:291 template/workouts.php:454
+msgid "View Workouts"
+msgstr "查看锻炼"
+
+#: admin/workout/add_measurement.php:56 template/workouts.php:714
+msgid "Result Measurement"
+msgstr "结果测量"
+
+#: admin/workout/add_measurement.php:70 template/workouts.php:728
+msgid "Select Result Measurement "
+msgstr "选择结果测量"
+
+#: admin/workout/add_measurement.php:110 admin/workout/measurement_list.php:23
+#: admin/workout/measurement_list.php:32 gmgt_function.php:4636
+#: template/workouts.php:769
+msgid "Result"
+msgstr "结果"
+
+#: admin/workout/add_measurement.php:116 admin/workout/add_workout.php:211
+#: admin/workout/measurement_list.php:24 admin/workout/measurement_list.php:33
+#: gmgt_function.php:4637 template/workouts.php:619 template/workouts.php:776
+msgid "Record Date"
+msgstr "记录日期"
+
+#: admin/workout/add_measurement.php:164 template/workouts.php:823
+msgid "Save Measurement"
+msgstr "保存测量"
+
+#: admin/workout/add_workout.php:46 admin/workout/add_workout.php:218
+#: template/workouts.php:445 template/workouts.php:628
+msgid "Workout"
+msgstr "锻炼"
+
+#: admin/workout/add_workout.php:124 admin/workout/add_workout.php:136
+#: admin/workout/add_workout.php:148 admin/workout/add_workout.php:160
+#: gmgt_function.php:6405 gmgt_function.php:6408 gmgt_function.php:6411
+#: gmgt_function.php:6414 template/workouts.php:523 template/workouts.php:535
+#: template/workouts.php:547 template/workouts.php:559
+msgid "Out Of"
+msgstr "在......之外"
+
+#: admin/workout/add_workout.php:146 admin/workout/add_workout.php:148
+#: gmgt_function.php:1059 gmgt_function.php:6411 template/workouts.php:545
+#: template/workouts.php:547
+msgid "Kg"
+msgstr "公斤"
+
+#: admin/workout/add_workout.php:175 template/workouts.php:574
+msgid "No Data Of Today workout"
+msgstr "今天没有数据锻炼"
+
+#: admin/workout/add_workout.php:220 template/workouts.php:630
+msgid "Select Record Date For Today Workout"
+msgstr "选择今日锻炼的记录日期"
+
+#: admin/workout/add_workout.php:224 template/workouts.php:634
+msgid "Note"
+msgstr "注意"
+
+#: admin/workout/index.php:34 admin/workout/index.php:56
+msgid "Today Can Not Assign Workout."
+msgstr "今天不能分配锻炼。"
+
+#: admin/workout/index.php:68 template/workouts.php:119
+msgid "Workout is already available for today."
+msgstr "今天已经开始锻炼了。"
+
+#: admin/workout/index.php:108 template/assign-workout.php:111
+#: template/workouts.php:202
+msgid "Workout deleted successfully."
+msgstr "锻炼已成功删除。"
+
+#: admin/workout/index.php:116
+msgid "Measurement added successfully."
+msgstr "测量成功添加。"
+
+#: admin/workout/index.php:179 template/workouts.php:212
+msgid "Workout List"
+msgstr "锻炼清单"
+
+#: admin/workout/index.php:184 template/workouts.php:221
+msgid "View Workout Log"
+msgstr "查看锻炼日志"
+
+#: admin/workout/index.php:190 template/workouts.php:230
+msgid "Add Workout Log"
+msgstr "添加锻炼日志"
+
+#: admin/workout/index.php:199 template/workouts.php:243
+msgid "Edit Measurement"
+msgstr "编辑测量"
+
+#: admin/workout/index.php:202 gmgt_function.php:1487 gmgt_function.php:1491
+#: template/workouts.php:252
+msgid "Add Measurement"
+msgstr "添加测量"
+
+#: admin/workout/index.php:286 template/workouts.php:324
+#: template/workouts.php:368
+msgid "View Measurement"
+msgstr "查看测量"
+
+#: admin/workout/measurement_list.php:22 admin/workout/measurement_list.php:31
+#: gmgt_function.php:4635
+msgid "Measurement"
+msgstr "测量"
+
+#: class/class_schedule.php:274 class/class_schedule.php:284
+msgid "Class book successfully."
+msgstr "课本成功。"
+
+#: class/class_schedule.php:289
+msgid "Class Limit is over."
+msgstr "等级限制结束了。"
+
+#: class/class_schedule.php:296
+msgid "Your Membership is expire."
+msgstr "您的会员资格将过期。"
+
+#: class/class_schedule.php:301
+msgid "Your Booking day is not between membership period."
+msgstr "您的预订日不在会员期间。"
+
+#: class/class_schedule.php:306
+msgid "Already Book Class In This Date And Time."
+msgstr "已经在这个日期和时间预订课程。"
+
+#: class/gym-management.php:119
+msgid "Weight Report"
+msgstr "体重报告"
+
+#: class/member.php:381 class/membership_payment.php:69
+#: class/membership_payment.php:137 gmgt_function.php:2050
+#: gmgt_function.php:2677 gmgt_function.php:6922 settings.php:1310
+msgid "Membership Signup Fee"
+msgstr "会员注册费"
+
+#: class/member.php:386 class/membership_payment.php:142 gmgt_function.php:6927
+#: settings.php:1315
+msgid "Fees Payment"
+msgstr "费用付款"
+
+#: fronted_template.php:41 gmgt_function.php:4547
+msgid "Class Name:"
+msgstr "班级名称："
+
+#: fronted_template.php:42
+msgid "Start Date & Time:"
+msgstr "开始日期和时间："
+
+#: fronted_template.php:43
+msgid "End Date & Time:"
+msgstr "结束日期和时间："
+
+#: fronted_template.php:44
+msgid "Trainer Name:"
+msgstr "培训师姓名："
+
+#: fronted_template.php:45
+msgid "Member Limit In CLass:"
+msgstr "CLass中的会员限制："
+
+#: fronted_template.php:46
+msgid "Remaining Member In Class:"
+msgstr "其余会员："
+
+#: fronted_template.php:171 fronted_template.php:243
+msgid " Birthday"
+msgstr "生日"
+
+#: fronted_template.php:514
+msgid "My Profile"
+msgstr "我的简历"
+
+#: fronted_template.php:516
+msgid "Log Out"
+msgstr "登出"
+
+#: fronted_template.php:538
+msgid "Home"
+msgstr "家"
+
+#: fronted_template.php:753
+msgid "Today Workout"
+msgstr "今天锻炼"
+
+#: fronted_template.php:790
+msgid "Weight Progress Report"
+msgstr "体重进度报告"
+
+#: fronted_template.php:817
+msgid "Waist Progress Report"
+msgstr "腰部进展报告"
+
+#: fronted_template.php:848
+msgid "Height Progress Report"
+msgstr "高度进度报告"
+
+#: fronted_template.php:876
+msgid "Chest Progress Report"
+msgstr "胸部进展报告"
+
+#: fronted_template.php:905
+msgid "Thigh Progress Report"
+msgstr "大腿进展报告"
+
+#: fronted_template.php:934
+msgid "Arms Progress Report"
+msgstr "武器进展报告"
+
+#: fronted_template.php:963
+msgid "Fat Progress Report"
+msgstr "脂肪进展报告"
+
+#: gmgt_function.php:275 gmgt_function.php:1642
+msgid "Alumni"
+msgstr "校友"
+
+#: gmgt_function.php:366 gmgt_function.php:763
+msgid "Login Failed: Username and/or Password is empty, please try again."
+msgstr "登录失败：用户名和/或密码为空，请重试。"
+
+#: gmgt_function.php:754
+msgid ""
+"Login failed: You have entered an incorrect Username or password, please try "
+"again."
+msgstr "登录失败：您输入的用户名或密码不正确，请重试。"
+
+#: gmgt_function.php:771
+msgid "Payment successfull."
+msgstr "付款成功。"
+
+#: gmgt_function.php:777
+msgid "Payment Cancel."
+msgstr "付款取消。"
+
+#: gmgt_function.php:785 template/account.php:176
+msgid "Username"
+msgstr "用户名"
+
+#: gmgt_function.php:787
+msgid "Remember Me"
+msgstr "记住账号"
+
+#: gmgt_function.php:788
+msgid "Log In"
+msgstr "登录"
+
+#: gmgt_function.php:814
+msgid "You can login after admin approve your registration."
+msgstr "您可以在管理员批准您的注册后登录。"
+
+#: gmgt_function.php:824
+msgid "Logout"
+msgstr "登出"
+
+#: gmgt_function.php:830
+msgid "Forgot your password?"
+msgstr "忘记密码了吗？"
+
+#: gmgt_function.php:1060 gmgt_function.php:5469 settings.php:977
+#: settings.php:1065
+msgid "Min"
+msgstr "敏"
+
+#: gmgt_function.php:1063
+msgid "Your Workout"
+msgstr "你的锻炼"
+
+#: gmgt_function.php:1075
+msgid "No Workout assigned for today"
+msgstr "今天没有分配锻炼"
+
+#: gmgt_function.php:1113
+msgid "You have entered value already exists. Please enter some other value."
+msgstr "您输入的值已存在。请输入其他一些值。"
+
+#: gmgt_function.php:1365
+msgid "title"
+msgstr "标题"
+
+#: gmgt_function.php:1367
+msgid "header"
+msgstr "头"
+
+#: gmgt_function.php:1369
+msgid "Add category"
+msgstr "添加类别"
+
+#: gmgt_function.php:1371
+msgid "category Name"
+msgstr "分类名称"
+
+#: gmgt_function.php:1377
+msgid "Add Membership Category"
+msgstr "添加会员类别"
+
+#: gmgt_function.php:1379 gmgt_function.php:1383 gmgt_function.php:1537
+#: gmgt_function.php:1541
+msgid "Category Name"
+msgstr "分类名称"
+
+#: gmgt_function.php:1381
+msgid "Add Category"
+msgstr "添加类别"
+
+#: gmgt_function.php:1389
+msgid "Add Installment Plan"
+msgstr "添加分期付款计划"
+
+#: gmgt_function.php:1391
+msgid "Plan Name"
+msgstr "计划名称"
+
+#: gmgt_function.php:1393
+msgid "Add Plan"
+msgstr "添加计划"
+
+#: gmgt_function.php:1395
+msgid "Installment  Plan Name"
+msgstr "分期付款计划名称"
+
+#: gmgt_function.php:1401 gmgt_function.php:1405
+msgid "Add Membership Period"
+msgstr "添加会员期"
+
+#: gmgt_function.php:1403 gmgt_function.php:1407
+msgid "Membership Period Name"
+msgstr "会员期名称"
+
+#: gmgt_function.php:1409
+msgid "Only Number of Days"
+msgstr "只有天数"
+
+#: gmgt_function.php:1415
+msgid "Add Role Type"
+msgstr "添加角色类型"
+
+#: gmgt_function.php:1419
+msgid "Add Role"
+msgstr "添加角色"
+
+#: gmgt_function.php:1427 gmgt_function.php:1431
+msgid "Add Specialization"
+msgstr "添加专业化"
+
+#: gmgt_function.php:1429 gmgt_function.php:1433
+msgid "Specialization Name"
+msgstr "专业化名称"
+
+#: gmgt_function.php:1439 gmgt_function.php:1443
+msgid "Add Intrest Area"
+msgstr "添加Intrest区域"
+
+#: gmgt_function.php:1441 gmgt_function.php:1445
+msgid "Intrest Area Name"
+msgstr "内心区域名称"
+
+#: gmgt_function.php:1451 gmgt_function.php:1455
+msgid "Add Source"
+msgstr "添加来源"
+
+#: gmgt_function.php:1453 gmgt_function.php:1457
+msgid "Source Name"
+msgstr "来源名称"
+
+#: gmgt_function.php:1463
+msgid "Add Event Place"
+msgstr "添加活动地点"
+
+#: gmgt_function.php:1465 gmgt_function.php:1469
+msgid "Place Name"
+msgstr "地名"
+
+#: gmgt_function.php:1467
+msgid "Add Place"
+msgstr "添加地点"
+
+#: gmgt_function.php:1475 gmgt_function.php:1479
+msgid "Add Activity Category"
+msgstr "添加活动类别"
+
+#: gmgt_function.php:1477 gmgt_function.php:1481
+msgid "Activity Category Name"
+msgstr "活动类别名称"
+
+#: gmgt_function.php:1489 gmgt_function.php:1493
+msgid "Measurement Name"
+msgstr "测量名称"
+
+#: gmgt_function.php:1499
+msgid "Add Level Type"
+msgstr "添加级别类型"
+
+#: gmgt_function.php:1501 gmgt_function.php:1505
+msgid "Level Name"
+msgstr "级别名称"
+
+#: gmgt_function.php:1503
+msgid "Add Level"
+msgstr "添加级别"
+
+#: gmgt_function.php:1511 gmgt_function.php:1515
+msgid "Add Workout Limit"
+msgstr "添加锻炼限制"
+
+#: gmgt_function.php:1513 gmgt_function.php:1517
+msgid "Workout Limit"
+msgstr "锻炼限制"
+
+#: gmgt_function.php:1523 gmgt_function.php:1527
+msgid "Add Calories Category"
+msgstr "添加卡路里类别"
+
+#: gmgt_function.php:1525 gmgt_function.php:1529
+msgid "Calories"
+msgstr "卡路里"
+
+#: gmgt_function.php:1539
+msgid "Add Product Category"
+msgstr "添加产品类别"
+
+#: gmgt_function.php:1629
+msgid "Sunday"
+msgstr "星期日"
+
+#: gmgt_function.php:1630
+msgid "Monday"
+msgstr "星期一"
+
+#: gmgt_function.php:1631
+msgid "Tuesday"
+msgstr "星期二"
+
+#: gmgt_function.php:1632
+msgid "Wednesday"
+msgstr "星期三"
+
+#: gmgt_function.php:1633
+msgid "Thursday"
+msgstr "星期四"
+
+#: gmgt_function.php:1634
+msgid "Friday"
+msgstr "星期五"
+
+#: gmgt_function.php:1635
+msgid "Saturday"
+msgstr "星期六"
+
+#: gmgt_function.php:1640
+msgid "Active Member"
+msgstr "活跃成员"
+
+#: gmgt_function.php:1764 gmgt_function.php:2395
+msgid "| Bill To."
+msgstr "|记账到。"
+
+#: gmgt_function.php:1846 gmgt_function.php:2475 gmgt_function.php:3110
+#: gmgt_function.php:3719
+msgid "INVOICE"
+msgstr "发票"
+
+#: gmgt_function.php:1864 gmgt_function.php:2493 gmgt_function.php:3134
+#: gmgt_function.php:3743
+msgid "Membership Entries"
+msgstr "会员资格"
+
+#: gmgt_function.php:1879 gmgt_function.php:2508 gmgt_function.php:3147
+#: gmgt_function.php:3756
+msgid "Income Entries"
+msgstr "收入条目"
+
+#: gmgt_function.php:1908 gmgt_function.php:2537 gmgt_function.php:3173
+#: gmgt_function.php:3782
+msgid "Expense Entries"
+msgstr "费用条目"
+
+#: gmgt_function.php:1926 gmgt_function.php:1937 gmgt_function.php:1950
+#: gmgt_function.php:2554 gmgt_function.php:2565 gmgt_function.php:2578
+#: gmgt_function.php:3187 gmgt_function.php:3197 gmgt_function.php:3210
+#: gmgt_function.php:3534 gmgt_function.php:3796 gmgt_function.php:3806
+#: gmgt_function.php:3819 gmgt_function.php:4065
+msgid "DATE"
+msgstr "日期"
+
+#: gmgt_function.php:1927 gmgt_function.php:2555 gmgt_function.php:3188
+#: gmgt_function.php:3797 gmgt_function.php:4953
+msgid "Fees Type"
+msgstr "费用类型"
+
+#: gmgt_function.php:1938 gmgt_function.php:2566 gmgt_function.php:3198
+#: gmgt_function.php:3807
+msgid "PRODUCT NAME"
+msgstr "产品名称"
+
+#: gmgt_function.php:1939 gmgt_function.php:2567 gmgt_function.php:3199
+#: gmgt_function.php:3808
+msgid "QUANTITY"
+msgstr "数量"
+
+#: gmgt_function.php:1940 gmgt_function.php:2568 gmgt_function.php:3200
+#: gmgt_function.php:3809
+msgid "PRICE"
+msgstr "价钱"
+
+#: gmgt_function.php:1941 gmgt_function.php:2569 gmgt_function.php:3201
+#: gmgt_function.php:3810
+msgid "TOTAL"
+msgstr "总"
+
+#: gmgt_function.php:1951 gmgt_function.php:2579 gmgt_function.php:3211
+#: gmgt_function.php:3820
+msgid "ENTRY"
+msgstr "条目"
+
+#: gmgt_function.php:2194 gmgt_function.php:2825 gmgt_function.php:3486
+#: gmgt_function.php:4017 gmgt_function.php:4968
+msgid "Subtotal :"
+msgstr "小计："
+
+#: gmgt_function.php:2204 gmgt_function.php:2835 gmgt_function.php:3492
+#: gmgt_function.php:4023
+msgid "Discount Amount :"
+msgstr "折扣金额："
+
+#: gmgt_function.php:2211 gmgt_function.php:2842 gmgt_function.php:3497
+#: gmgt_function.php:4028
+msgid "Tax Amount :"
+msgstr "税额 ："
+
+#: gmgt_function.php:2215 gmgt_function.php:2846 gmgt_function.php:3502
+#: gmgt_function.php:4033
+msgid "Due Amount :"
+msgstr "到期金额 ："
+
+#: gmgt_function.php:2219 gmgt_function.php:2850 gmgt_function.php:3506
+#: gmgt_function.php:4037
+msgid "Paid Amount :"
+msgstr "支付的金额 ："
+
+#: gmgt_function.php:2226 gmgt_function.php:2857 gmgt_function.php:3510
+#: gmgt_function.php:4041
+msgid "Grand Total :"
+msgstr "累计 ："
+
+#: gmgt_function.php:2239 gmgt_function.php:2870 gmgt_function.php:3377
+#: gmgt_function.php:3947
+msgid "Payment Method"
+msgstr "付款方法"
+
+#: gmgt_function.php:2244 gmgt_function.php:2875 gmgt_function.php:3382
+#: gmgt_function.php:3952
+msgid "Bank Name "
+msgstr "银行名"
+
+#: gmgt_function.php:2248 gmgt_function.php:2879 gmgt_function.php:3386
+#: gmgt_function.php:3956
+msgid "Account No "
+msgstr "户口号码"
+
+#: gmgt_function.php:2253 gmgt_function.php:2884 gmgt_function.php:3390
+#: gmgt_function.php:3960
+msgid "IFSC Code "
+msgstr "IFSC准则"
+
+#: gmgt_function.php:2258 gmgt_function.php:2889 gmgt_function.php:3394
+#: gmgt_function.php:3964
+msgid "Paypal Id "
+msgstr "Paypal Id"
+
+#: gmgt_function.php:2272 gmgt_function.php:2903 gmgt_function.php:3526
+#: gmgt_function.php:4057 gmgt_function.php:4986
+msgid "Payment History"
+msgstr "支付历史"
+
+#: gmgt_function.php:2282 gmgt_function.php:2913 gmgt_function.php:3536
+#: gmgt_function.php:4067 gmgt_function.php:4992
+msgid "Method"
+msgstr "方法"
+
+#: gmgt_function.php:2283 gmgt_function.php:2914 gmgt_function.php:3537
+#: gmgt_function.php:4068 gmgt_function.php:4860
+msgid "Payment Details"
+msgstr "付款详情"
+
+#: gmgt_function.php:2309
+msgid "Print"
+msgstr "打印"
+
+#: gmgt_function.php:2314
+msgid "PDF"
+msgstr "PDF"
+
+#: gmgt_function.php:3016
+msgid "A"
+msgstr "一个"
+
+#: gmgt_function.php:3017
+msgid "E"
+msgstr "Ë"
+
+#: gmgt_function.php:3018
+msgid "P"
+msgstr "P"
+
+#: gmgt_function.php:3034 gmgt_function.php:3643 gmgt_function.php:4917
+msgid "Bill To"
+msgstr "记账到"
+
+#: gmgt_function.php:4123
+msgid " Breakfast"
+msgstr "早餐"
+
+#: gmgt_function.php:4129
+msgid "Midmorning Snack"
+msgstr "Midmorning Snack"
+
+#: gmgt_function.php:4141
+msgid "Afternoon Snack"
+msgstr "下午小吃"
+
+#: gmgt_function.php:4153 gmgt_function.php:4159 gmgt_function.php:4165
+msgid "Afterdinner Snack"
+msgstr "Afterdinner Snack"
+
+#: gmgt_function.php:4183
+msgid "Group Member"
+msgstr "集团成员"
+
+#: gmgt_function.php:4215
+msgid "No members yet"
+msgstr "还没有会员"
+
+#: gmgt_function.php:4232
+msgid "Membership Details"
+msgstr "会员详情"
+
+#: gmgt_function.php:4238 gmgt_function.php:4371
+msgid "Membership Name :"
+msgstr "会员名称："
+
+#: gmgt_function.php:4242
+msgid "Membership Category :"
+msgstr "会员类别："
+
+#: gmgt_function.php:4248
+msgid "Membership Period(Days) :"
+msgstr "会员期（天）："
+
+#: gmgt_function.php:4252
+msgid "Members Limit :"
+msgstr "会员限制："
+
+#: gmgt_function.php:4261 gmgt_function.php:4276
+msgid "Unlimited"
+msgstr "无限"
+
+#: gmgt_function.php:4267
+msgid "Class Limit :"
+msgstr "等级限制："
+
+#: gmgt_function.php:4300
+msgid "Membership Description :"
+msgstr "会员说明："
+
+#: gmgt_function.php:4317
+msgid "Class Details"
+msgstr "课程详情"
+
+#: gmgt_function.php:4323
+msgid "Class Name :"
+msgstr "班级名称 ："
+
+#: gmgt_function.php:4327
+msgid "Staff Member :"
+msgstr "工作人员 ："
+
+#: gmgt_function.php:4336 gmgt_function.php:4556
+msgid "Start Date :"
+msgstr "开始日期 ："
+
+#: gmgt_function.php:4340 gmgt_function.php:4562
+msgid "End Date :"
+msgstr "结束日期 ："
+
+#: gmgt_function.php:4346
+msgid "Starting Time :"
+msgstr "起始时间 ："
+
+#: gmgt_function.php:4350
+msgid "Ending Time :"
+msgstr "结束时间："
+
+#: gmgt_function.php:4356
+msgid "Day :"
+msgstr "天 ："
+
+#: gmgt_function.php:4388
+msgid "Member Limit :"
+msgstr "会员限额："
+
+#: gmgt_function.php:4405
+msgid "Product Details"
+msgstr "产品详情"
+
+#: gmgt_function.php:4411
+msgid "Product Image :"
+msgstr "产品图片："
+
+#: gmgt_function.php:4424
+msgid "Product Name :"
+msgstr "产品名称 ："
+
+#: gmgt_function.php:4430
+msgid "Product Category :"
+msgstr "产品分类 ："
+
+#: gmgt_function.php:4436
+msgid "Product Price "
+msgstr "产品价格"
+
+#: gmgt_function.php:4442
+msgid "Product Quantity :"
+msgstr "产品数量："
+
+#: gmgt_function.php:4446
+msgid "SKU Number :"
+msgstr "SKU编号："
+
+#: gmgt_function.php:4452
+msgid "Manufacturer Company Name :"
+msgstr "制造商公司名称："
+
+#: gmgt_function.php:4465
+msgid "Manufacturer Date :"
+msgstr "制造商日期："
+
+#: gmgt_function.php:4480
+msgid "Product Description :"
+msgstr "产品描述 ："
+
+#: gmgt_function.php:4493
+msgid "Product Specification :"
+msgstr "产品规格："
+
+#: gmgt_function.php:4517
+msgid "Notice Details"
+msgstr "通知细节"
+
+#: gmgt_function.php:4523
+msgid "Notice Title :"
+msgstr "公告标题："
+
+#: gmgt_function.php:4529
+msgid "Notice Comment :"
+msgstr "通知评论："
+
+#: gmgt_function.php:4537
+msgid "Notice For :"
+msgstr "通知："
+
+#: gmgt_function.php:4624
+msgid "'s Measurement"
+msgstr "测量"
+
+#: gmgt_function.php:4691
+msgid "No Record Found"
+msgstr "没有找到记录"
+
+#: gmgt_function.php:4832
+msgid "Payment By"
+msgstr "付款方式"
+
+#: gmgt_function.php:4841
+msgid "Cash"
+msgstr "现金"
+
+#: gmgt_function.php:4842
+msgid "Cheque"
+msgstr "校验"
+
+#: gmgt_function.php:4843
+msgid "Bank Transfer"
+msgstr "银行转帐"
+
+#: gmgt_function.php:4866
+msgid "Add Payment"
+msgstr "添加付款"
+
+#: gmgt_function.php:4900
+msgid "Issue Date"
+msgstr "发行日期"
+
+#: gmgt_function.php:4914
+msgid "Payment To"
+msgstr "支付"
+
+#: gmgt_function.php:4954
+msgid "Total"
+msgstr "总"
+
+#: gmgt_function.php:4972
+msgid "Payment Made :"
+msgstr "付款方式："
+
+#: gmgt_function.php:4976
+msgid "Due Amount  :"
+msgstr "到期金额 ："
+
+#: gmgt_function.php:6819
+msgid "You do not have permission to perform this operation."
+msgstr "您无权执行此操作。"
+
+#: gmgt_function.php:7141
+msgid ""
+"No Any Activity Added In This Member Current Membership Please Add Activity "
+"Into This Member Current Membership."
+msgstr "此会员中没有添加任何活动当前会员资格请将活动添加到此会员当前会员资格。"
+
+#: gmgt_function.php:7150
+msgid "No data available in table"
+msgstr "表中没有数据"
+
+#: gmgt_function.php:7151
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "显示_START_到_END_的_TOTAL_个条目"
+
+#: gmgt_function.php:7152
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "显示0个条目中的0到0"
+
+#: gmgt_function.php:7153
+msgid "(filtered from _MAX_ total entries)"
+msgstr "（从_MAX_总条目中过滤掉）"
+
+#: gmgt_function.php:7156
+msgid "Show _MENU_ entries"
+msgstr "显示_MENU_条目"
+
+#: gmgt_function.php:7157
+msgid "Loading..."
+msgstr "载入中..."
+
+#: gmgt_function.php:7158
+msgid "Processing..."
+msgstr "处理..."
+
+#: gmgt_function.php:7159
+msgid "Search:"
+msgstr "搜索："
+
+#: gmgt_function.php:7160
+msgid "No matching records found"
+msgstr "没有找到匹配的记录"
+
+#: gmgt_function.php:7162
+msgid "First"
+msgstr "第一"
+
+#: gmgt_function.php:7163
+msgid "Last"
+msgstr "持续"
+
+#: gmgt_function.php:7164
+msgid "Next"
+msgstr "下一个"
+
+#: gmgt_function.php:7165
+msgid "Previous"
+msgstr "以前"
+
+#: gmgt_function.php:7168
+msgid ": activate to sort column ascending"
+msgstr "：激活以对列升序进行排序"
+
+#: gmgt_function.php:7169
+msgid ": activate to sort column descending"
+msgstr "：激活以对列进行降序排序"
+
+#: settings.php:119
+msgid "Instructor"
+msgstr "讲师"
+
+#: settings.php:742
+msgid "Gym Management System"
+msgstr "健身房管理系统"
+
+#: settings.php:970 settings.php:1058
+msgid "Product out of stock"
+msgstr "产品缺货"
+
+#: settings.php:971 settings.php:1059
+msgid "please select at least one member type"
+msgstr "请至少选择一种会员类型"
+
+#: settings.php:972 settings.php:1060
+msgid "Membership member limit is full"
+msgstr "会员资格限制已满"
+
+#: settings.php:979 settings.php:1067
+msgid "Days"
+msgstr "天"
+
+#: settings.php:980 settings.php:1068
+msgid "Nutrition Schedule Details"
+msgstr "营养计划详情"
+
+#: settings.php:981 settings.php:1069
+msgid "Dinner Nutrition"
+msgstr "晚餐营养"
+
+#: settings.php:982 settings.php:1070
+msgid "Break Fast Nutrition"
+msgstr "打破快速营养"
+
+#: settings.php:983 settings.php:1071
+msgid "Lunch Nutrition"
+msgstr "午餐营养"
+
+#: settings.php:997
+msgid "Only (JPEG,JPG,GIF,PNG,BMP) File is allowed"
+msgstr "仅允许（JPEG，JPG，GIF，PNG，BMP）文件"
+
+#: settings.php:1091
+msgid "Gym Management Login Page"
+msgstr "健身房管理登录页面"
+
+#: settings.php:1120
+msgid "Member Registration or Login"
+msgstr "会员注册或登录"
+
+#: settings.php:1139
+msgid "Membership List Page"
+msgstr "会员名单页面"
+
+#: settings.php:1170
+msgid "Buy Now"
+msgstr "立即购买"
+
+#: settings.php:1199
+msgid "Cost"
+msgstr "成本"
+
+#: settings.php:1444
+msgid "Existing User"
+msgstr "现有用户"
+
+#: settings.php:1447
+msgid "New User"
+msgstr "新用户"
+
+#: settings.php:1757
+msgid "Only '.jpeg','.jpg', '.png', '.gif', '.bmp' formats are allowed."
+msgstr "只允许使用'.jpeg'，'。jpg'，'。png'，'。gif'，'。bmp'格式。"
+
+#: settings.php:2186
+msgid "Registration"
+msgstr "注册"
+
+#: template/account.php:116
+msgid "My Activity"
+msgstr "我的活动"
+
+#: template/account.php:140
+msgid "User Profile updated successfully."
+msgstr "用户档案已成功更新。"
+
+#: template/account.php:150
+msgid "Account Settings "
+msgstr "帐号设定"
+
+#: template/account.php:182 template/account.php:184
+msgid "Current Password"
+msgstr "当前密码"
+
+#: template/account.php:188 template/account.php:190
+msgid "New Password"
+msgstr "新密码"
+
+#: template/account.php:194 template/account.php:196
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: template/account.php:212
+msgid "Other Information"
+msgstr "其他信息"
+
+#: template/accountant.php:34
+msgid "Accountant List"
+msgstr "会计清单"
+
+#: template/activity.php:140
+msgid "Edit  Activity"
+msgstr "编辑活动"
+
+#: template/assign-workout.php:224
+msgid "No Any Assigned Workout Data"
+msgstr "没有任何指定的锻炼数据"
+
+#: template/attendence.php:138
+msgid "Select Class Name"
+msgstr "选择班级名称"
+
+#: template/class-schedule.php:204
+msgid "Member Limit Is Full."
+msgstr "会员限额已满。"
+
+#: template/class-schedule.php:222
+msgid "You have booked"
+msgstr "你已经预订了"
+
+#: template/class-schedule.php:222
+msgid "Class from"
+msgstr "来自的课程"
+
+#: template/class-schedule.php:262
+msgid "Please select Atleast One Day"
+msgstr "请选择Atleast One Day"
+
+#: template/class-schedule.php:944
+msgid "Book"
+msgstr "书"
+
+#: template/group.php:118
+msgid "Group inserted successfully."
+msgstr "组插入成功。"
+
+#: template/group.php:379 template/membership.php:745 template/workouts.php:838
+msgid "Only '.jpeg','.jpg', '.png', '.bmp' formats are allowed."
+msgstr "只允许使用'.jpeg'，'。jpg'，'。png'，'。bmp'格式。"
+
+#: template/member.php:366
+msgid "End Date should be greater than the Start Date"
+msgstr "结束日期应大于开始日期"
+
+#: template/membership.php:113
+msgid "Membership added successfully."
+msgstr "会员成功添加。"
+
+#: template/membership_details.php:11
+msgid "Membership not selected."
+msgstr "未选择成员资格。"
+
+#: template/membership_details.php:82
+msgid "Membership Price"
+msgstr "会员价"
+
+#: template/membership_details.php:91
+msgid "Pay By"
+msgstr "支付"
+
+#: template/membership_payment.php:51 template/payment.php:47
+#: template/store.php:47 template/subscription_history.php:49
+msgid "Payment successfully"
+msgstr "付款成功"
+
+#: template/membership_payment.php:111 template/payment.php:52
+#: template/store.php:52 template/subscription_history.php:110
+msgid "Payment Cancel"
+msgstr "付款取消"
+
+#: template/membership_payment.php:122
+msgid "Membership Payment Invoice added successfully"
+msgstr "会员付款发票已成功添加"
+
+#: template/membership_payment.php:139
+msgid "Membership Payment Invoice deleted successfully"
+msgstr "会员付款发票已成功删除"
+
+#: template/message.php:66
+msgid "View Message"
+msgstr "查看消息"
+
+#: template/message/composemail.php:226
+msgid "Admin"
+msgstr "管理员"
+
+#: template/news_letter.php:189
+msgid "Mailing list"
+msgstr "邮件列表"
+
+#: template/nutrition.php:178
+msgid "View  Nutrition Schedule"
+msgstr "查看营养计划"
+
+#: template/nutrition.php:208
+msgid "There is no any nutrition schedule data."
+msgstr "没有任何营养计划数据。"
+
+#: template/payment.php:676 template/payment.php:708
+msgid "View Income"
+msgstr "查看收入"
+
+#: template/product.php:212
+msgid "Edit  Product"
+msgstr "编辑产品"
+
+#: template/reservation.php:72
+msgid "End Time should be greater than Start Time."
+msgstr "结束时间应大于开始时间。"
+
+#: template/store.php:302
+msgid "Sell New Product"
+msgstr "销售新产品"
+
+#: template/workouts.php:85 template/workouts.php:107
+msgid "Today Can Not Assign Workout"
+msgstr "今天不能分配锻炼"
+
+#: template/workouts.php:187
+msgid "Workout inserted successfully."
+msgstr "锻炼成功插入。"
+
+msgid "Partially Paid"
+msgstr "部分付费"

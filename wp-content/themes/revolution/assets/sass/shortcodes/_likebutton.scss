@@ -1,0 +1,272 @@
+/* Like Button */
+.thb-like-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 90px;
+	height: 90px;
+	border: 1px solid rgba($black, 0.1);
+	border-radius: 45px;
+	cursor:pointer;
+	@extend .quick-transition;
+	
+	&:hover {
+		border-color: $black;	
+	}
+	.counter {
+		font-size: 12px;
+		line-height: 1;
+		color: $black;
+		.odometer-ribbon-inner {
+			transition-duration: 0.5s !important;
+		}
+		
+	}
+	&.align-center {
+		margin: 0 auto;
+	}
+	&.align-right {
+		margin-left: auto;
+	}
+	/* Config */
+	$size: 20px;
+	$animDuration: .8s;
+	$animTiming: ease-in;
+	$animIteration: 1;
+	$animStep: 100% / 27;
+	
+	/* Layers & Colors */
+	$heartColors: #AAB8C2, #E2264D;
+	$ringColors: #E2264D, #CC8EF5;
+	$circles: (
+	  (
+	    first:   ( start: #8CE8C3, end:#A068CE),
+	    second:  ( start: #8BE7C2, end:#B752E1)
+	  ),
+	  (
+	    first:   ( start: #90D2FA, end:#99E9C8),
+	    second:  ( start: #91D1F9, end:#BAE3D7)
+	  ),
+	  (
+	    first:   ( start: #CC8EF5, end:#D3F491),
+	    second:  ( start: #CB8DF4, end:#DCE483)
+	  ),
+	  (
+	    first:   ( start: #8CE8C3, end:#59C392),
+	    second:  ( start: #8CE8C3, end:#67CD9F)
+	  ),
+	  (
+	    first:   ( start: #F58EA7, end:#CAADC7),
+	    second:  ( start: #F48DA6, end:#959FF3)
+	  ),
+	  (
+	    first:   ( start: #91D2FA, end:#CA5ED8),
+	    second:  ( start: #91D2FA, end:#A975D1)
+	  ),
+	  (
+	    first:   ( start: #92D3FC, end:#C35DD1),
+	    second:  ( start: #CB8DF4, end:#90E0BE)
+	  )
+	);
+	
+	/* Computations */
+	$circlesLength: length($circles);
+	$angleBetweenCircles: 360deg / $circlesLength;
+	$circleSize: $size / 6;
+	$shiftAngleBeginning: -135deg;
+	
+	/* Functions */
+	@function setStep($n) { @return ($n - 1) * $animStep }
+	
+	@function setBoxShadow($distance1, $distance2, $size1, $size2, $shiftAngle, $colorRatio) {
+	  $boxS: ();
+	  
+	  @for $i from 1 through length($circles) {
+	    $circle: nth($circles, $i);
+	    $order: $i - 1;
+	    $angle1: ($order * $angleBetweenCircles) + $shiftAngleBeginning;
+	    $angle2: $angle1 + $shiftAngle;
+	    $distanceRatio1: $size * $distance1;
+	    $distanceRatio2: $size * $distance2;
+	    $firstCircle: map-get($circle, first);
+	    $firstCircleStart: map-get($firstCircle, start);
+	    $firstCircleEnd: map-get($firstCircle, end);
+	    $secondCircle: map-get($circle, second);
+	    $secondCircleStart: map-get($secondCircle, start);
+	    $secondCircleEnd: map-get($secondCircle, end);
+	    
+	    $boxS: append($boxS,
+	      cos($angle1) * $distanceRatio1
+	      sin($angle1) * $distanceRatio1
+	      0
+	      $circleSize * $size1
+	      mix($firstCircleStart, $firstCircleEnd, $colorRatio)
+	    );
+	
+	    $boxS: append($boxS,
+	      cos($angle2) * $distanceRatio2
+	      sin($angle2) * $distanceRatio2
+	      0
+	      $circleSize * $size2
+	      mix($secondCircleStart, $secondCircleEnd, $colorRatio)
+	    );
+	  }
+	  
+	  @return join($boxS, (), "comma");
+	}
+	
+	// Animations
+	@keyframes heart {
+	  #{setStep(1)},
+	  #{setStep(6)} {
+	    transform: scale(0);
+	  }
+	  #{setStep(13)} {
+	    transform: scale(1.25);
+	  }
+	  #{setStep(18)},
+	  #{setStep(28)} {
+	    transform: scale(1);
+	  }
+	  #{setStep(23)} {
+	    transform: scale(1.025);
+	  }
+	}
+	
+	@keyframes ring {
+	  #{setStep(1)} {
+	    transform: scale(0);
+	    box-shadow: inset 0 0 0 $size*.85 nth($ringColors, 1);
+	  }
+	  #{setStep(2)} {
+	    transform: scale(.1);
+	  }
+	  #{setStep(3)} {
+	    transform: scale(.7);
+	  }
+	  #{setStep(4)} {
+	    transform: scale(1);
+	  }
+	  #{setStep(5)} {
+	    transform: scale(1.1);
+	    box-shadow: inset 0 0 0 $size*.85 nth($ringColors, 1);
+	  }
+	  #{setStep(6)} {
+	    transform: scale(1.1);
+	    box-shadow: inset 0 0 0 $size*.5 nth($ringColors, 2);
+	  }
+	  #{setStep(7)} {
+	    transform: scale(1);
+	    box-shadow: inset 0 0 0 $size*.085 nth($ringColors, 2);
+	  }
+	  #{setStep(8)},
+	  #{setStep(28)} {
+	    box-shadow: inset 0 0 0 0 nth($ringColors, 2);
+	  }
+	}
+	
+	@keyframes circles {
+	  #{setStep(1)},
+	  #{setStep(6)} {
+	    box-shadow: setBoxShadow($distance1: 0.75, $distance2: 0.75, $size1: -0.500, $size2: -0.500, $colorRatio: 100%, $shiftAngle:  -5deg);
+	  }
+	  #{setStep(7)} {
+	    box-shadow: setBoxShadow($distance1: 0.80, $distance2: 0.85, $size1: -0.200, $size2: -0.200, $colorRatio: 100%, $shiftAngle:  -5deg);
+	  }
+	  #{setStep(15)} {
+	    box-shadow: setBoxShadow($distance1: 1.20, $distance2: 1.00, $size1: -0.100, $size2: -0.350, $colorRatio:  25%, $shiftAngle: -12deg);
+	  }
+	  #{setStep(23)},
+	  #{setStep(28)} {
+	    box-shadow: setBoxShadow($distance1: 1.20, $distance2: 1.00, $size1: -0.500, $size2: -0.500, $colorRatio:   0%, $shiftAngle: -12deg);
+	  }
+	}
+	
+	.heart-wrapper{
+	  height: $size * 2.25;
+	  width: $size * 2.25;
+	  position: relative;
+	  
+	
+	  .heart {
+	    $_size: $size * .8;
+	    position: absolute;
+	    height: $_size;
+	    width: $_size;
+	    top: 50%;
+	    left: 50%;
+	    z-index: 0;
+	    margin-top: $_size * -.5;
+	    margin-left: $_size * -.5;
+	    background-color: nth($heartColors, 1);
+	    visibility: hidden;
+	    
+	    &::before,
+	    &::after {
+	      content: '';
+	      position: absolute;
+	      top: 0;
+	      left: 0;
+	      right: 0;
+	      bottom: 0;
+	      border-radius: ($_size $_size 0em $_size*1.5) / ($_size $_size $_size $_size);
+	      background-color: inherit;
+	      visibility: visible;
+	    }
+	    &::before {
+	      transform: translateX(-30%) rotateZ(30deg) skew(15deg);
+	    }
+	    &::after {
+	      transform: translateX(30%) rotateZ(-30deg) rotateY(180deg) skew(15deg);
+	    }
+	  }
+	
+	  .ring{
+	    display: block;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    width: $size * 1.7;
+	    height: $size * 1.7;
+	    margin-top: $size * 1.7 * -.5;
+	    margin-left: $size * 1.7 * -.5;
+	    border-radius: 50%;
+	    z-index: 1;
+	  }
+	
+	  .circles{
+	    display: block;
+	    position: absolute;
+	    height: $circleSize;
+	    width: $circleSize;
+	    top: 50%;
+	    left: 50%;
+	    margin-top: -$circleSize / 2;
+	    margin-left: -$circleSize / 2;
+	    z-index: 2;
+	    border-radius: 50%;
+	  }
+	}
+	&.active {
+	  .heart {
+      animation-name: heart;
+      animation-duration: $animDuration;
+      animation-timing-function: $animTiming;
+      animation-iteration-count: $animIteration;
+      background-color: nth($heartColors, 2);
+    }
+		.ring {
+      animation-name: ring;
+      animation-duration: $animDuration;
+      animation-timing-function: $animTiming;
+      animation-iteration-count: $animIteration;
+    }
+    .circles {
+      animation-name: circles;
+      animation-duration: $animDuration;
+      animation-timing-function: $animTiming;
+      animation-iteration-count: $animIteration;
+    }
+  }
+}

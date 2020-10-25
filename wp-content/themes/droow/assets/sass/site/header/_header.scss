@@ -1,0 +1,33 @@
+/* -------------------------------------------------------
+                   Header
+-------------------------------------------------------- */
+
+
+header {
+  .cat {
+    position: relative;
+    //text-transform: uppercase;
+    //font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+
+    a {
+      margin-right: 8px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    @include v-light {
+      color: $heading-color;
+    }
+  }
+}
+
+@import "project-header-control";
+@import "project-header";
+@import "header-pages";
+@import "header-post";
+

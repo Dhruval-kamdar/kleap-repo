@@ -1,0 +1,228 @@
+.el-blitz-settings-wrap,
+.el-blitz-settings-wrap *,
+.el-blitz-settings-header,
+.el-blitz-settings-header * {
+	box-sizing: border-box;
+}
+
+.el-blitz-settings-header {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.el-blitz-settings-header h3 {
+	color: #000;
+}
+
+.el-blitz-settings-wrap {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+}
+.el-blitz-message {
+	margin: 0 !important;
+    margin-bottom: 10px !important;
+}
+.el-blitz-settings {
+    background: #fff;
+    border-top: none;
+}
+
+
+.el-blitz-setting-tabs {    background: #f1f1f1;    border-bottom: 1px solid #f1f1f1;}
+
+.el-blitz-setting-tabs a {    
+display: inline-block;    
+padding: 5px 10px;    
+min-width: 115px;    
+text-decoration: none;    
+text-align: center;    
+outline: none !important;    
+box-shadow: none !important;    
+border: 1px solid #ccc;    
+background: #e5e5e5;    
+border-bottom: none;    
+font-size: 14px;    
+color: #585858;    
+white-space: nowrap;    
+font-weight: 500;    
+line-height: 24px;
+}
+
+.el-blitz-setting-tabs a.active {
+    background: #f1f1f1;
+    color: #000;
+}
+
+.el-blitz-tab-license span {
+	font-style: italic;
+	color: #999;
+}
+
+.el-blitz-setting-tab-content {
+	display: none;
+	padding: 10px 30px;
+}
+.el-blitz-setting-tab-content.active {
+	display: block;
+}
+
+
+.el-blitz-setting-tab-content table th {
+	width: 250px;
+}
+.el-blitz-setting-tab-content label {
+	font-size: 14px;
+}
+
+.el-blitz-setting-footer {
+	background: #f9f9f9;
+	padding: 18px 30px;
+	border-top: 1px solid #f1f1f1;
+}
+.el-blitz-setting-footer p.submit {
+	margin: 0;
+    padding: 0;
+}
+.el-blitz-license-status {
+	text-transform: uppercase;
+	line-height: 2;
+	padding-right: 10px;
+}
+.el-blitz-license-inactive,
+.el-blitz-license-invalid {
+	color: #F44336;
+}
+.el-blitz-license-active {
+	color: #4CAF50;
+}
+.form-table.el-blitz-fields input {
+    background: #f1f1f1;
+    padding: 10px 5px;
+}
+#granular_editor_elements_settings .form-table th, #granular_editor_elements_pro_settings .form-table th { width:auto; padding:0;}
+
+/*CHECKBOX STYLE START [I] 5JULY*/
+#granular_editor_elements_settings .form-table, #granular_editor_elements_pro_settings .form-table {
+    display: block;
+    width: 100%;
+}
+#granular_editor_elements_settings .form-table tbody, #granular_editor_elements_pro_settings .form-table tbody {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    max-width: 1200px;
+}
+#granular_editor_elements_settings .form-table tbody .granular_basic_main_heading,#granular_editor_elements_settings .form-table tbody .granular_general_main_heading,#granular_editor_elements_settings .form-table tbody .granular_wordpress_main_heading, #granular_editor_elements_pro_settings .form-table tbody .granular_pro_main_heading, #granular_editor_elements_pro_settings .form-table tbody .granular_site_main_heading, #granular_editor_elements_pro_settings .form-table tbody .granular_single_main_heading, #granular_editor_elements_settings .form-table tbody .granular_main_elmenent_heading, #granular_editor_elements_pro_settings .form-table tbody .granular_main_elmenent_pro_heading {
+    width: 100%;
+}
+#granular_editor_elements_settings .form-table tbody .granular_basic_main_heading td p,#granular_editor_elements_settings .form-table tbody .granular_general_main_heading td p,#granular_editor_elements_settings .form-table tbody .granular_wordpress_main_heading td p, #granular_editor_elements_pro_settings .form-table tbody .granular_pro_main_heading td p, #granular_editor_elements_pro_settings .form-table tbody .granular_site_main_heading td p, #granular_editor_elements_pro_settings .form-table tbody .granular_single_main_heading td p, #granular_editor_elements_settings .form-table tbody .granular_main_elmenent_heading td p, #granular_editor_elements_pro_settings .form-table tbody .granular_main_elmenent_pro_heading td p {
+    font-size: 18px;
+    margin-bottom: 0em;
+    text-transform: uppercase;
+}
+#granular_editor_elements_settings .form-table tbody .granular_general_main_heading td p,#granular_editor_elements_settings .form-table tbody .granular_wordpress_main_heading td p,#granular_editor_elements_pro_settings .form-table tbody .granular_pro_main_heading td p,#granular_editor_elements_pro_settings .form-table tbody .granular_site_main_heading td p,#granular_editor_elements_pro_settings .form-table tbody .granular_single_main_heading td p,#granular_editor_elements_settings .form-table tbody .granular_main_elmenent_heading td p,#granular_editor_elements_pro_settings .form-table tbody .granular_main_elmenent_pro_heading td p {
+    margin-top: 20px;
+}
+#granular_editor_elements_settings .form-table tbody tr, #granular_editor_elements_pro_settings .form-table tbody tr {
+    min-width: 250px;
+    font-size: 24px;
+    flex: 0 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+#granular_editor_elements_settings .form-table tbody tr th, #granular_editor_elements_pro_settings .form-table tbody tr th {
+    display: none;
+}
+#granular_editor_elements_settings .form-table tbody tr td, #granular_editor_elements_pro_settings .form-table tbody tr td {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+#granular_editor_elements_settings .form-table tbody tr td fieldset input[type="checkbox"], #granular_editor_elements_pro_settings .form-table tbody tr td fieldset input[type="checkbox"] {
+    visibility: hidden;
+    display: none;
+}
+#granular_editor_elements_settings .form-table tbody tr td fieldset label, #granular_editor_elements_pro_settings .form-table tbody tr td fieldset label {
+    width: 3.4em;
+    height: 1.7em;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 !important;
+    vertical-align: middle;
+}
+#granular_editor_elements_settings .form-table tbody tr td fieldset label:after, #granular_editor_elements_pro_settings .form-table tbody tr td fieldset label:after {
+	content: '';
+    position: absolute;
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 100%;
+    left: .3em;
+    top: .2em;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 0 5px #fcfff4 inset;
+    background: #CBCFD0;
+    z-index: 2;
+    animation: switch-off .3s ease-out;
+}
+#granular_editor_elements_settings .form-table tbody tr td fieldset input[type="checkbox"]:checked + label:after, #granular_editor_elements_pro_settings .form-table tbody tr td fieldset input[type="checkbox"]:checked + label:after {
+    left: 2em;
+    background: #008ec2;
+    animation: switch-on .3s ease-out;
+}
+#granular_editor_elements_settings .form-table tbody tr td fieldset label:before, #granular_editor_elements_pro_settings .form-table tbody tr td fieldset label:before {
+    content: '';
+    position: absolute;
+    width: 3.4em;
+    height: 1.7em;
+    left: 0.1em;
+    transition: background 0.1s 0.1s ease;
+    background: #CBCFD0;
+    border-radius: 50px;
+}
+#granular_editor_elements_settings .form-table tbody tr td fieldset input[type="checkbox"]:checked + label:before, #granular_editor_elements_pro_settings .form-table tbody tr td fieldset input[type="checkbox"]:checked + label:before{
+    background: #008ec2;
+    box-shadow: inset 0px 1px 1px rgba(84, 152, 140, 0.5);
+}
+#granular_editor_elements_settings .form-table tbody tr td fieldset p, #granular_editor_elements_pro_settings .form-table tbody tr td fieldset p{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: .05em;
+    color: #333;
+    margin: .5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+@-webkit-keyframes switch-on {
+  50% {
+    transform: scaleX(1.3);
+  }
+}
+
+@keyframes switch-on {
+  50% {
+    transform: scaleX(1.3);
+  }
+}
+
+@-webkit-keyframes switch-off {
+  50% {
+    transform: scaleX(1.3);
+  }
+}
+
+@keyframes switch-off {
+  50% {
+    transform: scaleX(1.3);
+  }
+}
+/*CHECKBOX STYLE END [I] 5JULY*/

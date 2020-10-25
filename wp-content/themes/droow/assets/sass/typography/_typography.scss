@@ -1,0 +1,28 @@
+html {
+  font-size: $font-size-base;
+}
+
+body {
+  background-color: $bg-dark;
+  line-height: $line-height-base;
+  color: $body-color;
+  font-family: $body-font;
+  font-weight: 500;
+  margin: 0;
+
+  @include v-light {
+    color: $body-color-light;
+  }
+}
+
+button,
+input,
+select,
+optgroup,
+textarea {
+  text-rendering: optimizeLegibility;
+}
+
+@import "headings";
+
+@import "copy";

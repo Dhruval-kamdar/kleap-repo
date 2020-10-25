@@ -1,0 +1,43 @@
+.toplevel_page_content-pro-settings .acf-field-flexible-content .acf-actions .acf-button, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-fc-layout-controls { visibility:hidden; }
+
+.toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field.acf-field-true-false[data-name="shDisable_richtext"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field.acf-field-true-false[data-name="shDisable_spintax"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_media"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_statTitle"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_statNum"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_contenttitle"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_contenticon"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_contentimage"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_contenttext"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_titles"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_buttons"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_images"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_icons"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_testiname"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_testijob"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_testiicon"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_testiimage"] p.description, .toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field[data-name="shDisable_testicontent"] p.description { display: none !important; }
+
+.toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field p.description{ display: none; }
+
+.toplevel_page_content-pro-settings .acf-field-flexible-content .acf-repeater .acf-row-handle a.acf-icon.-plus.small.acf-js-tooltip {display:none;}
+.toplevel_page_content-pro-settings .acf-field-flexible-content .acf-repeater .acf-row-handle a.acf-icon.-minus.small.acf-js-tooltip {display:none;}
+.toplevel_page_content-pro-settings .acf-flexible-content .layout .acf-fc-layout-controls .acf-icon.-plus, .toplevel_page_content-pro-settings .acf-flexible-content .layout .acf-fc-layout-controls .acf-icon.-minus {
+    display: none;
+}
+
+.toplevel_page_content-pro-settings .acf-field-flexible-content .acf-field.acf-field-true-false[data-key="field_enable_page"] {  display: none; }
+
+.mappingSiteCat .item-content.col-lg-12 .form-group.col-lg-6 { padding: 0; }
+
+.mappingSiteCat .item-content.col-lg-12 { padding: 0; }
+
+.mappingSiteCat input.btn.btn-primary { margin-left: 15px; margin-top: 15px; }
+
+.toplevel_page_content-pro-settings p.errorMessage { font-size: 14px; padding-top :20px; }
+
+.toplevel_page_content-pro-settings .acf-admin-notice.notice.is-dismissible.updated.error { display: none;  }
+
+
+.acf-fields .layout[data-layout="sitepageBlock"] .acf-field-sitepage-blockname p.description small{ display:none; }
+.toplevel_page_content-pro-settings .acf-fields .layout[data-layout="sitepageBlock"] .acf-field-sitepage-blockname p.description small{ display:none; }
+
+/*
+.acf-fields .layout[data-layout="sitepageBlock"] .acf-field-create-layout .acf-label:first-child p.description small{ display:none; }
+.toplevel_page_content-pro-settings .acf-fields .layout[data-layout="sitepageBlock"] .acf-label:first-child .acf-field-create-layout p.description small{ display:none; }
+*/
+
+
+#cpto #cpt_info_box {display:none !important;}
+
+.toplevel_page_content-pro-settings button.loadupdatedLayout {
+    padding: 14px;
+    font-size: 20px;
+}
+.acf-field.acf-field-true-false[data-key="disableButtons"] p, .acf-field.acf-field-true-false[data-key="disableTitles"] p, .acf-field.acf-field-true-false[data-key="disableIcons"] p, .acf-field.acf-field-true-false[data-key="disableImages"] p {
+    display: none !important;
+}

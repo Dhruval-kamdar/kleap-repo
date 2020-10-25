@@ -1,0 +1,820 @@
+/*
+ * Bootstrap v3.3.7
+ */
+.erp-close {
+    float: right;
+    font-size: 19.5px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+.erp-close:hover,
+.erp-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+button.erp-close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+.erp-deal-modal-open {
+    overflow: hidden;
+}
+.erp-deal-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999992;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.erp-deal-modal.fade .erp-deal-modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+       -moz-transition:    -moz-transform .3s ease-out;
+         -o-transition:      -o-transform .3s ease-out;
+            transition:         transform .3s ease-out;
+    -webkit-transform: translate(0, -25%);
+        -ms-transform: translate(0, -25%);
+         -o-transform: translate(0, -25%);
+            transform: translate(0, -25%);
+}
+.erp-deal-modal.in .erp-deal-modal-dialog {
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+         -o-transform: translate(0, 0);
+            transform: translate(0, 0);
+}
+.erp-deal-modal-open .erp-deal-modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.erp-deal-modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+.erp-deal-modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+            box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+.erp-deal-modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999991;
+    background-color: #000;
+}
+.erp-deal-modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.erp-deal-modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.erp-deal-modal-header {
+    position: relative;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.erp-deal-modal-header .erp-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    font: 300 1.71429em "dashicons" !important;
+    content: '\f335';
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.erp-deal-modal-header .erp-close span {
+    display: block;
+    margin-top: -5px;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.erp-deal-modal-header .erp-close:hover {
+    background-color: transparent;
+}
+.erp-deal-modal-header .erp-close:hover span {
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.erp-deal-modal-title {
+    padding-right: 50px;
+    margin: 0;
+    margin-top: 0;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 1;
+    color: #5d6d74;
+    text-overflow: ellipsis;
+    text-shadow: 0 1px 1px #fff;
+    white-space: nowrap;
+}
+.erp-deal-modal-body {
+    position: relative;
+    padding: 15px;
+}
+.erp-deal-modal-body .erp-close {
+    position: absolute;
+    top: 9px;
+    right: 13px;
+}
+.erp-deal-modal-body *:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+.erp-deal-modal-body *:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.erp-deal-modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+.erp-deal-modal-footer .button + .button {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.erp-deal-modal-footer .button-group .button + .button {
+    margin-left: -1px;
+}
+.erp-deal-modal-footer .button-block + .button-block {
+    margin-left: 0;
+}
+.erp-deal-modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll;
+}
+@media (min-width: 782px) {
+    .erp-deal-modal-dialog {
+        width: 600px;
+        margin: 50px auto 30px;
+    }
+    .erp-deal-modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+    .modal-sm {
+        width: 300px;
+    }
+}
+@media (min-width: 960px) {
+    .modal-lg {
+        width: 900px;
+    }
+    .erp-deal-modal-content {
+        left: 80px;
+    }
+}
+.erp-tooltip {
+    position: absolute;
+    z-index: 999993;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.4em;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    filter: alpha(opacity=0);
+    opacity: 0;
+
+    line-break: auto;
+}
+.erp-tooltip.in {
+    filter: alpha(opacity=90);
+    opacity: .9;
+}
+.erp-tooltip.top {
+    padding: 5px 0;
+    margin-top: -3px;
+}
+.erp-tooltip.right {
+    padding: 0 5px;
+    margin-left: 3px;
+}
+.erp-tooltip.bottom {
+    padding: 5px 0;
+    margin-top: 3px;
+}
+.erp-tooltip.left {
+    padding: 0 5px;
+    margin-left: -3px;
+}
+.erp-tooltip-inner {
+    max-width: 200px;
+    padding: 4px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-radius: 3px;
+}
+.erp-tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.erp-tooltip.top .erp-tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000;
+}
+.erp-tooltip.top-left .erp-tooltip-arrow {
+    right: 5px;
+    bottom: 0;
+    margin-bottom: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000;
+}
+.erp-tooltip.top-right .erp-tooltip-arrow {
+    bottom: 0;
+    left: 5px;
+    margin-bottom: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000;
+}
+.erp-tooltip.right .erp-tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #000;
+}
+.erp-tooltip.left .erp-tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #000;
+}
+.erp-tooltip.bottom .erp-tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000;
+}
+.erp-tooltip.bottom-left .erp-tooltip-arrow {
+    top: 0;
+    right: 5px;
+    margin-top: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000;
+}
+.erp-tooltip.bottom-right .erp-tooltip-arrow {
+    top: 0;
+    left: 5px;
+    margin-top: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000;
+}
+.erp-popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    max-width: 276px;
+    padding: 1px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.4em;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+
+    line-break: auto;
+}
+.erp-popover.top {
+    margin-top: -10px;
+}
+.erp-popover.right {
+    margin-left: 10px;
+}
+.erp-popover.bottom {
+    margin-top: 10px;
+}
+.erp-popover.left {
+    margin-left: -10px;
+}
+.erp-popover-title {
+    padding: 8px 14px;
+    margin: 0;
+    font-size: 13px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 2px 2px 0 0;
+}
+.erp-popover-content {
+    padding: 9px 14px;
+}
+.erp-popover > .erp-popover-arrow,
+.erp-popover > .erp-popover-arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.erp-popover > .erp-popover-arrow {
+    border-width: 11px;
+}
+.erp-popover > .erp-popover-arrow:after {
+    content: "";
+    border-width: 10px;
+}
+.erp-popover.top > .erp-popover-arrow {
+    bottom: -11px;
+    left: 50%;
+    margin-left: -11px;
+    border-top-color: #999;
+    border-top-color: rgba(0, 0, 0, .25);
+    border-bottom-width: 0;
+}
+.erp-popover.top > .erp-popover-arrow:after {
+    bottom: 1px;
+    margin-left: -10px;
+    content: " ";
+    border-top-color: #fff;
+    border-bottom-width: 0;
+}
+.erp-popover.right > .erp-popover-arrow {
+    top: 50%;
+    left: -11px;
+    margin-top: -11px;
+    border-right-color: #999;
+    border-right-color: rgba(0, 0, 0, .25);
+    border-left-width: 0;
+}
+.erp-popover.right > .erp-popover-arrow:after {
+    bottom: -10px;
+    left: 1px;
+    content: " ";
+    border-right-color: #fff;
+    border-left-width: 0;
+}
+.erp-popover.bottom > .erp-popover-arrow {
+    top: -11px;
+    left: 50%;
+    margin-left: -11px;
+    border-top-width: 0;
+    border-bottom-color: #999;
+    border-bottom-color: rgba(0, 0, 0, .25);
+}
+.erp-popover.bottom > .erp-popover-arrow:after {
+    top: 1px;
+    margin-left: -10px;
+    content: " ";
+    border-top-width: 0;
+    border-bottom-color: #fff;
+}
+.erp-popover.left > .erp-popover-arrow {
+    top: 50%;
+    right: -11px;
+    margin-top: -11px;
+    border-right-width: 0;
+    border-left-color: #999;
+    border-left-color: rgba(0, 0, 0, .25);
+}
+.erp-popover.left > .erp-popover-arrow:after {
+    right: 1px;
+    bottom: -10px;
+    content: " ";
+    border-right-width: 0;
+    border-left-color: #fff;
+}
+.clearfix:before,
+.clearfix:after,
+.erp-deal-modal-header:before,
+.erp-deal-modal-header:after,
+.erp-deal-modal-footer:before,
+.erp-deal-modal-footer:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after,
+.erp-deal-modal-header:after,
+.erp-deal-modal-footer:after {
+    clear: both;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+.hide {
+    display: none !important;
+}
+.show {
+    display: block !important;
+}
+.invisible {
+    visibility: hidden;
+}
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+.hidden {
+    display: none !important;
+}
+.affix {
+    position: fixed;
+}
+body.erp-deals-admin-settings-page p.submit input[name="save"] {
+    display: none;
+}
+[v-cloak] {
+    display: none;
+}
+#erp-deals-settings-page > td {
+    padding: 0;
+}
+#erp-vertical-tab-settings {
+    position: relative;
+    margin-top: 15px;
+}
+#settings-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 180px;
+}
+#settings-sidebar .settings-menu {
+    margin: 0;
+}
+#settings-sidebar .settings-menu li {
+    margin: 10px 0 0;
+}
+#settings-sidebar .settings-menu li a {
+    display: block;
+    padding: 10px 8px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    color: #555;
+    text-decoration: none;
+    background-color: #e5e5e5;
+    border: 1px solid #ccc;
+}
+#settings-sidebar .settings-menu li a:hover {
+    background-color: #fff;
+}
+#settings-sidebar .settings-menu li a:focus,
+#settings-sidebar .settings-menu li a:active {
+    outline: 0;
+    box-shadow: none;
+}
+#settings-sidebar .settings-menu li.active a {
+    color: #000;
+    background-color: #f1f1f1;
+    border-right-color: #f1f1f1;
+}
+#settings-content {
+    min-height: 200px;
+    padding: 10px 20px;
+    margin-left: 179px;
+    border-left: 1px solid #ccc;
+}
+#settings-content .tab-title {
+    margin: 0 0 30px;
+}
+#settings-content h1 {
+    padding-top: 0;
+    line-height: 1;
+}
+.erp-deal-modal .erp-deal-modal-header .erp-close span.disabled {
+    opacity: .2;
+}
+.deal-row {
+    margin-right: -12px;
+    margin-left: -12px;
+}
+.deal-row:before,
+.deal-row:after {
+    display: table;
+    content: " ";
+}
+.deal-row:after {
+    clear: both;
+}
+.deal-row:before,
+.deal-row:after {
+    display: table;
+    content: " ";
+}
+.deal-row:after {
+    clear: both;
+}
+.erp-grid-container.erp-deal-settings-page [class*='col-'] {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.button.button-danger {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #ad3f1b, 1px 0 1px #ad3f1b, 0 1px 1px #ad3f1b, -1px 0 1px #ad3f1b;
+    background: #d54e21;
+    border-color: #bf461e #ad3f1b #ad3f1b;
+    -webkit-box-shadow: 0 1px 0 #ad3f1b;
+            box-shadow: 0 1px 0 #ad3f1b;
+}
+.button.button-danger.hover,
+.button.button-danger:hover,
+.button.button-danger.focus,
+.button.button-danger:focus {
+    color: #fff;
+    background: #dd5223;
+    border-color: #ad3f1b;
+}
+.button.button-danger.focus,
+.button.button-danger:focus {
+    -webkit-box-shadow: 0 1px 0 #bf461e, 0 0 2px 1px #8a3315;
+            box-shadow: 0 1px 0 #bf461e, 0 0 2px 1px #8a3315;
+}
+.button.button-danger.active,
+.button.button-danger.active:hover,
+.button.button-danger.active:focus,
+.button.button-danger:active {
+    vertical-align: top;
+    background: #bf461e;
+    border-color: #ad3f1b;
+    -webkit-box-shadow: inset 0 2px 0 #ad3f1b;
+            box-shadow: inset 0 2px 0 #ad3f1b;
+}
+.button.button-danger[disabled],
+.button.button-danger:disabled,
+.button.button-danger-disabled,
+.button.button-danger.disabled {
+    color: #eea992 !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .1) !important;
+    cursor: default;
+    background: #dd5223 !important;
+    border-color: #de5528 !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+}
+.button.button-small .dashicons {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    line-height: 22px;
+}
+.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: .7;
+}
+.text-right {
+    text-align: right;
+}
+.settings-step-progressbar {
+    position: relative;
+}
+.settings-step-progressbar ul {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+.settings-step-progressbar ul li {
+    margin-bottom: 0;
+    cursor: move;
+
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.settings-step-progressbar ul li > span {
+    display: block;
+    padding-right: 20px;
+    margin: 1px;
+    overflow: hidden;
+    line-height: 2.9;
+}
+.settings-step-progressbar ul li > span > span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-right: 0;
+}
+.settings-step-progressbar ul li > span > span:after {
+    position: absolute;
+    top: 0;
+    right: -12px;
+    z-index: -1;
+    width: 37px;
+    height: 100%;
+    content: " ";
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transform: rotate(45deg);
+}
+.settings-step-progressbar ul li > span > span > span {
+    position: absolute;
+    max-width: calc(100% - 10px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+.no-top-margin {
+    margin-top: 0;
+}
+.no-margin {
+    margin: 0;
+}
+.margin-left-10 {
+    margin-left: 10px;
+}
+.margin-bottom-4 {
+    margin-bottom: 4px !important;
+}
+.margin-top-4 {
+    margin-top: 4px !important;
+}
+.margin-bottom-12 {
+    margin-bottom: 12px !important;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px !important;
+}
+.margin-top-20 {
+    margin-top: 20px !important;
+}
+.strong {
+    font-weight: 700;
+}
+.erp-deal-input {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    line-height: 1.9;
+    border-radius: 3px;
+}
+.input-error label {
+    color: #d54e21;
+}
+.input-error input,
+.input-error .multiselect__tags {
+    border-color: #d54e21;
+}
+.block-label {
+    display: block;
+}
+.input-label {
+    display: block;
+    padding-top: 5px !important;
+}
+.button-icon-only .dashicons {
+    line-height: 1.3;
+}
+.settings-pipeline {
+    margin-bottom: 35px;
+}
+.settings-pipeline .button-group {
+    margin-top: -1px;
+    margin-left: 5px;
+}
+.pipeline-title {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.erp-settings .erp-deals-settings-activity-types .erp-subsubsub {
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: #666;
+    list-style: none;
+}
+.erp-deals-settings-activity-types .erp-nav-tab.active {
+    color: #444;
+    pointer-events: none;
+    cursor: default;
+}
+.erp-deals-settings-activity-types .erp-deals-settings-list {
+    width: 400px;
+}
+.erp-deals-settings-activity-types .erp-deals-settings-list li {
+    cursor: move;
+}
+#deal-settings-act-type-modal .activity-type-icons .button {
+    width: 30px;
+    height: 25px;
+    padding: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#deal-settings-act-type-modal .activity-type-icons .button .picon {
+    top: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.erp-deals-settings-list li {
+    padding: 5px;
+    margin: 0;
+    line-height: 1.8;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    border-bottom: 0;
+}
+.erp-deals-settings-list li:hover {
+    background-color: #fafafa;
+}
+.erp-deals-settings-list .type-icon {
+    float: left;
+    width: 40px;
+}
+.erp-deals-settings-list .type-title {
+    float: left;
+    width: 200px;
+}
+.erp-deals-settings-list .type-title a {
+    text-decoration: none;
+}
+.erp-deals-settings-list .type-buttons {
+    float: right;
+}
+.erp-deals-settings-list .type-buttons .button.button-small .dashicons {
+    font-size: 14px;
+}
+.erp-deals-settings-lost-reasons .reason-text {
+    float: left;
+    width: calc(100% - 130px);
+}

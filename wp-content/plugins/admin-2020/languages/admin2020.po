@@ -1,0 +1,1280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin 2020 1.2.3\n"
+"POT-Creation-Date: 2020-10-12 16:34+0100\n"
+"PO-Revision-Date: 2020-10-12 16:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;sprintf;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-2020-register-components.php:63 admin/class-admin-2020.php:139
+#: admin/class-admin-2020.php:152 admin/class-admin-2020.php:155
+#: admin/class-admin-2020.php:159
+msgid "Please enter a valid product key for Admin 2020"
+msgstr ""
+
+#: admin/admin-2020-register-components.php:63 admin/class-admin-2020.php:139
+#: admin/class-admin-2020.php:152 admin/class-admin-2020.php:155
+#: admin/class-admin-2020.php:159
+#: admin/includes/admin-2020-network-settings.php:1506
+#: admin/includes/admin-2020-settings.php:2386
+msgid "here"
+msgstr ""
+
+#: admin/class-admin-2020.php:106
+msgid "Admin 2020 requires PHP 5.4 or higher, please update your PHP version."
+msgstr ""
+
+#: admin/class-admin-2020.php:118
+msgid ""
+"Admin 2020 requires Wordpress 5 or higher, please update your Wordpress "
+"version."
+msgstr ""
+
+#: admin/includes/admin-2020-ajax.php:82 admin/includes/admin-2020-ajax.php:117
+msgid "Settings succesfully Imported"
+msgstr ""
+
+#: admin/includes/admin-2020-ajax.php:102
+msgid "Account Connected!"
+msgstr ""
+
+#: admin/includes/admin-2020-ajax.php:204
+msgid "No post types selected"
+msgstr ""
+
+#: admin/includes/admin-2020-ajax.php:213
+msgid " items found for "
+msgstr ""
+
+#: admin/includes/admin-2020-ajax.php:238
+msgid " items found for"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:210
+msgid "Toggle Admin 2020 Style"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:211 admin/includes/admin-2020-bar.php:427
+msgid "View Website"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:292
+msgid "Search:"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:296
+msgid "Search..."
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:300
+msgid "Filters:"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:303
+msgid "Post Types"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:327
+msgid "Categories:"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:341
+msgid "Apply Filters"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:365
+msgid "Updates"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:371
+msgid "All Updates"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:379
+msgid "WordPress"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:388
+msgid "Plugins"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:397
+msgid "Themes"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:408
+msgid "Notifications"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:420
+#, php-format
+msgid "%s, %s"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:432
+msgid "View Profile"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:433
+msgid "Edit Profile"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:442
+msgid "Dark Mode"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:451
+msgid "Logout"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:476
+#: admin/includes/admin-2020-dashboard.php:1092
+msgid "Good morning"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:479
+#: admin/includes/admin-2020-dashboard.php:1095
+msgid "Good afternoon"
+msgstr ""
+
+#: admin/includes/admin-2020-bar.php:482
+#: admin/includes/admin-2020-dashboard.php:1098
+msgid "Good evening"
+msgstr ""
+
+#: admin/includes/admin-2020-content.php:34
+#: admin/includes/admin-2020-media.php:908
+#: admin/includes/admin-2020-media.php:1255
+msgid "Content"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:137
+msgid "Preferences Saved"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:153
+#: admin/includes/admin-2020-network-settings.php:323
+#: admin/includes/admin-2020-settings.php:470
+msgid "Overview"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:242
+#: admin/includes/admin-2020-media.php:1258
+#: admin/includes/admin-2020-media.php:1359
+msgid "Categories"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:244
+#: admin/includes/admin-2020-folders.php:136
+#: admin/includes/admin-2020-media.php:544
+#: admin/includes/admin-2020-media.php:562
+#: admin/includes/admin-2020-media.php:589
+#: admin/includes/admin-2020-media.php:936
+msgid "All"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:275
+msgid "Active Cards"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:306
+#: admin/includes/admin-2020-folders.php:404
+#: admin/includes/admin-2020-media.php:1391
+#: admin/includes/admin-2020-media.php:1624
+msgid "Save"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:502
+msgid "Total Posts"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:542
+msgid "Total Pages"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:559
+msgid "Total Comments"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:578
+msgid "Recent Comments"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:584
+#: admin/includes/admin-2020-dashboard.php:971
+msgid "No comments yet"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:609
+msgid "ago"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:640
+msgid "Website Users"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:663
+msgid "Site Speed"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:685
+msgid "Total Page Views"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:714
+msgid "Average Site Speed"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:742
+msgid "Bounce Rate"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:770
+msgid "Session Duration"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:797
+msgid "Page Views"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:817
+msgid "Top Countries"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:821
+#: admin/includes/admin-2020-dashboard.php:848
+msgid "Country"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:822
+#: admin/includes/admin-2020-dashboard.php:849
+#: admin/includes/admin-2020-dashboard.php:877
+msgid "Visits"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:823
+#: admin/includes/admin-2020-dashboard.php:850
+#: admin/includes/admin-2020-dashboard.php:878
+msgid "Change"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:844
+msgid "Views By Page"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:872
+msgid "Traffic Sources"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:876
+msgid "Source"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:899
+msgid "Device Breakdown"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:956
+msgid "Most Commented Posts"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:1004
+msgid "New Users"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:1005
+msgid "new users in the last 14 days"
+msgstr ""
+
+#: admin/includes/admin-2020-dashboard.php:1023
+msgid "System Info"
+msgstr ""
+
+#: admin/includes/admin-2020-error.php:74
+msgid "Go Back"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:38
+msgid "Add New Folder"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:39
+#: admin/includes/admin-2020-folders.php:171
+#: admin/includes/admin-2020-folders.php:175
+msgid "New Folder"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:40
+#: admin/includes/admin-2020-folders.php:386
+msgid "Edit Folder"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:41
+msgid "View Folder"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:42
+msgid "All Folders"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:43
+msgid "Search Folders"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:44
+msgid "No Folders found."
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:45
+msgid "No Folders found in Trash."
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:49
+msgid "Description."
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:153
+msgid "Uncategorised"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:176
+#: admin/includes/admin-2020-folders.php:387
+msgid "Folder Name"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:177
+#: admin/includes/admin-2020-folders.php:388
+msgid "Colour Tag"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:187
+msgid "Create"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:364
+msgid "No folders yet, why not create one?"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:401
+msgid "Delete"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:459
+#: admin/includes/admin-2020-folders.php:484
+#: admin/includes/admin-2020-folders.php:584
+msgid "Something went wrong"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:467
+msgid "Folder succesfully renamed"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:511
+msgid "Folder succesfully deleted"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:565
+msgid "Folder is already there"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:573
+msgid "No source or destination provided"
+msgstr ""
+
+#: admin/includes/admin-2020-folders.php:594
+msgid "Folder Moved"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:102
+msgid "Media"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:517
+msgid "Clear Filters"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:522
+msgid "Advanced Filters"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:526
+msgid "Order By"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:529
+msgid "Date Created (Oldest first)"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:530
+msgid "Date Created (Newest first)"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:531
+msgid "File Size (Smallest First)"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:532
+msgid "File Size (Biggest First)"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:538
+msgid "Filter By Date"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:541
+msgid "Month"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:559
+msgid "Year"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:583
+msgid "Uploaded By"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:586
+msgid "Username"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:631
+msgid "No attachments selected"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:669
+msgid "Invalid Date Format"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:719
+msgid "Attachments successfully renamed"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:742
+msgid "Filename"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:747
+msgid "Current Filename"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:765
+#: admin/includes/admin-2020-media.php:996
+msgid "Text"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:770
+msgid "New text"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:788
+#: admin/includes/admin-2020-media.php:997
+msgid "Date Uploaded"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:793
+msgid "Format"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:812
+msgid "Alt"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:817
+msgid "Current Alt"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:835
+msgid "Extension"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:840
+msgid "Current Extension"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:858
+msgid "Sequence start num"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:863
+msgid "Start Number"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:881
+msgid "Meta key"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:886
+msgid "Meta Key"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:910
+msgid "Media Library"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:916
+msgid "Upload"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:973
+msgid "Batch Rename"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:979
+msgid "Attribute to rename"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:982
+msgid "Name"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:983
+msgid "Alt Tag"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:989
+msgid "New Name"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:995
+msgid "Original Filename"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:998
+msgid "Original Alt"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:999
+msgid "File Extension"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1000
+msgid "Sequence Number"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1001
+msgid "Meta Value"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1007
+msgid "Add"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1025
+msgid "Preview"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1030
+msgid "Rename"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1227
+#: admin/includes/admin-2020-media.php:1514
+msgid "Edit"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1229
+msgid "Duplicate"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1230
+msgid "View"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1256
+#: admin/includes/admin-2020-settings.php:1734
+#: admin/includes/admin-2020-tables.php:91
+msgid "Settings"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1272
+#: admin/includes/admin-2020-media.php:1531
+msgid "Title"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1315
+msgid "Status"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1336
+msgid "Featured Image"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1509
+msgid "Attributes"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1510
+msgid "Meta"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1538
+msgid "Alt Text"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1545
+msgid "Caption"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1552
+msgid "Description"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1565
+msgid "Link copied to clipboard"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1584
+msgid "File Type"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1588
+msgid "Uploaded"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1592
+msgid "Size"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1598
+msgid "Dimensions"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:1968
+#: admin/includes/admin-2020-media.php:2008
+#: admin/includes/admin-2020-media.php:2048
+#: admin/includes/admin-2020-media.php:2088
+msgid "by"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:2138
+msgid "Drop items here or"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:2141
+msgid "select them"
+msgstr ""
+
+#: admin/includes/admin-2020-media.php:2297
+msgid "Selected media actions"
+msgstr ""
+
+#: admin/includes/admin-2020-menu.php:86
+msgid "Search Menu..."
+msgstr ""
+
+#: admin/includes/admin-2020-menu.php:559
+msgid "Collapse Menu"
+msgstr ""
+
+#: admin/includes/admin-2020-menu.php:564
+msgid "Expand Menu"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:43
+#: admin/includes/admin-2020-network-settings.php:1550
+#: admin/includes/admin-2020-settings.php:188
+#: admin/includes/admin-2020-settings.php:2433
+msgid "Appearance"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:51
+#: admin/includes/admin-2020-settings.php:196
+msgid "Admin Logo"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:59
+#: admin/includes/admin-2020-settings.php:204
+msgid "Optional logo for dark mode"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:67
+#: admin/includes/admin-2020-settings.php:212
+msgid "Login background Image"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:77
+#: admin/includes/admin-2020-settings.php:222
+msgid "Disabled Admin 2020 styles on plugin pages?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:85
+#: admin/includes/admin-2020-settings.php:230
+msgid "Change primary link color"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:93
+#: admin/includes/admin-2020-settings.php:238
+msgid "Theme"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:115
+#: admin/includes/admin-2020-network-settings.php:1549
+#: admin/includes/admin-2020-settings.php:260
+#: admin/includes/admin-2020-settings.php:2432
+msgid "General"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:137
+msgid "Override all subsite settings?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:145
+msgid "Which roles can edit / view Admin 2020 settings?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:153
+#: admin/includes/admin-2020-settings.php:292
+msgid "Disable Admin Menu Search?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:161
+#: admin/includes/admin-2020-settings.php:300
+msgid "Set overview page as Admin homepage?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:169
+#: admin/includes/admin-2020-settings.php:308
+msgid "Use default wordpress media gallery?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:177
+#: admin/includes/admin-2020-settings.php:316
+msgid "Keep quick actions below title on tables?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:184
+#: admin/includes/admin-2020-settings.php:323
+msgid "Disable Admin 2020 login styles?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:192
+#: admin/includes/admin-2020-settings.php:331
+msgid "Disable Admin Notices?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:202
+#: admin/includes/admin-2020-settings.php:341
+msgid "Admin Bar"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:210
+#: admin/includes/admin-2020-settings.php:349
+msgid "Show screen options?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:218
+#: admin/includes/admin-2020-settings.php:357
+msgid "Disable Quick Actions in the Admin Bar?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:226
+#: admin/includes/admin-2020-settings.php:365
+msgid "Post types available in search?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:234
+#: admin/includes/admin-2020-settings.php:373
+msgid "Disable Search in the Admin Bar?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:242
+#: admin/includes/admin-2020-settings.php:381
+msgid "Disable loading bar in admin bar?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:249
+#: admin/includes/admin-2020-settings.php:388
+msgid "Load Admin Menu style on front end?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:256
+#: admin/includes/admin-2020-settings.php:395
+msgid "Hide admin bar quick links?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:266
+#: admin/includes/admin-2020-settings.php:413
+msgid "User Flyout Menu"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:274
+#: admin/includes/admin-2020-settings.php:421
+msgid "Hide View Website Link?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:282
+#: admin/includes/admin-2020-settings.php:429
+msgid "Hide Profile Links?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:290
+#: admin/includes/admin-2020-settings.php:437
+msgid "Hide Update Links?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:298
+#: admin/includes/admin-2020-settings.php:445
+msgid "Hide Dark Mode toggle?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:331
+#: admin/includes/admin-2020-settings.php:478
+msgid "Disable overview page?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:349
+#: admin/includes/admin-2020-settings.php:496
+msgid "Hide Total Posts"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:357
+#: admin/includes/admin-2020-settings.php:504
+msgid "Hide Total Pages"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:365
+#: admin/includes/admin-2020-settings.php:512
+msgid "Hide Total Comments"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:373
+#: admin/includes/admin-2020-settings.php:520
+msgid "Hide Recent Comments"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:381
+#: admin/includes/admin-2020-settings.php:528
+msgid "Hide total comments in the last 7 days"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:389
+#: admin/includes/admin-2020-settings.php:536
+msgid "Hide most commented posts"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:397
+#: admin/includes/admin-2020-settings.php:544
+msgid "Hide new users"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:405
+#: admin/includes/admin-2020-settings.php:552
+msgid "Hide system info"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:413
+msgid "Add widgets to overview page"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:438
+#: admin/includes/admin-2020-network-settings.php:1552
+#: admin/includes/admin-2020-settings.php:579
+#: admin/includes/admin-2020-settings.php:2435
+msgid "Content Page"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:446
+#: admin/includes/admin-2020-settings.php:587
+msgid "Disable Content Page?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:455
+#: admin/includes/admin-2020-settings.php:596
+msgid "Post types to include?"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:478
+#: admin/includes/admin-2020-network-settings.php:1553
+#: admin/includes/admin-2020-settings.php:677
+#: admin/includes/admin-2020-settings.php:2438
+msgid "Advanced"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:486
+#: admin/includes/admin-2020-settings.php:685
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:494
+#: admin/includes/admin-2020-settings.php:693
+msgid "Custom JS"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:547
+msgid ""
+"If this is enabled, all settings applied here will apply to all sub sites."
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:587
+#: admin/includes/admin-2020-settings.php:780
+msgid ""
+"If no logo is set for dark mode, then it will fall back to the main logo."
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:607
+#: admin/includes/admin-2020-settings.php:800
+msgid "Remove Background Image"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:631
+#: admin/includes/admin-2020-settings.php:824
+msgid ""
+"If Admin 2020 is causing issues on other plugin option pages you can choose "
+"to disable Admin 2020 styles on these pages. This can help with visibility "
+"issues that may arrise."
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:653
+#: admin/includes/admin-2020-settings.php:846
+msgid "Enabling this may cause issues with your current theme."
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:923
+#: admin/includes/admin-2020-network-settings.php:982
+#: admin/includes/admin-2020-network-settings.php:1027
+#: admin/includes/admin-2020-network-settings.php:1066
+#: admin/includes/admin-2020-network-settings.php:1099
+#: admin/includes/admin-2020-settings.php:1158
+#: admin/includes/admin-2020-settings.php:1203
+#: admin/includes/admin-2020-settings.php:1242
+msgid "Selected"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:1235
+#: admin/includes/admin-2020-settings.php:1380
+msgid "Default"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:1392
+#: admin/includes/admin-2020-settings.php:2272
+msgid "To target styles only in dark mode, use class"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:1392
+#: admin/includes/admin-2020-settings.php:2272
+msgid "which is applied to the body."
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:1480
+#: admin/includes/admin-2020-settings.php:2360
+msgid "Change what areas of wordpress your users can access"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:1488
+#: admin/includes/admin-2020-settings.php:2368
+msgid "Change what displays on the overview page"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:1496
+#: admin/includes/admin-2020-settings.php:2376
+msgid "Content page settings"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:1504
+#: admin/includes/admin-2020-settings.php:2384
+msgid "Here you can add your google details for dashboard reports"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:1506
+#: admin/includes/admin-2020-settings.php:2386
+msgid "For instructions of how to get the below details, please see"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:1515
+#: admin/includes/admin-2020-settings.php:2395
+msgid "Further customise your dashboard with custom CSS and Javascript"
+msgstr ""
+
+#: admin/includes/admin-2020-network-settings.php:1551
+#: admin/includes/admin-2020-settings.php:2434
+msgid "Overview Page"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:146
+msgid "You don't have access to this page"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:282
+msgid "Disable Admin 2020 by user role:"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:403
+msgid "Hide admin bar on front end?"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:648
+msgid "Google Analytics Account:"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1537
+msgid ""
+"Admin 2020 is connected to analytics. To change account just click the "
+"button below and follow the steps."
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1605
+msgid "Reset Menu"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1658
+msgid "Seperator"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1674
+msgid "Change to label"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1676
+#: admin/includes/admin-2020-settings.php:1768
+#: admin/includes/admin-2020-settings.php:1932
+msgid "New name"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1679
+#: admin/includes/admin-2020-settings.php:1787
+#: admin/includes/admin-2020-settings.php:1938
+msgid "Hidden for roles"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1735
+msgid "Sub Menu"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1766
+#: admin/includes/admin-2020-settings.php:1930
+msgid "Rename as"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1770
+msgid "Set custom icon"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1776
+msgid "Choose Icon"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1822
+#: admin/includes/admin-2020-settings.php:1973
+msgid "Disable Admin 2020 on this page?"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:1996
+msgid "No sub menu items"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:2216
+msgid "Cancel"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:2217
+msgid "Select"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:2413
+msgid "Version"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:2436
+msgid "Menu Editor"
+msgstr ""
+
+#: admin/includes/admin-2020-settings.php:2437
+msgid "Google Analytics"
+msgstr ""
+
+#: admin/includes/admin-2020-tables.php:59
+msgid "Close Filters"
+msgstr ""
+
+#: admin/includes/admin-2020-woocommerce.php:111
+msgid "Total Sales"
+msgstr ""
+
+#: admin/includes/admin-2020-woocommerce.php:119
+#: admin/includes/admin-2020-woocommerce.php:242
+#: admin/includes/admin-2020-woocommerce.php:365
+msgid "No orders yet"
+msgstr ""
+
+#: admin/includes/admin-2020-woocommerce.php:234
+msgid "Total Orders"
+msgstr ""
+
+#: admin/includes/admin-2020-woocommerce.php:359
+msgid "Average Order Value"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/DebugBar/Extension.php:119
+#, php-format
+msgid ""
+"\n"
+"(Long string truncated. Total length: %d bytes.)"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/DebugBar/Panel.php:14
+#, php-format
+msgid "<span class=\"puc-debug-menu-link-%s\">PUC (%s)</span>"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/DebugBar/Panel.php:59
+#, php-format
+msgid ""
+"Enabled. If an update is already available, check for updates every %1$d "
+"hours instead of every %2$d hours."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Factory.php:81
+#, php-format
+msgid ""
+"The update checker cannot determine if \"%s\" is a plugin or a theme. This "
+"is a bug. Please contact the PUC developer."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Factory.php:104
+#, php-format
+msgid "PUC %s does not support updates for %ss %s"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Factory.php:122
+#, php-format
+msgid "PUC %s does not support %s"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Factory.php:236
+#, php-format
+msgid "Unable to locate URI in header of \"%s\""
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Plugin/Info.php:126
+#: admin/updates/Puc/v4p10/Plugin/Ui.php:132
+#, php-format
+msgid "<a href=\"%s\">%s</a>"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Plugin/Package.php:49
+#, php-format
+msgid ""
+"Can't to read the Version header for '%s'. The filename is incorrect or is "
+"not a plugin."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Plugin/Package.php:134
+#, php-format
+msgid "Can't to read the plugin header for '%s'. The file does not exist."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Plugin/Ui.php:74
+#, php-format
+msgid ""
+"<a href=\"%s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%s"
+"\" data-title=\"%s\">%s</a>"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Plugin/UpdateChecker.php:52
+#, php-format
+msgid "Plugin slug \"%s\" is already in use by %s. Slugs must be unique."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Scheduler.php:223
+#, php-format
+msgid "Every %d hours"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Theme/Update.php:68
+#, php-format
+msgid "The theme metadata is missing the required \"%s\" key."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/UpdateChecker.php:253
+#, php-format
+msgid "Skipping update check for %s - installed version unknown."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/UpdateChecker.php:682
+#, php-format
+msgid "The URL %s does not point to a valid metadata file. "
+msgstr ""
+
+#: admin/updates/Puc/v4p10/UpdateChecker.php:907
+#, php-format
+msgid ""
+"The directory structure of the update is incorrect. All files should be "
+"inside a directory named <span class=\"code\">%s</span>, not at the root of "
+"the ZIP archive."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/UpdateChecker.php:916
+#, php-format
+msgid "Renaming %s to %s&#8230;"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Vcs/BitBucketApi.php:145
+#, php-format
+msgid "https://bitbucket.org/%s/%s/get/%s.zip"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Vcs/BitBucketApi.php:231
+#, php-format
+msgid "BitBucket API error. Base URL: \"%s\",  HTTP status code: %d."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Vcs/GitHubApi.php:229
+#, php-format
+msgid "GitHub API error. Base URL: \"%s\",  HTTP status code: %d."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Vcs/GitHubApi.php:285
+#, php-format
+msgid "https://api.github.com/repos/%1$s/%2$s/zipball/%3$s"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Vcs/GitHubApi.php:352
+#, php-format
+msgid "//api.github.com/repos/%1$s/%2$s/releases/assets/"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Vcs/GitLabApi.php:195
+#, php-format
+msgid "GitLab API error. URL: \"%s\",  HTTP status code: %d."
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Vcs/GitLabApi.php:221
+#, php-format
+msgid "%1$s://%2$s/api/v4/projects/%3$s"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Vcs/GitLabApi.php:258
+#, php-format
+msgid "%1$s://%2$s/api/v4/projects/%3$s/repository/archive.zip"
+msgstr ""
+
+#: admin/updates/Puc/v4p10/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""

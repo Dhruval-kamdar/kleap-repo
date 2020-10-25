@@ -1,0 +1,96 @@
+.fluent-wl-settings-wrap,
+.fluent-wl-settings-wrap *,
+.fluent-wl-settings-header,
+.fluent-wl-settings-header * {
+	box-sizing: border-box;
+}
+
+.fluent-wl-settings-header {
+    /* margin-bottom: 50px; */
+    /* padding: 20px; */
+    /* background: #5F36FC; */
+    width: 98%;
+}
+
+.fluent-wl-settings-wrap {
+    max-width: 97%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.fluent-wl-settings-header h3 {
+	color: inherit;
+}
+.fluent-wl-message {
+	margin: 0 !important;
+    margin-bottom: 10px !important;
+}
+.fluent-wl-settings {
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    width: 98%;
+    float: left;
+}
+.fluent-wl-setting-tabs {
+	background: #f9f9f9;
+}
+.fluent-wl-setting-tabs a {
+	display: inline-block;
+	padding: 15px;
+	min-width: 125px;
+	text-decoration: none;
+	text-align: center;
+	outline: none !important;
+	box-shadow: none !important;
+}
+.fluent-wl-setting-tabs a.active {
+	background: #fff;
+	color: #333;
+}
+
+.fluent-wl-tab-license span {
+	font-style: italic;
+	color: #999;
+}
+
+.fluent-wl-setting-tab-content {
+	display: none;
+	padding: 10px 30px;
+}
+.fluent-wl-setting-tab-content.active {
+	display: block;
+}
+.bzfluent.upload img {
+    width: 200px;
+    height: auto;
+}
+
+.fluent-wl-setting-tab-content table th {
+	width: 280px;
+}
+.fluent-wl-setting-tab-content label {
+	font-size: 13px;
+}
+
+.fluent-wl-setting-footer {
+	background: #f9f9f9;
+	padding: 18px 30px;
+	border-top: 1px solid #f1f1f1;
+}
+.fluent-wl-setting-footer p.submit {
+	margin: 0;
+    padding: 0;
+}
+.fluent-wl-license-status {
+	text-transform: uppercase;
+	line-height: 2;
+	padding-right: 10px;
+}
+.fluent-wl-license-inactive,
+.fluent-wl-license-invalid {
+	color: #F44336;
+}
+.fluent-wl-license-active {
+	color: #4CAF50;
+}

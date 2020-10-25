@@ -1,0 +1,329 @@
+
+.wp-admin #addQues select, .wp-admin #addQues textarea {
+    width: 100%; float:left; height: 35px;
+}
+.wp-admin #addQues p.submit{ float:left; }
+
+.bzrcp_field {
+    float: left;
+    width: 100%;
+}
+.bzrcp_field h3 {
+    margin: 19px 0px 4px;
+    font-size: 14px;
+}
+.bzrcp_field span {
+    font-style: italic; font-size: 12px;
+}
+.wp-admin #addQues textarea {
+    height: 130px;
+}
+form#addQues {
+    float: left;
+    width: 100%;
+}
+.js #addQues .tmce-active .wp-editor-area {
+    color: #444;
+}
+.multiStep .form-group label { width: 100%; }
+.multiStep .form-group .rating label { width: inherit; }
+
+.multiStep .rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+.multiStep .rating label {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.multiStep .rating label:last-child {
+  position: static;
+}
+
+.multiStep .rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.multiStep .rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.multiStep .rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.multiStep .rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.multiStep .rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.multiStep .rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.modal.multiStep .modal-content .modal-footer p.cancel.closeModal {
+    color: #428bca;
+}
+
+.multiStep .rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.multiStep .rating label:last-child .icon {
+  color: #000;
+}
+
+.multiStep .rating:not(:hover) label input:checked ~ .icon,
+.multiStep .rating:hover label:hover input ~ .icon {
+  color: #09f;
+}
+
+.modal.multiStep {
+    top: 25px;
+}
+.modal.multiStep span.requiredField {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    font-style: italic;
+    padding-top: 6px;
+}
+
+.multiStep .rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #09f;
+}
+
+/*bzrcp-questions popup [i] start*/
+#bzrcp_feedmodal .modal-header { padding: 24px 27px;     }
+
+#bzrcp_feedmodal .form-group {  padding: 26px 20px; }
+
+
+#bzrcp_feedmodal .form-group label {   border: 0px solid;   line-height: 21px;   padding: 0 0 10px 0;   font-weight: 600;}
+
+
+#bzrcp_feedmodal .form-group input {  margin:3px 6px 6px 0px;}
+
+button#bzrcp_nextBtn {   background: #7aac41;   border: none;   border-radius: 3px;   padding: 10px 27px;   font-size: 16px;   letter-spacing: 0.3px;}
+button#bzrcp_backBtn {   background: #4f4f4f;   border: none;   border-radius: 3px;   padding: 10px 27px;   font-size: 16px;   letter-spacing: 0.3px;}
+button#bzrcp_submitBtn { background: #7aac41;   border: none;   border-radius: 3px;   padding: 10px 27px;   font-size: 16px;   letter-spacing: 0.3px;}
+.modal.multiStep .modal-content{
+	-webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+	box-shadow: 0 3px 9px rgba(0,0,0,.5);
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	border-radius: 8px;
+	border: 0;
+}
+.modal.multiStep .modal-content .modal-header {
+    position: relative;
+    border-radius: 8px 8px 0px 0px;
+    color: #000;
+    background-color: #ffffff;
+}
+.modal.multiStep .modal-content .modal-header h4 {
+    color: #000;    
+    font-size: 18px;
+    margin: 0;
+}
+.modal.multiStep .modal-content .modal-header .closeModal {
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 35px;
+    width: 35px;
+    text-align: center;
+    height: 35px
+}
+.modal.multiStep .modal-content .form-group > label {
+    font-weight: normal;
+    font-size: 14px;
+    color: #484848;
+    margin-bottom: 0 !important;
+}
+.modal.multiStep .modal-content .rating {
+    height: 20px;
+    line-height: 20px;
+}
+.modal.multiStep .modal-content .rating label span {
+ 	font-size: 26px;  
+    margin: 0 2px;
+}
+.modal.multiStep .modal-content .modal-body,.modal.multiStep .modal-content .modal-footer{
+	padding: 10px;
+}
+.modal.multiStep .modal-content .modal-body .form-group:last-child {
+    margin-bottom: 0;
+}
+.modal.multiStep .modal-content .modal-footer p {
+    display: inline-block;
+    float: left;
+    color: #353535;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 20px 0 0px 22px;
+    padding: 0;
+    line-height: 13px;
+}
+.modal.multiStep .modal-content .form-group input {
+    margin: 0;
+}
+.modal.multiStep .modal-content .modal-footer p.skipFeedback {
+    padding-left: 16px;
+    position: relative;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.modal.multiStep .modal-content .modal-footer p.skipFeedback:before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    background: #4b4b4b;
+    z-index: 5;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.modal.multiStep .modal-content .modal-footer .btn {
+    border-radius: 0;
+    border: 0px;
+    padding: 5px 12px;
+        background: #fc5f27;
+}
+.modal.multiStep .modal-content .modal-footer .feedback_conti {
+    background: #208fb8;
+}
+.modal.multiStep .modal-content .modal-footer .btn:focus,.modal.multiStep .modal-content .form-group input:focus{
+	-webkit-outline: none;
+	outline: none;
+}
+/*Question Choices style start*/
+.bzrcp_field .entry.input-group input {height: 35px;}
+.bzrcp_field .entry.input-group {
+    width: 100%;
+    display: inline-block;
+}
+.bzrcp_field .entry.input-group div {
+    width: 30.5%;
+    float: left;
+    margin-right: 1%;
+}
+.bzrcp_field .entry.input-group .bzrcp_option3 {
+    position: relative;
+}
+.bzrcp_field .entry.input-group .input-group-btn {
+    float: left;
+    white-space: normal;
+    display: inline-block;
+    width: auto;
+}
+.bzrcp_field #answersUrls button.btn.btn-lg:focus{
+	-webkit-outline: none;
+	outline: none;
+}
+.bzrcp_field .entry.input-group .bzrcp_option3 ul.autoSearch {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 99;
+    width: 100%;
+    padding: 0;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-top: 0px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+.bzrcp_field .entry.input-group .bzrcp_option3 ul.autoSearch li {
+    padding: 10px 15px;
+}
+.bzrcp_field .entry.input-group .bzrcp_option3 ul.autoSearch li:hover {
+    background-color: #f9f9f9;
+    color: #333;
+}
+.bzrcp_field .entry.input-group .bzrcp_option3 ul.autoSearch li:last-child {
+    margin-bottom: 0;
+}
+#bzrcp_main_quesOptions h3 + span {
+    margin-bottom: 8px;
+    display: block;
+}
+.bzrcp_field .entry.input-group .input-group-btn button.btn.btn-lg {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    margin-top: 3px;
+}
+.bzrcp_field .entry.input-group .input-group-btn button.btn.btn-lg .glyphicon {
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 11px;
+    left: 0;
+    right: 0;
+    line-height: 11px;
+}
+.bzrcp_ques_main > h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+#bzrcp_quesType {
+    font-size: 14px;
+}
+/*Question Choices style END*/
+/*bzrcp-questions popup [i] End*/
+
+.entry:not(:first-of-type) {
+  margin-top: 10px;
+}
+.glyphicon {
+  font-size: 12px;
+}
+.modal.multiStep .modal-footer .modal-body {   float: right; }
+
+		#hdTuto_search{
+			display: none;
+		}
+		.list-gpfrm-list a{
+			text-decoration: none !important;
+		}
+
+		.list-gpfrm li{
+			cursor: pointer;
+			padding: 4px 0px;
+		}
+
+		.list-gpfrm{
+			list-style-type: none;
+    		background: #d4e8d7;
+		}
+
+		.list-gpfrm li:hover{
+			color: white;
+			background-color: #3d3d3d;
+		}
+.question a {
+    color: #0073aa;
+}

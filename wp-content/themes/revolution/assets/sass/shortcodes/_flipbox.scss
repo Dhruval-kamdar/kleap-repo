@@ -1,0 +1,133 @@
+/* Flip Box */
+.thb-flip-box {
+	display: flex;
+	position: relative;
+	min-height: 300px;
+	@include transform-style(preserve-3d);
+	@include perspective(1000px);
+
+	svg {
+		width: 60px;
+		margin-bottom: 20px;
+	}
+	.thb-flip-box-side {
+		display: flex;
+		flex: 1;
+		background-position: center;
+		background-size: cover;
+		@include backface-visibility(hidden);
+		@include transform-style(preserve-3d);
+		@extend .transition;
+		.thb-flip-box-inner {
+			display: flex;
+			flex: 1;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			padding: 15px;
+
+			@include transform(translateZ(50px) scale(0.95));
+			@include min-break($break-small) {
+				padding: 30px;
+			}
+			@include min-break($break-medium) {
+				padding: 45px;
+			}
+			h1,h2,h3,h4,h5,h6 {
+				margin-bottom: 10px;
+			}
+			p {
+				color: $color1;
+				font-size: 14px;
+			}
+			.flipbox-image {
+				margin-bottom: 15px;
+				img {
+					width: 64px;
+					display: inline-block;
+				}
+			}
+			div {
+				width: 100%;
+
+				>* {
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+		&.thb-flip-box-back {
+			position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+		}
+	}
+	&.thb-flip-horizontal {
+		.thb-flip-box-side.thb-flip-box-back {
+			@include rotateY(180deg);
+		}
+		&:hover {
+			.thb-flip-box-front {
+				@include rotateY(-180deg);
+			}
+			.thb-flip-box-back {
+				@include rotateY(0deg);
+			}
+		}
+	}
+	&.thb-flip-vertical {
+		.thb-flip-box-side.thb-flip-box-back {
+			@include rotateX(180deg);
+		}
+		&:hover {
+			.thb-flip-box-front {
+				@include rotateX(-180deg);
+			}
+			.thb-flip-box-back {
+				@include rotateX(0deg);
+			}
+		}
+	}
+	&.thb-flip-box-front-light {
+		.thb-flip-box-front {
+			color: #fff;
+			h1,h2,h3,h4,h5,h6,p {
+				color: #fff;
+			}
+			svg path,
+			svg circle,
+			svg rect,
+			svg ellipse {
+				stroke: #fff;
+			}
+		}
+	}
+	&.thb-flip-box-back-light {
+		.thb-flip-box-back {
+			color: #fff;
+			h1,h2,h3,h4,h5,h6,p {
+				color: #fff;
+			}
+			svg path,
+			svg circle,
+			svg rect,
+			svg ellipse {
+				stroke: #fff;
+			}
+		}
+	}
+	.thb-flip-box-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    @include translateZ(50px);
+  }
+}

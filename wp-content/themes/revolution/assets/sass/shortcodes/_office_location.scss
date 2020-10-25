@@ -1,0 +1,115 @@
+/* Locations */
+.thb_location_container {
+  &.thb-office-locations-style1 {
+    &.row {
+      margin-bottom: 8vh;
+    }
+    .slick-track {
+  		min-width: 100%;
+  	}
+  	.thb_location {
+  		width: 100%;
+  		padding: 15px;
+  		cursor: pointer;
+  		@include min-break($break-small) {
+  			padding: 45px;
+  		}
+  		@extend .quick-transition;
+  		h5 {
+  			font-size: 16px;
+  			font-weight: 600;
+  			color: $color2;
+  		}
+  		&.active {
+  			background: #fef5ba;
+  		}
+  	}
+  	.slick-nav {
+  		border-color: rgba($color1, 0.4);
+  		&.slick-prev {
+  			left: 20px;
+  		}
+  		&.slick-next {
+  			right: 20px;
+  		}
+  		svg {
+  			fill: $color1;
+  		}
+  		&:hover {
+  			border-color: $color1;
+  		}
+  	}
+  }
+	&.thb-office-locations-style2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8%;
+    z-index: 20;
+    @include background-image(linear-gradient(rgba(#18181b,0.75) 10%, rgba(#18181b,0)));
+
+    svg {
+      display: block;
+      width: 56px;
+      margin-bottom: 20px;
+
+      @include min-break($break-small) {
+        margin-bottom: 40px;
+      }
+      path,
+      circle,
+      rect,
+      ellipse {
+        stroke: #fff;
+      }
+    }
+    h2 {
+      font-weight: 600;
+      color: #fff;
+    }
+    .thb_location {
+      display: inline-flex;
+      margin-bottom: 20px;
+      margin-right: 30px;
+      cursor: pointer;
+      h5 {
+        margin: 0;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        display: block;
+        position: relative;
+
+        &:after {
+          content: '';
+          height: 1px;
+          width: 100%;
+          background: #fff;
+          position: absolute;
+          top: calc(100% + 2px);
+          left: 0;
+          transform-origin: top left;
+          @include scale(0,1);
+          @extend .quick-transition;
+        }
+      }
+      &.active {
+        h5 {
+          &:after {
+            @include scale(1,1);
+          }
+        }
+      }
+    }
+  }
+}
+.thb_office_location_container {
+  &.style2 {
+    position: relative;
+
+    .thb_office_location {
+      z-index: 10;
+    }
+  }
+}

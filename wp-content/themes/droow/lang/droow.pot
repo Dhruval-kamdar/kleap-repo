@@ -1,0 +1,934 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Droow\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-05 00:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: Dsn grid <info@dsngrid.com>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx;_nx:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: 404.php:26 inc/function-helpers.php:231
+msgid "404"
+msgstr ""
+
+#: 404.php:33
+msgid "It looks like nothing was found at this location. Maybe try a search? "
+msgstr ""
+
+#: archive.php:11 index.php:11 page-posts.php:34
+msgid "PREV"
+msgstr ""
+
+#: archive.php:12 index.php:12 page-posts.php:35
+msgid "NEXT"
+msgstr ""
+
+#: comments.php:35
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:36
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:50 inc/function-helpers.php:778 inc/function-helpers.php:784
+msgid "Comments"
+msgstr ""
+
+#: comments.php:63
+msgid "Comment Are Closed"
+msgstr ""
+
+#: comments.php:79
+msgid "Type your name"
+msgstr ""
+
+#: comments.php:80
+msgid "Type your Email Address"
+msgstr ""
+
+#: comments.php:81 inc/function-helpers.php:774 inc/function-helpers.php:780
+msgid "Comment"
+msgstr ""
+
+#: comments.php:85
+msgid "What's your name?"
+msgstr ""
+
+#: comments.php:86
+msgid "What's your email address?"
+msgstr ""
+
+#: comments.php:91
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:92
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:97
+msgid "Leave a reply to"
+msgstr ""
+
+#: comments.php:98
+msgid "Cancel"
+msgstr ""
+
+#: comments.php:101
+msgid "comment?"
+msgstr ""
+
+#: header.php:37
+msgid "loading..."
+msgstr ""
+
+#: header.php:87
+msgid "Menu"
+msgstr ""
+
+#: header.php:88
+msgid "Open"
+msgstr ""
+
+#: header.php:89
+msgid "Close"
+msgstr ""
+
+#. Name of the template
+msgid "Posts Template"
+msgstr ""
+
+#: page-posts.php:26 page-work.php:38
+msgid "Load More"
+msgstr ""
+
+#: page-posts.php:27 page-work.php:39
+msgid "NO MORE"
+msgstr ""
+
+#. Name of the template
+msgid "Slider Template"
+msgstr ""
+
+#: page-slider.php:109
+msgid "01"
+msgstr ""
+
+#. Name of the template
+msgid "Work Template"
+msgstr ""
+
+#: page-work.php:25
+msgid "Project"
+msgstr ""
+
+#: page.php:14 single.php:21
+msgid "Pages"
+msgstr ""
+
+#: searchform.php:4
+msgid "Find what you want..."
+msgstr ""
+
+#: single.php:38
+msgid "Share with:"
+msgstr ""
+
+#: droow_helper_plugin/droow_helper_plugin.php:38
+#, php-format
+msgid "Error locating %s for inclusion"
+msgstr ""
+
+#. Name of the template
+msgid "Miao Contact Template"
+msgstr ""
+
+#: inc/function-helpers.php:180
+msgid "Categories Archives"
+msgstr ""
+
+#: inc/function-helpers.php:187
+msgid "Tags Archives"
+msgstr ""
+
+#: inc/function-helpers.php:195
+msgid "Search"
+msgstr ""
+
+#: inc/function-helpers.php:202
+msgid "Author Archives"
+msgstr ""
+
+#: inc/function-helpers.php:209
+msgid "Daily Archives"
+msgstr ""
+
+#: inc/function-helpers.php:217
+msgid "Monthly Archives"
+msgstr ""
+
+#: inc/function-helpers.php:224
+msgid "Yearly Archives"
+msgstr ""
+
+#: inc/function-helpers.php:232
+msgid "Oops! Not Found"
+msgstr ""
+
+#: inc/function-helpers.php:233
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: inc/function-helpers.php:399
+msgid "View All Posts in"
+msgstr ""
+
+#: inc/function-helpers.php:552
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#: inc/function-helpers.php:733
+msgid "View All Posts in Tag"
+msgstr ""
+
+#: inc/function-helpers.php:820 inc/function-helpers.php:826
+msgid "Next Post"
+msgstr ""
+
+#: inc/function-helpers.php:859
+msgid "Next Page"
+msgstr ""
+
+#: inc/function-helpers.php:907
+msgid "Next Project"
+msgstr ""
+
+#: inc/function-helpers.php:1055
+msgid "All"
+msgstr ""
+
+#: inc/function-nav.php:4
+msgid "Header Navigation Menu"
+msgstr ""
+
+#: inc/function-required-plugins.php:64 
+#: droow_helper_plugin/inc/droow-required-plugins.php:54
+msgid "Advanced Custom Fields PRO"
+msgstr ""
+
+#: inc/function-required-plugins.php:71 
+#: droow_helper_plugin/inc/droow-required-plugins.php:63
+msgid "Droow Helper Plugin"
+msgstr ""
+
+#: inc/function-required-plugins.php:77 
+#: droow_helper_plugin/inc/droow-required-plugins.php:71
+msgid "Kirki"
+msgstr ""
+
+#: inc/function-required-plugins.php:82 
+#: droow_helper_plugin/inc/droow-required-plugins.php:76
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/function-theme-support.php:127
+msgid "Primary"
+msgstr ""
+
+#: inc/function-theme-support.php:132
+msgid "dark gray"
+msgstr ""
+
+#: inc/function-theme-support.php:137
+msgid "very light gray"
+msgstr ""
+
+#: inc/function-theme-support.php:142
+msgid "very dark gray"
+msgstr ""
+
+#: inc/function-theme-support.php:147
+msgid "White"
+msgstr ""
+
+#: inc/function-theme-support.php:161
+msgid "Small"
+msgstr ""
+
+#: inc/function-theme-support.php:162
+msgid "S"
+msgstr ""
+
+#: inc/function-theme-support.php:167
+msgid "Normal"
+msgstr ""
+
+#: inc/function-theme-support.php:168
+msgid "N"
+msgstr ""
+
+#: inc/function-theme-support.php:173
+msgid "Medium"
+msgstr ""
+
+#: inc/function-theme-support.php:174
+msgid "M"
+msgstr ""
+
+#: inc/function-theme-support.php:179
+msgid "Large"
+msgstr ""
+
+#: inc/function-theme-support.php:180
+msgid "L"
+msgstr ""
+
+#: inc/function-theme-support.php:185
+msgid "Huge"
+msgstr ""
+
+#: inc/function-theme-support.php:186
+msgid "XL"
+msgstr ""
+
+#: inc/function-widget.php:17
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/function-widget.php:18
+msgid "This is the widgetized blog sidebar."
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:21
+msgid "Works"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:22
+msgid "New Work"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:23
+msgid "Add Work"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:24
+msgid "Add New Work"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:38 
+#: droow_helper_plugin/inc/droow-admin-post.php:39 
+#: droow_helper_plugin/inc/droow-admin-post.php:53
+msgid "Categories"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:40
+msgid "Search Categories"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:41
+msgid "Popular Categories"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:42
+msgid "All Categories"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:45
+msgid "Edit Categories"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:46
+msgid "Update Categories"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:47
+msgid "Add New Categories"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:48
+msgid "New Categories Name"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:49
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:50
+msgid "Add or remove Categories"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:51
+msgid "Choose from the most used Categories"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-admin-post.php:52
+msgid "No Categories found."
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-function-helper.php:171 
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/share.php:35
+msgid "Facebook"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-function-helper.php:172 
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/share.php:36
+msgid "Twitter"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-function-helper.php:173 
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/share.php:37
+msgid "Google+"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-function-helper.php:174 
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/share.php:38
+msgid "Pinterest"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-function-helper.php:175 
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/share.php:39
+msgid "Get Pocket"
+msgstr ""
+
+#: droow_helper_plugin/inc/droow-function-helper.php:176 
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/share.php:40
+msgid "Telegram"
+msgstr ""
+
+#: inc/classes/class-droow-walker-comment.php:57
+msgid " at "
+msgstr ""
+
+#: inc/classes/class-droow-walker-comment.php:71
+msgid "Edit"
+msgstr ""
+
+#: inc/classes/class-droow-walker-comment.php:77
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/classes/class-droow-walker-comment.php:86
+msgid "Reply"
+msgstr ""
+
+#: inc/classes/droow-class-nav-list-walker.php:351 
+#: inc/classes/droow-class-nav-walker.php:358 
+#: inc/classes/droow-class-nav-walker.php:358
+msgid "Add a menu"
+msgstr ""
+
+#: template-parts/content/content-all-work.php:22
+msgid "All Works"
+msgstr ""
+
+#: template-parts/content/content-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content/content-none.php:10
+#, php-format
+msgid "Ready to publish your first post? %1$s."
+msgstr ""
+
+#: template-parts/content/content-none.php:10
+msgid "Get started here"
+msgstr ""
+
+#: template-parts/content/content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content/content-none.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content/content-slider.php:68
+msgid "View Case"
+msgstr ""
+
+#: template-parts/content/content-work.php:32 
+#: droow_helper_plugin/inc/views/shortcode/dsnPosts.php:132
+msgid "View Project"
+msgstr ""
+
+#: template-parts/content/content.php:32
+msgid "Featured"
+msgstr ""
+
+#: template-parts/content/content.php:40
+msgid "Read More"
+msgstr ""
+
+#: template-parts/footer/footer-cursor.php:10
+msgid "Scroll"
+msgstr ""
+
+#: template-parts/footer/footer-cursor.php:13
+msgid "or hold"
+msgstr ""
+
+#: template-parts/header/header-normal.php:17
+msgid "Scroll Down"
+msgstr ""
+
+#: template-parts/header/header-normal.php:19
+msgid "arrow right wight"
+msgstr ""
+
+#: template-parts/header/header-project.php:53
+msgid "View Website"
+msgstr ""
+
+#: template-parts/header/header-project2.php:5
+msgid "discover"
+msgstr ""
+
+#: template-parts/header/header-project2.php:7
+msgid "scroll to"
+msgstr ""
+
+#: droow_helper_plugin/inc/views/shortcode/dsnPosts.php:130
+msgid "View Post"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/customizer-pages.php:53
+msgid "Droow Customize Option"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/customizer-pages.php:54
+msgid "My Options Theme"
+msgstr ""
+
+#. Author of the theme
+#: droow_helper_plugin/inc/resources/views/pages/options/Block-pages.php:10
+msgid "Design Grid"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/ajax_options.php:6
+msgid "Ajax Options"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/ajax_options.php:12
+msgid "Load Pages With Ajax"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/ajax_options.php:13
+msgid "When navigate like (menu , link) loads "
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/ajax_options.php:22
+msgid "Load Menu With Ajax"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/ajax_options.php:23
+msgid ""
+"When navigate from Menu loads the target content without reloading the "
+"current page."
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/event_smooth_scrolling.php:6
+msgid "Smooth Scrolling Option"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/event_smooth_scrolling.php:13
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:48
+msgid "Event Smooth Scrolling"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/event_smooth_scrolling.php:14
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:49
+msgid ""
+"Distance. Use smaller value for shorter scroll and greater value for longer "
+"scroll"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/footer_setting.php:26
+msgid "Footer Settings"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/footer_setting.php:33
+msgid "Footer Credits Text"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/footer_setting.php:34
+msgid ""
+"Allowed HTML Tags: a, em, br, strong, img, i. and you can use year dynamic "
+"add :y"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/footer_setting.php:43
+msgid "Mobile"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/footer_setting.php:52
+msgid "E-mail"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/footer_setting.php:61
+msgid "Code JS Footer"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:5
+msgid "General Options"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:11
+msgid "Portfolio custom slug"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:12
+msgid "if you want your portfolio post type to have a custom slug in the url."
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:21
+msgid "Page Preloader"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:22
+msgid "Enable preloader mask while the page is loading."
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:30
+msgid "Show Button Style Theme"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:38
+msgid "Effect Cursor"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:54
+msgid "Info Menu"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:58
+msgid "All Information"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:63
+msgid "Settings"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:68
+msgid "\"Add new\" (Info) "
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/general_options.php:73
+msgid "Value"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:6
+msgid "Header Image"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:13
+msgid "Light Logo"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:25
+msgid "Dark Logo"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:37
+msgid "Logo Width"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:38
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:88
+msgid "0 for auto width"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:51
+msgid "Logo Height"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:52
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:102
+msgid "0 for auto Height"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:64
+msgid "Logo text size"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:77
+msgid "Admin Login Logo"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:87
+msgid "Admin Logo Width"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:101
+msgid "Admin Logo Height"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:116
+msgid "Code HTML Header"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:129
+msgid "Code CSS Header"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/header_image.php:141
+msgid "Code JS Header"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/map_setting.php:6
+msgid "Map Settings"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/map_setting.php:14
+msgid "Map marker"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/map_setting.php:22
+msgid "Google Maps API Key"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/map_setting.php:23
+msgid ""
+"Without it, the map may not be displayed. If you have an api key paste it "
+"here. https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY "
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:9
+msgid "Option Pages"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:19
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:74
+msgid "Sidebar"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:24
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:79
+msgid "Show"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:25
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:80
+msgid "Hide"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:32
+msgid "Title"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:42
+msgid "Subtitle"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:50
+msgid "Description"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/page_options.php:88
+msgid "Background Image"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/share.php:6
+msgid "Share Links"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/share.php:16
+msgid "Sharing Buttons"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/share.php:17
+msgid "enable you to add social share buttons to WordPress"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/share.php:26
+msgid "This is Share Buttons"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:4
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:42
+msgid "Social Settings"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:11
+msgid "Display Social ( Footer )"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:15
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:28
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:51
+msgid "Social Name"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:16
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:29
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:59
+msgid "initial Social Name"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:17
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:30
+#:  
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:66
+msgid "Icon Social"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:24
+msgid "Display Social ( Slider )"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:37
+msgid "All Social"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:46
+msgid "\"Add new\" (Social) "
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:67
+msgid ""
+"You can control this icons from <a href=\"https://fontawesome.com/icons?"
+"d=gallery&m=free\" target=\"_blank\" >This Page </a> copy into class like "
+"fab fa-500px"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:75
+msgid "URL"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:81
+msgid "Show In Slider"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/social_settings.php:88
+msgid "Show In Footer"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/typography.php:6
+msgid "Typography"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/typography.php:12
+msgid "Event Typograph"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/typography.php:21
+msgid "Logo Font"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/typography.php:53
+msgid "Primary Font"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/typography.php:88
+msgid "Heading Font"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/customizer/block/typography.php:121
+msgid "Loading Title"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/boxGallery.php:4
+msgid "Box Vertical Gallery"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/boxVertical.php:4
+msgid "Box Vertical With Image"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/Brand.php:4
+msgid "Brand"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/contact.php:4
+msgid "Contact"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/embeddedVideo.php:5
+msgid "Parallax Embedded Video"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/experience.php:4
+msgid "Experience"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/featured-posts.php:4
+msgid "Featured Posts"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/gallery.php:4
+msgid "Justified Gallery"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/intro.php:4
+msgid "Introduction"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/map.php:4
+msgid "Map"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/parallaxImage.php:5
+msgid "Parallax Image"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/parallaxImage_with_box.php:5
+msgid "Image With Box Description"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/service.php:4
+msgid "Service"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/slider.php:4
+msgid "Slider"
+msgstr ""
+
+#: droow_helper_plugin/inc/resources/views/pages/options/blocks/team.php:4
+msgid "Team"
+msgstr ""
+
+#. Name of the theme
+msgid "Droow"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"is a new portfolio concept for creative agencies and freelancers. Graphic "
+"designers, illustrators, photographers or any kind of creative is now able "
+"to create a quick and easy portfolio to showcase their work with a "
+"distinctive and creative touch."
+msgstr ""
+
+#. URI of the theme
+msgid "https://themeforest.net/user/design_grid/portfolio"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/design_grid"
+msgstr ""

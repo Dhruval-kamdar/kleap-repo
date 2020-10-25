@@ -1,0 +1,136 @@
+/* Side Cart */
+#side-cart {
+	@include translateX(100%);
+
+	.rtl & {
+		@include translateX(-100%);
+	}
+	.side-panel-content {
+		position: relative;
+		display: block;
+		padding-bottom: 115px;
+		overflow: hidden;
+
+		@include min-break($break-small) {
+			padding-bottom: 160px;
+		}
+		.widget_shopping_cart {
+			flex: 1;
+			height: 100%;
+			margin-bottom: 0;
+			padding-bottom: 35px;
+
+			.widgettitle {
+				display: none;
+			}
+			.widget_shopping_cart_content {
+				overflow: hidden;
+				height: 100%;
+				max-height: 100%;
+
+				.woocommerce-mini-cart {
+					height: 100%;
+					max-height: 100%;
+					position: relative;
+					.woocommerce-mini-cart-item {
+
+						&:last-of-type {
+							margin: 0;
+						}
+					}
+					.ps__scrollbar-y-rail .ps__scrollbar-y {
+						background: rgba(#000, 0.2);
+
+						&:hover {
+							background: rgba(#000, 0.6);
+						}
+					}
+				}
+			}
+		}
+		.woocommerce-mini-cart__total {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			height: 45px;
+			border-top: 1px solid #eaeaea;
+			border-bottom: 1px solid #eaeaea;
+			font-weight: 500;
+			color: $color1;
+			position: absolute;
+			bottom: 70px;
+			left: 15px;
+			right: 15px;
+			margin: 0;
+			@include min-break($break-small) {
+				left: 30px;
+				right: 30px;
+				height: 60px;
+				bottom: 100px;
+			}
+		}
+		.woocommerce-mini-cart__buttons {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 15px;
+			margin: 0;
+			width: 100%;
+			@include min-break($break-small) {
+				padding: 30px;
+			}
+
+			display: flex;
+
+			.button {
+				flex: 1;
+				padding: 0 5px;
+				& + .button {
+					margin-left: 15px;
+
+					@include min-break($break-small) {
+						margin-left: 30px;
+					}
+					.rtl & {
+						margin-left: 0;
+						margin-right: 15px;
+						@include min-break($break-small) {
+							margin-left: 0;
+							margin-right: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Side Filters */
+#side-filters {
+	right: auto;
+	left: 0;
+	@include translateX(-100%);
+
+	.rtl & {
+		left: auto;
+		right: 0;
+		@include translateX(100%);
+	}
+	.widget {
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid rgba(0,0,0,0.08);
+
+		h6 {
+			cursor: pointer;
+			margin-bottom: 20px;
+
+			&.active {
+				margin-bottom: 0;
+			}
+		}
+		&:last-child {
+			border: 0;
+		}
+	}
+}

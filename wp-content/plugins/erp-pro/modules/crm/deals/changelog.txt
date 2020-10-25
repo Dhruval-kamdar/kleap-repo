@@ -1,0 +1,23 @@
+= v1.1.2 =
+--------------------------
+- Fixed some permission issues
+- Increased year range to expected close date
+- Updated some string
+
+= v1.1.1 (25 June, 2019) =
+--------------------------
+- Progress of deal shows wrong pipeline data
+- Fix deals loading issue
+
+= v1.1.0 (25 October, 2018) =
+--------------------------
+- Made compatible with wp-erp 1.4.0
+- Fixed Progress bar loading
+
+= v1.0.1 (26 October, 2017) =
+--------------------------
+- Fix compatibility with wp-erp 1.2.7
+
+= v1.0.0 (29 December, 2016) =
+--------------------------
+- Initial release

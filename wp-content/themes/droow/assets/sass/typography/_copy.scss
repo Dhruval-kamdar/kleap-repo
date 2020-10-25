@@ -1,0 +1,78 @@
+::selection {
+
+}
+
+
+p {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: $line-height-content;
+}
+
+
+cite,
+dfn,
+em,
+i {
+  font-style: italic;
+}
+
+span, a {
+  display: inline-block;
+  color: inherit;
+}
+
+blockquote {
+
+  cite {
+    font-style: normal;
+    font-family: $heading-font;
+  }
+}
+
+pre {
+  font-family: $font-pre;
+  overflow: auto;
+  margin-top: 10px;
+}
+
+select {
+  padding: 10px;
+}
+
+code,
+kbd,
+tt,
+var {
+  font-family: $font-code;
+}
+
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+mark,
+ins {
+  border-bottom: 1px dotted #666;
+}
+
+big {
+  font-size: 125%;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+
+
+

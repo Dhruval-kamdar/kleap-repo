@@ -1,0 +1,2632 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FS Poster v4</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <style>
+
+
+/*
+Based on Minimal CSS (minimalcss.com) under the MIT license.
+*/
+
+/* Reset */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Layout */
+body { background-color: #fff; color: #333;	font: 14px/20px -apple-system, "HelveticaNeue", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+header { width: 100%; margin: 0 auto; position: relative; padding: 20px 0; margin-bottom: 20px; }
+
+nav ul { margin: 0; }
+nav ul li { display: inline; margin-right: 20px; font-size: 16px; line-height: 28px; color: #333; }
+nav ul li a { color: #333; }
+
+.container { position: relative; max-width: 90%; margin: 0 auto; }
+
+footer { border-top:1px solid #ccc; font-size:11px; line-height:26px; color:#999; }
+footer a { color:#999999; }
+footer a:hover { color:#105CB6; }
+footer ul li { display:inline; list-style:none; padding-left:20px; }
+
+/* Typography */
+a { color: #105CB6; text-decoration: none; }
+a:hover, a:focus { color: #105CB6; text-decoration: underline; }
+a:active { color: #105CB6; }
+
+h1 { font-size: 24px; line-height: 20px; margin: 10px 0; }
+h2 { font-size: 20px; line-height: 20px; margin: 10px 0; }
+h3 { font-size: 16px; line-height: 20px; margin: 10px 0; }
+h4 { font-size: 14px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 12px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 10px; line-height: 20px; margin: 10px 0; }
+h1,h2,h3,h4,h5,h6 { color: #333; }
+
+p { margin-bottom: 10px; }
+
+.float-left     { float: left; }
+.float-right    { float: right; }
+img.float-left  { float: left; margin: 0 20px 20px 0; }
+img.float-right { float: right; margin: 0 0 20px 20px; }
+img.center      { margin: 0 auto; display: block; }
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Misc */
+hr { background-color: #ccc; border: 0px; color: #ccc; height: 1px; margin: 8px 0 20px 0; }
+pre, code { background:#E0ECF6; display:block; margin-bottom: 20px; padding:10px; }
+
+blockquote { margin: 10px 10px 20px; padding: 9px; background-color: #f8f8f8; color: #666; border-left: 5px solid #ddd; font: 14px/20px Georgia, Times, serif; quotes: "\201C" "\201D"; }
+blockquote p { margin: 0; }
+blockquote:before { content: open-quote; font-weight: bold; }
+blockquote:after  { content: close-quote; font-weight: bold; }
+
+/* List */
+ul { list-style-position:inside; }
+ol { list-style-position:inside; }
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th { font-weight: bold; }
+tfoot { font-style: italic; }
+
+/* Metadata part */
+
+.metadata {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+table.metadata td {
+  padding-right: 20px;
+}
+
+.stats {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.graph {
+  width: 100%;
+}
+.graph div { float: left; }
+.graph div:first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.graph div:last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.percent-done    { background-color: rgb(90, 228, 140); height: 10px; }
+.percent-fuzzy   { background-color: rgb(255, 167, 52); height: 10px; }
+.percent-untrans { background-color: #F1F1F1; height: 10px; }
+.legend {
+  font-size: smaller;
+  color: #aaa;
+  padding-top: 12px;
+  text-align: center;
+}
+
+/* Translations */
+table.translations {
+  width: 100%;
+  table-layout: fixed;
+}
+table.translations th, table.translations td {
+  padding: 5px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #E1E1E1;
+}
+table.translations th {
+  text-align: left;
+}
+table.translations th:first-child, table.translations td:first-child { padding-left: 0; }
+table.translations th:last-child, table.translations td:last-child { padding-right: 0; }
+
+.with-comments td {
+  border-bottom: none !important;
+}
+tr.comments div {
+  float: left;
+  max-width: 90%;
+  font-size: smaller;
+  color: #aaa;
+}
+tr.comments div p:last-child { margin-bottom: 0; }
+tr.comments td { padding-top: 0; }
+
+.fuzzy .tra {
+  color: rgb(218, 123, 0);
+}
+
+.msgctxt {
+  color: rgb(70, 109, 137);
+  font-size: smaller;
+  background-color: rgb(217, 232, 242);
+  border-radius: 2px;
+  padding: 2px 4px;
+  margin-right: 4px;
+}
+
+
+  </style>
+</head>
+<body>
+<div class='container'>
+<table class='metadata'>
+<tr><td>Project:</td><td>FS Poster v4</td></tr>
+</table>
+<div class='stats'>
+  <div class='graph'>
+    <div class='percent-untrans' style='width: 100%'>&nbsp;</div>
+  </div>
+  <div class='legend'>614 entries  </div>
+</div>
+<table class='translations'>
+  <thead>
+    <tr>
+      <th>Source text — English</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The App ID or the App Secret is invalid!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Session expired. Please remove your Facebook account from the plugin and add it again! P.S. Don't Log out from your Facebook account after adding that. When you Log out your account, session will be destroyed and you can't share any post. Best practic is to add your account within Incognito mode!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error! Facebook cookie method doesn't allow sharing videos!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error! %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error! Failed to upload the image!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+An error occured while sharing the post.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+%s ( error code: %s )</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error! It couldn't share the post!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You should install and enable GD, libjpeg, libpng, and freetype libraries. &lt;a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue3' target='_blank'&gt;Learn more.&lt;/a&gt;</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error: %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The cookie method doesn't support sharing videos on stories!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The cookie value isn't valid! Please get the new one.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter the verification code we have sent to your number ending in %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter the verification code we have sent to %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+An error occurred while processing the request!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error! The App isn't found!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+An image is required to pin on board!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Couldn't upload the image!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error! Please check the data and try again!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Required URL (or featured image path) not found!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Title is too long. Maximum allowed character limit is 300. You can enable auto-cut option from Reddit settings.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Content can't be empty!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Unknown error!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Failed to share the post because the post type is not available on the remote website.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The entered details are wrong!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please, select an application!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please, enter your cookies!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Challenge required! Activation code was sent to </td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Activation code</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter the activation code</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please, enter activation code.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Two factor authentication required! Activation code was sent to </td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Account ID is not correct. Please, refresh page and try again.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No active chat(s) found.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select chat</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Chat ID is not correct.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please, enter Chat ID.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please, enter bot`s token!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+URL is empty!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please, enter your credentials!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The URL must start with http(s)!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ADD A BOT</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ADD A WEBSITE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ADD AN ACCOUNT</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Are you sure you want to delete?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Account has been added successfully!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+CLOSE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Saved successfully!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The entered cookies are wrong!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The account isn't found!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You don't have permission to remove the account! Only the account owner can remove it.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+bots</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ADD A SITE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+sites</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+accounts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please select categories and filter type!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Account not found or you do not have a permission for this account!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Only the account owner can make it public or private!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter the username and password!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter the Instagram account username and password!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter the code!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The access token is empty!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You have not a permission for adding subreddit in this account!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter the Pinterest cookie!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post categories</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Product categories</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Custom categories</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Group not found!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Page not found!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Define conditions for the account</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share only the posts of the selected categories, tags, etc...</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Do not share the posts of the selected categories, tags, etc...</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Cancel</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ACTIVATE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Add an account</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select an authorization method to add a new Facebook account</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+How to?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Recommended method</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+App method</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Cookie method</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select an App</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't a Facebook App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter the cookie</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Use a proxy</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Optional field. Supported proxy formats: https://127.0.0.1:8888 or https://user:pass@127.0.0.1:8888.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter a proxy address</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ADD</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post as a Facebook Page in Groups</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select a Facebook page to share your posts in Facebook groups on behalf of the page. Note that the page has to be linked to the group; otherwise, the post will fail.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+CANCEL</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SAVE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+It is public for all WordPress users.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Proxy</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Pages</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Groups</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Posts as %s. Click to change.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Profile link</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+It is public for all WordPress users</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There haven't been added any </td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Optional field. Supported proxy formats: https://127.0.0.1:8888 or https://user:pass@127.0.0.1:8888</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Locations</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select an authorization method to add a new Instagram account</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Login &amp; password</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Cookie</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Username</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter the username</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Password</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter the password</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't a LinkedIn App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+GET ACCESS</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Companies</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There haven't been added any %s yet.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't a Medium App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Publications</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+no flair</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't a Twitter App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select an authorization method to add a new Pinterest account</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't a Pinterest App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Boards</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Board</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't a Reddit App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Add a subreddit</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select a subreddit</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select flair</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Subreddits</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ADD A SUBREDDIT</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ yet.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Add a bot</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Bot token</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Add a chat</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Chat ID</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter the Chat ID</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Last active chats (optional)</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Reload the list</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No chat found. Reload and check again.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Chats</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ADD A CHAT</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't a Tumblr App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Blogs</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't a VKontakte App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+When the authorization has completed, copy the URL</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+URL</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Paste the copied URL here</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Communities</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Add a website</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter the website URL</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Activate</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Activate (condition)</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Deactivate</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Make public</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Make private</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Delete</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Accounts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please, enter your app credentials!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+App has been added successfully.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't an App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You don't have permission to delete the App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can't delete the App!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+field is empty!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The App has already been added.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Add a new App</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;/b&gt; and &lt;b&gt;</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Type &lt;b&gt;%s&lt;/b&gt;</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The App ID</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The App Key</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The App Secret</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The App Version</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ADD AN APP</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Apps</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The callback URL for your App is:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The App Key:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The App Secret:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The App ID:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can't delete the App</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't an App.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please choose a social network to continue</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Plugin reactivated!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter the purchase code!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please, let us know how did you find us!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Plugin installed!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Do you want to empty share list?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Added to list!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Plugin updated!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+OK</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+DELETE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Not connect.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Requested page not found. [404]</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Internal Server Error [500].</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Requested JSON parse failed.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Time out error.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Ajax request aborted.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Uncaught Error.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Posts will be shared on background!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The post will be shared in the background!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select accounts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Search account</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Search</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Your plugin is disabled. Please activate the plugin.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Reason: %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter the purchase key</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+RE-ACTIVATE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Dashboard</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Schedules</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Direct Share</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Logs</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please activate the plugin.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter your e-mail address (optional)</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Where did You find us?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please select an account</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Facebook post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Twitter post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Instagram post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Instagram story message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize LinkedIn post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize VKontakte post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Pinterest post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Reddit post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Tumblr post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Odnoklassniki post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Google My Business post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Telegram post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize Medium post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize WordPress post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+CLEAR</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Shared on:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Posted successfully.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Going to share in a minute.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Going to share after %d minute(s).</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The post is failed. %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The post hasn't been shared on any account!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SHARE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SHARE AGAIN</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SCHEDULE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+EDIT SCHEDULE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+A new version %s is available. Please update the plugin.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+UPDATE AND ACTIVATE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Shares in this month</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Clicks in this month</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Total accounts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Clicks from schedules</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Shared posts count</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Daily</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Monthly</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Annually</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Clicks count</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Social networks comparison (by clicks)</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Accounts comparison (by clicks)</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Are you sure you want to clear logs?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SUCCESS</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ERROR</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+RETRY</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+NOT SENT</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post link</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Publication link</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Hits</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Comments</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Likes</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Shares</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Filter results</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Count of rows</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+CLEAR LOGS</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Search categories, tags... ( min. 2 character )</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Interval is not correct!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No post matches your filters!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you want to share repeatedly, you should schedule only a post!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Are you sure you want to delete all selected schedules?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You need to select schedules for delete!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Too many posts are selected! You can select maximum 250 posts!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No account or community is selected.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The name can't be empty!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please select the start date and time!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please type the interval!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Validation error</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Schedule date is empty!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Plan date or time is not valid!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Plan date or time is not valid!&lt;br&gt;Please select Schedule date/time according to your server time. &lt;br&gt;Your server time is: %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please select at least one post.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Too many post selected! You can select maximum 250 posts!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't a schedule.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You don't have permission to delete the schedule!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No schedule selected!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You don't have permission to Pause/Play the schedule!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+This schedule has finished!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Only the posts of the selected categories, tags, etc. will be shared:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The posts of the selected categories, tags, etc. will not be shared:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ADD A NEW SCHEDULE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ADD A SCHEDULE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+RE-SCHEDULE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SAVE THE SCHEDULE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SAVE CHANGES</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+1</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Basic data</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+2</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Filters</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+3</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+4</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Custom messages</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Name</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Add a name for your schedule to recognize it in your schedule list.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter a name</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Start date &amp; time</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+When the schedule will start?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select date</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select time</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Local time: %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+How you want to share</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Define to share a single post repeatedly or once</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share once</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share repeatedly</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post every</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The interval between posts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Hour</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Minute</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Day</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Set a sleep timer</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can set a sleep timer in your schedule. The plugin won't share any post during the sleep time.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Order posts by</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Method for selecting posts.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Randomly ( without duplicates )</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Randomly</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Old posts first</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+New posts first</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+By the published time of the posts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select posts that are published in a specific time.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+All times</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+This week</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Previous week</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+This month</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Previous month</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+This year</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Last 30 days</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Last 60 days</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+By post type</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can select new post types in [ FS Poster &gt; Settings &gt; Share post types ].</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Don't post products that are out of stock</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+By the post category and tag</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Specific Post ID(s) (separate by comma)</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please select an account.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share only the posts of the selected categories: </td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Do not share the posts of the selected categories: </td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post ID</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+WooCommerce - product price</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post author name</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The default is the first 40 characters. You can set the number whatever you want. The plugin will share that number of characters.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post title</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Featured image URL</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post Tags</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+WooCommerce - product sale price</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post full content</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post short link</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post excerpt</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post Categories</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Unique ID</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Custom fields. Replace KEY with the custom field name.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Click to clear the textbox</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Posts matching your filters:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Calendar</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+BACK TO SCHEDULES</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SCHEDULED POSTS</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+CALENDAR</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you want the Schedule module to work on time, please configure Cron Job on your website. Click the button to learn more.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+HAVE ISSUES?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post ID:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Scheduled on DIRECT SHARE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post type:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Start date</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Next post</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Pause shares</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Resume shares</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Re-schedule</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There haven't been created any schedules yet.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+EXPORT SETTINGS</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Export is successful. The download process is starting.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+IMPORT SETTINGS</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+UPLOADING...</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+File can't be empty</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The current data will be removed from the plugin and the data in the import file will be restored. Are you sure you want to continue?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Successfully restored!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+YES, IMPORT</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Are you sure you want to save changes?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+YES, SAVE CHANGES</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+manually disabled by user.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Plase type the hashtag</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No valid import file is selected!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error occurred while importing!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Export multisite</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to export the plugin settings for all websites on this network. Disable to export only the current website settings.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Export accounts &amp; communities</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to export all your accounts and communities like pages, groups, companies, etc.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Export failed accounts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to export the failed accounts. Disabling the option and adding the failed accounts to the plugin again is recommended.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Export status of accounts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to export status of accounts, pages, groups, companies, etc. The status includes if it is activated or activated with conditions.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Export Apps</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to export all your personal Apps.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Export logs</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you are re-installing the plugin on the same website for any reason, we recommend exporting logs as well because your future schedules might share your posts that are already shared by schedules.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Export schedules</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you are re-installing the plugin on the same website for any reason, you can export all your current schedules. If you are importing schedules of a different website to a new website, the schedules won't work.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Export settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to export all your current settings and custom messages.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Load my pages</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to add all your pages to the plugin, pages that you are an admin.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Load groups</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to add all your groups to the plugin.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Posting type</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Link card view – share the post with the link;&lt;br&gt;Upload featured image only - upload and share featured image only;&lt;br&gt;Upload all post images - upload and share featured image and all attached images as an album.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Link card view</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Upload featured image only</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Upload all post images</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Custom message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can customize the text of the shared post as you like by using the current keywords.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Text</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Preview</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Show FS Poster column on the posts table</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you don't want to show FS Poster &lt;i class="far fa-question-circle fsp-tooltip"  data-title="Click to learn more" data-open-img="</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Check accounts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable the option to check the status of all active accounts daily.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Disable failed accounts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable the option to deactivate failed accounts. If you have enabled the option to check the status of your accounts and if the connection to the account is unable, the plugin will not share posts on those failed accounts.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Custom post types</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Add post types that you want to share.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Hide FS Poster for</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select the user roles to hide the FS Poster plugin for some users.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Collect FS Poster statistics</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The plugin appends a "feed_id" parameter to a post link to get statistics. Disabling the option prevents you from getting statistics in the Insights menu. And because the plugin does not collect statistics,  you might also have duplicate posts on Social Networks even if you select the “Randomly (without duplicates)” option when you use the schedule module.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+License status</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you want to transfer the plugin to another website, you have to disable the license on this website. Disabling the license keeps all data, except the license. We recommend &lt;a href="?page=fs-poster-settings&amp;setting=export_import" target="_blank"&gt;backing up&lt;/a&gt; the plugin before disabling the license.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Cron Job settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;a href="https://www.fs-poster.com/documentation/how-to-set-up-a-cron-job-on-wordpress-fs-poster-wp-plugin" target="_blank"&gt;The cron jobs&lt;/a&gt; have to be configured on your website; otherwise, the auto-post and schedule features might not work punctually, and you might encounter delays.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Not runned! Your schedule posts and background share may be not work! Please follow this &lt;a href="https://www.fs-poster.com/documentation/how-to-set-up-a-cron-job-on-wordpress-fs-poster-wp-plugin" target="_blank"&gt;documentation&lt;/a&gt; and configure your WordPress Cron Jobs.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+It looks like your Cron job runs with delay. Therefore your Scheduled posts and background shares may post with delay!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The Cron Job command for your website is:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share WooCommerce products as a product</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Disable to share WooCommerce products as a post.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Add a button</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select a post link button.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share Instagram posts on</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select where to share posts on Instagram.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share the post link on Instagram story</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+When you share a post on Instagram story, the post link will be shared automatically. For this, your account has to be a business account with more than 10k followers, and you have to add the account using the login &amp; Pass method.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Cut the exceeded part of the custom message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Instagram limits the post content length to a maximum of 2200 characters. By enabling the option, the first 2200 characters of your custom message will be shared; otherwise, the post won't be shared because of the limit.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Custom post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can customize the text of the shared post as you like by using the current keywords. Please read the &lt;a href="https://www.fs-poster.com/documentation/instagram-empty-caption" target="_blank"&gt;Instagram content rules&lt;/a&gt; before setting your custom message.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize story</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can customize the text of the story as you like by using the current keywords. You can also customize the appearance of the story using available options.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Customize appearance</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Story background color:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Title background:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Title background opacity:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Title color:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Title top offset:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Title left offset:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Title width:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Title font size:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+RTL direction</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+LinkedIn limits the post content length to a maximum of 1300 characters. By enabling the option, the first 1300 characters of your custom message will be shared; otherwise, the post won't be shared because of the limit.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share WordPress tags as Medium tags</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable the option to add the WordPress tags to the Medium tag section.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Custom message (HTML tags are supported)</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Cut the exceeded part of the post title</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Pinterest limits the Pin title length to a maximum of 100 characters.  By enabling the option, the first 100 characters of your post title will be shared; otherwise, the pin won't be shared because of the limit.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can customize the text of the shared post as you like by using the current keywords. The custom message will be shared as Pin description and the limit is 500 characters. Pinterest cuts the custom message if it exceeds the limit.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Link card view – share the post link with preview and up to 300 characters custom message as title;&lt;br&gt;Title + text - share the post title and the custom message as the text of the Reddit post;&lt;br&gt;Custom message + featured image - share up to 300 characters custom message and the image.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Title + text</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Custom message + image</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Reddit limits the post title length to a maximum of 300 characters.  By enabling the option, the first 300 characters of your post title will be shared; otherwise, the post won't be shared because of the limit.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share posts automatically</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+When you publish a new post, the plugin shares the post on all active social accounts automatically.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share in the background</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share posts in the background to continue your work on the website.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+When to share the post after it is published</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Define some time with minutes to share the post after it is published. The default is 0 to share the post immediately.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Keep the shared post log</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you don't want to keep the shared post logs, you need to disable the option. Disabling the option prevents you view your insights.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post interval</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Define an interval between shares for each social account. Please note that this interval is between accounts for a post. The interval is not for between posts.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Use the Post interval option for only the same social networks</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+It prevents sharing a post on the same social network accounts at once to avoid spamming. </td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Replace the white spaces in the tags with an underscore</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable the option to replace the whitespaces with underscores in keyword of {tags} and {categories} ( e.g., "Sport News" will be transformed to "#sport_news" ). Disable the option to remove the whitespaces in keyword of {tags} and {categories} ( e.g., "Sport News" will be transformed to "#sportnews" ).</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+WordPress shortcodes</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Configure how you want to share WordPress shortcodes.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Keep shortcodes as it is</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Replace shortcodes to their values</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Remove shortcodes from the post</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select what to share on Telegram</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Define what you need to share on Telegram as a message.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Telegram limits the message length to a maximum of 4096 characters. By enabling the option, the first 4096 characters of your custom message will be shared; otherwise, the post won't be shared because of the limit.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Prevent caching images</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Telegram caches images. If you share different images with the same name, you need to enable this option.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can customize the text of the shared post as you like by using the current keywords.&lt;br&gt;&amp;lt;b&amp;gt;&lt;b&gt;bold&lt;/b&gt;&amp;lt;/b&amp;gt;, &amp;lt;u&amp;gt;&lt;u&gt;underlined&lt;/u&gt;&amp;lt;/u&amp;gt;, &amp;lt;i&amp;gt;&lt;i&gt;italic&lt;/i&gt;&amp;lt;/i&amp;gt; tags are supported.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share WordPress tags as Tumblr tags</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable the option to add the WordPress tags to the Tumblr tag section.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Limit the custom message characters count</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Twitter limits a Tweet length to a maximum of 280 characters.  By enabling the option, the first 280 characters of your custom message will be shared; otherwise, the tweet won't be shared because of the limit.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Unique post link</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Sharing the same post on numerous communities might be accepted as a duplicated post by social networks; consequently, the post might be blocked. By enabling the option, the ending of each link gets random URL characters to become unique.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+URL shortener</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to shorten your post URLs automatically.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+URL shortener service</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select a URL shortener service to shorten your post URLs.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Bitly access token</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Register for the Bitly service to get a new access token!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Share a custom URL instead of the WordPress post URL</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to define and type your custom post URL using specific keywords.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Additional URL parameters</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can customize the URL as you like by using the current keywords.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Use Google Analytics template</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Social network name</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Social network code</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Account name</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Site name</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Custom URL</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can customize the URL as you like by using the current keywords. If you want to share the post URL as it is, don't enable the option.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Feed ID</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Site URL</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Site URL encoded</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post URL</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post URL encoded</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Load own communities</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to add all your communities (page, group, event) to the plugin, communities that you are an admin.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Load communities</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to add all the communities to the plugin, communities that you are a member.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Maximum communities to add to the plugin</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Define how many communities you want to add to the plugin. You can add a maximum of 1000 communities.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Upload the featured image to VKontakte</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to upload the featured image to VK, not attached image from the link; otherwise, your posts on VK will be shared as link card view.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post status</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Define the post status on the remote website.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Publish</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Private</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Draft</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Pending</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The post type availability</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The post type will be shared as it is on the remote website. In the case, the post type is not available on the remote website, if the option is enabled, the post type will be "Post". If the option is disabled, the post will fail.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post with Categories</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to include the categories to the target blog post.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post with Tags</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enable to include the tags to the target blog post.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post Title</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can customize the title of the post as you like by using the keywords.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You can customize the excerpt of the shared post as you like by using the current keywords.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Post content</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+General settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Publish settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+URL settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Export &amp; Import settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Facebook settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Instagram settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Twitter settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+LinkedIn settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+VKontakte settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Pinterest settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Tumblr settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Reddit settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Odnoklassniki settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Google My Business settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Telegram settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Medium settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+WordPress website settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No selected account!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Select or upload image</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Use this media</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Are you sure you want to clear saved posts?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+sharing...</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+shared</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Posting finished.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There isn't any active account or community to share the post!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Posting feeds:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Link</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Example: https://example.com</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Characters count:</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter the custom post message</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SHARE NOW</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SAVE THE POST</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Saved posts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+CLEAR ALL</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Delete the post</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+In order to solve the failed account issue, please remove and re-add the account.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Your server can not access our license server via CURL! Our license server is "%s". Please contact your hosting provider/server administrator and ask them to solve the problem. If you are sure that problem is not your server/hosting side then contact FS Poster administrators.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Installation error! Response error! Response: %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Your plugin is already activated!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Reactivation failed! Response: %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error! Response: %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Schedule</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+FS Poster</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+FS Poster: Schedule</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There %s &lt;b&gt;%s&lt;/b&gt; failed feed(s).</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+REVIEW ACCOUNTS</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+HIDE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There %s &lt;b&gt;%s&lt;/b&gt; failed post(s).</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+GO TO THE LOGS</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+There</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+feed(s) that require action.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you didn't select to share posts in the background when sharing posts, for various reasons like refreshing the page might interrupt the sharing process. That will cause some posts to remain unshared. You can share them in the background or with pop-up.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SHARE WITH POP-UP</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+SHARE IN THE BACKGROUND</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+DON'T SHARE</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Support</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Documentation</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+FS Posts</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+FS Post</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Error! An image or video is required to share a post on Instagram.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Google My Business doesn't support video type!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Product</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Driver error! Driver type: %s</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+An error occurred while processing your request! Please close the window and try again!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Loading...</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

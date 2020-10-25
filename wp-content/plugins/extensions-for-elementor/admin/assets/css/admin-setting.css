@@ -1,0 +1,90 @@
+/* Start Elementor Extension Setting Body */
+.ee-mb-setting-body{
+	position: relative;
+    display: block;
+    padding-right: 20px;
+	color:#000;
+	font-size:15px;
+}
+
+.ee-mb-setting-body .ee-mb-banner-sticky{
+    display: block;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    min-height: 80px;
+    line-height: 80px;
+    white-space: nowrap;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ee-mb-setting-body .ee-mb-tab-contain{
+	width:100%;
+	float:left;
+	background:#f1f1f1;
+}
+
+.ee-mb-banner-sticky h2 span{
+	position: relative;
+    display: inline-block;
+    background: #333743;
+    color: #fff;
+    padding: 0px 15px;
+}
+
+.ee-mb-setting-content input[type="text"],.ee-mb-setting-content input[type="url"]{
+	width:40em;
+}
+/* End Elementor Extensions Setting Body */
+
+/* Style tab links */
+.ee-mb-setting-body .tablink {
+    background-color: #F1F1F1;
+    color: #666;
+    float: left;
+    border: none;
+	cursor: pointer;
+    padding: 14px 16px;
+	margin-right: 7px;
+    font-size: 17px;
+	border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+	font-weight: 600;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	outline: none;
+}
+
+.ee-mb-setting-body .tablink:hover {
+    background-color: #fff;
+}
+
+.ee-mb-setting-body .tablink.tab-Selected{
+	background-color: #fff;
+	position:relative;
+	top:2px;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.ee-mb-setting-body .ee-mb-tabcontent {
+    display: none;
+	padding: 20px;
+	width: 97%;
+	float: left;
+    height: auto;
+	border: 1px solid #ddd;
+}
+
+.ee-mb-setting-body .ee-mb-tabcontent {background-color: #fff;}
+
+.form-table.es-table-section-settings th {
+    width: 100px;
+}
+
+.form-table.es-table-widget-settings th{
+    width:200px;
+}

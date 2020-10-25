@@ -1,0 +1,96 @@
+.flows-wl-settings-wrap,
+.flows-wl-settings-wrap *,
+.flows-wl-settings-header,
+.flows-wl-settings-header * {
+	box-sizing: border-box;
+}
+
+.flows-wl-settings-header {
+    /* margin-bottom: 50px; */
+    /* padding: 20px; */
+    /* background: #5F36FC; */
+    width: 98%;
+}
+
+.flows-wl-settings-wrap {
+    max-width: 97%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.flows-wl-settings-header h3 {
+	color: inherit;
+}
+.flows-wl-message {
+	margin: 0 !important;
+    margin-bottom: 10px !important;
+}
+.flows-wl-settings {
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    width: 98%;
+    float: left;
+}
+.flows-wl-setting-tabs {
+	background: #f9f9f9;
+}
+.flows-wl-setting-tabs a {
+	display: inline-block;
+	padding: 15px;
+	min-width: 125px;
+	text-decoration: none;
+	text-align: center;
+	outline: none !important;
+	box-shadow: none !important;
+}
+.flows-wl-setting-tabs a.active {
+	background: #fff;
+	color: #333;
+}
+
+.flows-wl-tab-license span {
+	font-style: italic;
+	color: #999;
+}
+
+.flows-wl-setting-tab-content {
+	display: none;
+	padding: 10px 30px;
+}
+.flows-wl-setting-tab-content.active {
+	display: block;
+}
+.bzrap.upload img {
+    width: 200px;
+    height: auto;
+}
+
+.flows-wl-setting-tab-content table th {
+	width: 280px;
+}
+.flows-wl-setting-tab-content label {
+	font-size: 13px;
+}
+
+.flows-wl-setting-footer {
+	background: #f9f9f9;
+	padding: 18px 30px;
+	border-top: 1px solid #f1f1f1;
+}
+.flows-wl-setting-footer p.submit {
+	margin: 0;
+    padding: 0;
+}
+.flows-wl-license-status {
+	text-transform: uppercase;
+	line-height: 2;
+	padding-right: 10px;
+}
+.flows-wl-license-inactive,
+.flows-wl-license-invalid {
+	color: #F44336;
+}
+.flows-wl-license-active {
+	color: #4CAF50;
+}

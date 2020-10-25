@@ -1,0 +1,23 @@
+#elementor-panel-category-elementor-extensions .elementor-element-wrapper{
+  line-height: 0;
+}
+.ee-select2-dropdown .select2-results__option:not(.select2-results__message):not(.select2-results__option--load-more):not(.loading-results) {
+    max-width: 33.3333%;
+    display: inline-block;
+  }
+  .ee-select2-dropdown .select2-search {
+    display: none;
+  }
+  .ee-select2-dropdown__option__image img {
+    max-width: 100%;
+    border-radius: 3px;
+  }
+  .ee-select2-dropdown__option__image:not(:first-child) img {
+    margin-top: 8px;
+  }
+  .elementor-control-ee_display_conditions {
+    padding: 0 20px 15px;
+  }
+  .elementor-control-ee_display_conditions label:empty + .elementor-control-input-wrapper {
+    margin-top: 0 !important;
+  }

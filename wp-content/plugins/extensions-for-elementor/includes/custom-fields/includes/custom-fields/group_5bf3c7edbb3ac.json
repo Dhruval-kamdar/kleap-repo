@@ -1,0 +1,123 @@
+{
+    "key": "group_5bf3c7edbb3ac",
+    "title": "Members",
+    "fields": [
+        {
+            "key": "field_5bf3d03b055c7",
+            "label": "Profile Image",
+            "name": "_ee_mb_profile_image",
+            "type": "image",
+            "instructions": "Select member's profile image from here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5bf3c95755835",
+            "label": "Name",
+            "name": "_ee_mb_name",
+            "type": "text",
+            "instructions": "Insert or Edit the member's full name from here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Enter full name",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5bf3c9aa55836",
+            "label": "Company Name",
+            "name": "_ee_mb_company_name",
+            "type": "text",
+            "instructions": "Insert or Edit the member's company name from here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Enter company name",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5bfbfc7a62658",
+            "label": "LinkedIn",
+            "name": "_ee_mb_linkedin",
+            "type": "url",
+            "instructions": "Insert or Edit the member's linkedin profile from here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5bf3cb3e55839",
+            "label": "Where are you on your business journey?",
+            "name": "_ee_mb_business_journey",
+            "type": "textarea",
+            "instructions": "Insert or Edit the business journey text from here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "ee_mb_member"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1568182441
+}

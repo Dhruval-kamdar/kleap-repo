@@ -1,0 +1,159 @@
+/* -------------------------------------------------------
+                   Blog
+-------------------------------------------------------- */
+.root-blog {
+  .post-list-item {
+
+    figure {
+      margin-bottom: 40px;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        max-height: 75vh;
+      }
+    }
+
+
+    .post-list-item-content {
+
+      .dsn-title-p {
+        position: relative;
+        width: max-content;
+        padding-right: 10px;
+        max-width: 100%;
+      }
+
+      .post-info-date {
+        margin-right: 20px;
+      }
+
+      .post-info-top {
+        margin-bottom: 10px;
+
+        a {
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 1.2px;
+          word-spacing: 2px;
+          color: #fff;
+
+          @include v-light {
+            color: $bg-dark;
+          }
+        }
+
+        > div {
+          display: inline-block;
+        }
+      }
+
+      h3 {
+        margin-bottom: 30px;
+      }
+
+    }
+  }
+}
+
+.news-content {
+
+  @include media_991 {
+    .col-lg-3 {
+      order: 2;
+      margin-top: 80px;
+    }
+  }
+
+  .News-socials-wrapper {
+
+    .title-caption {
+      margin-bottom: 20px;
+    }
+
+
+    .post-share {
+      @include media_991 {
+        margin-top: 30px;
+      }
+
+      .title-caption {
+        @include media_991 {
+          margin-right: 20px;
+          display: inline-block;
+        }
+      }
+
+      ul {
+
+        @include media_991 {
+          display: inline-block;
+        }
+
+        li {
+          list-style: none;
+          margin-top: 10px;
+
+          @include media_991 {
+            display: inline-block;
+            margin-right: 20px;
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+
+
+  .post-tags {
+    position: relative;
+    padding: 20px 0 0;
+    clear: both;
+
+
+    a {
+      //color: #fff;
+      margin-right: 10px;
+      margin-top: 10px;
+      line-height: 1;
+      transition: color .5s;
+
+      &:hover {
+        color: #fff;
+      }
+
+      @include v-light {
+        color: $bg-dark;
+      }
+
+      &:before {
+        content: "#";
+        position: relative;
+        margin-right: 5px;
+        font-size: 14px;
+        background-color: transparent;
+        border: 0;
+      }
+
+    }
+  }
+}
+
+.sticky-post {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  transform: translateX(100%);
+  background-color: $dark-color;
+  padding: 5px 10px;
+  border-radius: 15px;
+
+  @include v-light {
+    background-color: $bg-light-2;
+    color: $heading-color-light;
+  }
+}
+
+@include col-layout(post, 30);

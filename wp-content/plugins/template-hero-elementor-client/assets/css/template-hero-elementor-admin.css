@@ -1,0 +1,265 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ body{
+  background-color: #f3f3f3 !important;
+ }
+ .template-hero-license.active{
+    color:green;
+ }
+ .hero-active , .hero-active:hover {
+   background-color: black !important ;
+   color: white !important;
+ }
+ .template-hero-license.inactive{
+  color:red;
+}
+.tokenhero-tokenbox-img {
+  width: 100%;
+  padding: 15px;
+  max-width: 450px;
+  display: block;
+  margin: auto;
+}
+#template-hero-api-token-remove {
+  margin-left: 20px;
+  color: white;
+}
+#template-hero-elementor-general-options.card, #template-hero-elementor-license-options.card{
+  min-width:100% !important;
+}
+.tokenhero-tokenbox{
+  margin: 20px 0 0 0 !important;
+  padding: 10px 15px !important;
+  font-weight: 400 !important;
+  border-radius: 4px !important;
+  max-width: 200px !important;
+  color:rgb(50, 50, 50) !important;
+  min-width: 100% !important;
+}
+.tokenhero-tokenbox-valid{
+  background: #ffffff;
+}
+.tokenhero-tokenbox-invalid{
+  background: #dadada;
+}
+.use-network-description {
+  margin: 20px;
+  padding: 0px;
+  font-size: 15px;
+}
+ .th-token-notice-error {
+  margin: 20px 0 0 0;
+  padding: 10px 15px;
+  background: #f1eded;
+  display: flex;
+  border-left: 7px solid #e01a1a;
+  font-weight: 400;
+  border-radius: 4px;
+  color: black;
+}
+.th-token-notice-success {
+  margin: 20px 0 0 0;
+  padding: 10px 15px;
+  background: #f1eded;
+  display: flex;
+  border-left: 7px solid green;
+  font-weight: 400;
+  border-radius: 4px;
+  color: black;
+}
+.token-created-h4{
+  font-size: 18px;
+}
+#template-hero-api-token-refresh{
+  color:white;
+}
+/* Create two equal columns that floats next to each other */
+.th-column {
+  float: left !important;
+  width: 50% !important;
+  padding: 10px !important;
+}
+.th-row {
+  display: flex !important;
+  align-items: center !important;
+}
+/* Clear floats after the columns */
+.th-row:after {
+  content: "" !important;
+  display: table !important;
+  clear: both !important;
+}
+.th-table-token-row{
+  max-width: 200px !important;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .th-column {
+    width: 100% !important;
+  }
+}
+
+.template-hero-client-secret-input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.templatehero-make-library-box {
+    display: flex;
+    align-items: center;
+}
+.template-hero-elementor-tab-box {
+  margin: 35px 0;
+}
+.template-hero-elementor-tab-box > .nav-tab-wrapper {
+  border-bottom: 0;
+  margin: 0;
+  padding-top: 9px;
+  padding-bottom: 0;
+  line-height: inherit;
+  margin: 0 0 30px 0;
+}
+
+#template-hero-api-connect-box.card,#template-hero-api-form-box.card,.template-hero-elementor-api-tokens.card {
+  position: relative !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  min-width: 100% !important;
+  word-wrap: break-word !important;
+  background-color: #fff !important;
+  background-clip: border-box !important;
+  border: 1px solid rgba(0,0,0,.125) !important;
+  border-radius: .25rem !important;
+}
+.th-table-token{
+  max-width: 350px !important;
+}
+#template-hero-api-form-box input,#template-hero-api-form-box label {
+  display:block;
+}
+.wp-core-ui .button .btn-primary-th{
+  padding: 5px 10px !important;
+  background:blue !important;
+  color:white !important;
+}
+.template-hero-elementor-tab-box > .nav-tab-wrapper > .nav-tab {
+  float: left;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-left: .5em;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 1.71428571;
+  font-weight: 600;
+  background: #e5e5e5;
+  color: #555;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.make-lib-description{
+    margin-left: 10px;
+}
+
+.hide-input{
+    display:none;
+}
+.switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+  }
+  
+.switch .th-make-lib {
+  display:none;
+}
+.switch .th-allow-sites {
+  display:none;
+}
+
+.switch .th-del-lib {
+  display:none;
+}
+
+.switch .th-allow-extension {
+  display:none;
+}
+
+.switch .th-make-networkwide {
+  display:none;
+}
+  
+  
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+.th-make-lib:checked + .slider {
+  background-color: #66bb6a;
+}
+
+.th-make-lib:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.th-allow-extension:checked + .slider {
+  background-color: #66bb6a;
+}
+
+.th-allow-extension:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.th-del-lib:checked + .slider {
+  background-color: #66bb6a;
+}
+
+.th-del-lib:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.th-allow-sites:checked + .slider {
+  background-color: #66bb6a;
+}
+
+.th-allow-sites:checked + .slider:before {
+  transform: translateX(26px);
+}
+.th-make-networkwide:checked + .slider {
+  background-color: #66bb6a;
+}
+
+.th-make-networkwide:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+  

@@ -1,0 +1,110 @@
+//-------------------- 404 --------------------//
+body.error404 {
+  overflow: hidden !important;
+
+  .hero-img {
+    width: 100%;
+    height: 100%;
+
+    .cover-bg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .subtitle {
+    &:before {
+      display: none;
+    }
+  }
+
+  .dsn-header-hero.error404 {
+
+    .header-content {
+      text-align: center;
+    }
+
+    .name-title {
+
+      &:after,
+      &:before {
+        background-color: $theme-color;
+        display: none;
+      }
+
+      h1 {
+        font-size: 10vw;
+        padding: 0;
+        margin-bottom: 30px;
+        line-height: 1;
+
+        &:after,
+        &:before {
+          background-color: $theme-color;
+          display: none;
+        }
+
+        span {
+          color: transparent;
+          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-width: 2px;
+        }
+      }
+    }
+
+    .subtitle {
+      &:before {
+        border-bottom: 4px solid $theme-color;
+        top: -30px;
+        content: "";
+        left: 50%;
+        position: absolute;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 155px;
+      }
+
+      span {
+        margin-bottom: 30px;
+        font-size: 14px;
+      }
+
+
+    }
+
+    form {
+      margin-top: 30px;
+
+    }
+
+  }
+
+  input {
+    background-color: rgba(9, 9, 9, 0.1803921568627451);
+  }
+
+}
+
+
+.dsn-header-hero.error404 {
+  height: 100vh;
+  @include admin-sticky-fix-height(100vh);
+}
+
+
+//-------------------- No Content --------------------//
+
+.dsn-no-results.dsn-no-content {
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  a{
+    color: #e8496c;
+  }
+}
